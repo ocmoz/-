@@ -1,0 +1,25 @@
+INFO  2013-05-15 17:23:56,154 [/Web/default.aspx] FM2E application started at 2013-05-15 17:23:54
+FATAL 2013-05-15 17:24:02,389 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-05-15 17:24:02,389 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-15 17:32:49,878 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionList.aspx] 此页面只允许维修部门人员进入
+FATAL 2013-05-15 17:32:59,881 [/Web/Login.aspx] Version:true
+INFO  2013-05-15 17:32:59,881 [/Web/Login.aspx] 欢迎您admin2，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-15 17:42:51,045 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionReport%2fViewMalfunctionSheet.aspx] Version:true
+INFO  2013-05-15 17:42:51,045 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionReport%2fViewMalfunctionSheet.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-15 17:50:56,553 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 您的用户名(admin3)已经于(2013/5/15 17:42:51),从(127.0.0.1)IP登陆在本系统.在线时间:4.04分.
+INFO  2013-05-15 17:50:57,585 [/Web/Login.aspx?CMD=OutOnline&OPCode=0346&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=lv1rxde5cap4xe3dhyjhhgqp] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-15 17:59:02,543 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionList.aspx] 此页面只允许维修部门人员进入
+INFO  2013-05-15 17:59:13,469 [/Web/Login.aspx] 您的用户名(admin2)已经于(2013/5/15 17:32:59),从(127.0.0.1)IP登陆在本系统.在线时间:4.13分.
+INFO  2013-05-15 17:59:15,350 [/Web/Login.aspx?CMD=OutOnline&OPCode=3776&U_LoginName=admin2&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=yxerut2c3bcxph55uco1bp55] 欢迎您admin2，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-15 17:59:33,356 [/Web/Login.aspx] Version:true
+INFO  2013-05-15 17:59:33,357 [/Web/Login.aspx] 欢迎您linmx，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-15 18:00:28,832 [/Web/Login.aspx] Version:true
+INFO  2013-05-15 18:00:28,832 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-15 18:01:07,585 [/Web/Login.aspx] Version:true
+INFO  2013-05-15 18:01:07,585 [/Web/Login.aspx] 欢迎您linmx，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-15 18:01:23,479 [/Web/Login.aspx] Version:true
+INFO  2013-05-15 18:01:23,479 [/Web/Login.aspx] 欢迎您linmx，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-15 18:02:02,947 [/Web/Login.aspx] Version:true
+INFO  2013-05-15 18:02:02,947 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-15 18:02:23,237 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionList.aspx] 此页面只允许维修部门人员进入
+ERROR 2013-05-15 18:02:48,524 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionList.aspx] 此页面只允许维修部门人员进入

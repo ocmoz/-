@@ -1,0 +1,27 @@
+<WorkflowConfig>
+  <!-- 工作流定义文件的相对路径-->
+  <DocumentDirectory value="/WorkflowDefinition/" />
+  <!-- ExternalDataExchangeService所需加载的ExternalEventService-->
+  <!-- 此处由定义生成器自动添加，多余项会在启动时自动删除-->
+  <EventServices>
+    <add value="FM2E.WorkflowLayer.DailyPatrolEventService" />
+    <add value="FM2E.WorkflowLayer.RoutineInspectEventService" />
+    <add value="FM2E.WorkflowLayer.RoutineMaintainEventService" />
+    <add value="FM2E.WorkflowLayer.PriceEventService" />
+    <add value="FM2E.WorkflowLayer.ArchivesBorrowEventService" />
+    <add value="FM2E.WorkflowLayer.ArchivesDestroyEventService" />
+    <add value="FM2E.WorkflowLayer.EquipmentBorrowEventService" />
+    <add value="FM2E.WorkflowLayer.ScrapEventService" />
+    <add value="FM2E.WorkflowLayer.MalFunctionEventService" />
+    <add value="FM2E.WorkflowLayer.SGS_InWarehouseEventService" />
+    <add value="FM2E.WorkflowLayer.SGS_OutWarehouseEventService" />
+    <add value="FM2E.WorkflowLayer.SGS_MalFunctionEventService" />
+    <add value="FM2E.WorkflowLayer.SpecialProjectEventService" />
+    <add value="FM2E.WorkflowLayer.DemoEventService" />
+    <add value="FM2E.WorkflowLayer.PurchaseEventService" />
+    <add value="FM2E.WorkflowLayer.OutWarehouseEventService" />
+    <add value="FM2E.WorkflowLayer.BudgetYearEventService" />
+    <add value="FM2E.WorkflowLayer.BudgetMonthlyEventService" />
+    <add value="FM2E.WorkflowLayer.InsuranceEventService" />
+  </EventServices>
+</WorkflowConfig>

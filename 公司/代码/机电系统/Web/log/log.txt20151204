@@ -1,0 +1,29 @@
+ERROR 2015-12-04 19:39:16,669 [/Web/Module/FM2E/BudgetManagement/ImplementationOfTheBudget/ImplementationOfTheBudget.aspx] FM2E 应用程序启动失败：在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+ERROR 2015-12-04 19:42:35,787 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fBudgetManagement%2fImplementationOfTheBudget%2fImplementationOfTheBudget.aspx] 登录失败：用户登录失败超时时间已到。在操作完成之前超时时间已过或服务器未响应。
+ERROR 2015-12-04 19:44:37,263 [/Web/Login.aspx] 用户名/密码(admin/1)错误！
+FATAL 2015-12-04 19:45:27,376 [/Web/login.aspx] Version:true
+INFO  2015-12-04 19:45:27,377 [/Web/login.aspx] 欢迎您wuxy2，成功登入。您的IP为：127.0.0.1！
+ERROR 2015-12-04 19:47:27,428 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-12-04 19:47:27,478 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-12-04 19:51:09,115 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionStationCheck/StationCheckMalfunctionSheet.aspx?cmd=view&id=6035] 获取故障处理单内容失败:未将对象引用设置到对象的实例。 
+STACK   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionStationCheck_StationCheckMalfunctionSheet.FillData() 位置 e:\Station\深高速\SGS_new\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionStationCheck\StationCheckMalfunctionSheet.aspx.cs:行号 312
+ERROR 2015-12-04 19:51:39,810 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionStationCheck/StationCheckMalfunctionSheet.aspx?cmd=view&id=6035] 获取故障处理单内容失败:未将对象引用设置到对象的实例。 
+STACK   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionStationCheck_StationCheckMalfunctionSheet.FillData() 位置 e:\Station\深高速\SGS_new\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionStationCheck\StationCheckMalfunctionSheet.aspx.cs:行号 312
+ERROR 2015-12-04 19:52:59,428 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionStationCheck/StationCheckMalfunctionSheet.aspx?cmd=view&id=6035] 获取故障处理单内容失败:未将对象引用设置到对象的实例。 
+STACK   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionStationCheck_StationCheckMalfunctionSheet.FillData() 位置 e:\Station\深高速\SGS_new\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionStationCheck\StationCheckMalfunctionSheet.aspx.cs:行号 312
+ERROR 2015-12-04 19:52:59,467 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-12-04 20:04:27,962 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/DeviceInfo.aspx#&&] System.Web thrown System.Web.HttpException
+不允许用于访问路径“/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/DeviceInfo.aspx#&&/wEXAgUOY3VycmVudGFkZHJlc3MFAzExMgUFSW5kZXgFATGLjGGDTVlIh4xtdRFB9s pbvyTjw==”的 HTTP 谓词 POST。   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ERROR 2015-12-04 20:05:13,606 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/DeviceInfo.aspx#&&] System.Web thrown System.Web.HttpException
+不允许用于访问路径“/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/DeviceInfo.aspx#&&/wEXAgUOY3VycmVudGFkZHJlc3MFBDExNzYFBUluZGV4BQExSk9ARJJoDe6N03vqsPhHh3HoZd8=”的 HTTP 谓词 POST。   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ERROR 2015-12-04 20:07:16,689 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionStationCheck/StationCheckMalfunctionSheet.aspx?cmd=view&id=6035] 获取故障处理历史失败，原因：未将对象引用设置到对象的实例。
+INFO  2015-12-04 20:07:59,926 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionStationCheck/StationCheckMalfunctionSheet.aspx?cmd=view&id=6035] 确定故障处理单成功,故障处理单号为：ZSB1504291101
+FATAL 2015-12-04 20:12:56,251 [/Web/Login.aspx] Version:true
+INFO  2015-12-04 20:12:56,251 [/Web/Login.aspx] 欢迎您huangliang，成功登入。您的IP为：127.0.0.1！
+ERROR 2015-12-04 20:14:20,635 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=6035] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2015-12-04 20:15:03,313 FM2E application ended at 2015-12-04 20:15:03

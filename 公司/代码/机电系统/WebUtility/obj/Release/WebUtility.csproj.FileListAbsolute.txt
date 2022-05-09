@@ -1,0 +1,42 @@
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WebUtility\bin\Release\WebUtility.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WebUtility\bin\Release\WebUtility.pdb
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WebUtility\bin\Release\FM2E.BLL.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WebUtility\bin\Release\FM2E.Model.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WebUtility\bin\Release\log4net.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WebUtility\bin\Release\FM2E.WorkflowLayer.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WebUtility\bin\Release\FM2E.IDAL.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WebUtility\bin\Release\BarCode.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WebUtility\bin\Release\FM2E.SQLServerDAL.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WebUtility\bin\Release\FM2E.DALFactory.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WebUtility\bin\Release\FM2E.Model.pdb
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WebUtility\bin\Release\FM2E.WorkflowLayer.pdb
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WebUtility\bin\Release\FM2E.IDAL.pdb
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WebUtility\bin\Release\FM2E.BLL.pdb
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WebUtility\bin\Release\FM2E.SQLServerDAL.pdb
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WebUtility\bin\Release\FM2E.DALFactory.pdb
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WebUtility\obj\Release\ResolveAssemblyReference.cache
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WebUtility\obj\Release\WebUtility.WebControls.AspNetPager.resources
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WebUtility\obj\Release\WebUtility.csproj.GenerateResource.Cache
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WebUtility\obj\Release\WebUtility.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WebUtility\obj\Release\WebUtility.pdb
+G:\Station\SGS\SGS\trunk\WebUtility\bin\Release\WebUtility.dll
+G:\Station\SGS\SGS\trunk\WebUtility\bin\Release\WebUtility.pdb
+G:\Station\SGS\SGS\trunk\WebUtility\bin\Release\FM2E.BLL.dll
+G:\Station\SGS\SGS\trunk\WebUtility\bin\Release\FM2E.Model.dll
+G:\Station\SGS\SGS\trunk\WebUtility\bin\Release\log4net.dll
+G:\Station\SGS\SGS\trunk\WebUtility\bin\Release\FM2E.WorkflowLayer.dll
+G:\Station\SGS\SGS\trunk\WebUtility\bin\Release\FM2E.IDAL.dll
+G:\Station\SGS\SGS\trunk\WebUtility\bin\Release\BarCode.dll
+G:\Station\SGS\SGS\trunk\WebUtility\bin\Release\FM2E.SQLServerDAL.dll
+G:\Station\SGS\SGS\trunk\WebUtility\bin\Release\FM2E.DALFactory.dll
+G:\Station\SGS\SGS\trunk\WebUtility\bin\Release\FM2E.BLL.pdb
+G:\Station\SGS\SGS\trunk\WebUtility\bin\Release\FM2E.WorkflowLayer.pdb
+G:\Station\SGS\SGS\trunk\WebUtility\bin\Release\FM2E.IDAL.pdb
+G:\Station\SGS\SGS\trunk\WebUtility\bin\Release\FM2E.SQLServerDAL.pdb
+G:\Station\SGS\SGS\trunk\WebUtility\bin\Release\FM2E.Model.pdb
+G:\Station\SGS\SGS\trunk\WebUtility\bin\Release\FM2E.DALFactory.pdb
+G:\Station\SGS\SGS\trunk\WebUtility\obj\Release\ResolveAssemblyReference.cache
+G:\Station\SGS\SGS\trunk\WebUtility\obj\Release\WebUtility.WebControls.AspNetPager.resources
+G:\Station\SGS\SGS\trunk\WebUtility\obj\Release\WebUtility.csproj.GenerateResource.Cache
+G:\Station\SGS\SGS\trunk\WebUtility\obj\Release\WebUtility.dll
+G:\Station\SGS\SGS\trunk\WebUtility\obj\Release\WebUtility.pdb

@@ -1,0 +1,72 @@
+<ns0:PurchaseWorkflow InitialStateName="New" Description="采购" x:Name="PurchaseWorkflow" DynamicUpdateCondition="{x:Null}" CompletedStateName="End" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/workflow" xmlns:ns0="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" >
+	<StateActivity x:Name="New" Description="新建">
+		<EventDrivenActivity x:Name="SaveNew">
+			<HandleExternalEventActivity x:Name="handle1" EventName="SaveNew" Description="保存草稿"  InterfaceType="{x:Type p8:IPurchaseEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="SaveNew_SetState_1" TargetStateName="Draft" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="SubmitNew">
+			<HandleExternalEventActivity x:Name="handle2" EventName="SubmitNew" Description="提交审批"  InterfaceType="{x:Type p8:IPurchaseEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="SubmitNew_SetState_2" TargetStateName="Approval" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="Draft" Description="草稿">
+		<EventDrivenActivity x:Name="SaveDraft">
+			<HandleExternalEventActivity x:Name="handle3" EventName="SaveDraft" Description="保存草稿"  InterfaceType="{x:Type p8:IPurchaseEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="SaveDraft_SetState_1" TargetStateName="Draft" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="SubmitDraft">
+			<HandleExternalEventActivity x:Name="handle4" EventName="SubmitDraft" Description="提交审批"  InterfaceType="{x:Type p8:IPurchaseEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="SubmitDraft_SetState_2" TargetStateName="Approval" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="Approval" Description="采购申请审批">
+		<EventDrivenActivity x:Name="DoApprovalFailed">
+			<HandleExternalEventActivity x:Name="handle5" EventName="DoApprovalFailed" Description="审批不通过"  InterfaceType="{x:Type p8:IPurchaseEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="DoApprovalFailed_SetState_1" TargetStateName="ApprovalFailed" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="ApprovalReturnModify">
+			<HandleExternalEventActivity x:Name="handle6" EventName="ApprovalReturnModify" Description="返回修改"  InterfaceType="{x:Type p8:IPurchaseEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="ApprovalReturnModify_SetState_2" TargetStateName="ReturnModify" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="LeaderApproval">
+			<HandleExternalEventActivity x:Name="handle7" EventName="LeaderApproval" Description="提交上级"  InterfaceType="{x:Type p8:IPurchaseEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="LeaderApproval_SetState_3" TargetStateName="Approval" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="ApprovalPass">
+			<HandleExternalEventActivity x:Name="handle8" EventName="ApprovalPass" Description="审批通过"  InterfaceType="{x:Type p8:IPurchaseEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="ApprovalPass_SetState_4" TargetStateName="Wait4Purchase" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="ReturnModify" Description="返回修改">
+		<EventDrivenActivity x:Name="SubmitReturnModify">
+			<HandleExternalEventActivity x:Name="handle9" EventName="SubmitReturnModify" Description="提交再审批"  InterfaceType="{x:Type p8:IPurchaseEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="SubmitReturnModify_SetState_1" TargetStateName="Approval" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="Wait4Purchase" Description="审批通过，等待采购">
+		<EventDrivenActivity x:Name="Finish">
+			<HandleExternalEventActivity x:Name="handle10" EventName="Finish" Description="采购、验收、入库完成"  InterfaceType="{x:Type p8:IPurchaseEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="Finish_SetState_1" TargetStateName="InWarehouseFinish" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="ApprovalFailed" Description="审批不通过，直接否决">
+		<EventDrivenActivity x:Name="ToArchinveFailed">
+			<HandleExternalEventActivity x:Name="handle11" EventName="ToArchinveFailed" Description="归档"  InterfaceType="{x:Type p8:IPurchaseEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="ToArchinveFailed_SetState_1" TargetStateName="Archive" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="InWarehouseFinish" Description="入库完毕">
+		<EventDrivenActivity x:Name="ToArchinveSuccess">
+			<HandleExternalEventActivity x:Name="handle12" EventName="ToArchinveSuccess" Description="归档"  InterfaceType="{x:Type p8:IPurchaseEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="ToArchinveSuccess_SetState_1" TargetStateName="Archive" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="Archive" Description="归档">
+		<EventDrivenActivity x:Name="Auto_AfterArchive">
+			<DelayActivity TimeoutDuration="00:10:00" x:Name="delayStep1" Description="归档后"/>
+			<SetStateActivity x:Name="AfterArchive_SetState_1" TargetStateName="End" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="End" Description="结束">
+	</StateActivity>
+</ns0:PurchaseWorkflow>

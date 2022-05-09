@@ -1,0 +1,83 @@
+INFO  2014-10-08 09:32:54,180 [/Web/default.aspx] FM2E application started at 2014-10-08 09:32:54
+FATAL 2014-10-08 09:33:16,803 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2014-10-08 09:33:16,804 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin，成功登入。您的IP为：127.0.0.1！
+INFO  2014-10-08 09:34:40,862 FM2E application ended at 2014-10-08 09:34:40
+INFO  2014-10-08 09:38:25,689 [/Web/default.aspx] FM2E application started at 2014-10-08 09:38:25
+FATAL 2014-10-08 09:38:36,748 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2014-10-08 09:38:36,748 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin，成功登入。您的IP为：127.0.0.1！
+ERROR 2014-10-08 09:45:31,894 [/Web/Module/FM2E/Plan/Statistics.aspx] FM2E.SQLServerDAL thrown FM2E.Model.Exceptions.DALException
+获取计划信息失败   在 FM2E.SQLServerDAL.Plan.PlanInformation.GetStatistics(DateTime dt1, DateTime dt2) 位置 E:\Station\SGS\最新修改\SGS_new\SQLServerDAL\Plan\PlanInformation.cs:行号 1054
+   在 FM2E.BLL.Schedule.Schedule.GetStatistics(DateTime dt1, DateTime dt2) 位置 E:\Station\SGS\最新修改\SGS_new\BLL\Plan\Schedule.cs:行号 136
+   在 Module_FM2E_Plan_Statistics.Button1_Click(Object sender, EventArgs e) 位置 e:\Station\SGS\最新修改\SGS_new\Web\Module\FM2E\Plan\Statistics.aspx.cs:行号 23
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ERROR 2014-10-08 09:51:12,528 [/Web/Module/FM2E/Plan/Statistics.aspx] FM2E.SQLServerDAL thrown FM2E.Model.Exceptions.DALException
+获取计划信息失败   在 FM2E.SQLServerDAL.Plan.PlanInformation.GetStatistics(DateTime dt1, DateTime dt2) 位置 E:\Station\SGS\最新修改\SGS_new\SQLServerDAL\Plan\PlanInformation.cs:行号 1054
+   在 FM2E.BLL.Schedule.Schedule.GetStatistics(DateTime dt1, DateTime dt2) 位置 E:\Station\SGS\最新修改\SGS_new\BLL\Plan\Schedule.cs:行号 136
+   在 Module_FM2E_Plan_Statistics.Button1_Click(Object sender, EventArgs e) 位置 e:\Station\SGS\最新修改\SGS_new\Web\Module\FM2E\Plan\Statistics.aspx.cs:行号 23
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+INFO  2014-10-08 09:51:33,155 FM2E application ended at 2014-10-08 09:51:33
+INFO  2014-10-08 09:55:27,034 [/Web/default.aspx] FM2E application started at 2014-10-08 09:55:26
+FATAL 2014-10-08 10:00:33,794 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2014-10-08 10:00:33,794 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin，成功登入。您的IP为：127.0.0.1！
+ERROR 2014-10-08 10:00:55,753 [/Web/Module/FM2E/Plan/Statistics.aspx] FM2E.SQLServerDAL thrown FM2E.Model.Exceptions.DALException
+获取计划信息失败   在 FM2E.SQLServerDAL.Plan.PlanInformation.GetStatistics(DateTime dt1, DateTime dt2) 位置 E:\Station\SGS\最新修改\SGS_new\SQLServerDAL\Plan\PlanInformation.cs:行号 1054
+   在 FM2E.BLL.Schedule.Schedule.GetStatistics(DateTime dt1, DateTime dt2) 位置 E:\Station\SGS\最新修改\SGS_new\BLL\Plan\Schedule.cs:行号 136
+   在 Module_FM2E_Plan_Statistics.Button1_Click(Object sender, EventArgs e) 位置 e:\Station\SGS\最新修改\SGS_new\Web\Module\FM2E\Plan\Statistics.aspx.cs:行号 23
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ERROR 2014-10-08 10:19:04,872 [/Web/Module/FM2E/Plan/Statistics.aspx] FM2E.SQLServerDAL thrown FM2E.Model.Exceptions.DALException
+获取计划信息失败   在 FM2E.SQLServerDAL.Plan.PlanInformation.GetStatistics(DateTime dt1, DateTime dt2) 位置 E:\Station\SGS\最新修改\SGS_new\SQLServerDAL\Plan\PlanInformation.cs:行号 1054
+   在 FM2E.BLL.Schedule.Schedule.GetStatistics(DateTime dt1, DateTime dt2) 位置 E:\Station\SGS\最新修改\SGS_new\BLL\Plan\Schedule.cs:行号 136
+   在 Module_FM2E_Plan_Statistics.Button1_Click(Object sender, EventArgs e) 位置 e:\Station\SGS\最新修改\SGS_new\Web\Module\FM2E\Plan\Statistics.aspx.cs:行号 23
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+INFO  2014-10-08 10:29:31,741 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fDeviceManager%2fSpareEquipmentManager%2fPurchase%2fCheckInWarehouse%2fSendWarehouse.aspx] 您的用户名(admin)已经于(2014/10/8 10:00:33),从(127.0.0.1)IP登陆在本系统.在线时间:0.43分.
+INFO  2014-10-08 10:29:33,437 [/Web/Login.aspx?CMD=OutOnline&OPCode=8076&U_LoginName=admin&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=xbj2vfy0vatwti451yt4uy55] 欢迎您admin，成功登入。您的IP为：127.0.0.1！
+ERROR 2014-10-08 10:33:44,934 [/Web/Module/FM2E/Plan/Statistics.aspx] FM2E.SQLServerDAL thrown FM2E.Model.Exceptions.DALException
+获取计划信息失败   在 FM2E.SQLServerDAL.Plan.PlanInformation.GetStatistics(DateTime dt1, DateTime dt2) 位置 E:\Station\SGS\最新修改\SGS_new\SQLServerDAL\Plan\PlanInformation.cs:行号 1054
+   在 FM2E.BLL.Schedule.Schedule.GetStatistics(DateTime dt1, DateTime dt2) 位置 E:\Station\SGS\最新修改\SGS_new\BLL\Plan\Schedule.cs:行号 136
+   在 Module_FM2E_Plan_Statistics.Button1_Click(Object sender, EventArgs e) 位置 e:\Station\SGS\最新修改\SGS_new\Web\Module\FM2E\Plan\Statistics.aspx.cs:行号 23
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+INFO  2014-10-08 11:04:47,169 FM2E application ended at 2014-10-08 11:04:47
+INFO  2014-10-08 11:08:19,093 [/Web/Module/FM2E/DeviceManager/SpareEquipmentManager/Purchase/CheckInWarehouse/SendWarehouse.aspx] FM2E application started at 2014-10-08 11:08:18
+FATAL 2014-10-08 11:12:10,284 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fDeviceManager%2fSpareEquipmentManager%2fPurchase%2fCheckInWarehouse%2fSendWarehouse.aspx] Version:true
+INFO  2014-10-08 11:12:10,284 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fDeviceManager%2fSpareEquipmentManager%2fPurchase%2fCheckInWarehouse%2fSendWarehouse.aspx] 欢迎您admin，成功登入。您的IP为：127.0.0.1！
+ERROR 2014-10-08 11:16:15,865 [/Web/Module/FM2E/Plan/Statistics.aspx] FM2E.SQLServerDAL thrown FM2E.Model.Exceptions.DALException
+获取计划信息失败   在 FM2E.SQLServerDAL.Plan.PlanInformation.GetStatistics(DateTime dt1, DateTime dt2) 位置 E:\Station\SGS\最新修改\SGS_new\SQLServerDAL\Plan\PlanInformation.cs:行号 1055
+   在 FM2E.BLL.Schedule.Schedule.GetStatistics(DateTime dt1, DateTime dt2) 位置 E:\Station\SGS\最新修改\SGS_new\BLL\Plan\Schedule.cs:行号 136
+   在 Module_FM2E_Plan_Statistics.Button1_Click(Object sender, EventArgs e) 位置 e:\Station\SGS\最新修改\SGS_new\Web\Module\FM2E\Plan\Statistics.aspx.cs:行号 23
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+INFO  2014-10-08 11:16:33,057 FM2E application ended at 2014-10-08 11:16:33
+INFO  2014-10-08 11:20:24,123 [/Web/default.aspx] FM2E application started at 2014-10-08 11:20:24
+FATAL 2014-10-08 11:29:49,830 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2014-10-08 11:29:49,830 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin，成功登入。您的IP为：127.0.0.1！
+INFO  2014-10-08 11:32:44,045 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fPlan%2fStatistics.aspx] 您的用户名(admin)已经于(2014/10/8 11:29:49),从(127.0.0.1)IP登陆在本系统.在线时间:2.04分.
+INFO  2014-10-08 11:32:45,679 [/Web/Login.aspx?CMD=OutOnline&OPCode=4215&U_LoginName=admin&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=4xxsw4umw42w2j2m5tokbte3] 欢迎您admin，成功登入。您的IP为：127.0.0.1！

@@ -1,0 +1,32 @@
+<ns0:InsuranceWorkflow InitialStateName="WaitSubmint" Description="报险" x:Name="InsuranceWorkflow" DynamicUpdateCondition="{x:Null}" CompletedStateName="End" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/workflow" xmlns:ns0="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" >
+	<StateActivity x:Name="WaitSubmint" Description="">
+		<EventDrivenActivity x:Name="AppSubmited">
+			<HandleExternalEventActivity x:Name="handle1" EventName="AppSubmited" Description="提交报险"  InterfaceType="{x:Type p8:IScrapEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="AppSubmited_1" TargetStateName="WaitRepair" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="WaitRepair" Description="出险修复">
+		<EventDrivenActivity x:Name="Repair">
+			<HandleExternalEventActivity x:Name="handle2" EventName="Repair" Description="修复"  InterfaceType="{x:Type p8:IScrapEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="Repair_1" TargetStateName="WaitReview" />
+		</EventDrivenActivity>		
+	</StateActivity>
+  <StateActivity x:Name="WaitReview" Description="复核">
+    <EventDrivenActivity x:Name="Review">
+      <HandleExternalEventActivity x:Name="handle2" EventName="Review" Description="复核"  InterfaceType="{x:Type p8:IScrapEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+      <SetStateActivity x:Name="Review_1" TargetStateName="AppApproved" />
+    </EventDrivenActivity>
+    <EventDrivenActivity x:Name="RepairRejected">
+      <HandleExternalEventActivity x:Name="handle2" EventName="RepairRejected" Description="不通过"  InterfaceType="{x:Type p8:IScrapEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+      <SetStateActivity x:Name="RepairRejected_1" TargetStateName="WaitRepair" />
+    </EventDrivenActivity>
+  </StateActivity>
+	<StateActivity x:Name="AppApproved" Description="复核通过">
+		<EventDrivenActivity x:Name="AfterRejected">
+			<DelayActivity TimeoutDuration="00:10:00" x:Name="delayStep1" />
+			<SetStateActivity x:Name="AfterRejected_1" TargetStateName="End" />
+		</EventDrivenActivity>
+	</StateActivity>	
+	<StateActivity x:Name="End" Description="申请结束">
+	</StateActivity>
+</ns0:InsuranceWorkflow>

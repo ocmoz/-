@@ -1,0 +1,487 @@
+ERROR 2015-04-16 09:39:35,069 [/Web/Login.aspx] FM2E 应用程序启动失败：在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+ERROR 2015-04-16 09:40:58,164 [/Web/Login.aspx] 密码不能为空
+ERROR 2015-04-16 09:42:06,980 [/Web/Login.aspx] 登录失败：用户登录失败在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+ERROR 2015-04-16 09:42:07,168 [/Web/Login.aspx] 登录失败：用户登录失败在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+ERROR 2015-04-16 09:42:08,563 [/Web/Login.aspx] 登录失败：用户登录失败在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+ERROR 2015-04-16 09:42:24,609 [/Web/Login.aspx] 用户名/密码(admin/1)错误！
+ERROR 2015-04-16 09:42:30,499 [/Web/login.aspx] 用户名/密码(admin/1)错误！
+FATAL 2015-04-16 09:42:42,865 [/Web/login.aspx] Version:true
+INFO  2015-04-16 09:42:42,865 [/Web/login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2015-04-16 09:51:21,755 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/ViewMalfunctionSheet.aspx?cmd=view&id=5625] 获取故障处理历史失败，原因：未将对象引用设置到对象的实例。
+FATAL 2015-04-16 09:58:29,893 [/Web/Login.aspx] Version:true
+INFO  2015-04-16 09:58:29,893 [/Web/Login.aspx] 欢迎您huangliang，成功登入。您的IP为：127.0.0.1！
+ERROR 2015-04-16 10:11:30,404 [/Web/Login.aspx] 用户名/密码(chengang/12345678)错误！
+FATAL 2015-04-16 10:11:39,145 [/Web/login.aspx] Version:true
+INFO  2015-04-16 10:11:39,145 [/Web/login.aspx] 欢迎您chengang，成功登入。您的IP为：127.0.0.1！
+ERROR 2015-04-16 10:21:28,424 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：在向服务器发送请求时发生传输级错误。 (provider: TCP 提供程序, error: 0 - 远程主机强迫关闭了一个现有的连接。)
+FATAL 2015-04-16 10:54:42,632 [/Web/Login.aspx] Version:true
+INFO  2015-04-16 10:54:42,632 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2015-04-16 11:07:12,799 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 11:07:12,799 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：超时时间已到。在操作完成之前超时时间已过或服务器未响应。
+ERROR 2015-04-16 11:07:12,825 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：超时时间已到。在操作完成之前超时时间已过或服务器未响应。
+ERROR 2015-04-16 11:07:17,741 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：超时时间已到。在操作完成之前超时时间已过或服务器未响应。
+ERROR 2015-04-16 11:07:17,758 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 11:19:51,791 [/Web/Login.aspx] 用户名/密码(chengang/1)错误！
+FATAL 2015-04-16 11:20:03,328 [/Web/login.aspx] Version:true
+INFO  2015-04-16 11:20:03,328 [/Web/login.aspx] 欢迎您chengang，成功登入。您的IP为：127.0.0.1！
+ERROR 2015-04-16 11:21:25,399 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=5647] 获取故障处理单内容失败:未将对象引用设置到对象的实例。 
+STACK   在 FM2E.WorkflowLayer.WorkflowHelper.CreateNewInstance(Int64 dataID, String workflowName) 位置 E:\Station\SGS\最新修改\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 149
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.FillData() 位置 e:\Station\SGS\最新修改\SGS_new\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 265
+ERROR 2015-04-16 11:27:17,889 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=5846] 获取故障处理单内容失败:未将对象引用设置到对象的实例。 
+STACK   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.FillData() 位置 e:\Station\SGS\最新修改\SGS_new\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 238
+ERROR 2015-04-16 11:28:15,178 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=5723] 获取故障处理单内容失败:未将对象引用设置到对象的实例。 
+STACK   在 FM2E.WorkflowLayer.WorkflowHelper.CreateNewInstance(Int64 dataID, String workflowName) 位置 E:\Station\SGS\最新修改\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 149
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.FillData() 位置 e:\Station\SGS\最新修改\SGS_new\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 265
+FATAL 2015-04-16 11:28:51,089 [/Web/Login.aspx] Version:true
+INFO  2015-04-16 11:28:51,089 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2015-04-16 11:30:21,972 [/Web/Login.aspx] 用户名/密码(chengang/1)错误！
+FATAL 2015-04-16 11:30:31,614 [/Web/login.aspx] Version:true
+INFO  2015-04-16 11:30:31,614 [/Web/login.aspx] 欢迎您chengang，成功登入。您的IP为：127.0.0.1！
+ERROR 2015-04-16 11:31:56,567 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=5672] 获取故障处理单内容失败:未将对象引用设置到对象的实例。 
+STACK   在 FM2E.WorkflowLayer.WorkflowHelper.CreateNewInstance(Int64 dataID, String workflowName) 位置 E:\Station\SGS\最新修改\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 149
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.FillData() 位置 e:\Station\SGS\最新修改\SGS_new\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 265
+ERROR 2015-04-16 14:17:25,659 [/Web/Login.aspx] 用户名/密码(admin/1)错误！
+INFO  2015-04-16 14:17:37,456 [/Web/login.aspx] 您的用户名(chengang)已经于(2015/4/16 11:30:31),从(127.0.0.1)IP登陆在本系统.在线时间:167.01分.
+INFO  2015-04-16 14:17:40,294 [/Web/Login.aspx?CMD=OutOnline&OPCode=3450&U_LoginName=chengang&U_Password=25F9E794323B453885F5181F1B624D0B&SessionID=q2zxbaqptuaqnu2ffz3y4tij] 欢迎您chengang，成功登入。您的IP为：127.0.0.1！
+ERROR 2015-04-16 14:18:03,933 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionList.aspx] 您已经被系统强制退出！
+ERROR 2015-04-16 14:18:03,939 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionList.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+ERROR 2015-04-16 14:18:04,433 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionList.aspx] 您已经被系统强制退出！
+ERROR 2015-04-16 14:18:04,437 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionList.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+ERROR 2015-04-16 14:18:04,947 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionList.aspx] 您已经被系统强制退出！
+ERROR 2015-04-16 14:18:04,950 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionList.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+ERROR 2015-04-16 14:18:05,447 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionList.aspx] 您已经被系统强制退出！
+ERROR 2015-04-16 14:18:05,450 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionList.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+ERROR 2015-04-16 14:18:05,961 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionList.aspx] 您已经被系统强制退出！
+ERROR 2015-04-16 14:18:05,965 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionList.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+ERROR 2015-04-16 14:18:06,461 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionList.aspx] 您已经被系统强制退出！
+ERROR 2015-04-16 14:18:06,465 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionList.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+ERROR 2015-04-16 14:18:06,975 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionList.aspx] 您已经被系统强制退出！
+ERROR 2015-04-16 14:18:06,980 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionList.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+ERROR 2015-04-16 14:18:07,476 [/Web/Default.aspx] 您已经被系统强制退出！
+ERROR 2015-04-16 14:18:07,479 [/Web/Default.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+FATAL 2015-04-16 14:22:57,827 [/Web/Login.aspx] Version:true
+INFO  2015-04-16 14:22:57,827 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2015-04-16 14:43:22,058 [/Web/Login.aspx] 您的用户名(admin3)已经于(2015/4/16 14:22:57),从(127.0.0.1)IP登陆在本系统.在线时间:19.52分.
+INFO  2015-04-16 14:43:24,684 [/Web/Login.aspx?CMD=OutOnline&OPCode=2647&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=k1ztybzqlfrdq0u0kipehmmw] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2015-04-16 14:45:45,175 [/Web/Login.aspx] 用户名/密码(zhangjians/1)错误！
+ERROR 2015-04-16 14:45:52,865 [/Web/login.aspx] 用户名/密码(zhangjiansheng/1)错误！
+FATAL 2015-04-16 14:45:58,213 [/Web/login.aspx] Version:true
+INFO  2015-04-16 14:45:58,213 [/Web/login.aspx] 欢迎您zhangjs，成功登入。您的IP为：127.0.0.1！
+ERROR 2015-04-16 14:48:07,711 [/Web/Login.aspx] 用户名/密码(fanfr/1)错误！
+ERROR 2015-04-16 14:48:40,628 [/Web/login.aspx] 用户名/密码(fangfr/1)错误！
+FATAL 2015-04-16 14:49:45,988 [/Web/login.aspx] Version:true
+INFO  2015-04-16 14:49:45,988 [/Web/login.aspx] 欢迎您fanfr，成功登入。您的IP为：127.0.0.1！
+ERROR 2015-04-16 14:51:11,635 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=5625] 获取故障处理单内容失败:未将对象引用设置到对象的实例。 
+STACK   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionCheck_CheckMalfunctionSheet.FillData() 位置 e:\Station\SGS\最新修改\SGS_new\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionCheck\CheckMalfunctionSheet.aspx.cs:行号 313
+ERROR 2015-04-16 15:02:41,788 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=5625] 获取故障处理单内容失败:未将对象引用设置到对象的实例。 
+STACK   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionCheck_CheckMalfunctionSheet.FillData() 位置 e:\Station\SGS\最新修改\SGS_new\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionCheck\CheckMalfunctionSheet.aspx.cs:行号 313
+ERROR 2015-04-16 15:05:20,463 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:05:20,496 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：在从服务器接收结果时发生传输级错误。 (provider: TCP 提供程序, error: 0 - 指定的网络名不再可用。)
+ERROR 2015-04-16 15:16:04,657 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=5625] 获取故障处理单内容失败:未将对象引用设置到对象的实例。 
+STACK   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionCheck_CheckMalfunctionSheet.FillData() 位置 e:\Station\SGS\最新修改\SGS_new\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionCheck\CheckMalfunctionSheet.aspx.cs:行号 313
+INFO  2015-04-16 15:16:41,177 [/Web/Login.aspx] 您的用户名(chengang)已经于(2015/4/16 14:17:40),从(127.0.0.1)IP登陆在本系统.在线时间:5.74分.
+INFO  2015-04-16 15:16:43,942 [/Web/Login.aspx?CMD=OutOnline&OPCode=8557&U_LoginName=chengang&U_Password=25F9E794323B453885F5181F1B624D0B&SessionID=0zraxxzevbpjal3z4lgly545] 欢迎您chengang，成功登入。您的IP为：127.0.0.1！
+ERROR 2015-04-16 15:18:14,187 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=5873] 获取故障处理单内容失败:未将对象引用设置到对象的实例。 
+STACK   在 FM2E.WorkflowLayer.WorkflowHelper.CreateNewInstance(Int64 dataID, String workflowName) 位置 E:\Station\SGS\最新修改\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 149
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.FillData() 位置 e:\Station\SGS\最新修改\SGS_new\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 265
+ERROR 2015-04-16 15:22:49,975 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：在向服务器发送请求时发生传输级错误。 (provider: TCP 提供程序, error: 0 - 远程主机强迫关闭了一个现有的连接。)
+ERROR 2015-04-16 15:23:01,516 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:23:01,597 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:23:01,597 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:23:10,470 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:23:10,514 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:23:20,158 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:23:20,159 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:23:30,414 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:23:30,440 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:23:37,475 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/MalfunctionApprovalList.aspx] 获取故障处理单列表失败:获取故障处理单列表分页失败(caused by 无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。) 
+STACK   在 FM2E.SQLServerDAL.Maintain.MalfunctionHandle.FM2E.IDAL.Maintain.IMalfunctionHandle.GetMalfunctionSheets(QueryParam term, Int32& recordCount) 位置 E:\Station\SGS\最新修改\SGS_new\SQLServerDAL\Maintain\MalfunctionHandle.cs:行号 745
+   在 FM2E.BLL.Maintain.MalfunctionHandle.GetMalfunctionApprovalList(MalfunctionSearchInfo term, String userName, Int32 currentPageIndex, Int32 pageSize, Int32& recordCount) 位置 E:\Station\SGS\最新修改\SGS_new\BLL\Maintain\MalfunctionHandle.cs:行号 632
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_MalfunctionApprovalList.FillData() 位置 e:\Station\SGS\最新修改\SGS_new\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\MalfunctionApprovalList.aspx.cs:行号 133
+ERROR 2015-04-16 15:23:40,430 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:23:40,430 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:23:51,143 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:23:51,189 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:24:00,009 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:24:00,015 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:24:09,969 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:24:09,985 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:24:20,861 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:24:20,864 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:24:29,969 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:24:29,991 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:24:40,242 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:24:40,245 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:24:49,977 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:24:50,068 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:24:59,963 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:24:59,996 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:25:12,200 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:25:12,286 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:25:19,972 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:25:19,995 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:25:29,978 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:25:29,991 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:25:39,966 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:25:39,997 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:25:49,972 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:25:49,988 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:25:59,962 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:25:59,996 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:26:09,967 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:26:09,982 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:26:20,743 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:26:20,746 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:26:29,966 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:26:30,141 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:26:40,044 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:26:40,050 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:26:50,118 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:26:50,162 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:26:59,959 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:26:59,992 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:27:09,969 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:27:09,999 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:27:20,166 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:27:20,173 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:27:30,790 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:27:30,790 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:27:40,573 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:27:40,577 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:27:49,976 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:27:49,987 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:28:05,821 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:28:05,830 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:28:09,974 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:28:09,989 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:28:20,333 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:28:20,375 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:28:29,979 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:28:29,996 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:28:47,228 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:28:47,238 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:28:50,208 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:28:50,218 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:28:59,971 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:29:00,033 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:29:10,847 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:29:10,869 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:29:19,975 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:29:19,989 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:29:29,974 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:29:29,990 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:29:39,976 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:29:39,995 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:29:49,968 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:29:49,997 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:30:00,572 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:30:00,615 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:30:11,103 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:30:11,103 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:30:20,450 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:30:20,452 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:30:30,811 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:30:30,816 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:30:42,037 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:30:42,042 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:30:49,966 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:30:50,007 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:31:01,362 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:31:01,449 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:31:10,865 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:31:10,892 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:31:19,972 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:31:19,991 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:31:30,714 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:31:30,736 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:31:41,725 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:31:41,729 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:31:49,968 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:31:50,002 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:32:00,466 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:32:00,491 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:32:10,460 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:32:10,461 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:32:20,326 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:32:20,330 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:32:31,072 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:32:31,072 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:32:45,210 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:32:45,253 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:32:49,967 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:32:49,999 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:32:51,704 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/MalfunctionApprovalList.aspx] 初始化页面失败:查询部门信息失败(caused by 无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。) 
+STACK   在 FM2E.SQLServerDAL.Basic.Department.Search(DepartmentInfo item1) 位置 E:\Station\SGS\最新修改\SGS_new\SQLServerDAL\Basic\Department.cs:行号 377
+   在 FM2E.BLL.Basic.Department.Search(DepartmentInfo item) 位置 E:\Station\SGS\最新修改\SGS_new\BLL\Basic\Department.cs:行号 59
+   在 ListItemHelper.GetDepartmentListItems(String companyID) 位置 e:\Station\SGS\最新修改\SGS_new\Web\App_Code\ListItemHelper.cs:行号 38
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_MalfunctionApprovalList.InitialPage() 位置 e:\Station\SGS\最新修改\SGS_new\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\MalfunctionApprovalList.aspx.cs:行号 71
+ERROR 2015-04-16 15:33:02,022 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:33:02,067 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2015-04-16 15:33:02,076 [/Web/Default.aspx] .Net SqlClient Data Provider thrown System.Data.SqlClient.SqlException
+无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 FM2E.SQLServerDAL.PendingOrder.PendingOrder.FM2E.IDAL.PendingOrder.IPendingOrder.GetNewPendingOrder(String username, Int32& count) 位置 E:\Station\SGS\最新修改\SGS_new\SQLServerDAL\PendingOrder\PendingOrder.cs:行号 843
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 FM2E.SQLServerDAL.Utils.SQLHelper.PrepareCommand(SqlCommand cmd, SqlConnection conn, SqlTransaction trans, CommandType cmdType, String cmdText, SqlParameter[] cmdParms) 位置 E:\Station\SGS\最新修改\SGS_new\SQLServerDAL\Utils\SQLHelper.cs:行号 352
+   在 FM2E.SQLServerDAL.Utils.SQLHelper.ExecuteReader(String connectionString, CommandType cmdType, String cmdText, SqlParameter[] commandParameters) 位置 E:\Station\SGS\最新修改\SGS_new\SQLServerDAL\Utils\SQLHelper.cs:行号 190
+   在 FM2E.SQLServerDAL.Message.Message.FM2E.IDAL.Message.IMessage.GetNewMessageNumber(String username) 位置 E:\Station\SGS\最新修改\SGS_new\SQLServerDAL\Message\Message.cs:行号 715
+   在 FM2E.BLL.Message.Message.GetNewMessageNumber(String username) 位置 E:\Station\SGS\最新修改\SGS_new\BLL\Message\Message.cs:行号 106
+   在 WebService_NewMessage.GetNewMessageCount() 位置 e:\Station\SGS\最新修改\SGS_new\Web\App_Code\WebService\WebService_NewMessage.cs:行号 43
+ERROR 2015-04-16 15:33:10,450 [/Web/Default.aspx] .Net SqlClient Data Provider thrown System.Data.SqlClient.SqlException
+无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 FM2E.SQLServerDAL.Utils.SQLHelper.PrepareCommand(SqlCommand cmd, SqlConnection conn, SqlTransaction trans, CommandType cmdType, String cmdText, SqlParameter[] cmdParms) 位置 E:\Station\SGS\最新修改\SGS_new\SQLServerDAL\Utils\SQLHelper.cs:行号 352
+   在 FM2E.SQLServerDAL.Utils.SQLHelper.ExecuteReader(String connectionString, CommandType cmdType, String cmdText, SqlParameter[] commandParameters) 位置 E:\Station\SGS\最新修改\SGS_new\SQLServerDAL\Utils\SQLHelper.cs:行号 190
+   在 FM2E.SQLServerDAL.Basic.Warehouse.GetWarehouseListByUserName(String UserName) 位置 E:\Station\SGS\最新修改\SGS_new\SQLServerDAL\Basic\Warehouse.cs:行号 484
+   在 FM2E.BLL.Basic.Warehouse.GetWarehouseListByUserName(String UserName) 位置 E:\Station\SGS\最新修改\SGS_new\BLL\Basic\Warehouse.cs:行号 69
+   在 Default.Page_Load(Object sender, EventArgs e) 位置 e:\Station\SGS\最新修改\SGS_new\Web\Default.aspx.cs:行号 41
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+INFO  2015-04-16 15:39:44,954 [/Web/Login.aspx] 您的用户名(chengang)已经于(2015/4/16 15:16:43),从(127.0.0.1)IP登陆在本系统.在线时间:16.34分.
+INFO  2015-04-16 15:39:47,434 [/Web/Login.aspx?CMD=OutOnline&OPCode=4230&U_LoginName=chengang&U_Password=25F9E794323B453885F5181F1B624D0B&SessionID=daec3myvaswgahvkxph3ovfm] 欢迎您chengang，成功登入。您的IP为：127.0.0.1！
+ERROR 2015-04-16 15:42:35,241 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=5873] 获取故障处理单内容失败:未将对象引用设置到对象的实例。 
+STACK   在 FM2E.WorkflowLayer.WorkflowHelper.CreateNewInstance(Int64 dataID, String workflowName) 位置 E:\Station\SGS\最新修改\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 149
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.FillData() 位置 e:\Station\SGS\最新修改\SGS_new\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 265
+INFO  2015-04-16 15:51:43,785 [/Web/Login.aspx] FM2E application started at 2015-04-16 15:51:43
+ERROR 2015-04-16 15:51:47,946 [/Web/Login.aspx] 用户名/密码(admin/1)错误！
+FATAL 2015-04-16 15:51:57,994 [/Web/login.aspx] Version:true
+INFO  2015-04-16 15:51:57,994 [/Web/login.aspx] 欢迎您chengang，成功登入。您的IP为：127.0.0.1！
+INFO  2015-04-16 15:54:33,957 [/Web/Login.aspx] FM2E application started at 2015-04-16 15:54:33
+FATAL 2015-04-16 15:54:42,911 [/Web/Login.aspx] Version:true
+INFO  2015-04-16 15:54:42,911 [/Web/Login.aspx] 欢迎您chengang，成功登入。您的IP为：127.0.0.1！
+ERROR 2015-04-16 15:59:02,869 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 15:59:16,488 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=5873] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+ERROR 2015-04-16 16:01:52,444 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 16:01:57,440 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 16:01:57,488 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：在从服务器接收结果时发生传输级错误。 (provider: TCP 提供程序, error: 0 - 指定的网络名不再可用。)
+ERROR 2015-04-16 16:02:00,049 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：在从服务器接收结果时发生传输级错误。 (provider: TCP 提供程序, error: 0 - 指定的网络名不再可用。)
+ERROR 2015-04-16 16:02:01,794 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：在从服务器接收结果时发生传输级错误。 (provider: TCP 提供程序, error: 0 - 指定的网络名不再可用。)
+ERROR 2015-04-16 16:02:04,660 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 16:02:27,364 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 16:02:31,756 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：超时时间已到。超时时间已到，但是尚未从池中获取连接。出现这种情况可能是因为所有池连接均在使用，并且达到了最大池大小。
+ERROR 2015-04-16 16:02:52,312 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 16:02:56,735 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：超时时间已到。超时时间已到，但是尚未从池中获取连接。出现这种情况可能是因为所有池连接均在使用，并且达到了最大池大小。
+ERROR 2015-04-16 16:02:57,247 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 16:03:01,689 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：超时时间已到。超时时间已到，但是尚未从池中获取连接。出现这种情况可能是因为所有池连接均在使用，并且达到了最大池大小。
+ERROR 2015-04-16 16:03:02,278 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 16:03:14,813 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 16:03:14,822 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+ERROR 2015-04-16 16:03:14,827 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+ERROR 2015-04-16 16:03:14,832 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 16:03:27,228 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=5873] FM2E.SQLServerDAL thrown FM2E.Model.Exceptions.DALException
+获取工作流用户列表失败   在 FM2E.SQLServerDAL.System.User.FM2E.IDAL.System.IUser.GetNextWorkflowUser(String workflowName, String workflowStateName, Int64 departmentID) 位置 E:\Station\SGS\最新修改\SGS_new\SQLServerDAL\System\User.cs:行号 166
+   在 FM2E.BLL.System.User.GetWorkflowStateUser(String workflowName, String workflowStateName, Int64 departmentID) 位置 E:\Station\SGS\最新修改\SGS_new\BLL\System\User.cs:行号 55
+   在 control_WorkFlowUserSelectControl.UpdateUserDropDownList() 位置 e:\Station\SGS\最新修改\SGS_new\Web\control\WorkFlowUserSelectControl.ascx.cs:行号 371
+   在 control_WorkFlowUserSelectControl.RadioButtonList_Events_SelectedChanged(Object sender, EventArgs e) 位置 e:\Station\SGS\最新修改\SGS_new\Web\control\WorkFlowUserSelectControl.ascx.cs:行号 244
+   在 System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   在 System.Web.UI.WebControls.RadioButtonList.RaisePostDataChangedEvent()
+   在 System.Web.UI.WebControls.RadioButtonList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   在 System.Web.UI.Page.RaiseChangedEvents()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ERROR 2015-04-16 16:03:27,307 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：超时时间已到。超时时间已到，但是尚未从池中获取连接。出现这种情况可能是因为所有池连接均在使用，并且达到了最大池大小。
+ERROR 2015-04-16 16:03:27,313 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 16:03:27,820 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=5873] 您已经被系统强制退出！
+ERROR 2015-04-16 16:03:27,900 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 16:03:27,918 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+ERROR 2015-04-16 16:03:27,919 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+ERROR 2015-04-16 16:03:27,920 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+ERROR 2015-04-16 16:03:27,931 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 16:03:27,931 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=5873] 执行SystemPermission的事件时出错：正在中止线程。
+ERROR 2015-04-16 16:03:28,317 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=5873] 您已经被系统强制退出！
+ERROR 2015-04-16 16:03:28,437 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=5873] 执行SystemPermission的事件时出错：正在中止线程。
+ERROR 2015-04-16 16:03:28,823 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=5873] 您已经被系统强制退出！
+ERROR 2015-04-16 16:03:28,827 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=5873] 执行SystemPermission的事件时出错：正在中止线程。
+ERROR 2015-04-16 16:03:29,323 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/MalfunctionApprovalList.aspx] 您已经被系统强制退出！
+ERROR 2015-04-16 16:03:29,328 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/MalfunctionApprovalList.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+ERROR 2015-04-16 16:04:37,035 [/Web/Login.aspx] 登录失败：用户登录失败在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+FATAL 2015-04-16 16:04:53,846 [/Web/Login.aspx] Version:true
+INFO  2015-04-16 16:04:53,846 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2015-04-16 16:05:51,477 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 16:05:52,822 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：在从服务器接收结果时发生传输级错误。 (provider: TCP 提供程序, error: 0 - 指定的网络名不再可用。)
+ERROR 2015-04-16 16:06:23,881 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+ERROR 2015-04-16 16:06:23,881 [/Web/Login.aspx] 登录失败：用户登录失败在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+ERROR 2015-04-16 16:06:27,833 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+FATAL 2015-04-16 16:09:14,814 [/Web/Login.aspx] Version:true
+INFO  2015-04-16 16:09:14,814 [/Web/Login.aspx] 欢迎您chengang，成功登入。您的IP为：127.0.0.1！
+ERROR 2015-04-16 16:10:46,368 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=5873] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2015-04-16 16:11:13,036 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=5873] 故障处理单审批成功,故障处理单号为：HW1503292103
+ERROR 2015-04-16 16:13:39,354 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=5873] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+ERROR 2015-04-16 16:15:42,397 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=5647] 获取故障处理单内容失败:未将对象引用设置到对象的实例。 
+STACK   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.FillData() 位置 e:\Station\SGS\最新修改\SGS_new\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 238
+ERROR 2015-04-16 16:15:48,172 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 16:23:13,563 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=3856] 获取故障处理单内容失败:未将对象引用设置到对象的实例。 
+STACK   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.FillData() 位置 e:\Station\SGS\最新修改\SGS_new\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 238
+ERROR 2015-04-16 16:23:36,991 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 16:26:56,926 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=3856] 获取故障处理单内容失败:未将对象引用设置到对象的实例。 
+STACK   在 FM2E.SQLServerDAL.Maintain.MalfunctionHandle.FM2E.IDAL.Maintain.IMalfunctionHandle.GetMalfunctionSheet(Int64 id) 位置 E:\Station\SGS\最新修改\SGS_new\SQLServerDAL\Maintain\MalfunctionHandle.cs:行号 639
+   在 FM2E.BLL.Maintain.MalfunctionHandle.GetMalfunctionSheet(Int64 id) 位置 E:\Station\SGS\最新修改\SGS_new\BLL\Maintain\MalfunctionHandle.cs:行号 42
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.FillData() 位置 e:\Station\SGS\最新修改\SGS_new\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 223
+ERROR 2015-04-16 16:28:48,939 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：在从服务器接收结果时发生传输级错误。 (provider: TCP 提供程序, error: 0 - 指定的网络名不再可用。)
+ERROR 2015-04-16 16:28:56,880 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 16:29:03,216 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+ERROR 2015-04-16 16:33:10,903 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=3856] 获取故障处理单内容失败:未将对象引用设置到对象的实例。 
+STACK   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.FillData() 位置 e:\Station\SGS\最新修改\SGS_new\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 238
+ERROR 2015-04-16 16:35:37,401 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：在向服务器发送请求时发生传输级错误。 (provider: TCP 提供程序, error: 0 - 远程主机强迫关闭了一个现有的连接。)
+ERROR 2015-04-16 16:35:38,209 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=3856] 获取故障处理单内容失败:未将对象引用设置到对象的实例。 
+STACK   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.FillData() 位置 e:\Station\SGS\最新修改\SGS_new\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 238
+ERROR 2015-04-16 16:37:34,345 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=3856] 获取故障处理单内容失败:未将对象引用设置到对象的实例。 
+STACK   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.FillData() 位置 e:\Station\SGS\最新修改\SGS_new\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 238
+INFO  2015-04-16 16:42:22,888 FM2E application ended at 2015-04-16 16:42:22
+INFO  2015-04-16 16:48:33,991 [/Web/Login.aspx] FM2E application started at 2015-04-16 16:48:33
+ERROR 2015-04-16 16:49:05,998 [/Web/Login.aspx] 用户名/密码(changang/123456789)错误！
+FATAL 2015-04-16 16:51:08,091 [/Web/login.aspx] Version:true
+INFO  2015-04-16 16:51:08,091 [/Web/login.aspx] 欢迎您chengang，成功登入。您的IP为：127.0.0.1！
+ERROR 2015-04-16 16:55:00,875 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=3856] 获取故障处理单内容失败:未将对象引用设置到对象的实例。 
+STACK   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.FillData() 位置 e:\Station\SGS\最新修改\SGS_new\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 244
+ERROR 2015-04-16 16:55:25,704 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=3856] 获取故障处理单内容失败:未将对象引用设置到对象的实例。 
+STACK   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.FillData() 位置 e:\Station\SGS\最新修改\SGS_new\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 244
+ERROR 2015-04-16 16:56:47,188 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=3856] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+ERROR 2015-04-16 16:57:23,641 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=3856] mscorlib thrown System.Collections.Generic.KeyNotFoundException
+给定关键字不在字典中。   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 FM2E.WorkflowLayer.WorkflowHelper.GetNextStateInfo(String workflowName, String workflowStateName, String eventName) 位置 E:\Station\SGS\最新修改\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 352
+   在 control_WorkFlowUserSelectControl.UpdateUserDropDownList() 位置 e:\Station\SGS\最新修改\SGS_new\Web\control\WorkFlowUserSelectControl.ascx.cs:行号 370
+   在 control_WorkFlowUserSelectControl.RadioButtonList_Events_SelectedChanged(Object sender, EventArgs e) 位置 e:\Station\SGS\最新修改\SGS_new\Web\control\WorkFlowUserSelectControl.ascx.cs:行号 244
+   在 System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   在 System.Web.UI.WebControls.RadioButtonList.RaisePostDataChangedEvent()
+   在 System.Web.UI.WebControls.RadioButtonList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   在 System.Web.UI.Page.RaiseChangedEvents()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ERROR 2015-04-16 16:58:51,901 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=3856] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+ERROR 2015-04-16 17:00:10,997 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=3856] mscorlib thrown System.Collections.Generic.KeyNotFoundException
+给定关键字不在字典中。   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 FM2E.WorkflowLayer.WorkflowHelper.GetNextStateInfo(String workflowName, String workflowStateName, String eventName) 位置 E:\Station\SGS\最新修改\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 352
+   在 control_WorkFlowUserSelectControl.UpdateUserDropDownList() 位置 e:\Station\SGS\最新修改\SGS_new\Web\control\WorkFlowUserSelectControl.ascx.cs:行号 370
+   在 control_WorkFlowUserSelectControl.RadioButtonList_Events_SelectedChanged(Object sender, EventArgs e) 位置 e:\Station\SGS\最新修改\SGS_new\Web\control\WorkFlowUserSelectControl.ascx.cs:行号 244
+   在 System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   在 System.Web.UI.WebControls.RadioButtonList.RaisePostDataChangedEvent()
+   在 System.Web.UI.WebControls.RadioButtonList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   在 System.Web.UI.Page.RaiseChangedEvents()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ERROR 2015-04-16 17:00:12,275 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=3856] mscorlib thrown System.Collections.Generic.KeyNotFoundException
+给定关键字不在字典中。   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 FM2E.WorkflowLayer.WorkflowHelper.GetNextStateInfo(String workflowName, String workflowStateName, String eventName) 位置 E:\Station\SGS\最新修改\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 352
+   在 control_WorkFlowUserSelectControl.UpdateUserDropDownList() 位置 e:\Station\SGS\最新修改\SGS_new\Web\control\WorkFlowUserSelectControl.ascx.cs:行号 370
+   在 control_WorkFlowUserSelectControl.RadioButtonList_Events_SelectedChanged(Object sender, EventArgs e) 位置 e:\Station\SGS\最新修改\SGS_new\Web\control\WorkFlowUserSelectControl.ascx.cs:行号 244
+   在 System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   在 System.Web.UI.WebControls.RadioButtonList.RaisePostDataChangedEvent()
+   在 System.Web.UI.WebControls.RadioButtonList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   在 System.Web.UI.Page.RaiseChangedEvents()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ERROR 2015-04-16 17:00:33,086 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=3856] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+ERROR 2015-04-16 17:02:18,132 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=3856] mscorlib thrown System.Collections.Generic.KeyNotFoundException
+给定关键字不在字典中。   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 FM2E.WorkflowLayer.WorkflowHelper.GetNextStateInfo(String workflowName, String workflowStateName, String eventName) 位置 E:\Station\SGS\最新修改\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 352
+   在 control_WorkFlowUserSelectControl.UpdateUserDropDownList() 位置 e:\Station\SGS\最新修改\SGS_new\Web\control\WorkFlowUserSelectControl.ascx.cs:行号 370
+   在 control_WorkFlowUserSelectControl.RadioButtonList_Events_SelectedChanged(Object sender, EventArgs e) 位置 e:\Station\SGS\最新修改\SGS_new\Web\control\WorkFlowUserSelectControl.ascx.cs:行号 244
+   在 System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   在 System.Web.UI.WebControls.RadioButtonList.RaisePostDataChangedEvent()
+   在 System.Web.UI.WebControls.RadioButtonList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   在 System.Web.UI.Page.RaiseChangedEvents()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ERROR 2015-04-16 17:03:58,277 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=3856] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2015-04-16 17:04:15,711 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=3856] 故障处理单审批成功,故障处理单号为：HH1502090902
+ERROR 2015-04-16 17:06:28,488 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：在向服务器发送请求时发生传输级错误。 (provider: TCP 提供程序, error: 0 - 远程主机强迫关闭了一个现有的连接。)
+ERROR 2015-04-16 17:06:40,770 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=3856] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+ERROR 2015-04-16 17:08:13,225 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=3856] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+ERROR 2015-04-16 17:09:50,528 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=3856] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+ERROR 2015-04-16 17:11:12,333 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=3856] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2015-04-16 17:11:26,835 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=3856] 故障处理单审批成功,故障处理单号为：SDS1503251601
+ERROR 2015-04-16 17:14:44,230 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=3856] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2015-04-16 17:15:12,773 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=3856] 故障处理单审批成功,故障处理单号为：ZSB1502091402
+ERROR 2015-04-16 17:16:12,259 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=3856] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2015-04-16 17:16:49,546 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=3856] 故障处理单审批成功,故障处理单号为：FM1502150902
+INFO  2015-04-16 17:24:28,472 [/Web/Login.aspx] FM2E application started at 2015-04-16 17:24:28
+FATAL 2015-04-16 17:24:37,462 [/Web/Login.aspx] Version:true
+INFO  2015-04-16 17:24:37,463 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2015-04-16 17:29:25,381 FM2E application ended at 2015-04-16 17:29:25

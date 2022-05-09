@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE parameters [
+  <!ELEMENT parameters ANY>
+  <!ELEMENT parameter ANY>
+  <!ATTLIST parameter name ID #REQUIRED>
+]>
+<parameters>
+  <parameter name="SystemName">高速公路机电管理系统</parameter>
+  
+  <parameter name="Version">V1.0</parameter>
+  <!--上传图片缩图高度-->
+  <parameter name="ImageHeight">120</parameter>
+  
+  <!--上传图片缩图宽度-->
+  <parameter name="ImageWidth">180</parameter>
+  
+  <!--上传文件存放目录-->
+  <parameter name="UploadPath">~/Public/</parameter>
+  
+  <!--上传附件大小限制-->
+  <parameter name="UploadSizeKb">2048000</parameter>
+  
+  <!--上传附件允许的扩展名-->
+  <parameter name="UploadFileExt">zip,rar,doc,jpg,png,gif,bmp,txt,xls,ppt,vsd,cad,pdf,ps,docx,csv</parameter>
+  
+  <!--禁止登入时间（分钟）-->
+  <parameter name="LoginErrorDisableMinute">30</parameter>
+  
+  <!--同一IP，同一用户名最大允许登录出错次数-->
+  <parameter name="LoginErrorMaxNum">10</parameter>
+  
+  <!--用户在线过期时间（分钟）-->
+  <parameter name="OnlineTime">180</parameter>
+  
+  <!--分页时，每页显示的记录数量-->
+  <parameter name="PageSize">20</parameter>
+  
+  <!--是否显示出错详细信息在用户页面(用户开发调试,在生产环境请设置为false)-->
+  <parameter name ="DisplayError">true</parameter>
+  
+  <!--页面自动刷新周期-->
+  <parameter name="RefreshInterval">60000</parameter>
+</parameters>

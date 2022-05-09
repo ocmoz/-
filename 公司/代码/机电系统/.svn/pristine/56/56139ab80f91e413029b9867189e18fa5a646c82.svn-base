@@ -1,0 +1,215 @@
+INFO  2014-03-18 09:26:35,726 [/Web/Login.aspx] FM2E application started at 2014-03-18 09:26:35
+INFO  2014-03-18 09:40:57,834 FM2E application ended at 2014-03-18 09:40:57
+INFO  2014-03-18 10:24:23,525 [/Web/Login.aspx] FM2E application started at 2014-03-18 10:24:22
+FATAL 2014-03-18 10:25:09,377 [/Web/Login.aspx] Version:true
+INFO  2014-03-18 10:25:09,377 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2014-03-18 10:25:43,889 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouse.aspx?cmd=add&id=667] 提交申请失败:工作流验证失败。 
+STACK   在 System.Workflow.Runtime.WorkflowDefinitionDispenser.ValidateDefinition(Activity root, Boolean isNewType, ITypeProvider typeProvider)
+   在 System.Workflow.Runtime.WorkflowDefinitionDispenser.LoadRootActivity(String xomlText, String rulesText, Byte[] xomlHashCode, Boolean createDefinition, Boolean initForRuntime)
+   在 System.Workflow.Runtime.WorkflowDefinitionDispenser.MruCache.GetOrGenerateDefinition(Type type, String xomlText, String rulesText, Byte[] md5Codes, Boolean initForRuntime, Boolean& exist)
+   在 System.Workflow.Runtime.WorkflowDefinitionDispenser.GetRootActivity(String xomlText, String rulesText, Boolean createNew, Boolean initForRuntime)
+   在 System.Workflow.Runtime.WorkflowRuntime.InitializeExecutor(Guid instanceId, CreationContext context, WorkflowExecutor executor, WorkflowInstance workflowInstance)
+   在 System.Workflow.Runtime.WorkflowRuntime.Load(Guid key, CreationContext context, WorkflowInstance workflowInstance)
+   在 System.Workflow.Runtime.WorkflowRuntime.GetWorkflowExecutor(Guid instanceId, CreationContext context)
+   在 System.Workflow.Runtime.WorkflowRuntime.InternalCreateWorkflow(CreationContext context, Guid instanceId)
+   在 System.Workflow.Runtime.WorkflowRuntime.CreateWorkflow(XmlReader workflowDefinitionReader, XmlReader rulesReader, Dictionary`2 namedArgumentValues, Guid instanceId)
+   在 FM2E.WorkflowLayer.WorkflowHelper.CreateNewInstance(Int64 dataID, String workflowName) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 145
+   在 FM2E.BLL.Utils.WorkflowApplication.CreateWorkflowAndSendingPendingOrder1[T](Int64 thisID, String title, String WorkflowName, String WorkflowEvent, String UserName, String PersonName, String URL, Int16 type, String CompanyID) 位置 E:\Station\SGS\SGS_new\BLL\Utils\WorkflowApplication.cs:行号 249
+   在 Module_FM2E_DeviceManager_DeviceInfo_ExpendableInfo_InWarehouse.Button_SaveInWarehouse_Click(Object sender, EventArgs e) 位置 e:\Station\SGS\SGS_new\Web\Module\FM2E\DeviceManager\DeviceInfo\ExpendableInfo\InWarehouse.aspx.cs:行号 182
+ERROR 2014-03-18 10:37:00,619 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouse.aspx?cmd=add&id=675] 提交申请失败:工作流验证失败。 
+STACK   在 System.Workflow.Runtime.WorkflowDefinitionDispenser.ValidateDefinition(Activity root, Boolean isNewType, ITypeProvider typeProvider)
+   在 System.Workflow.Runtime.WorkflowDefinitionDispenser.LoadRootActivity(String xomlText, String rulesText, Byte[] xomlHashCode, Boolean createDefinition, Boolean initForRuntime)
+   在 System.Workflow.Runtime.WorkflowDefinitionDispenser.MruCache.GetOrGenerateDefinition(Type type, String xomlText, String rulesText, Byte[] md5Codes, Boolean initForRuntime, Boolean& exist)
+   在 System.Workflow.Runtime.WorkflowDefinitionDispenser.GetRootActivity(String xomlText, String rulesText, Boolean createNew, Boolean initForRuntime)
+   在 System.Workflow.Runtime.WorkflowRuntime.InitializeExecutor(Guid instanceId, CreationContext context, WorkflowExecutor executor, WorkflowInstance workflowInstance)
+   在 System.Workflow.Runtime.WorkflowRuntime.Load(Guid key, CreationContext context, WorkflowInstance workflowInstance)
+   在 System.Workflow.Runtime.WorkflowRuntime.GetWorkflowExecutor(Guid instanceId, CreationContext context)
+   在 System.Workflow.Runtime.WorkflowRuntime.InternalCreateWorkflow(CreationContext context, Guid instanceId)
+   在 System.Workflow.Runtime.WorkflowRuntime.CreateWorkflow(XmlReader workflowDefinitionReader, XmlReader rulesReader, Dictionary`2 namedArgumentValues, Guid instanceId)
+   在 FM2E.WorkflowLayer.WorkflowHelper.CreateNewInstance(Int64 dataID, String workflowName) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 145
+   在 FM2E.BLL.Utils.WorkflowApplication.CreateWorkflowAndSendingPendingOrder1[T](Int64 thisID, String title, String WorkflowName, String WorkflowEvent, String UserName, String PersonName, String URL, Int16 type, String CompanyID) 位置 E:\Station\SGS\SGS_new\BLL\Utils\WorkflowApplication.cs:行号 249
+   在 Module_FM2E_DeviceManager_DeviceInfo_ExpendableInfo_InWarehouse.Button_SaveInWarehouse_Click(Object sender, EventArgs e) 位置 e:\Station\SGS\SGS_new\Web\Module\FM2E\DeviceManager\DeviceInfo\ExpendableInfo\InWarehouse.aspx.cs:行号 182
+INFO  2014-03-18 10:38:32,372 [/Web/Login.aspx] 您的用户名(admin3)已经于(2014/3/18 10:25:09),从(127.0.0.1)IP登陆在本系统.在线时间:1.22分.
+INFO  2014-03-18 10:38:33,749 [/Web/Login.aspx?CMD=OutOnline&OPCode=3227&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=duwvss55zoymrsnh2kdl4155] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2014-03-18 10:38:57,373 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouse.aspx?cmd=add&id=675] 提交易耗品入库申请单成功,故障处理单号为：SG1403181003
+INFO  2014-03-18 10:39:41,711 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouseApprove.aspx?cmd=view&id=130] 审批成功,入库单号为：SG1403181003
+INFO  2014-03-18 10:51:32,262 [/Web/Login.aspx] 您的用户名(admin3)已经于(2014/3/18 10:38:33),从(127.0.0.1)IP登陆在本系统.在线时间:12.16分.
+INFO  2014-03-18 10:51:37,245 [/Web/Login.aspx?CMD=OutOnline&OPCode=8867&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=20uu5145td5wcxambherji45] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2014-03-18 10:52:24,552 [/Web/Module/FM2E/SystemManager/UserManager/EditUserWorkflowRole.aspx?name=admin3] 配置用户工作流角色成功！
+INFO  2014-03-18 10:52:57,639 [/Web/Module/FM2E/WorkflowManager/EditWorkflowRole.aspx?cmd=edit&id=14&wfname=SGS_InWarehouseWorkflow] 修改工作流角色成功！
+INFO  2014-03-18 10:53:18,789 [/Web/Module/FM2E/WorkflowManager/EditWorkflowRole.aspx?cmd=edit&id=15&wfname=SGS_InWarehouseWorkflow] 修改工作流角色成功！
+INFO  2014-03-18 10:53:25,878 [/Web/Module/FM2E/WorkflowManager/EditWorkflowRole.aspx?cmd=edit&id=16&wfname=SGS_InWarehouseWorkflow] 修改工作流角色成功！
+INFO  2014-03-18 10:55:37,717 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouseApprove.aspx?cmd=view&id=130] 审批成功,入库单号为：SG1403181003
+ERROR 2014-03-18 10:55:47,520 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouseApprove.aspx?cmd=view&id=130] 提交失败:在状态持久性存储中找不到 ID 为“70b8a4c3-3be2-4ef6-939f-4e665d7baa46”的工作流。 
+STACK   在 System.Workflow.Runtime.Hosting.PersistenceDBAccessor.RetrieveInstanceState(Guid instanceStateId, Guid ownerId, DateTime timeout)
+   在 System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService.LoadWorkflowInstanceState(Guid id)
+   在 System.Workflow.Runtime.WorkflowRuntime.InitializeExecutor(Guid instanceId, CreationContext context, WorkflowExecutor executor, WorkflowInstance workflowInstance)
+   在 System.Workflow.Runtime.WorkflowRuntime.Load(Guid key, CreationContext context, WorkflowInstance workflowInstance)
+   在 System.Workflow.Runtime.WorkflowRuntime.GetWorkflow(Guid instanceId)
+   在 System.Workflow.Activities.StateMachineWorkflowInstance..ctor(WorkflowRuntime runtime, Guid instanceId)
+   在 FM2E.WorkflowLayer.WorkflowHelper.GetCurrentStateNameAndDescription(Guid instanceId, String& stateName, String& stateDescription) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 272
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 197
+   在 FM2E.BLL.Utils.WorkflowApplication.SetStateMachineAndSendingPendingOrderAndNextUserMachine[T](Int64 thisID, String title, String URL, String WorkflowName, String WorkflowEvent, String TableName, String UserName, String PersonName, Int16 type, String CompanyID) 位置 E:\Station\SGS\SGS_new\BLL\Utils\WorkflowApplication.cs:行号 325
+   在 Module_FM2E_DeviceManager_DeviceInfo_ExpendableInfo_InWarehouseApprove.Button1_Click(Object sender, EventArgs e) 位置 e:\Station\SGS\SGS_new\Web\Module\FM2E\DeviceManager\DeviceInfo\ExpendableInfo\InWarehouseApprove.aspx.cs:行号 216
+ERROR 2014-03-18 10:59:49,945 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouseApprove.aspx?cmd=view&id=130] 提交失败:无法为实例 ID“70b8a4c3-3be2-4ef6-939f-4e665d7baa46”传递接口类型“FM2E.WorkflowLayer.ISGS_InWarehouseEventService”上的事件“WarehouseKeeperApproved”。(caused by 在状态持久性存储中找不到 ID 为“70b8a4c3-3be2-4ef6-939f-4e665d7baa46”的工作流。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_InWarehouseEventService.RaiseEvent(String eventName, Guid instanceID) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\EventService\SGS_InWarehouseEventService.cs:行号 15
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 FM2E.BLL.Utils.WorkflowApplication.SetStateMachineAndSendingPendingOrderAndNextUserMachine[T](Int64 thisID, String title, String URL, String WorkflowName, String WorkflowEvent, String TableName, String UserName, String PersonName, Int16 type, String CompanyID) 位置 E:\Station\SGS\SGS_new\BLL\Utils\WorkflowApplication.cs:行号 325
+   在 Module_FM2E_DeviceManager_DeviceInfo_ExpendableInfo_InWarehouseApprove.Button1_Click(Object sender, EventArgs e) 位置 e:\Station\SGS\SGS_new\Web\Module\FM2E\DeviceManager\DeviceInfo\ExpendableInfo\InWarehouseApprove.aspx.cs:行号 216
+INFO  2014-03-18 11:00:13,844 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouse.aspx?cmd=add&id=673] 提交易耗品入库申请单成功,故障处理单号为：SG1403181101
+INFO  2014-03-18 11:00:40,090 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouseApprove.aspx?cmd=view&id=131] 审批成功,入库单号为：SG1403181101
+INFO  2014-03-18 11:01:18,347 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouseApprove.aspx?cmd=view&id=131] 审批成功,入库单号为：SG1403181101
+ERROR 2014-03-18 11:08:24,028 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouseApprove.aspx?cmd=view&id=131] 提交失败:无法为实例 ID“a3f05cc7-e35e-44bb-af78-a17575b5aa3e”传递接口类型“FM2E.WorkflowLayer.ISGS_InWarehouseEventService”上的事件“WarehouseKeeperApproved”。(caused by 在状态持久性存储中找不到 ID 为“a3f05cc7-e35e-44bb-af78-a17575b5aa3e”的工作流。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_InWarehouseEventService.RaiseEvent(String eventName, Guid instanceID) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\EventService\SGS_InWarehouseEventService.cs:行号 15
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 FM2E.BLL.Utils.WorkflowApplication.SetStateMachineAndSendingPendingOrderAndNextUserMachine[T](Int64 thisID, String title, String URL, String WorkflowName, String WorkflowEvent, String TableName, String UserName, String PersonName, Int16 type, String CompanyID) 位置 E:\Station\SGS\SGS_new\BLL\Utils\WorkflowApplication.cs:行号 325
+   在 Module_FM2E_DeviceManager_DeviceInfo_ExpendableInfo_InWarehouseApprove.Button1_Click(Object sender, EventArgs e) 位置 e:\Station\SGS\SGS_new\Web\Module\FM2E\DeviceManager\DeviceInfo\ExpendableInfo\InWarehouseApprove.aspx.cs:行号 210
+ERROR 2014-03-18 11:16:25,699 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouseApprove.aspx?cmd=view&id=131] 提交失败:无法为实例 ID“a3f05cc7-e35e-44bb-af78-a17575b5aa3e”传递接口类型“FM2E.WorkflowLayer.ISGS_InWarehouseEventService”上的事件“WarehouseKeeperApproved”。(caused by 在状态持久性存储中找不到 ID 为“a3f05cc7-e35e-44bb-af78-a17575b5aa3e”的工作流。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_InWarehouseEventService.RaiseEvent(String eventName, Guid instanceID) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\EventService\SGS_InWarehouseEventService.cs:行号 15
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 FM2E.BLL.Utils.WorkflowApplication.SetStateMachineAndSendingPendingOrderAndNextUserMachine[T](Int64 thisID, String title, String URL, String WorkflowName, String WorkflowEvent, String TableName, String UserName, String PersonName, Int16 type, String CompanyID) 位置 E:\Station\SGS\SGS_new\BLL\Utils\WorkflowApplication.cs:行号 325
+   在 Module_FM2E_DeviceManager_DeviceInfo_ExpendableInfo_InWarehouseApprove.Button1_Click(Object sender, EventArgs e) 位置 e:\Station\SGS\SGS_new\Web\Module\FM2E\DeviceManager\DeviceInfo\ExpendableInfo\InWarehouseApprove.aspx.cs:行号 210
+ERROR 2014-03-18 11:19:00,759 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouseApprove.aspx?cmd=view&id=131] 提交失败:无法为实例 ID“a3f05cc7-e35e-44bb-af78-a17575b5aa3e”传递接口类型“FM2E.WorkflowLayer.ISGS_InWarehouseEventService”上的事件“WarehouseKeeperApproved”。(caused by 在状态持久性存储中找不到 ID 为“a3f05cc7-e35e-44bb-af78-a17575b5aa3e”的工作流。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_InWarehouseEventService.RaiseEvent(String eventName, Guid instanceID) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\EventService\SGS_InWarehouseEventService.cs:行号 15
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 FM2E.BLL.Utils.WorkflowApplication.SetStateMachineAndSendingPendingOrderAndNextUserMachine[T](Int64 thisID, String title, String URL, String WorkflowName, String WorkflowEvent, String TableName, String UserName, String PersonName, Int16 type, String CompanyID) 位置 E:\Station\SGS\SGS_new\BLL\Utils\WorkflowApplication.cs:行号 325
+   在 Module_FM2E_DeviceManager_DeviceInfo_ExpendableInfo_InWarehouseApprove.Button1_Click(Object sender, EventArgs e) 位置 e:\Station\SGS\SGS_new\Web\Module\FM2E\DeviceManager\DeviceInfo\ExpendableInfo\InWarehouseApprove.aspx.cs:行号 210
+INFO  2014-03-18 11:19:35,663 FM2E application ended at 2014-03-18 11:19:35
+INFO  2014-03-18 11:23:26,360 [/Web/Login.aspx] FM2E application started at 2014-03-18 11:23:26
+FATAL 2014-03-18 11:26:55,926 [/Web/Login.aspx] Version:true
+INFO  2014-03-18 11:26:55,926 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2014-03-18 11:27:34,590 [/Web/Module/FM2E/SystemManager/ModuleManager/ModuleManager.aspx?cmd=view&id=1137709f8f2b47d2a21302d053b32315] 删除模块成功！
+INFO  2014-03-18 11:27:50,557 [/Web/Module/FM2E/SystemManager/ModuleManager/ModuleManager.aspx?cmd=view&id=e1a5f02299224a3d990e36652906d7e2] 删除模块成功！
+ERROR 2014-03-18 11:55:34,607 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouseApprove.aspx?cmd=view&id=131] 提交失败:无法为实例 ID“a3f05cc7-e35e-44bb-af78-a17575b5aa3e”传递接口类型“FM2E.WorkflowLayer.ISGS_InWarehouseEventService”上的事件“WarehouseKeeperApproved”。(caused by 在状态持久性存储中找不到 ID 为“a3f05cc7-e35e-44bb-af78-a17575b5aa3e”的工作流。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_InWarehouseEventService.RaiseEvent(String eventName, Guid instanceID) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\EventService\SGS_InWarehouseEventService.cs:行号 15
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 FM2E.BLL.Utils.WorkflowApplication.SetStateMachineAndSendingPendingOrderAndNextUserMachine[T](Int64 thisID, String title, String URL, String WorkflowName, String WorkflowEvent, String TableName, String UserName, String PersonName, Int16 type, String CompanyID) 位置 E:\Station\SGS\SGS_new\BLL\Utils\WorkflowApplication.cs:行号 325
+   在 Module_FM2E_DeviceManager_DeviceInfo_ExpendableInfo_InWarehouseApprove.Button1_Click(Object sender, EventArgs e) 位置 e:\Station\SGS\SGS_new\Web\Module\FM2E\DeviceManager\DeviceInfo\ExpendableInfo\InWarehouseApprove.aspx.cs:行号 210
+INFO  2014-03-18 12:19:14,758 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouse.aspx?cmd=add&id=675] 提交易耗品入库申请单成功,故障处理单号为：SG1403181201
+ERROR 2014-03-18 12:21:58,921 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouseApprove.aspx?cmd=view&id=131] 提交失败:无法为实例 ID“a3f05cc7-e35e-44bb-af78-a17575b5aa3e”传递接口类型“FM2E.WorkflowLayer.ISGS_InWarehouseEventService”上的事件“WarehouseKeeperApproved”。(caused by 在状态持久性存储中找不到 ID 为“a3f05cc7-e35e-44bb-af78-a17575b5aa3e”的工作流。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_InWarehouseEventService.RaiseEvent(String eventName, Guid instanceID) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\EventService\SGS_InWarehouseEventService.cs:行号 15
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 FM2E.BLL.Utils.WorkflowApplication.SetStateMachineAndSendingPendingOrderAndNextUserMachine[T](Int64 thisID, String title, String URL, String WorkflowName, String WorkflowEvent, String TableName, String UserName, String PersonName, Int16 type, String CompanyID) 位置 E:\Station\SGS\SGS_new\BLL\Utils\WorkflowApplication.cs:行号 325
+   在 Module_FM2E_DeviceManager_DeviceInfo_ExpendableInfo_InWarehouseApprove.Button1_Click(Object sender, EventArgs e) 位置 e:\Station\SGS\SGS_new\Web\Module\FM2E\DeviceManager\DeviceInfo\ExpendableInfo\InWarehouseApprove.aspx.cs:行号 210
+INFO  2014-03-18 12:23:17,831 FM2E application ended at 2014-03-18 12:23:17
+INFO  2014-03-18 12:27:46,046 [/Web/Login.aspx] FM2E application started at 2014-03-18 12:27:45
+FATAL 2014-03-18 12:27:56,014 [/Web/Login.aspx] Version:true
+INFO  2014-03-18 12:27:56,014 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2014-03-18 12:29:25,803 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouseApprove.aspx?cmd=view&id=132] 审批成功,入库单号为：SG1403181201
+ERROR 2014-03-18 12:34:18,017 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouseApprove.aspx?cmd=view&id=131] 提交失败:无法为实例 ID“a3f05cc7-e35e-44bb-af78-a17575b5aa3e”传递接口类型“FM2E.WorkflowLayer.ISGS_InWarehouseEventService”上的事件“WarehouseKeeperApproved”。(caused by 在状态持久性存储中找不到 ID 为“a3f05cc7-e35e-44bb-af78-a17575b5aa3e”的工作流。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_InWarehouseEventService.RaiseEvent(String eventName, Guid instanceID) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\EventService\SGS_InWarehouseEventService.cs:行号 15
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 FM2E.BLL.Utils.WorkflowApplication.SetStateMachineAndSendingPendingOrderAndNextUserMachine[T](Int64 thisID, String title, String URL, String WorkflowName, String WorkflowEvent, String TableName, String UserName, String PersonName, Int16 type, String CompanyID) 位置 E:\Station\SGS\SGS_new\BLL\Utils\WorkflowApplication.cs:行号 325
+   在 Module_FM2E_DeviceManager_DeviceInfo_ExpendableInfo_InWarehouseApprove.Button1_Click(Object sender, EventArgs e) 位置 e:\Station\SGS\SGS_new\Web\Module\FM2E\DeviceManager\DeviceInfo\ExpendableInfo\InWarehouseApprove.aspx.cs:行号 210
+INFO  2014-03-18 12:37:22,720 FM2E application ended at 2014-03-18 12:37:22
+INFO  2014-03-18 12:42:23,758 [/Web/Login.aspx] FM2E application started at 2014-03-18 12:42:23
+FATAL 2014-03-18 12:42:33,187 [/Web/Login.aspx] Version:true
+INFO  2014-03-18 12:42:33,188 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2014-03-18 12:43:34,160 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouseApprove.aspx?cmd=view&id=131] 提交失败:无法为实例 ID“a3f05cc7-e35e-44bb-af78-a17575b5aa3e”传递接口类型“FM2E.WorkflowLayer.ISGS_InWarehouseEventService”上的事件“WarehouseKeeperApproved”。(caused by 在状态持久性存储中找不到 ID 为“a3f05cc7-e35e-44bb-af78-a17575b5aa3e”的工作流。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_InWarehouseEventService.RaiseEvent(String eventName, Guid instanceID) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\EventService\SGS_InWarehouseEventService.cs:行号 15
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 FM2E.BLL.Utils.WorkflowApplication.SetStateMachineAndSendingPendingOrderAndNextUserMachine[T](Int64 thisID, String title, String URL, String WorkflowName, String WorkflowEvent, String TableName, String UserName, String PersonName, Int16 type, String CompanyID) 位置 E:\Station\SGS\SGS_new\BLL\Utils\WorkflowApplication.cs:行号 325
+   在 Module_FM2E_DeviceManager_DeviceInfo_ExpendableInfo_InWarehouseApprove.Button1_Click(Object sender, EventArgs e) 位置 e:\Station\SGS\SGS_new\Web\Module\FM2E\DeviceManager\DeviceInfo\ExpendableInfo\InWarehouseApprove.aspx.cs:行号 210
+ERROR 2014-03-18 12:53:28,355 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouseApprove.aspx?cmd=view&id=131] 提交失败:无法为实例 ID“a3f05cc7-e35e-44bb-af78-a17575b5aa3e”传递接口类型“FM2E.WorkflowLayer.ISGS_InWarehouseEventService”上的事件“WarehouseKeeperRejected”。(caused by 在状态持久性存储中找不到 ID 为“a3f05cc7-e35e-44bb-af78-a17575b5aa3e”的工作流。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_InWarehouseEventService.RaiseEvent(String eventName, Guid instanceID) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\EventService\SGS_InWarehouseEventService.cs:行号 15
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 FM2E.BLL.Utils.WorkflowApplication.SetStateMachineAndSendingPendingOrderAndNextUserMachine[T](Int64 thisID, String title, String URL, String WorkflowName, String WorkflowEvent, String TableName, String UserName, String PersonName, Int16 type, String CompanyID) 位置 E:\Station\SGS\SGS_new\BLL\Utils\WorkflowApplication.cs:行号 325
+   在 Module_FM2E_DeviceManager_DeviceInfo_ExpendableInfo_InWarehouseApprove.Button1_Click(Object sender, EventArgs e) 位置 e:\Station\SGS\SGS_new\Web\Module\FM2E\DeviceManager\DeviceInfo\ExpendableInfo\InWarehouseApprove.aspx.cs:行号 210
+INFO  2014-03-18 13:02:00,254 FM2E application ended at 2014-03-18 13:02:00
+INFO  2014-03-18 13:05:58,310 [/Web/Login.aspx] FM2E application started at 2014-03-18 13:05:58
+FATAL 2014-03-18 13:15:08,833 [/Web/Login.aspx] Version:true
+INFO  2014-03-18 13:15:08,833 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2014-03-18 13:49:50,843 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouseApprove.aspx?cmd=view&id=121] 初始化数据失败:已添加了具有相同键的项。 
+STACK   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 FM2E.WorkflowLayer.StateActivityInfo..ctor(StateActivity state, ISharedContent content) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowParser.cs:行号 930
+   在 FM2E.WorkflowLayer.WorkflowParser`1.Initialize(XmlReader workflowSource, XmlReader ruleSource) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowParser.cs:行号 290
+   在 FM2E.WorkflowLayer.WorkflowHelper.GetNewWorkflowParser(String workflowName) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 525
+   在 FM2E.WorkflowLayer.WorkflowHelper.GetWorkflowParser(String workflowName, Boolean isUpdated) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 489
+   在 FM2E.WorkflowLayer.WorkflowHelper.GetEventInfoList(String workflowName, String stateName) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 414
+   在 Module_FM2E_DeviceManager_DeviceInfo_ExpendableInfo_InWarehouseApprove.FillData() 位置 e:\Station\SGS\SGS_new\Web\Module\FM2E\DeviceManager\DeviceInfo\ExpendableInfo\InWarehouseApprove.aspx.cs:行号 54
+ERROR 2014-03-18 13:49:50,900 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouseApprove.aspx?cmd=view&id=121] 初始化数据失败:已添加了具有相同键的项。 
+STACK   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 FM2E.WorkflowLayer.StateActivityInfo..ctor(StateActivity state, ISharedContent content) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowParser.cs:行号 930
+   在 FM2E.WorkflowLayer.WorkflowParser`1.Initialize(XmlReader workflowSource, XmlReader ruleSource) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowParser.cs:行号 290
+   在 FM2E.WorkflowLayer.WorkflowHelper.GetNewWorkflowParser(String workflowName) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 525
+   在 FM2E.WorkflowLayer.WorkflowHelper.GetWorkflowParser(String workflowName, Boolean isUpdated) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 489
+   在 FM2E.WorkflowLayer.WorkflowHelper.GetEventInfoList(String workflowName, String stateName) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 414
+   在 Module_FM2E_DeviceManager_DeviceInfo_ExpendableInfo_InWarehouseApprove.FillData() 位置 e:\Station\SGS\SGS_new\Web\Module\FM2E\DeviceManager\DeviceInfo\ExpendableInfo\InWarehouseApprove.aspx.cs:行号 54
+ERROR 2014-03-18 13:49:55,998 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouseApprove.aspx?cmd=view&id=132] 初始化数据失败:已添加了具有相同键的项。 
+STACK   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 FM2E.WorkflowLayer.StateActivityInfo..ctor(StateActivity state, ISharedContent content) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowParser.cs:行号 930
+   在 FM2E.WorkflowLayer.WorkflowParser`1.Initialize(XmlReader workflowSource, XmlReader ruleSource) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowParser.cs:行号 290
+   在 FM2E.WorkflowLayer.WorkflowHelper.GetNewWorkflowParser(String workflowName) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 525
+   在 FM2E.WorkflowLayer.WorkflowHelper.GetWorkflowParser(String workflowName, Boolean isUpdated) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 489
+   在 FM2E.WorkflowLayer.WorkflowHelper.GetEventInfoList(String workflowName, String stateName) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 414
+   在 Module_FM2E_DeviceManager_DeviceInfo_ExpendableInfo_InWarehouseApprove.FillData() 位置 e:\Station\SGS\SGS_new\Web\Module\FM2E\DeviceManager\DeviceInfo\ExpendableInfo\InWarehouseApprove.aspx.cs:行号 54
+ERROR 2014-03-18 13:50:10,689 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouse.aspx?cmd=add&id=675] 提交申请失败:工作流验证失败。 
+STACK   在 System.Workflow.Runtime.WorkflowDefinitionDispenser.ValidateDefinition(Activity root, Boolean isNewType, ITypeProvider typeProvider)
+   在 System.Workflow.Runtime.WorkflowDefinitionDispenser.LoadRootActivity(String xomlText, String rulesText, Byte[] xomlHashCode, Boolean createDefinition, Boolean initForRuntime)
+   在 System.Workflow.Runtime.WorkflowDefinitionDispenser.MruCache.GetOrGenerateDefinition(Type type, String xomlText, String rulesText, Byte[] md5Codes, Boolean initForRuntime, Boolean& exist)
+   在 System.Workflow.Runtime.WorkflowDefinitionDispenser.GetRootActivity(String xomlText, String rulesText, Boolean createNew, Boolean initForRuntime)
+   在 System.Workflow.Runtime.WorkflowRuntime.InitializeExecutor(Guid instanceId, CreationContext context, WorkflowExecutor executor, WorkflowInstance workflowInstance)
+   在 System.Workflow.Runtime.WorkflowRuntime.Load(Guid key, CreationContext context, WorkflowInstance workflowInstance)
+   在 System.Workflow.Runtime.WorkflowRuntime.GetWorkflowExecutor(Guid instanceId, CreationContext context)
+   在 System.Workflow.Runtime.WorkflowRuntime.InternalCreateWorkflow(CreationContext context, Guid instanceId)
+   在 System.Workflow.Runtime.WorkflowRuntime.CreateWorkflow(XmlReader workflowDefinitionReader, XmlReader rulesReader, Dictionary`2 namedArgumentValues, Guid instanceId)
+   在 FM2E.WorkflowLayer.WorkflowHelper.CreateNewInstance(Int64 dataID, String workflowName) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 145
+   在 FM2E.BLL.Utils.WorkflowApplication.CreateWorkflowAndSendingPendingOrder1[T](Int64 thisID, String title, String WorkflowName, String WorkflowEvent, String UserName, String PersonName, String URL, Int16 type, String CompanyID) 位置 E:\Station\SGS\SGS_new\BLL\Utils\WorkflowApplication.cs:行号 249
+   在 Module_FM2E_DeviceManager_DeviceInfo_ExpendableInfo_InWarehouse.Button_SaveInWarehouse_Click(Object sender, EventArgs e) 位置 e:\Station\SGS\SGS_new\Web\Module\FM2E\DeviceManager\DeviceInfo\ExpendableInfo\InWarehouse.aspx.cs:行号 182
+INFO  2014-03-18 14:17:06,206 [/Web/Login.aspx] 您的用户名(admin3)已经于(2014/3/18 13:15:08),从(127.0.0.1)IP登陆在本系统.在线时间:35.06分.
+INFO  2014-03-18 14:17:07,135 [/Web/Login.aspx?CMD=OutOnline&OPCode=1368&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=bsdoztbzbizp4355pm2e4bqr] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2014-03-18 14:22:25,351 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouseApprove.aspx?cmd=view&id=132] 提交失败:无法为实例 ID“7c701fe9-87fe-4f9e-9503-bdd135a0d938”传递接口类型“FM2E.WorkflowLayer.ISGS_InWarehouseEventService”上的事件“ManagerRejected”。(caused by 在状态持久性存储中找不到 ID 为“7c701fe9-87fe-4f9e-9503-bdd135a0d938”的工作流。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_InWarehouseEventService.RaiseEvent(String eventName, Guid instanceID) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\EventService\SGS_InWarehouseEventService.cs:行号 15
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 FM2E.BLL.Utils.WorkflowApplication.SetStateMachineAndSendingPendingOrderAndNextUserMachine[T](Int64 thisID, String title, String URL, String WorkflowName, String WorkflowEvent, String TableName, String UserName, String PersonName, Int16 type, String CompanyID) 位置 E:\Station\SGS\SGS_new\BLL\Utils\WorkflowApplication.cs:行号 325
+   在 Module_FM2E_DeviceManager_DeviceInfo_ExpendableInfo_InWarehouseApprove.Button1_Click(Object sender, EventArgs e) 位置 e:\Station\SGS\SGS_new\Web\Module\FM2E\DeviceManager\DeviceInfo\ExpendableInfo\InWarehouseApprove.aspx.cs:行号 210
+INFO  2014-03-18 14:35:04,842 FM2E application ended at 2014-03-18 14:35:04
+INFO  2014-03-18 14:38:42,973 [/Web/Login.aspx] FM2E application started at 2014-03-18 14:38:42
+FATAL 2014-03-18 14:42:51,384 [/Web/Login.aspx] Version:true
+INFO  2014-03-18 14:42:51,385 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2014-03-18 14:43:27,284 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouseApprove.aspx?cmd=view&id=131] 提交失败:无法为实例 ID“a3f05cc7-e35e-44bb-af78-a17575b5aa3e”传递接口类型“FM2E.WorkflowLayer.ISGS_InWarehouseEventService”上的事件“WarehouseKeeperApproved”。(caused by 在状态持久性存储中找不到 ID 为“a3f05cc7-e35e-44bb-af78-a17575b5aa3e”的工作流。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_InWarehouseEventService.RaiseEvent(String eventName, Guid instanceID) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\EventService\SGS_InWarehouseEventService.cs:行号 15
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 E:\Station\SGS\SGS_new\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 FM2E.BLL.Utils.WorkflowApplication.SetStateMachineAndSendingPendingOrderAndNextUserMachine[T](Int64 thisID, String title, String URL, String WorkflowName, String WorkflowEvent, String TableName, String UserName, String PersonName, Int16 type, String CompanyID) 位置 E:\Station\SGS\SGS_new\BLL\Utils\WorkflowApplication.cs:行号 325
+   在 Module_FM2E_DeviceManager_DeviceInfo_ExpendableInfo_InWarehouseApprove.Button1_Click(Object sender, EventArgs e) 位置 e:\Station\SGS\SGS_new\Web\Module\FM2E\DeviceManager\DeviceInfo\ExpendableInfo\InWarehouseApprove.aspx.cs:行号 210
+INFO  2014-03-18 14:48:43,796 [/Web/Login.aspx] 您的用户名(admin3)已经于(2014/3/18 14:42:51),从(127.0.0.1)IP登陆在本系统.在线时间:0.61分.
+INFO  2014-03-18 14:48:45,032 [/Web/Login.aspx?CMD=OutOnline&OPCode=4801&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=5dpjzg450uzgnn55cjhmca45] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2014-03-18 14:48:59,271 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouse.aspx?cmd=add&id=674] 提交易耗品入库申请单成功,故障处理单号为：SG1403181401
+INFO  2014-03-18 14:49:17,924 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouseApprove.aspx?cmd=view&id=134] 审批成功,入库单号为：SG1403181401
+INFO  2014-03-18 14:49:30,365 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouseApprove.aspx?cmd=view&id=134] 审批成功,入库单号为：SG1403181401
+INFO  2014-03-18 14:50:07,018 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouse.aspx?cmd=add&id=675] 提交易耗品入库申请单成功,故障处理单号为：SG1403181402
+INFO  2014-03-18 14:50:23,957 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouseApprove.aspx?cmd=view&id=135] 审批成功,入库单号为：SG1403181402
+INFO  2014-03-18 14:50:35,866 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouseApprove.aspx?cmd=view&id=135] 审批成功,入库单号为：SG1403181402
+INFO  2014-03-18 14:50:45,493 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouseApprove.aspx?cmd=view&id=135] 审批成功,入库单号为：SG1403181402
+INFO  2014-03-18 14:51:03,824 FM2E application ended at 2014-03-18 14:51:03
+INFO  2014-03-18 15:29:03,735 [/Web/Login.aspx] FM2E application started at 2014-03-18 15:29:03
+FATAL 2014-03-18 15:30:55,696 [/Web/Login.aspx] Version:true
+INFO  2014-03-18 15:30:55,696 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2014-03-18 16:09:33,300 [/Web/Module/FM2E/DeviceManager/AssetManager/ScrapManager/ScrapApply/ViewScrapApply.aspx?cmd=view&id=12] 获取报废申请单信息失败:未将对象引用设置到对象的实例。 
+STACK   在 Module_FM2E_DeviceManager_AssetManager_ScrapManager_ScrapApply_ViewScrapApply.FillData() 位置 e:\Station\SGS\SGS_new\Web\Module\FM2E\DeviceManager\AssetManager\ScrapManager\ScrapApply\ViewScrapApply.aspx.cs:行号 87
+ERROR 2014-03-18 16:09:41,039 [/Web/Module/FM2E/DeviceManager/AssetManager/ScrapManager/ScrapApply/ViewScrapApply.aspx?cmd=view&id=12] 获取报废申请单信息失败:未将对象引用设置到对象的实例。 
+STACK   在 Module_FM2E_DeviceManager_AssetManager_ScrapManager_ScrapApply_ViewScrapApply.FillData() 位置 e:\Station\SGS\SGS_new\Web\Module\FM2E\DeviceManager\AssetManager\ScrapManager\ScrapApply\ViewScrapApply.aspx.cs:行号 87
+ERROR 2014-03-18 16:17:14,554 [/Web/Module/FM2E/DeviceManager/AssetManager/ScrapManager/ScrapApply/ViewScrapApply.aspx?cmd=view&id=12] 获取报废申请单信息失败:未将对象引用设置到对象的实例。 
+STACK   在 Module_FM2E_DeviceManager_AssetManager_ScrapManager_ScrapApply_ViewScrapApply.FillData() 位置 e:\Station\SGS\SGS_new\Web\Module\FM2E\DeviceManager\AssetManager\ScrapManager\ScrapApply\ViewScrapApply.aspx.cs:行号 87
+INFO  2014-03-18 16:24:16,410 [/Web/Login.aspx] 您的用户名(admin3)已经于(2014/3/18 15:30:55),从(127.0.0.1)IP登陆在本系统.在线时间:40.18分.
+INFO  2014-03-18 16:24:17,492 [/Web/Login.aspx?CMD=OutOnline&OPCode=6813&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=wevv0d452wza1nabp5ojky45] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2014-03-18 17:00:13,957 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/OutWarehouse.aspx?id=674] 易耗品出库成功
+INFO  2014-03-18 17:03:12,724 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/OutWarehouse.aspx?id=674] 易耗品出库成功
+INFO  2014-03-18 17:08:25,566 FM2E application ended at 2014-03-18 17:08:25

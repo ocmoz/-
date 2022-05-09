@@ -1,0 +1,15 @@
+INFO  2013-04-11 13:18:53,314 [/Web/default.aspx] FM2E application started at 2013-04-11 13:18:52
+FATAL 2013-04-11 13:18:57,597 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-04-11 13:18:57,598 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-04-11 13:19:13,289 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionSheetPrint.aspx?id=618] System.Web.Extensions thrown System.InvalidOperationException
+ID 为“UpdatePanel_MoneyStatistics”的控件需要页面上有 ScriptManager。ScriptManager 必须在任何需要它的控件之前出现。   在 System.Web.UI.UpdatePanel.get_ScriptManager()
+   在 System.Web.UI.UpdatePanel.RegisterPanel()
+   在 System.Web.UI.UpdatePanel.OnInit(EventArgs e)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+INFO  2013-04-11 13:23:29,067 FM2E application ended at 2013-04-11 13:23:29

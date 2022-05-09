@@ -1,0 +1,30 @@
+INFO  2013-05-13 14:59:49,387 [/Web/default.aspx] FM2E application started at 2013-05-13 14:59:48
+FATAL 2013-05-13 14:59:58,223 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-05-13 14:59:58,223 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-13 16:22:54,336 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx] 获取故障处理单内容失败:获取故障处理单失败(caused by 未将对象引用设置到对象的实例。) 
+STACK   在 FM2E.SQLServerDAL.Maintain.MalfunctionHandle.FM2E.IDAL.Maintain.IMalfunctionHandle.GetMalfunctionSheet(Int64 id) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\SQLServerDAL\Maintain\MalfunctionHandle.cs:行号 572
+   在 FM2E.BLL.Maintain.MalfunctionHandle.GetMalfunctionSheet(Int64 id) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\Maintain\MalfunctionHandle.cs:行号 42
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.FillData() 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 215
+INFO  2013-05-13 16:26:06,673 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 您的用户名(admin3)已经于(2013/5/13 14:59:58),从(127.0.0.1)IP登陆在本系统.在线时间:82.94分.
+INFO  2013-05-13 16:26:08,082 [/Web/Login.aspx?CMD=OutOnline&OPCode=0207&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=e1xphl45qflg4m45tkvxzzi2] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-13 16:26:18,206 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionList.aspx] 此页面只允许维修部门人员进入
+INFO  2013-05-13 16:27:15,376 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/RecordMalfunction.aspx?cmd=add] 提交故障处理单成功,故障处理单号为：BNK1305131601
+ERROR 2013-05-13 16:27:54,164 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionList.aspx] 此页面只允许维修部门人员进入
+FATAL 2013-05-13 16:28:04,373 [/Web/Login.aspx] Version:true
+INFO  2013-05-13 16:28:04,373 [/Web/Login.aspx] 欢迎您linmx，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-13 16:30:39,183 [/Web/Login.aspx] Version:true
+INFO  2013-05-13 16:30:39,183 [/Web/Login.aspx] 欢迎您linmx，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-13 16:39:51,664 [/Web/Login.aspx] Version:true
+INFO  2013-05-13 16:39:51,664 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-13 16:40:53,520 [/Web/Login.aspx] Version:true
+INFO  2013-05-13 16:40:53,520 [/Web/Login.aspx] 欢迎您linmx，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-13 16:41:08,074 [/Web/Login.aspx] Version:true
+INFO  2013-05-13 16:41:08,074 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-13 16:49:57,152 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionReport%2fViewMalfunctionSheet.aspx] 您的用户名(admin3)已经于(2013/5/13 16:41:08),从(127.0.0.1)IP登陆在本系统.在线时间:2.49分.
+INFO  2013-05-13 16:49:58,764 [/Web/Login.aspx?CMD=OutOnline&OPCode=3538&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=zvhlpt45xxi2nay0sfkdmr45] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-13 17:17:23,775 FM2E application ended at 2013-05-13 17:17:23
+INFO  2013-05-13 17:27:21,681 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionList.aspx] FM2E application started at 2013-05-13 17:27:16
+ERROR 2013-05-13 17:41:51,644 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionReport%2fMalfunctionList.aspx] 用户名不能为空
+FATAL 2013-05-13 17:42:04,652 [/Web/Login.aspx] Version:true
+INFO  2013-05-13 17:42:04,652 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-13 17:44:00,546 FM2E application ended at 2013-05-13 17:44:00

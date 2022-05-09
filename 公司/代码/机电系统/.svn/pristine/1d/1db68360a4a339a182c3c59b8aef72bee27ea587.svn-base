@@ -1,0 +1,5 @@
+INFO  2013-04-08 10:44:40,700 [/Web/default.aspx] FM2E application started at 2013-04-08 10:44:39
+FATAL 2013-04-08 10:44:50,038 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-04-08 10:44:50,038 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-04-08 10:47:09,128 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/EditDevice.aspx?cmd=edit&id=25774&companyid=SG&index=] 修改设备信息成功，条形码为TASDYSX-J03！
+INFO  2013-04-08 11:05:07,810 FM2E application ended at 2013-04-08 11:05:07

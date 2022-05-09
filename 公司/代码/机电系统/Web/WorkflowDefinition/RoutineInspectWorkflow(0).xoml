@@ -1,0 +1,32 @@
+<ns0:RoutineInspectWorkflow InitialStateName="WaitSubmint" Description="例行检测" x:Name="RoutineInspectWorkflow" DynamicUpdateCondition="{x:Null}" CompletedStateName="End" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/workflow" xmlns:ns0="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" >
+	<StateActivity x:Name="WaitSubmint" Description="">
+		<EventDrivenActivity x:Name="AppSubmited">
+			<HandleExternalEventActivity x:Name="handle1" EventName="AppSubmited" Description="提交申请"  InterfaceType="{x:Type p8:IRoutineInspectEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="AppSubmited_1" TargetStateName="WaitManagerApprove" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="WaitManagerApprove" Description="经理审批">
+		<EventDrivenActivity x:Name="ManagerApproved">
+			<HandleExternalEventActivity x:Name="handle2" EventName="ManagerApproved" Description="经理批准"  InterfaceType="{x:Type p8:IRoutineInspectEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="ManagerApproved_1" TargetStateName="AppApproved" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="ManagerRejected">
+			<HandleExternalEventActivity x:Name="handle3" EventName="ManagerRejected" Description="经理拒绝"  InterfaceType="{x:Type p8:IRoutineInspectEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="ManagerRejected_1" TargetStateName="AppRejected" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="AppRejected" Description="拒绝申请">
+		<EventDrivenActivity x:Name="AfterRejected">
+			<DelayActivity TimeoutDuration="00:10:00" x:Name="delayStep1" />
+			<SetStateActivity x:Name="AfterRejected_1" TargetStateName="End" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="AppApproved" Description="批准申请">
+		<EventDrivenActivity x:Name="AfterApproved">
+			<DelayActivity TimeoutDuration="00:10:00" x:Name="delayStep2" />
+			<SetStateActivity x:Name="AfterApproved_1" TargetStateName="End" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="End" Description="申请结束">
+	</StateActivity>
+</ns0:RoutineInspectWorkflow>

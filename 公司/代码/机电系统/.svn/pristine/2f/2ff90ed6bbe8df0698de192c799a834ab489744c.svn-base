@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+
+  <Permission>
+  <ModuleID name="特殊营运信息">3a27a0b1aeee4f59903f6e456bcbf2ea</ModuleID>
+  <Item value="2" name="列表/查看">,Business.aspx,Customer.aspx,Electromechanics.aspx,Employee.aspx,Logistics.aspx,Marketing.aspx,SpecialState.aspx,Streatlight.aspx,Supervisor.aspx,</Item>
+  <Item value="4" name="新增">,Business.aspx,Customer.aspx,Electromechanics.aspx,Employee.aspx,Logistics.aspx,Marketing.aspx,SpecialState.aspx,Streatlight.aspx,Supervisor.aspx,</Item>
+  <Item value="8" name="修改">,Business.aspx,Customer.aspx,Electromechanics.aspx,Employee.aspx,Logistics.aspx,Marketing.aspx,SpecialState.aspx,Streatlight.aspx,Supervisor.aspx,</Item>
+  <Item value="16" name="删除">,Business.aspx,Customer.aspx,Electromechanics.aspx,Employee.aspx,Logistics.aspx,Marketing.aspx,SpecialState.aspx,Streatlight.aspx,Supervisor.aspx,</Item>
+  <Item value="32" name="打印">,Business.aspx,Customer.aspx,Electromechanics.aspx,Employee.aspx,Logistics.aspx,Marketing.aspx,SpecialState.aspx,Streatlight.aspx,Supervisor.aspx,</Item>
+  <Item value="64" name="审批">,Business.aspx,Customer.aspx,Electromechanics.aspx,Employee.aspx,Logistics.aspx,Marketing.aspx,SpecialState.aspx,Streatlight.aspx,Supervisor.aspx,</Item>
+  <Item value="128" name="权限A">,Business.aspx,Customer.aspx,Electromechanics.aspx,Employee.aspx,Logistics.aspx,Marketing.aspx,SpecialState.aspx,Streatlight.aspx,Supervisor.aspx,</Item>
+  <Item value="256" name="权限B">,Business.aspx,Customer.aspx,Electromechanics.aspx,Employee.aspx,Logistics.aspx,Marketing.aspx,SpecialState.aspx,Streatlight.aspx,Supervisor.aspx,</Item>
+  </Permission>
+</configuration>

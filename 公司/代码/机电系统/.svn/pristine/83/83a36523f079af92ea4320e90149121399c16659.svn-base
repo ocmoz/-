@@ -1,0 +1,144 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="Default" %>
+
+<%@ Import Namespace="WebUtility" %>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>深高速营运业务管理系统</title>
+    <link href="Css/Site_Css.css" rel="stylesheet" type="text/css" />
+    <link href="inc/FineMessBox/css/subModal.css" rel="stylesheet" type="text/css" />
+    <link href="Css/Menu.css" rel="stylesheet" type="text/css" />
+    <%--<link href="<%=Page.ResolveUrl("~/") %>Css/modalpopup.css" rel="stylesheet" type="text/css" />--%>
+
+    <script type="text/javascript" src="inc/FineMessBox/js/common.js"></script>
+
+    <script type="text/javascript" src="inc/FineMessBox/js/subModal.js"></script>
+    
+    <script type="text/javascript" src="js/PopupBox.js"></script>
+    
+    <script type="text/javascript" src="js/DefaultPage.js"></script>
+    
+ <%--   --%>
+
+    <script type="text/javascript" language="javascript">
+        var TotalTopMenuCount = <%=TopMenuCount%>;
+    </script>
+</head>
+<body style="margin-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px;
+    overflow: hidden" onload="Init()">
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+        <Services>
+            <asp:ServiceReference Path="~/MenuService.asmx" />
+            <asp:ServiceReference Path="~/Module/FM2E/MessageManager/WebService_NewMessage.asmx" />
+            <asp:ServiceReference Path="~/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx" />
+        </Services>
+    </asp:ScriptManager>
+    </form>
+    <div style="margin: 0 auto; text-align: center">
+        <table border="0" cellspacing="0" cellpadding="0" style="text-align: center; height: 100%;
+            width: 1024px">
+            <tr>
+                <td align="center" style="background-image: url(images/top-gray.jpg); background-repeat: no-repeat;
+                    background-position: center; height: 69px;" valign="top" colspan="2">
+                </td>
+            </tr>
+            <tr>
+                <td style="height: 51px; display:" colspan="2">
+                    <%--<iframe name="MainTop" style="height: 100%; visibility: inherit;
+                    width: 100%; z-index: 1" scrolling="no" frameborder="0" src="Menu.aspx"></iframe>--%>
+                    <div style="margin-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px;
+                        width: 100%; height: 100%">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tr style="text-align: center; height: 18px;" valign="bottom">
+                                <td>
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="text-align: center;">
+                                        <tr>
+                                            <%=sb_TopHTMLSrc.ToString()%></tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="<%=TopMenuCount+1 %>" style="background-image: url(images/Index/top-b-2x.gif);
+                                    background-repeat: no-repeat; background-position: top; height: 2px;" valign="top">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left; height: 14px;" colspan="<%=TopMenuCount+1 %>">
+                                    <%=sb_DownHTMLSrc.ToString() %>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 5%; vertical-align: top;">
+                    <img src="images/openMenu.gif" alt="" id="menuPosition" style="display: none;" onmouseover="javascript:ShowMenu();" />
+                </td>
+                <td style="width: 95%">
+                    <iframe id="mainFrame" name="mainFrame" style="height: 100%; visibility: inherit;
+                        width: 100%; z-index: 1" scrolling="auto" frameborder="0" src="MainPage.aspx">
+                    </iframe>
+                </td>
+            </tr>
+            <tr>
+                <td style="height: 30px; width: 100%;" colspan="2" align="left" id="BarPosition">
+                    <div id="ToolBar">
+                        <div class="welcome">
+                            当前登录用户：<strong>
+                            <%=currentUser %>
+                            (<%= UserData.CurrentUserData.PersonName %>)
+                            </strong>&nbsp;&nbsp;<%= UserData.CurrentUserData.CompanyName %>&nbsp;&nbsp;<%= UserData.CurrentUserData.DepartmentName %>
+                            &nbsp;&nbsp;<asp:Label ID="Label_WarehouseName" runat="server"></asp:Label>
+                        </div>
+                        <div class="announce">
+                            <a target="mainFrame" href="Module/FM2E/PendingOrderMessage/ViewPendingOrder.aspx">待办事务</a>
+                            <a style="color: Red; display: none" target="mainFrame" id="newPendingOrder" href="Module/FM2E/PendingOrderMessage/ViewPendingOrder.aspx">
+                            </a>
+                        </div>
+                        
+                        <div class="quit">
+                            <a href="javascript:if(confirm('确定要退出系统？')){window.location.href='Logout.aspx'}">退出系统</a>
+                        </div>
+                            <div class="backhome">
+                            <a href="javascript: window.location.href='Default.aspx'">回到首页</a>
+                        </div>
+                         
+                        <div class="book">
+                            <a href="public/Standardization/高速公路机电系统维护标准化管理系统--标准化细则.doc">细则</a>
+                        </div>
+                           <div class="set">
+                            <a href="javascript:showPopWin('个人设定','UserSet.aspx',550, 200, CallBackHint,true)">个人设定</a>
+                        </div >
+                          <div class="feedback">
+                            <a href="Module/FM2E/BugReportManager/SendBugreport/SendBugreport.aspx" target="mainFrame" >用户反馈</a>
+                        </div>
+                        <div class="about">
+                            <a href="javascript:showPopWin('About','about.aspx',550, 220, null,true);">版本信息</a>
+                        </div>
+                        
+                       
+                    
+                       
+                        
+                        
+                     
+      
+                      
+                        <div class="message" style="display: none" id="MsgDiv">
+                            <a style="color: Red;" target="mainFrame" id="newMessage" href="Module/FM2E/MessageManager/ViewMessage.aspx">
+                                0条新消息</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!--弹出式菜单浮动层开始-->
+    <div class="subMenuArea" style="display: none" id="menu" onmouseout="javascript:HideMenu();"
+        onmouseover="javascript:ShowMenu();">
+    </div> 
+    <!--弹出式菜单浮动层结束-->
+    <!--弹出式事务提示框-->
+</body>
+</html>

@@ -1,0 +1,41 @@
+FATAL 2014-06-30 14:39:04,180 [/Web/Login.aspx] Version:true
+INFO  2014-06-30 14:39:04,308 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2014-06-30 14:41:58,630 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/RecordMalfunction.aspx?cmd=add] 提交故障处理单成功,故障处理单号为：XRCK1406301401
+FATAL 2014-06-30 14:43:15,265 [/Web/Login.aspx] Version:true
+INFO  2014-06-30 14:43:15,265 [/Web/Login.aspx] 欢迎您luoshan，成功登入。您的IP为：127.0.0.1！
+FATAL 2014-06-30 14:50:03,198 [/Web/Login.aspx] Version:true
+INFO  2014-06-30 14:50:03,198 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2014-06-30 14:53:34,769 [/Web/Login.aspx] 用户名/密码(text1/1)错误！
+FATAL 2014-06-30 14:53:38,766 [/Web/login.aspx] Version:true
+INFO  2014-06-30 14:53:38,814 [/Web/login.aspx] 欢迎您test1，成功登入。您的IP为：127.0.0.1！
+FATAL 2014-06-30 14:54:00,896 [/Web/Login.aspx] Version:true
+INFO  2014-06-30 14:54:00,896 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2014-06-30 14:54:28,694 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=3551] 验收故障处理单成功,故障处理单号为：XRCK1406301401
+FATAL 2014-06-30 14:54:44,814 [/Web/Login.aspx] Version:true
+INFO  2014-06-30 14:54:44,814 [/Web/Login.aspx] 欢迎您luoshan，成功登入。您的IP为：127.0.0.1！
+ERROR 2014-06-30 14:55:39,944 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=3551] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2014-06-30 14:58:36,687 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=3551] 故障处理单审批成功,故障处理单号为：XRCK1406301401
+FATAL 2014-06-30 14:59:15,803 [/Web/Login.aspx] Version:true
+INFO  2014-06-30 14:59:15,803 [/Web/Login.aspx] 欢迎您zhaofang，成功登入。您的IP为：127.0.0.1！
+FATAL 2014-06-30 15:00:22,540 [/Web/Login.aspx] Version:true
+INFO  2014-06-30 15:00:22,540 [/Web/Login.aspx] 欢迎您huangliang，成功登入。您的IP为：127.0.0.1！
+ERROR 2014-06-30 15:02:51,902 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=3488] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+FATAL 2014-06-30 15:03:33,448 [/Web/Login.aspx] Version:true
+INFO  2014-06-30 15:03:33,448 [/Web/Login.aspx] 欢迎您luoshan，成功登入。您的IP为：127.0.0.1！
+ERROR 2014-06-30 15:04:30,121 [/Web/Login.aspx] 用户名/密码(linya/1)错误！
+ERROR 2014-06-30 15:04:41,256 [/Web/login.aspx] 用户名/密码(linya/1)错误！
+FATAL 2014-06-30 15:04:46,008 [/Web/login.aspx] Version:true
+INFO  2014-06-30 15:04:46,008 [/Web/login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2014-06-30 15:06:00,935 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=3551] 验收故障处理单成功,故障处理单号为：XRCK1406301401
+FATAL 2014-06-30 15:07:24,119 [/Web/Login.aspx] Version:true
+INFO  2014-06-30 15:07:24,120 [/Web/Login.aspx] 欢迎您huangliang，成功登入。您的IP为：127.0.0.1！
+FATAL 2014-06-30 15:08:12,084 [/Web/Login.aspx] Version:true
+INFO  2014-06-30 15:08:12,084 [/Web/Login.aspx] 欢迎您test1，成功登入。您的IP为：127.0.0.1！
+INFO  2014-06-30 15:08:33,873 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionStationCheck/StationCheckMalfunctionSheet.aspx?cmd=view&id=3551] 确定故障处理单成功,故障处理单号为：XRCK1406301401
+FATAL 2014-06-30 15:08:45,913 [/Web/Login.aspx] Version:true
+INFO  2014-06-30 15:08:45,913 [/Web/Login.aspx] 欢迎您huangliang，成功登入。您的IP为：127.0.0.1！
+ERROR 2014-06-30 15:09:19,073 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=3551] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+ERROR 2014-06-30 15:13:07,683 FM2E 应用程序关闭时发生错误：此工作流不属于该 WorkflowRuntime。该 WorkflowRuntime 的所有权已失效，或者此工作流属于另一个 WorkflowRuntime。

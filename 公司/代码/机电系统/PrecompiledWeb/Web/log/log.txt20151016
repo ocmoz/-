@@ -1,0 +1,19 @@
+INFO  2015-10-16 15:25:07,427 [/Web/default.aspx] FM2E application started at 2015-10-16 15:25:05
+ERROR 2015-10-16 15:26:06,132 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 密码不能为空
+FATAL 2015-10-16 15:26:15,149 [/Web/Login.aspx] Version:true
+INFO  2015-10-16 15:26:15,149 [/Web/Login.aspx] 欢迎您admin，成功登入。您的IP为：127.0.0.1！
+FATAL 2015-10-16 15:27:34,500 [/Web/Login.aspx] Version:true
+INFO  2015-10-16 15:27:34,500 [/Web/Login.aspx] 欢迎您yill，成功登入。您的IP为：127.0.0.1！
+INFO  2015-10-16 15:35:49,586 FM2E application ended at 2015-10-16 15:35:49
+INFO  2015-10-16 15:42:00,122 [/Web/default.aspx] FM2E application started at 2015-10-16 15:41:59
+FATAL 2015-10-16 15:42:51,721 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2015-10-16 15:42:51,721 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin，成功登入。您的IP为：127.0.0.1！
+FATAL 2015-10-16 15:43:02,858 [/Web/Login.aspx] Version:true
+INFO  2015-10-16 15:43:02,858 [/Web/Login.aspx] 欢迎您yill，成功登入。您的IP为：127.0.0.1！
+INFO  2015-10-16 16:21:13,194 FM2E application ended at 2015-10-16 16:21:13
+INFO  2015-10-16 16:32:41,899 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionSheets.aspx] FM2E application started at 2015-10-16 16:32:41
+FATAL 2015-10-16 16:36:33,590 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionMaintain%2fMalfunctionSheets.aspx] Version:true
+INFO  2015-10-16 16:36:33,590 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionMaintain%2fMalfunctionSheets.aspx] 欢迎您admin，成功登入。您的IP为：127.0.0.1！
+FATAL 2015-10-16 16:36:55,022 [/Web/Login.aspx] Version:true
+INFO  2015-10-16 16:36:55,022 [/Web/Login.aspx] 欢迎您yill，成功登入。您的IP为：127.0.0.1！
+INFO  2015-10-16 17:32:58,349 FM2E application ended at 2015-10-16 17:32:58

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Printers [
+	<!ELEMENT Printers (Printer*)>
+	<!ELEMENT Printer (parameter*)>
+	<!ATTLIST Printer name ID #REQUIRED>
+	<!ELEMENT parameter ANY>
+	<!ATTLIST parameter name CDATA #REQUIRED>
+]>
+<Printers>
+	<!--在203dpi下，1mm=8dot-->
+	<Printer name="Intermec-PD41">
+		<!--打印机IP地址-->
+		<parameter name="IPAddress">125.216.242.92</parameter>
+		
+		<!--打印机通讯端口-->
+		<parameter name="Port">9100</parameter>
+		
+		<!--每张标签的宽度，以dot为单位-->
+		<parameter name="LabelWidth">400</parameter>
+		
+		<!--纸张的宽度，以dot为单位-->
+		<parameter name="PageWidth">832</parameter>
+
+		<!--标签与打印纸左边缘间的间隙大小，以dot为单位-->
+		<parameter name="LeftMargin">16</parameter>
+
+		<!--标签与标签间的间隙大小，以dot为单位-->
+		<parameter name="LabelGap">16</parameter>
+		
+		<!--条形码类型-->
+		<parameter name="BarCodeType">CODE128</parameter>
+		
+		<!--条形打印区域原点X坐标，以dot为单位-->
+		<parameter name="BCPrintPointX">64</parameter>
+		
+		<!--条形打印区域原点Y坐标，以dot为单位-->
+		<parameter name="BCPrintPointY">72</parameter>
+
+		<!--标签标题打印区域原点X坐标-->
+		<parameter name="TitlePointX">64</parameter>
+
+		<!--标签标题打印区域原点Y坐标-->
+		<parameter name="TitlePointY">200</parameter>
+
+		<!--标签文字备注打印区域原点X坐标-->
+		<parameter name="RemarkPointX">64</parameter>
+
+		<!--标签文字备注打印区域原点Y坐标-->
+		<parameter name="RemarkPointY">24</parameter>
+		
+		<!--条形码区域高度，以dot为单位-->
+		<parameter name="BarCodeHeight">104</parameter>
+		
+		<!--条形码中宽线条与窄线条的大小比例-->
+		<parameter name="BarCodeRatio">3,1</parameter>
+		
+		<!--条形码中线条的放大倍率-->
+		<parameter name="BarMag">2</parameter>
+    
+    <!--标签文字备注、标签标题字体-->
+    <parameter name="Font">宋体</parameter>
+
+    <!--标签文字备注、标签标题字体大小-->
+    <parameter name="FontSize">180</parameter>
+    <!-- 打印控件主版本号-->
+    <parameter name="MajorVersion">1</parameter>
+    <!-- 打印控件次版本号-->
+    <parameter name="MinorVersion">0</parameter>
+	</Printer>
+</Printers>

@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E4893488-3528-44BC-91C6-083B3D4299E7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FM2E.WorkflowLayer</RootNamespace>
+    <AssemblyName>FM2E.WorkflowLayer</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Web\Bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Web\Bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Workflow.Activities">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Workflow.ComponentModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Workflow.Runtime">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\IEnumItems.cs" />
+    <Compile Include="Base\IParallelEventSupport.cs" />
+    <Compile Include="Base\WorkflowHelper.cs" />
+    <Compile Include="Base\WorkflowModels.cs" />
+    <Compile Include="EventService\ArchivesBorrowEventService.cs" />
+    <Compile Include="EventService\ArchivesDestroyEventService.cs" />
+    <Compile Include="EventService\BudgetMonthlyEventService.cs" />
+    <Compile Include="EventService\BudgetYearEventService.cs" />
+    <Compile Include="EventService\DailyPatrolEventService.cs" />
+    <Compile Include="Base\IBasicEventService.cs" />
+    <Compile Include="EventService\DemoEventService.cs" />
+    <Compile Include="EventService\EquipmentBorrowEventService.cs" />
+    <Compile Include="EventService\IArchivesBorrowEventService.cs" />
+    <Compile Include="EventService\IArchivesDestroyEventService.cs" />
+    <Compile Include="EventService\IBudgetMonthlyEventService.cs" />
+    <Compile Include="EventService\IBudgetYearEventService.cs" />
+    <Compile Include="EventService\IDailyPatrolEventService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventService\IDemoEventService.cs" />
+    <Compile Include="EventService\IEquipmentBorrowEventService.cs" />
+    <Compile Include="EventService\IMalFunctionEventService.cs" />
+    <Compile Include="EventService\IOutWarehouseEventService.cs" />
+    <Compile Include="EventService\IPriceEventService.cs" />
+    <Compile Include="EventService\IPurchaseEventService.cs" />
+    <Compile Include="EventService\IRoutineInspectEventService.cs" />
+    <Compile Include="EventService\IRoutineMaintainEventService.cs" />
+    <Compile Include="EventService\IScrapEventService.cs" />
+    <Compile Include="EventService\ISpecialProjectEventService.cs" />
+    <Compile Include="EventService\MalFunctionEventService.cs" />
+    <Compile Include="EventService\OutWarehouseEventService.cs" />
+    <Compile Include="EventService\PriceEventService.cs" />
+    <Compile Include="EventService\PurchaseEventService.cs" />
+    <Compile Include="EventService\RoutineInspectEventService.cs" />
+    <Compile Include="EventService\RoutineMaintainEventService.cs" />
+    <Compile Include="EventService\ScrapEventService.cs" />
+    <Compile Include="EventService\SpecialProjectEventService.cs" />
+    <Compile Include="EventService\SGS_MalFunctionEventService.cs" />
+    <Compile Include="EventService\ISGS_MalFunctionEventService.cs" />
+    <Compile Include="WorkflowClass\ArchivesBorrowWorkflow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WorkflowClass\ArchivesDestroyWorkflow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WorkflowClass\BudgetMonthlyWorkflow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WorkflowClass\BudgetYearWorkflow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WorkflowClass\DailyPatrolWorkflow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Base\WorkflowParser.cs" />
+    <Compile Include="WorkflowClass\DemoWorkflow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WorkflowClass\EquipmentBorrowWorkflow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WorkflowClass\MalFunctionWorkflow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WorkflowClass\OutWarehouseWorkflow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WorkflowClass\PriceWorkflow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WorkflowClass\PurchaseWorkflow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WorkflowClass\RoutineInspectWorkflow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WorkflowClass\RoutineMaintainWorkflow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WorkflowClass\ScrapWorkflow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WorkflowClass\SpecialProjectWorkflow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WorkflowClass\SGS_MalFunctionWorkflow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="workflow.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IDAL\IDAL.csproj">
+      <Project>{4E6AC3FF-4BC6-452E-9684-A7FF4236B917}</Project>
+      <Name>IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{EF8A93ED-2FE7-4DEA-B080-61731B3D1772}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SQLServerDAL\SQLServerDAL.csproj">
+      <Project>{63D3580A-A6AE-41C2-9EBB-8332A83F57DE}</Project>
+      <Name>SQLServerDAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

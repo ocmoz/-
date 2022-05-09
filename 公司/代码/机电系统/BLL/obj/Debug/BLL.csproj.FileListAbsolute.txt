@@ -1,0 +1,875 @@
+E:\FM2E\FM2E_Web\BLL\bin\Debug\workflow.xml
+E:\FM2E\FM2E_Web\BLL\bin\Debug\FM2E.BLL.dll
+E:\FM2E\FM2E_Web\BLL\bin\Debug\FM2E.BLL.pdb
+E:\FM2E\FM2E_Web\BLL\bin\Debug\BarCode.dll
+E:\FM2E\FM2E_Web\BLL\bin\Debug\FM2E.DALFactory.dll
+E:\FM2E\FM2E_Web\BLL\bin\Debug\FM2E.IDAL.dll
+E:\FM2E\FM2E_Web\BLL\bin\Debug\FM2E.Model.dll
+E:\FM2E\FM2E_Web\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+E:\FM2E\FM2E_Web\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\FM2E\FM2E_Web\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+E:\FM2E\FM2E_Web\BLL\bin\Debug\FM2E.Model.pdb
+E:\FM2E\FM2E_Web\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+E:\FM2E\FM2E_Web\BLL\bin\Debug\FM2E.IDAL.pdb
+E:\FM2E\FM2E_Web\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+E:\FM2E\FM2E_Web\BLL\bin\Debug\FM2E.DALFactory.pdb
+E:\FM2E\FM2E_Web\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\FM2E\FM2E_Web\BLL\obj\Debug\FM2E.BLL.dll
+E:\FM2E\FM2E_Web\BLL\obj\Debug\FM2E.BLL.pdb
+F:\高速公路最新代码\FM2E_Web2010\BLL\bin\Debug\workflow.xml
+F:\高速公路最新代码\FM2E_Web2010\BLL\bin\Debug\FM2E.BLL.dll
+F:\高速公路最新代码\FM2E_Web2010\BLL\bin\Debug\FM2E.BLL.pdb
+F:\高速公路最新代码\FM2E_Web2010\BLL\bin\Debug\BarCode.dll
+F:\高速公路最新代码\FM2E_Web2010\BLL\bin\Debug\FM2E.DALFactory.dll
+F:\高速公路最新代码\FM2E_Web2010\BLL\bin\Debug\FM2E.IDAL.dll
+F:\高速公路最新代码\FM2E_Web2010\BLL\bin\Debug\FM2E.Model.dll
+F:\高速公路最新代码\FM2E_Web2010\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+F:\高速公路最新代码\FM2E_Web2010\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+F:\高速公路最新代码\FM2E_Web2010\BLL\bin\Debug\FM2E.Model.pdb
+F:\高速公路最新代码\FM2E_Web2010\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+F:\高速公路最新代码\FM2E_Web2010\BLL\bin\Debug\FM2E.IDAL.pdb
+F:\高速公路最新代码\FM2E_Web2010\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+F:\高速公路最新代码\FM2E_Web2010\BLL\bin\Debug\FM2E.DALFactory.pdb
+F:\高速公路最新代码\FM2E_Web2010\BLL\obj\Debug\ResolveAssemblyReference.cache
+F:\高速公路最新代码\FM2E_Web2010\BLL\obj\Debug\FM2E.BLL.dll
+F:\高速公路最新代码\FM2E_Web2010\BLL\obj\Debug\FM2E.BLL.pdb
+E:\Project\高速公路发布版\FM2E_Web2010\BLL\bin\Debug\workflow.xml
+E:\Project\高速公路发布版\FM2E_Web2010\BLL\bin\Debug\FM2E.BLL.dll
+E:\Project\高速公路发布版\FM2E_Web2010\BLL\bin\Debug\FM2E.BLL.pdb
+E:\Project\高速公路发布版\FM2E_Web2010\BLL\bin\Debug\BarCode.dll
+E:\Project\高速公路发布版\FM2E_Web2010\BLL\bin\Debug\FM2E.DALFactory.dll
+E:\Project\高速公路发布版\FM2E_Web2010\BLL\bin\Debug\FM2E.IDAL.dll
+E:\Project\高速公路发布版\FM2E_Web2010\BLL\bin\Debug\FM2E.Model.dll
+E:\Project\高速公路发布版\FM2E_Web2010\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+E:\Project\高速公路发布版\FM2E_Web2010\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\Project\高速公路发布版\FM2E_Web2010\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+E:\Project\高速公路发布版\FM2E_Web2010\BLL\bin\Debug\FM2E.Model.pdb
+E:\Project\高速公路发布版\FM2E_Web2010\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+E:\Project\高速公路发布版\FM2E_Web2010\BLL\bin\Debug\FM2E.IDAL.pdb
+E:\Project\高速公路发布版\FM2E_Web2010\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+E:\Project\高速公路发布版\FM2E_Web2010\BLL\bin\Debug\FM2E.DALFactory.pdb
+E:\Project\高速公路发布版\FM2E_Web2010\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\高速公路发布版\FM2E_Web2010\BLL\obj\Debug\FM2E.BLL.dll
+E:\Project\高速公路发布版\FM2E_Web2010\BLL\obj\Debug\FM2E.BLL.pdb
+E:\Project\高速公路发布版\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\workflow.xml
+E:\Project\高速公路发布版\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.BLL.dll
+E:\Project\高速公路发布版\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.BLL.pdb
+E:\Project\高速公路发布版\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\BarCode.dll
+E:\Project\高速公路发布版\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.DALFactory.dll
+E:\Project\高速公路发布版\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.IDAL.dll
+E:\Project\高速公路发布版\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.Model.dll
+E:\Project\高速公路发布版\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+E:\Project\高速公路发布版\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\Project\高速公路发布版\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+E:\Project\高速公路发布版\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.Model.pdb
+E:\Project\高速公路发布版\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+E:\Project\高速公路发布版\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.IDAL.pdb
+E:\Project\高速公路发布版\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+E:\Project\高速公路发布版\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.DALFactory.pdb
+E:\Project\高速公路发布版\FM2E_Web2010 withBudgetManager2\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\高速公路发布版\FM2E_Web2010 withBudgetManager2\BLL\obj\Debug\FM2E.BLL.dll
+E:\Project\高速公路发布版\FM2E_Web2010 withBudgetManager2\BLL\obj\Debug\FM2E.BLL.pdb
+F:\newfm2e\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\workflow.xml
+F:\newfm2e\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.BLL.dll
+F:\newfm2e\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.BLL.pdb
+F:\newfm2e\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\BarCode.dll
+F:\newfm2e\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.DALFactory.dll
+F:\newfm2e\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.IDAL.dll
+F:\newfm2e\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.Model.dll
+F:\newfm2e\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+F:\newfm2e\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+F:\newfm2e\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.Model.pdb
+F:\newfm2e\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+F:\newfm2e\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.IDAL.pdb
+F:\newfm2e\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+F:\newfm2e\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.DALFactory.pdb
+F:\newfm2e\FM2E_Web2010 withBudgetManager2\BLL\obj\Debug\ResolveAssemblyReference.cache
+F:\newfm2e\FM2E_Web2010 withBudgetManager2\BLL\obj\Debug\FM2E.BLL.dll
+F:\newfm2e\FM2E_Web2010 withBudgetManager2\BLL\obj\Debug\FM2E.BLL.pdb
+F:\文档\FM2E_Web2010 2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\workflow.xml
+F:\文档\FM2E_Web2010 2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.BLL.dll
+F:\文档\FM2E_Web2010 2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.BLL.pdb
+F:\文档\FM2E_Web2010 2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\BarCode.dll
+F:\文档\FM2E_Web2010 2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.DALFactory.dll
+F:\文档\FM2E_Web2010 2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.IDAL.dll
+F:\文档\FM2E_Web2010 2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.Model.dll
+F:\文档\FM2E_Web2010 2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+F:\文档\FM2E_Web2010 2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+F:\文档\FM2E_Web2010 2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.Model.pdb
+F:\文档\FM2E_Web2010 2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+F:\文档\FM2E_Web2010 2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.IDAL.pdb
+F:\文档\FM2E_Web2010 2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+F:\文档\FM2E_Web2010 2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.DALFactory.pdb
+F:\文档\FM2E_Web2010 2\FM2E_Web2010 withBudgetManager2\BLL\obj\Debug\ResolveAssemblyReference.cache
+F:\文档\FM2E_Web2010 2\FM2E_Web2010 withBudgetManager2\BLL\obj\Debug\FM2E.BLL.dll
+F:\文档\FM2E_Web2010 2\FM2E_Web2010 withBudgetManager2\BLL\obj\Debug\FM2E.BLL.pdb
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\workflow.xml
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.BLL.dll
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.BLL.pdb
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\BarCode.dll
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.DALFactory.dll
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.IDAL.dll
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.Model.dll
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.Model.pdb
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.IDAL.pdb
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.DALFactory.pdb
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\obj\Debug\ResolveAssemblyReference.cache
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\obj\Debug\FM2E.BLL.dll
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\obj\Debug\FM2E.BLL.pdb
+F:\文档\new\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\workflow.xml
+F:\文档\new\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.BLL.dll
+F:\文档\new\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.BLL.pdb
+F:\文档\new\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\BarCode.dll
+F:\文档\new\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.DALFactory.dll
+F:\文档\new\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.IDAL.dll
+F:\文档\new\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.Model.dll
+F:\文档\new\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+F:\文档\new\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+F:\文档\new\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.Model.pdb
+F:\文档\new\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+F:\文档\new\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.IDAL.pdb
+F:\文档\new\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+F:\文档\new\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.DALFactory.pdb
+F:\文档\new\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\obj\Debug\ResolveAssemblyReference.cache
+F:\文档\new\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\obj\Debug\FM2E.BLL.dll
+F:\文档\new\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\obj\Debug\FM2E.BLL.pdb
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\workflow.xml
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.BLL.dll
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.BLL.pdb
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\BarCode.dll
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.DALFactory.dll
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.IDAL.dll
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.Model.dll
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.Model.pdb
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.IDAL.pdb
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\bin\Debug\FM2E.DALFactory.pdb
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\obj\Debug\ResolveAssemblyReference.cache
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\obj\Debug\FM2E.BLL.dll
+F:\FM2E_Web2010+withBudgetManager2\FM2E_Web2010 withBudgetManager2\FM2E_Web2010 withBudgetManager2\BLL\obj\Debug\FM2E.BLL.pdb
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager2\BLL\bin\Debug\workflow.xml
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager2\BLL\bin\Debug\FM2E.BLL.dll
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager2\BLL\bin\Debug\FM2E.BLL.pdb
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager2\BLL\bin\Debug\BarCode.dll
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager2\BLL\bin\Debug\FM2E.DALFactory.dll
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager2\BLL\bin\Debug\FM2E.IDAL.dll
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager2\BLL\bin\Debug\FM2E.Model.dll
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager2\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager2\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager2\BLL\bin\Debug\FM2E.Model.pdb
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager2\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager2\BLL\bin\Debug\FM2E.IDAL.pdb
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager2\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager2\BLL\bin\Debug\FM2E.DALFactory.pdb
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager2\BLL\obj\Debug\ResolveAssemblyReference.cache
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager2\BLL\obj\Debug\FM2E.BLL.dll
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager2\BLL\obj\Debug\FM2E.BLL.pdb
+E:\FM2E\FM2E_Web2010+withBudgetManager2\BLL\bin\Debug\workflow.xml
+E:\FM2E\FM2E_Web2010+withBudgetManager2\BLL\bin\Debug\FM2E.BLL.dll
+E:\FM2E\FM2E_Web2010+withBudgetManager2\BLL\bin\Debug\FM2E.BLL.pdb
+E:\FM2E\FM2E_Web2010+withBudgetManager2\BLL\bin\Debug\BarCode.dll
+E:\FM2E\FM2E_Web2010+withBudgetManager2\BLL\bin\Debug\FM2E.DALFactory.dll
+E:\FM2E\FM2E_Web2010+withBudgetManager2\BLL\bin\Debug\FM2E.IDAL.dll
+E:\FM2E\FM2E_Web2010+withBudgetManager2\BLL\bin\Debug\FM2E.Model.dll
+E:\FM2E\FM2E_Web2010+withBudgetManager2\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+E:\FM2E\FM2E_Web2010+withBudgetManager2\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\FM2E\FM2E_Web2010+withBudgetManager2\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+E:\FM2E\FM2E_Web2010+withBudgetManager2\BLL\bin\Debug\FM2E.Model.pdb
+E:\FM2E\FM2E_Web2010+withBudgetManager2\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+E:\FM2E\FM2E_Web2010+withBudgetManager2\BLL\bin\Debug\FM2E.IDAL.pdb
+E:\FM2E\FM2E_Web2010+withBudgetManager2\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+E:\FM2E\FM2E_Web2010+withBudgetManager2\BLL\bin\Debug\FM2E.DALFactory.pdb
+E:\FM2E\FM2E_Web2010+withBudgetManager2\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\FM2E\FM2E_Web2010+withBudgetManager2\BLL\obj\Debug\FM2E.BLL.dll
+E:\FM2E\FM2E_Web2010+withBudgetManager2\BLL\obj\Debug\FM2E.BLL.pdb
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager20110223\BLL\bin\Debug\workflow.xml
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager20110223\BLL\bin\Debug\FM2E.BLL.dll
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager20110223\BLL\bin\Debug\FM2E.BLL.pdb
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager20110223\BLL\bin\Debug\BarCode.dll
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager20110223\BLL\bin\Debug\FM2E.DALFactory.dll
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager20110223\BLL\bin\Debug\FM2E.IDAL.dll
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager20110223\BLL\bin\Debug\FM2E.Model.dll
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager20110223\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager20110223\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager20110223\BLL\bin\Debug\FM2E.Model.pdb
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager20110223\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager20110223\BLL\bin\Debug\FM2E.IDAL.pdb
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager20110223\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager20110223\BLL\bin\Debug\FM2E.DALFactory.pdb
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager20110223\BLL\obj\Debug\ResolveAssemblyReference.cache
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager20110223\BLL\obj\Debug\FM2E.BLL.dll
+F:\20110221fm2e\FM2E_Web2010+withBudgetManager20110223\BLL\obj\Debug\FM2E.BLL.pdb
+F:\高速公路最新代码20110224\fm2e\BLL\bin\Debug\workflow.xml
+F:\高速公路最新代码20110224\fm2e\BLL\bin\Debug\FM2E.BLL.dll
+F:\高速公路最新代码20110224\fm2e\BLL\bin\Debug\FM2E.BLL.pdb
+F:\高速公路最新代码20110224\fm2e\BLL\bin\Debug\BarCode.dll
+F:\高速公路最新代码20110224\fm2e\BLL\bin\Debug\FM2E.DALFactory.dll
+F:\高速公路最新代码20110224\fm2e\BLL\bin\Debug\FM2E.IDAL.dll
+F:\高速公路最新代码20110224\fm2e\BLL\bin\Debug\FM2E.Model.dll
+F:\高速公路最新代码20110224\fm2e\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+F:\高速公路最新代码20110224\fm2e\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+F:\高速公路最新代码20110224\fm2e\BLL\bin\Debug\FM2E.Model.pdb
+F:\高速公路最新代码20110224\fm2e\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+F:\高速公路最新代码20110224\fm2e\BLL\bin\Debug\FM2E.IDAL.pdb
+F:\高速公路最新代码20110224\fm2e\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+F:\高速公路最新代码20110224\fm2e\BLL\bin\Debug\FM2E.DALFactory.pdb
+F:\高速公路最新代码20110224\fm2e\BLL\obj\Debug\ResolveAssemblyReference.cache
+F:\高速公路最新代码20110224\fm2e\BLL\obj\Debug\FM2E.BLL.dll
+F:\高速公路最新代码20110224\fm2e\BLL\obj\Debug\FM2E.BLL.pdb
+D:\fm2e3月21日\fm2e\BLL\bin\Debug\workflow.xml
+D:\fm2e3月21日\fm2e\BLL\bin\Debug\FM2E.BLL.dll
+D:\fm2e3月21日\fm2e\BLL\bin\Debug\FM2E.BLL.pdb
+D:\fm2e3月21日\fm2e\BLL\bin\Debug\BarCode.dll
+D:\fm2e3月21日\fm2e\BLL\bin\Debug\FM2E.DALFactory.dll
+D:\fm2e3月21日\fm2e\BLL\bin\Debug\FM2E.IDAL.dll
+D:\fm2e3月21日\fm2e\BLL\bin\Debug\FM2E.Model.dll
+D:\fm2e3月21日\fm2e\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+D:\fm2e3月21日\fm2e\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\fm2e3月21日\fm2e\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+D:\fm2e3月21日\fm2e\BLL\bin\Debug\FM2E.Model.pdb
+D:\fm2e3月21日\fm2e\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+D:\fm2e3月21日\fm2e\BLL\bin\Debug\FM2E.IDAL.pdb
+D:\fm2e3月21日\fm2e\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+D:\fm2e3月21日\fm2e\BLL\bin\Debug\FM2E.DALFactory.pdb
+D:\fm2e3月21日\fm2e\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\fm2e3月21日\fm2e\BLL\obj\Debug\FM2E.BLL.dll
+D:\fm2e3月21日\fm2e\BLL\obj\Debug\FM2E.BLL.pdb
+D:\FM2Edata\fm2e\BLL\bin\Debug\workflow.xml
+D:\FM2Edata\fm2e\BLL\bin\Debug\FM2E.BLL.dll
+D:\FM2Edata\fm2e\BLL\bin\Debug\FM2E.BLL.pdb
+D:\FM2Edata\fm2e\BLL\bin\Debug\BarCode.dll
+D:\FM2Edata\fm2e\BLL\bin\Debug\FM2E.DALFactory.dll
+D:\FM2Edata\fm2e\BLL\bin\Debug\FM2E.IDAL.dll
+D:\FM2Edata\fm2e\BLL\bin\Debug\FM2E.Model.dll
+D:\FM2Edata\fm2e\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+D:\FM2Edata\fm2e\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\FM2Edata\fm2e\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+D:\FM2Edata\fm2e\BLL\bin\Debug\FM2E.Model.pdb
+D:\FM2Edata\fm2e\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+D:\FM2Edata\fm2e\BLL\bin\Debug\FM2E.IDAL.pdb
+D:\FM2Edata\fm2e\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+D:\FM2Edata\fm2e\BLL\bin\Debug\FM2E.DALFactory.pdb
+D:\FM2Edata\fm2e\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\FM2Edata\fm2e\BLL\obj\Debug\FM2E.BLL.dll
+D:\FM2Edata\fm2e\BLL\obj\Debug\FM2E.BLL.pdb
+E:\FM2E\3月路达回来最新\fm2e\BLL\bin\Debug\workflow.xml
+E:\FM2E\3月路达回来最新\fm2e\BLL\bin\Debug\FM2E.BLL.dll
+E:\FM2E\3月路达回来最新\fm2e\BLL\bin\Debug\FM2E.BLL.pdb
+E:\FM2E\3月路达回来最新\fm2e\BLL\bin\Debug\BarCode.dll
+E:\FM2E\3月路达回来最新\fm2e\BLL\bin\Debug\FM2E.DALFactory.dll
+E:\FM2E\3月路达回来最新\fm2e\BLL\bin\Debug\FM2E.IDAL.dll
+E:\FM2E\3月路达回来最新\fm2e\BLL\bin\Debug\FM2E.Model.dll
+E:\FM2E\3月路达回来最新\fm2e\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+E:\FM2E\3月路达回来最新\fm2e\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\FM2E\3月路达回来最新\fm2e\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+E:\FM2E\3月路达回来最新\fm2e\BLL\bin\Debug\FM2E.Model.pdb
+E:\FM2E\3月路达回来最新\fm2e\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+E:\FM2E\3月路达回来最新\fm2e\BLL\bin\Debug\FM2E.IDAL.pdb
+E:\FM2E\3月路达回来最新\fm2e\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+E:\FM2E\3月路达回来最新\fm2e\BLL\bin\Debug\FM2E.DALFactory.pdb
+E:\FM2E\3月路达回来最新\fm2e\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\FM2E\3月路达回来最新\fm2e\BLL\obj\Debug\FM2E.BLL.dll
+E:\FM2E\3月路达回来最新\fm2e\BLL\obj\Debug\FM2E.BLL.pdb
+D:\fm2e\BLL\bin\Debug\workflow.xml
+D:\fm2e\BLL\bin\Debug\FM2E.BLL.dll
+D:\fm2e\BLL\bin\Debug\FM2E.BLL.pdb
+D:\fm2e\BLL\bin\Debug\BarCode.dll
+D:\fm2e\BLL\bin\Debug\FM2E.DALFactory.dll
+D:\fm2e\BLL\bin\Debug\FM2E.IDAL.dll
+D:\fm2e\BLL\bin\Debug\FM2E.Model.dll
+D:\fm2e\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+D:\fm2e\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+D:\fm2e\BLL\bin\Debug\FM2E.Model.pdb
+D:\fm2e\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+D:\fm2e\BLL\bin\Debug\FM2E.IDAL.pdb
+D:\fm2e\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+D:\fm2e\BLL\bin\Debug\FM2E.DALFactory.pdb
+D:\fm2e\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\fm2e\BLL\obj\Debug\FM2E.BLL.dll
+D:\fm2e\BLL\obj\Debug\FM2E.BLL.pdb
+D:\FM2Edata\FM2ESHOW\fm2e (1)\BLL\bin\Debug\workflow.xml
+D:\FM2Edata\FM2ESHOW\fm2e (1)\BLL\bin\Debug\FM2E.BLL.dll
+D:\FM2Edata\FM2ESHOW\fm2e (1)\BLL\bin\Debug\FM2E.BLL.pdb
+D:\FM2Edata\FM2ESHOW\fm2e (1)\BLL\bin\Debug\BarCode.dll
+D:\FM2Edata\FM2ESHOW\fm2e (1)\BLL\bin\Debug\FM2E.DALFactory.dll
+D:\FM2Edata\FM2ESHOW\fm2e (1)\BLL\bin\Debug\FM2E.IDAL.dll
+D:\FM2Edata\FM2ESHOW\fm2e (1)\BLL\bin\Debug\FM2E.Model.dll
+D:\FM2Edata\FM2ESHOW\fm2e (1)\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+D:\FM2Edata\FM2ESHOW\fm2e (1)\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\FM2Edata\FM2ESHOW\fm2e (1)\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+D:\FM2Edata\FM2ESHOW\fm2e (1)\BLL\bin\Debug\FM2E.Model.pdb
+D:\FM2Edata\FM2ESHOW\fm2e (1)\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+D:\FM2Edata\FM2ESHOW\fm2e (1)\BLL\bin\Debug\FM2E.IDAL.pdb
+D:\FM2Edata\FM2ESHOW\fm2e (1)\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+D:\FM2Edata\FM2ESHOW\fm2e (1)\BLL\bin\Debug\FM2E.DALFactory.pdb
+D:\FM2Edata\FM2ESHOW\fm2e (1)\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\FM2Edata\FM2ESHOW\fm2e (1)\BLL\obj\Debug\FM2E.BLL.dll
+D:\FM2Edata\FM2ESHOW\fm2e (1)\BLL\obj\Debug\FM2E.BLL.pdb
+D:\fm2e (1)\BLL\bin\Debug\workflow.xml
+D:\fm2e (1)\BLL\bin\Debug\FM2E.BLL.dll
+D:\fm2e (1)\BLL\bin\Debug\FM2E.BLL.pdb
+D:\fm2e (1)\BLL\bin\Debug\BarCode.dll
+D:\fm2e (1)\BLL\bin\Debug\FM2E.DALFactory.dll
+D:\fm2e (1)\BLL\bin\Debug\FM2E.IDAL.dll
+D:\fm2e (1)\BLL\bin\Debug\FM2E.Model.dll
+D:\fm2e (1)\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+D:\fm2e (1)\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\fm2e (1)\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+D:\fm2e (1)\BLL\bin\Debug\FM2E.Model.pdb
+D:\fm2e (1)\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+D:\fm2e (1)\BLL\bin\Debug\FM2E.IDAL.pdb
+D:\fm2e (1)\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+D:\fm2e (1)\BLL\bin\Debug\FM2E.DALFactory.pdb
+D:\fm2e (1)\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\fm2e (1)\BLL\obj\Debug\FM2E.BLL.dll
+D:\fm2e (1)\BLL\obj\Debug\FM2E.BLL.pdb
+D:\fm2e (1)2\BLL\bin\Debug\workflow.xml
+D:\fm2e (1)2\BLL\bin\Debug\FM2E.BLL.dll
+D:\fm2e (1)2\BLL\bin\Debug\FM2E.BLL.pdb
+D:\fm2e (1)2\BLL\bin\Debug\BarCode.dll
+D:\fm2e (1)2\BLL\bin\Debug\FM2E.DALFactory.dll
+D:\fm2e (1)2\BLL\bin\Debug\FM2E.IDAL.dll
+D:\fm2e (1)2\BLL\bin\Debug\FM2E.Model.dll
+D:\fm2e (1)2\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+D:\fm2e (1)2\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+D:\fm2e (1)2\BLL\bin\Debug\FM2E.Model.pdb
+D:\fm2e (1)2\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+D:\fm2e (1)2\BLL\bin\Debug\FM2E.IDAL.pdb
+D:\fm2e (1)2\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+D:\fm2e (1)2\BLL\bin\Debug\FM2E.DALFactory.pdb
+D:\fm2e (1)2\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\fm2e (1)2\BLL\obj\Debug\FM2E.BLL.dll
+D:\fm2e (1)2\BLL\obj\Debug\FM2E.BLL.pdb
+D:\FM2Edata\src20110420\fm2e (1)2\BLL\bin\Debug\workflow.xml
+D:\FM2Edata\src20110420\fm2e (1)2\BLL\bin\Debug\FM2E.BLL.dll
+D:\FM2Edata\src20110420\fm2e (1)2\BLL\bin\Debug\FM2E.BLL.pdb
+D:\FM2Edata\src20110420\fm2e (1)2\BLL\bin\Debug\BarCode.dll
+D:\FM2Edata\src20110420\fm2e (1)2\BLL\bin\Debug\FM2E.DALFactory.dll
+D:\FM2Edata\src20110420\fm2e (1)2\BLL\bin\Debug\FM2E.IDAL.dll
+D:\FM2Edata\src20110420\fm2e (1)2\BLL\bin\Debug\FM2E.Model.dll
+D:\FM2Edata\src20110420\fm2e (1)2\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+D:\FM2Edata\src20110420\fm2e (1)2\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\FM2Edata\src20110420\fm2e (1)2\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+D:\FM2Edata\src20110420\fm2e (1)2\BLL\bin\Debug\FM2E.Model.pdb
+D:\FM2Edata\src20110420\fm2e (1)2\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+D:\FM2Edata\src20110420\fm2e (1)2\BLL\bin\Debug\FM2E.IDAL.pdb
+D:\FM2Edata\src20110420\fm2e (1)2\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+D:\FM2Edata\src20110420\fm2e (1)2\BLL\bin\Debug\FM2E.DALFactory.pdb
+D:\FM2Edata\src20110420\fm2e (1)2\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\FM2Edata\src20110420\fm2e (1)2\BLL\obj\Debug\FM2E.BLL.dll
+D:\FM2Edata\src20110420\fm2e (1)2\BLL\obj\Debug\FM2E.BLL.pdb
+E:\HgSoftInfor\WebSource\fm2e (1)2\fm2e (1)2\BLL\bin\Debug\workflow.xml
+E:\HgSoftInfor\WebSource\fm2e (1)2\fm2e (1)2\BLL\bin\Debug\FM2E.BLL.dll
+E:\HgSoftInfor\WebSource\fm2e (1)2\fm2e (1)2\BLL\bin\Debug\FM2E.BLL.pdb
+E:\HgSoftInfor\WebSource\fm2e (1)2\fm2e (1)2\BLL\bin\Debug\BarCode.dll
+E:\HgSoftInfor\WebSource\fm2e (1)2\fm2e (1)2\BLL\bin\Debug\FM2E.DALFactory.dll
+E:\HgSoftInfor\WebSource\fm2e (1)2\fm2e (1)2\BLL\bin\Debug\FM2E.IDAL.dll
+E:\HgSoftInfor\WebSource\fm2e (1)2\fm2e (1)2\BLL\bin\Debug\FM2E.Model.dll
+E:\HgSoftInfor\WebSource\fm2e (1)2\fm2e (1)2\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+E:\HgSoftInfor\WebSource\fm2e (1)2\fm2e (1)2\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\HgSoftInfor\WebSource\fm2e (1)2\fm2e (1)2\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+E:\HgSoftInfor\WebSource\fm2e (1)2\fm2e (1)2\BLL\bin\Debug\FM2E.Model.pdb
+E:\HgSoftInfor\WebSource\fm2e (1)2\fm2e (1)2\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+E:\HgSoftInfor\WebSource\fm2e (1)2\fm2e (1)2\BLL\bin\Debug\FM2E.IDAL.pdb
+E:\HgSoftInfor\WebSource\fm2e (1)2\fm2e (1)2\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+E:\HgSoftInfor\WebSource\fm2e (1)2\fm2e (1)2\BLL\bin\Debug\FM2E.DALFactory.pdb
+E:\HgSoftInfor\WebSource\fm2e (1)2\fm2e (1)2\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\HgSoftInfor\WebSource\fm2e (1)2\fm2e (1)2\BLL\obj\Debug\FM2E.BLL.dll
+E:\HgSoftInfor\WebSource\fm2e (1)2\fm2e (1)2\BLL\obj\Debug\FM2E.BLL.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.1\BLL\bin\Debug\workflow.xml
+E:\HgSoftInfor\WebSource\FM2E V3.1\BLL\bin\Debug\FM2E.BLL.dll
+E:\HgSoftInfor\WebSource\FM2E V3.1\BLL\bin\Debug\FM2E.BLL.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.1\BLL\bin\Debug\BarCode.dll
+E:\HgSoftInfor\WebSource\FM2E V3.1\BLL\bin\Debug\FM2E.DALFactory.dll
+E:\HgSoftInfor\WebSource\FM2E V3.1\BLL\bin\Debug\FM2E.IDAL.dll
+E:\HgSoftInfor\WebSource\FM2E V3.1\BLL\bin\Debug\FM2E.Model.dll
+E:\HgSoftInfor\WebSource\FM2E V3.1\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+E:\HgSoftInfor\WebSource\FM2E V3.1\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\HgSoftInfor\WebSource\FM2E V3.1\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+E:\HgSoftInfor\WebSource\FM2E V3.1\BLL\bin\Debug\FM2E.Model.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.1\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.1\BLL\bin\Debug\FM2E.IDAL.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.1\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.1\BLL\bin\Debug\FM2E.DALFactory.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.1\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\HgSoftInfor\WebSource\FM2E V3.1\BLL\obj\Debug\FM2E.BLL.dll
+E:\HgSoftInfor\WebSource\FM2E V3.1\BLL\obj\Debug\FM2E.BLL.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.0.1\BLL\bin\Debug\workflow.xml
+E:\HgSoftInfor\WebSource\FM2E V3.0.1\BLL\bin\Debug\FM2E.BLL.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1\BLL\bin\Debug\FM2E.BLL.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.0.1\BLL\bin\Debug\BarCode.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1\BLL\bin\Debug\FM2E.DALFactory.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1\BLL\bin\Debug\FM2E.IDAL.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1\BLL\bin\Debug\FM2E.Model.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1\BLL\bin\Debug\FM2E.Model.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.0.1\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.0.1\BLL\bin\Debug\FM2E.IDAL.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.0.1\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.0.1\BLL\bin\Debug\FM2E.DALFactory.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.0.1\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\HgSoftInfor\WebSource\FM2E V3.0.1\BLL\obj\Debug\FM2E.BLL.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1\BLL\obj\Debug\FM2E.BLL.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Test_warehourse\FM2E V3.0.1\BLL\bin\Debug\workflow.xml
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Test_warehourse\FM2E V3.0.1\BLL\bin\Debug\FM2E.BLL.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Test_warehourse\FM2E V3.0.1\BLL\bin\Debug\FM2E.BLL.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Test_warehourse\FM2E V3.0.1\BLL\bin\Debug\BarCode.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Test_warehourse\FM2E V3.0.1\BLL\bin\Debug\FM2E.DALFactory.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Test_warehourse\FM2E V3.0.1\BLL\bin\Debug\FM2E.IDAL.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Test_warehourse\FM2E V3.0.1\BLL\bin\Debug\FM2E.Model.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Test_warehourse\FM2E V3.0.1\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Test_warehourse\FM2E V3.0.1\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Test_warehourse\FM2E V3.0.1\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Test_warehourse\FM2E V3.0.1\BLL\bin\Debug\FM2E.Model.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Test_warehourse\FM2E V3.0.1\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Test_warehourse\FM2E V3.0.1\BLL\bin\Debug\FM2E.IDAL.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Test_warehourse\FM2E V3.0.1\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Test_warehourse\FM2E V3.0.1\BLL\bin\Debug\FM2E.DALFactory.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Test_warehourse\FM2E V3.0.1\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Test_warehourse\FM2E V3.0.1\BLL\obj\Debug\FM2E.BLL.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Test_warehourse\FM2E V3.0.1\BLL\obj\Debug\FM2E.BLL.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 New\FM2E V3.0.1\BLL\bin\Debug\workflow.xml
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 New\FM2E V3.0.1\BLL\bin\Debug\FM2E.BLL.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 New\FM2E V3.0.1\BLL\bin\Debug\FM2E.BLL.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 New\FM2E V3.0.1\BLL\bin\Debug\BarCode.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 New\FM2E V3.0.1\BLL\bin\Debug\FM2E.DALFactory.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 New\FM2E V3.0.1\BLL\bin\Debug\FM2E.IDAL.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 New\FM2E V3.0.1\BLL\bin\Debug\FM2E.Model.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 New\FM2E V3.0.1\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 New\FM2E V3.0.1\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 New\FM2E V3.0.1\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 New\FM2E V3.0.1\BLL\bin\Debug\FM2E.Model.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 New\FM2E V3.0.1\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 New\FM2E V3.0.1\BLL\bin\Debug\FM2E.IDAL.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 New\FM2E V3.0.1\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 New\FM2E V3.0.1\BLL\bin\Debug\FM2E.DALFactory.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 New\FM2E V3.0.1\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 New\FM2E V3.0.1\BLL\obj\Debug\FM2E.BLL.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 New\FM2E V3.0.1\BLL\obj\Debug\FM2E.BLL.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Beta\BLL\bin\Debug\workflow.xml
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Beta\BLL\bin\Debug\FM2E.BLL.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Beta\BLL\bin\Debug\FM2E.BLL.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Beta\BLL\bin\Debug\BarCode.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Beta\BLL\bin\Debug\FM2E.DALFactory.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Beta\BLL\bin\Debug\FM2E.IDAL.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Beta\BLL\bin\Debug\FM2E.Model.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Beta\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Beta\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Beta\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Beta\BLL\bin\Debug\FM2E.Model.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Beta\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Beta\BLL\bin\Debug\FM2E.IDAL.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Beta\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Beta\BLL\bin\Debug\FM2E.DALFactory.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Beta\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Beta\BLL\obj\Debug\FM2E.BLL.dll
+E:\HgSoftInfor\WebSource\FM2E V3.0.1 Beta\BLL\obj\Debug\FM2E.BLL.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.1.0\BLL\bin\Debug\workflow.xml
+E:\HgSoftInfor\WebSource\FM2E V3.1.0\BLL\bin\Debug\FM2E.BLL.dll
+E:\HgSoftInfor\WebSource\FM2E V3.1.0\BLL\bin\Debug\FM2E.BLL.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.1.0\BLL\bin\Debug\BarCode.dll
+E:\HgSoftInfor\WebSource\FM2E V3.1.0\BLL\bin\Debug\FM2E.DALFactory.dll
+E:\HgSoftInfor\WebSource\FM2E V3.1.0\BLL\bin\Debug\FM2E.IDAL.dll
+E:\HgSoftInfor\WebSource\FM2E V3.1.0\BLL\bin\Debug\FM2E.Model.dll
+E:\HgSoftInfor\WebSource\FM2E V3.1.0\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+E:\HgSoftInfor\WebSource\FM2E V3.1.0\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\HgSoftInfor\WebSource\FM2E V3.1.0\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+E:\HgSoftInfor\WebSource\FM2E V3.1.0\BLL\bin\Debug\FM2E.Model.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.1.0\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.1.0\BLL\bin\Debug\FM2E.IDAL.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.1.0\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.1.0\BLL\bin\Debug\FM2E.DALFactory.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.1.0\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\HgSoftInfor\WebSource\FM2E V3.1.0\BLL\obj\Debug\FM2E.BLL.dll
+E:\HgSoftInfor\WebSource\FM2E V3.1.0\BLL\obj\Debug\FM2E.BLL.pdb
+D:\Xue\FM2E_Source\FM2E V3.1.0\BLL\bin\Debug\workflow.xml
+D:\Xue\FM2E_Source\FM2E V3.1.0\BLL\bin\Debug\FM2E.BLL.dll
+D:\Xue\FM2E_Source\FM2E V3.1.0\BLL\bin\Debug\FM2E.BLL.pdb
+D:\Xue\FM2E_Source\FM2E V3.1.0\BLL\bin\Debug\BarCode.dll
+D:\Xue\FM2E_Source\FM2E V3.1.0\BLL\bin\Debug\FM2E.DALFactory.dll
+D:\Xue\FM2E_Source\FM2E V3.1.0\BLL\bin\Debug\FM2E.IDAL.dll
+D:\Xue\FM2E_Source\FM2E V3.1.0\BLL\bin\Debug\FM2E.Model.dll
+D:\Xue\FM2E_Source\FM2E V3.1.0\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+D:\Xue\FM2E_Source\FM2E V3.1.0\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\Xue\FM2E_Source\FM2E V3.1.0\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+D:\Xue\FM2E_Source\FM2E V3.1.0\BLL\bin\Debug\FM2E.Model.pdb
+D:\Xue\FM2E_Source\FM2E V3.1.0\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+D:\Xue\FM2E_Source\FM2E V3.1.0\BLL\bin\Debug\FM2E.IDAL.pdb
+D:\Xue\FM2E_Source\FM2E V3.1.0\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+D:\Xue\FM2E_Source\FM2E V3.1.0\BLL\bin\Debug\FM2E.DALFactory.pdb
+D:\Xue\FM2E_Source\FM2E V3.1.0\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\Xue\FM2E_Source\FM2E V3.1.0\BLL\obj\Debug\FM2E.BLL.dll
+D:\Xue\FM2E_Source\FM2E V3.1.0\BLL\obj\Debug\FM2E.BLL.pdb
+D:\HgSoft\Source\FM2E V3.1.1 For YW\BLL\bin\Debug\workflow.xml
+D:\HgSoft\Source\FM2E V3.1.1 For YW\BLL\bin\Debug\FM2E.BLL.dll
+D:\HgSoft\Source\FM2E V3.1.1 For YW\BLL\bin\Debug\FM2E.BLL.pdb
+D:\HgSoft\Source\FM2E V3.1.1 For YW\BLL\bin\Debug\BarCode.dll
+D:\HgSoft\Source\FM2E V3.1.1 For YW\BLL\bin\Debug\FM2E.DALFactory.dll
+D:\HgSoft\Source\FM2E V3.1.1 For YW\BLL\bin\Debug\FM2E.IDAL.dll
+D:\HgSoft\Source\FM2E V3.1.1 For YW\BLL\bin\Debug\FM2E.Model.dll
+D:\HgSoft\Source\FM2E V3.1.1 For YW\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+D:\HgSoft\Source\FM2E V3.1.1 For YW\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\HgSoft\Source\FM2E V3.1.1 For YW\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+D:\HgSoft\Source\FM2E V3.1.1 For YW\BLL\bin\Debug\FM2E.Model.pdb
+D:\HgSoft\Source\FM2E V3.1.1 For YW\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+D:\HgSoft\Source\FM2E V3.1.1 For YW\BLL\bin\Debug\FM2E.IDAL.pdb
+D:\HgSoft\Source\FM2E V3.1.1 For YW\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+D:\HgSoft\Source\FM2E V3.1.1 For YW\BLL\bin\Debug\FM2E.DALFactory.pdb
+D:\HgSoft\Source\FM2E V3.1.1 For YW\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\HgSoft\Source\FM2E V3.1.1 For YW\BLL\obj\Debug\FM2E.BLL.dll
+D:\HgSoft\Source\FM2E V3.1.1 For YW\BLL\obj\Debug\FM2E.BLL.pdb
+E:\HgSoftInfor\Station\YunWu\FM2E V3.1.1 For YW\BLL\bin\Debug\workflow.xml
+E:\HgSoftInfor\Station\YunWu\FM2E V3.1.1 For YW\BLL\bin\Debug\FM2E.BLL.dll
+E:\HgSoftInfor\Station\YunWu\FM2E V3.1.1 For YW\BLL\bin\Debug\FM2E.BLL.pdb
+E:\HgSoftInfor\Station\YunWu\FM2E V3.1.1 For YW\BLL\bin\Debug\BarCode.dll
+E:\HgSoftInfor\Station\YunWu\FM2E V3.1.1 For YW\BLL\bin\Debug\FM2E.DALFactory.dll
+E:\HgSoftInfor\Station\YunWu\FM2E V3.1.1 For YW\BLL\bin\Debug\FM2E.IDAL.dll
+E:\HgSoftInfor\Station\YunWu\FM2E V3.1.1 For YW\BLL\bin\Debug\FM2E.Model.dll
+E:\HgSoftInfor\Station\YunWu\FM2E V3.1.1 For YW\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+E:\HgSoftInfor\Station\YunWu\FM2E V3.1.1 For YW\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\HgSoftInfor\Station\YunWu\FM2E V3.1.1 For YW\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+E:\HgSoftInfor\Station\YunWu\FM2E V3.1.1 For YW\BLL\bin\Debug\FM2E.Model.pdb
+E:\HgSoftInfor\Station\YunWu\FM2E V3.1.1 For YW\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+E:\HgSoftInfor\Station\YunWu\FM2E V3.1.1 For YW\BLL\bin\Debug\FM2E.IDAL.pdb
+E:\HgSoftInfor\Station\YunWu\FM2E V3.1.1 For YW\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+E:\HgSoftInfor\Station\YunWu\FM2E V3.1.1 For YW\BLL\bin\Debug\FM2E.DALFactory.pdb
+E:\HgSoftInfor\Station\YunWu\FM2E V3.1.1 For YW\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\HgSoftInfor\Station\YunWu\FM2E V3.1.1 For YW\BLL\obj\Debug\FM2E.BLL.dll
+E:\HgSoftInfor\Station\YunWu\FM2E V3.1.1 For YW\BLL\obj\Debug\FM2E.BLL.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.1.2\BLL\bin\Debug\workflow.xml
+E:\HgSoftInfor\WebSource\FM2E V3.1.2\BLL\bin\Debug\FM2E.BLL.dll
+E:\HgSoftInfor\WebSource\FM2E V3.1.2\BLL\bin\Debug\FM2E.BLL.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.1.2\BLL\bin\Debug\BarCode.dll
+E:\HgSoftInfor\WebSource\FM2E V3.1.2\BLL\bin\Debug\FM2E.DALFactory.dll
+E:\HgSoftInfor\WebSource\FM2E V3.1.2\BLL\bin\Debug\FM2E.IDAL.dll
+E:\HgSoftInfor\WebSource\FM2E V3.1.2\BLL\bin\Debug\FM2E.Model.dll
+E:\HgSoftInfor\WebSource\FM2E V3.1.2\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+E:\HgSoftInfor\WebSource\FM2E V3.1.2\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\HgSoftInfor\WebSource\FM2E V3.1.2\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+E:\HgSoftInfor\WebSource\FM2E V3.1.2\BLL\bin\Debug\FM2E.Model.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.1.2\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.1.2\BLL\bin\Debug\FM2E.IDAL.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.1.2\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.1.2\BLL\bin\Debug\FM2E.DALFactory.pdb
+E:\HgSoftInfor\WebSource\FM2E V3.1.2\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\HgSoftInfor\WebSource\FM2E V3.1.2\BLL\obj\Debug\FM2E.BLL.dll
+E:\HgSoftInfor\WebSource\FM2E V3.1.2\BLL\obj\Debug\FM2E.BLL.pdb
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2\BLL\bin\Debug\workflow.xml
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2\BLL\bin\Debug\FM2E.BLL.dll
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2\BLL\bin\Debug\FM2E.BLL.pdb
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2\BLL\bin\Debug\BarCode.dll
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2\BLL\bin\Debug\FM2E.DALFactory.dll
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2\BLL\bin\Debug\FM2E.IDAL.dll
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2\BLL\bin\Debug\FM2E.Model.dll
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2\BLL\bin\Debug\FM2E.Model.pdb
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2\BLL\bin\Debug\FM2E.IDAL.pdb
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2\BLL\bin\Debug\FM2E.DALFactory.pdb
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2\BLL\obj\Debug\FM2E.BLL.dll
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2\BLL\obj\Debug\FM2E.BLL.pdb
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2\BLL\bin\Debug\workflow.xml
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2\BLL\bin\Debug\FM2E.BLL.dll
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2\BLL\bin\Debug\FM2E.BLL.pdb
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2\BLL\bin\Debug\BarCode.dll
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2\BLL\bin\Debug\FM2E.DALFactory.dll
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2\BLL\bin\Debug\FM2E.IDAL.dll
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2\BLL\bin\Debug\FM2E.Model.dll
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2\BLL\bin\Debug\FM2E.Model.pdb
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2\BLL\bin\Debug\FM2E.IDAL.pdb
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2\BLL\bin\Debug\FM2E.DALFactory.pdb
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2\BLL\obj\Debug\ResolveAssemblyReference.cache
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2\BLL\obj\Debug\FM2E.BLL.dll
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2\BLL\obj\Debug\FM2E.BLL.pdb
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2-4-10\FM2E V3.1.2\BLL\bin\Debug\workflow.xml
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2-4-10\FM2E V3.1.2\BLL\bin\Debug\FM2E.BLL.dll
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2-4-10\FM2E V3.1.2\BLL\bin\Debug\FM2E.BLL.pdb
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2-4-10\FM2E V3.1.2\BLL\bin\Debug\BarCode.dll
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2-4-10\FM2E V3.1.2\BLL\bin\Debug\FM2E.DALFactory.dll
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2-4-10\FM2E V3.1.2\BLL\bin\Debug\FM2E.IDAL.dll
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2-4-10\FM2E V3.1.2\BLL\bin\Debug\FM2E.Model.dll
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2-4-10\FM2E V3.1.2\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2-4-10\FM2E V3.1.2\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2-4-10\FM2E V3.1.2\BLL\bin\Debug\FM2E.Model.pdb
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2-4-10\FM2E V3.1.2\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2-4-10\FM2E V3.1.2\BLL\bin\Debug\FM2E.IDAL.pdb
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2-4-10\FM2E V3.1.2\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2-4-10\FM2E V3.1.2\BLL\bin\Debug\FM2E.DALFactory.pdb
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2-4-10\FM2E V3.1.2\BLL\obj\Debug\ResolveAssemblyReference.cache
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2-4-10\FM2E V3.1.2\BLL\obj\Debug\FM2E.BLL.dll
+G:\Documents and Settings\Administrator\桌面\SGS\FM2E V3.1.2-4-10\FM2E V3.1.2\BLL\obj\Debug\FM2E.BLL.pdb
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-5-29\FM2E V3.1.2\BLL\bin\Debug\workflow.xml
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-5-29\FM2E V3.1.2\BLL\bin\Debug\FM2E.BLL.dll
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-5-29\FM2E V3.1.2\BLL\bin\Debug\FM2E.BLL.pdb
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-5-29\FM2E V3.1.2\BLL\bin\Debug\BarCode.dll
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-5-29\FM2E V3.1.2\BLL\bin\Debug\FM2E.DALFactory.dll
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-5-29\FM2E V3.1.2\BLL\bin\Debug\FM2E.IDAL.dll
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-5-29\FM2E V3.1.2\BLL\bin\Debug\FM2E.Model.dll
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-5-29\FM2E V3.1.2\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-5-29\FM2E V3.1.2\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-5-29\FM2E V3.1.2\BLL\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-5-29\FM2E V3.1.2\BLL\bin\Debug\office.dll
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-5-29\FM2E V3.1.2\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-5-29\FM2E V3.1.2\BLL\bin\Debug\FM2E.Model.pdb
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-5-29\FM2E V3.1.2\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-5-29\FM2E V3.1.2\BLL\bin\Debug\FM2E.IDAL.pdb
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-5-29\FM2E V3.1.2\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-5-29\FM2E V3.1.2\BLL\bin\Debug\FM2E.DALFactory.pdb
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-5-29\FM2E V3.1.2\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-5-29\FM2E V3.1.2\BLL\obj\Debug\FM2E.BLL.dll
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-5-29\FM2E V3.1.2\BLL\obj\Debug\FM2E.BLL.pdb
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Debug\workflow.xml
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Debug\FM2E.BLL.dll
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Debug\FM2E.BLL.pdb
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Debug\BarCode.dll
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Debug\FM2E.DALFactory.dll
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Debug\FM2E.IDAL.dll
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Debug\FM2E.Model.dll
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Debug\FM2E.Model.pdb
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Debug\FM2E.IDAL.pdb
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Debug\FM2E.DALFactory.pdb
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\obj\Debug\FM2E.BLL.dll
+E:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\obj\Debug\FM2E.BLL.pdb
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Debug\workflow.xml
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Debug\FM2E.BLL.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Debug\FM2E.BLL.pdb
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Debug\BarCode.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Debug\FM2E.DALFactory.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Debug\FM2E.IDAL.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Debug\FM2E.Model.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Debug\FM2E.Model.pdb
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Debug\FM2E.IDAL.pdb
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Debug\FM2E.DALFactory.pdb
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\obj\Debug\ResolveAssemblyReference.cache
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\obj\Debug\FM2E.BLL.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\obj\Debug\FM2E.BLL.pdb
+G:\Station\SGS\SGS\trunk\BLL\bin\Debug\workflow.xml
+G:\Station\SGS\SGS\trunk\BLL\bin\Debug\FM2E.BLL.dll
+G:\Station\SGS\SGS\trunk\BLL\bin\Debug\FM2E.BLL.pdb
+G:\Station\SGS\SGS\trunk\BLL\bin\Debug\BarCode.dll
+G:\Station\SGS\SGS\trunk\BLL\bin\Debug\FM2E.DALFactory.dll
+G:\Station\SGS\SGS\trunk\BLL\bin\Debug\FM2E.IDAL.dll
+G:\Station\SGS\SGS\trunk\BLL\bin\Debug\FM2E.Model.dll
+G:\Station\SGS\SGS\trunk\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+G:\Station\SGS\SGS\trunk\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+G:\Station\SGS\SGS\trunk\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+G:\Station\SGS\SGS\trunk\BLL\bin\Debug\FM2E.Model.pdb
+G:\Station\SGS\SGS\trunk\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+G:\Station\SGS\SGS\trunk\BLL\bin\Debug\FM2E.IDAL.pdb
+G:\Station\SGS\SGS\trunk\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+G:\Station\SGS\SGS\trunk\BLL\bin\Debug\FM2E.DALFactory.pdb
+G:\Station\SGS\SGS\trunk\BLL\obj\Debug\ResolveAssemblyReference.cache
+G:\Station\SGS\SGS\trunk\BLL\obj\Debug\FM2E.BLL.dll
+G:\Station\SGS\SGS\trunk\BLL\obj\Debug\FM2E.BLL.pdb
+E:\Station\SGS\SGS_new\BLL\bin\Debug\workflow.xml
+E:\Station\SGS\SGS_new\BLL\bin\Debug\FM2E.BLL.dll
+E:\Station\SGS\SGS_new\BLL\bin\Debug\FM2E.BLL.pdb
+E:\Station\SGS\SGS_new\BLL\bin\Debug\BarCode.dll
+E:\Station\SGS\SGS_new\BLL\bin\Debug\FM2E.DALFactory.dll
+E:\Station\SGS\SGS_new\BLL\bin\Debug\FM2E.IDAL.dll
+E:\Station\SGS\SGS_new\BLL\bin\Debug\FM2E.Model.dll
+E:\Station\SGS\SGS_new\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+E:\Station\SGS\SGS_new\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\Station\SGS\SGS_new\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+E:\Station\SGS\SGS_new\BLL\bin\Debug\FM2E.Model.pdb
+E:\Station\SGS\SGS_new\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+E:\Station\SGS\SGS_new\BLL\bin\Debug\FM2E.IDAL.pdb
+E:\Station\SGS\SGS_new\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+E:\Station\SGS\SGS_new\BLL\bin\Debug\FM2E.DALFactory.pdb
+E:\Station\SGS\SGS_new\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\Station\SGS\SGS_new\BLL\obj\Debug\FM2E.BLL.dll
+E:\Station\SGS\SGS_new\BLL\obj\Debug\FM2E.BLL.pdb
+C:\Users\Administrator\Desktop\SGS_new\BLL\bin\Debug\workflow.xml
+C:\Users\Administrator\Desktop\SGS_new\BLL\bin\Debug\FM2E.BLL.dll
+C:\Users\Administrator\Desktop\SGS_new\BLL\bin\Debug\FM2E.BLL.pdb
+C:\Users\Administrator\Desktop\SGS_new\BLL\bin\Debug\BarCode.dll
+C:\Users\Administrator\Desktop\SGS_new\BLL\bin\Debug\FM2E.DALFactory.dll
+C:\Users\Administrator\Desktop\SGS_new\BLL\bin\Debug\FM2E.IDAL.dll
+C:\Users\Administrator\Desktop\SGS_new\BLL\bin\Debug\FM2E.Model.dll
+C:\Users\Administrator\Desktop\SGS_new\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+C:\Users\Administrator\Desktop\SGS_new\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\Administrator\Desktop\SGS_new\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+C:\Users\Administrator\Desktop\SGS_new\BLL\bin\Debug\FM2E.Model.pdb
+C:\Users\Administrator\Desktop\SGS_new\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+C:\Users\Administrator\Desktop\SGS_new\BLL\bin\Debug\FM2E.IDAL.pdb
+C:\Users\Administrator\Desktop\SGS_new\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+C:\Users\Administrator\Desktop\SGS_new\BLL\bin\Debug\FM2E.DALFactory.pdb
+C:\Users\Administrator\Desktop\SGS_new\BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\SGS_new\BLL\obj\Debug\FM2E.BLL.dll
+C:\Users\Administrator\Desktop\SGS_new\BLL\obj\Debug\FM2E.BLL.pdb
+E:\Station\SGS\最新修改\SGS_new\BLL\bin\Debug\workflow.xml
+E:\Station\SGS\最新修改\SGS_new\BLL\bin\Debug\FM2E.BLL.dll
+E:\Station\SGS\最新修改\SGS_new\BLL\bin\Debug\FM2E.BLL.pdb
+E:\Station\SGS\最新修改\SGS_new\BLL\bin\Debug\BarCode.dll
+E:\Station\SGS\最新修改\SGS_new\BLL\bin\Debug\FM2E.DALFactory.dll
+E:\Station\SGS\最新修改\SGS_new\BLL\bin\Debug\FM2E.IDAL.dll
+E:\Station\SGS\最新修改\SGS_new\BLL\bin\Debug\FM2E.Model.dll
+E:\Station\SGS\最新修改\SGS_new\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+E:\Station\SGS\最新修改\SGS_new\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\Station\SGS\最新修改\SGS_new\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+E:\Station\SGS\最新修改\SGS_new\BLL\bin\Debug\FM2E.Model.pdb
+E:\Station\SGS\最新修改\SGS_new\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+E:\Station\SGS\最新修改\SGS_new\BLL\bin\Debug\FM2E.IDAL.pdb
+E:\Station\SGS\最新修改\SGS_new\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+E:\Station\SGS\最新修改\SGS_new\BLL\bin\Debug\FM2E.DALFactory.pdb
+E:\Station\SGS\最新修改\SGS_new\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\Station\SGS\最新修改\SGS_new\BLL\obj\Debug\FM2E.BLL.dll
+E:\Station\SGS\最新修改\SGS_new\BLL\obj\Debug\FM2E.BLL.pdb
+F:\骏兰\SGS\深高速\SGS_new\BLL\bin\Debug\workflow.xml
+F:\骏兰\SGS\深高速\SGS_new\BLL\bin\Debug\FM2E.BLL.dll
+F:\骏兰\SGS\深高速\SGS_new\BLL\bin\Debug\FM2E.BLL.pdb
+F:\骏兰\SGS\深高速\SGS_new\BLL\bin\Debug\BarCode.dll
+F:\骏兰\SGS\深高速\SGS_new\BLL\bin\Debug\FM2E.DALFactory.dll
+F:\骏兰\SGS\深高速\SGS_new\BLL\bin\Debug\FM2E.IDAL.dll
+F:\骏兰\SGS\深高速\SGS_new\BLL\bin\Debug\FM2E.Model.dll
+F:\骏兰\SGS\深高速\SGS_new\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+F:\骏兰\SGS\深高速\SGS_new\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+F:\骏兰\SGS\深高速\SGS_new\BLL\bin\Debug\Microsoft.Vbe.Interop.dll
+F:\骏兰\SGS\深高速\SGS_new\BLL\bin\Debug\office.dll
+F:\骏兰\SGS\深高速\SGS_new\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+F:\骏兰\SGS\深高速\SGS_new\BLL\bin\Debug\FM2E.Model.pdb
+F:\骏兰\SGS\深高速\SGS_new\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+F:\骏兰\SGS\深高速\SGS_new\BLL\bin\Debug\FM2E.IDAL.pdb
+F:\骏兰\SGS\深高速\SGS_new\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+F:\骏兰\SGS\深高速\SGS_new\BLL\bin\Debug\FM2E.DALFactory.pdb
+F:\骏兰\SGS\深高速\SGS_new\BLL\obj\Debug\ResolveAssemblyReference.cache
+F:\骏兰\SGS\深高速\SGS_new\BLL\obj\Debug\FM2E.BLL.dll
+F:\骏兰\SGS\深高速\SGS_new\BLL\obj\Debug\FM2E.BLL.pdb
+C:\Users\Administrator\Desktop\SGS_new - 副本\BLL\bin\Debug\workflow.xml
+C:\Users\Administrator\Desktop\SGS_new - 副本\BLL\bin\Debug\FM2E.BLL.dll
+C:\Users\Administrator\Desktop\SGS_new - 副本\BLL\bin\Debug\FM2E.BLL.pdb
+C:\Users\Administrator\Desktop\SGS_new - 副本\BLL\bin\Debug\BarCode.dll
+C:\Users\Administrator\Desktop\SGS_new - 副本\BLL\bin\Debug\FM2E.DALFactory.dll
+C:\Users\Administrator\Desktop\SGS_new - 副本\BLL\bin\Debug\FM2E.IDAL.dll
+C:\Users\Administrator\Desktop\SGS_new - 副本\BLL\bin\Debug\FM2E.Model.dll
+C:\Users\Administrator\Desktop\SGS_new - 副本\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+C:\Users\Administrator\Desktop\SGS_new - 副本\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\Administrator\Desktop\SGS_new - 副本\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+C:\Users\Administrator\Desktop\SGS_new - 副本\BLL\bin\Debug\FM2E.Model.pdb
+C:\Users\Administrator\Desktop\SGS_new - 副本\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+C:\Users\Administrator\Desktop\SGS_new - 副本\BLL\bin\Debug\FM2E.IDAL.pdb
+C:\Users\Administrator\Desktop\SGS_new - 副本\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+C:\Users\Administrator\Desktop\SGS_new - 副本\BLL\bin\Debug\FM2E.DALFactory.pdb
+C:\Users\Administrator\Desktop\SGS_new - 副本\BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\SGS_new - 副本\BLL\obj\Debug\FM2E.BLL.dll
+C:\Users\Administrator\Desktop\SGS_new - 副本\BLL\obj\Debug\FM2E.BLL.pdb
+C:\Users\Administrator\Desktop\SGS_new - 副本\SGS_new - 副本\BLL\bin\Debug\workflow.xml
+C:\Users\Administrator\Desktop\SGS_new - 副本\SGS_new - 副本\BLL\bin\Debug\FM2E.BLL.dll
+C:\Users\Administrator\Desktop\SGS_new - 副本\SGS_new - 副本\BLL\bin\Debug\FM2E.BLL.pdb
+C:\Users\Administrator\Desktop\SGS_new - 副本\SGS_new - 副本\BLL\bin\Debug\BarCode.dll
+C:\Users\Administrator\Desktop\SGS_new - 副本\SGS_new - 副本\BLL\bin\Debug\FM2E.DALFactory.dll
+C:\Users\Administrator\Desktop\SGS_new - 副本\SGS_new - 副本\BLL\bin\Debug\FM2E.IDAL.dll
+C:\Users\Administrator\Desktop\SGS_new - 副本\SGS_new - 副本\BLL\bin\Debug\FM2E.Model.dll
+C:\Users\Administrator\Desktop\SGS_new - 副本\SGS_new - 副本\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+C:\Users\Administrator\Desktop\SGS_new - 副本\SGS_new - 副本\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\Administrator\Desktop\SGS_new - 副本\SGS_new - 副本\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+C:\Users\Administrator\Desktop\SGS_new - 副本\SGS_new - 副本\BLL\bin\Debug\FM2E.Model.pdb
+C:\Users\Administrator\Desktop\SGS_new - 副本\SGS_new - 副本\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+C:\Users\Administrator\Desktop\SGS_new - 副本\SGS_new - 副本\BLL\bin\Debug\FM2E.IDAL.pdb
+C:\Users\Administrator\Desktop\SGS_new - 副本\SGS_new - 副本\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+C:\Users\Administrator\Desktop\SGS_new - 副本\SGS_new - 副本\BLL\bin\Debug\FM2E.DALFactory.pdb
+C:\Users\Administrator\Desktop\SGS_new - 副本\SGS_new - 副本\BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\SGS_new - 副本\SGS_new - 副本\BLL\obj\Debug\FM2E.BLL.dll
+C:\Users\Administrator\Desktop\SGS_new - 副本\SGS_new - 副本\BLL\obj\Debug\FM2E.BLL.pdb
+F:\骏兰\SGS\深高速\SGS_new - 副本\BLL\bin\Debug\workflow.xml
+F:\骏兰\SGS\深高速\SGS_new - 副本\BLL\bin\Debug\FM2E.BLL.dll
+F:\骏兰\SGS\深高速\SGS_new - 副本\BLL\bin\Debug\FM2E.BLL.pdb
+F:\骏兰\SGS\深高速\SGS_new - 副本\BLL\bin\Debug\BarCode.dll
+F:\骏兰\SGS\深高速\SGS_new - 副本\BLL\bin\Debug\FM2E.DALFactory.dll
+F:\骏兰\SGS\深高速\SGS_new - 副本\BLL\bin\Debug\FM2E.IDAL.dll
+F:\骏兰\SGS\深高速\SGS_new - 副本\BLL\bin\Debug\FM2E.Model.dll
+F:\骏兰\SGS\深高速\SGS_new - 副本\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+F:\骏兰\SGS\深高速\SGS_new - 副本\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+F:\骏兰\SGS\深高速\SGS_new - 副本\BLL\bin\Debug\Microsoft.Vbe.Interop.dll
+F:\骏兰\SGS\深高速\SGS_new - 副本\BLL\bin\Debug\office.dll
+F:\骏兰\SGS\深高速\SGS_new - 副本\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+F:\骏兰\SGS\深高速\SGS_new - 副本\BLL\bin\Debug\FM2E.Model.pdb
+F:\骏兰\SGS\深高速\SGS_new - 副本\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+F:\骏兰\SGS\深高速\SGS_new - 副本\BLL\bin\Debug\FM2E.IDAL.pdb
+F:\骏兰\SGS\深高速\SGS_new - 副本\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+F:\骏兰\SGS\深高速\SGS_new - 副本\BLL\bin\Debug\FM2E.DALFactory.pdb
+F:\骏兰\SGS\深高速\SGS_new - 副本\BLL\obj\Debug\ResolveAssemblyReference.cache
+F:\骏兰\SGS\深高速\SGS_new - 副本\BLL\obj\Debug\FM2E.BLL.dll
+F:\骏兰\SGS\深高速\SGS_new - 副本\BLL\obj\Debug\FM2E.BLL.pdb
+E:\Station\深高速\SGS_new\BLL\bin\Debug\workflow.xml
+E:\Station\深高速\SGS_new\BLL\bin\Debug\FM2E.BLL.dll
+E:\Station\深高速\SGS_new\BLL\bin\Debug\FM2E.BLL.pdb
+E:\Station\深高速\SGS_new\BLL\bin\Debug\BarCode.dll
+E:\Station\深高速\SGS_new\BLL\bin\Debug\FM2E.DALFactory.dll
+E:\Station\深高速\SGS_new\BLL\bin\Debug\FM2E.IDAL.dll
+E:\Station\深高速\SGS_new\BLL\bin\Debug\FM2E.Model.dll
+E:\Station\深高速\SGS_new\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+E:\Station\深高速\SGS_new\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\Station\深高速\SGS_new\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+E:\Station\深高速\SGS_new\BLL\bin\Debug\FM2E.Model.pdb
+E:\Station\深高速\SGS_new\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+E:\Station\深高速\SGS_new\BLL\bin\Debug\FM2E.IDAL.pdb
+E:\Station\深高速\SGS_new\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+E:\Station\深高速\SGS_new\BLL\bin\Debug\FM2E.DALFactory.pdb
+E:\Station\深高速\SGS_new\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\Station\深高速\SGS_new\BLL\obj\Debug\FM2E.BLL.dll
+E:\Station\深高速\SGS_new\BLL\obj\Debug\FM2E.BLL.pdb
+E:\Station\演示\SGS_new\BLL\bin\Debug\workflow.xml
+E:\Station\演示\SGS_new\BLL\bin\Debug\FM2E.BLL.dll
+E:\Station\演示\SGS_new\BLL\bin\Debug\FM2E.BLL.pdb
+E:\Station\演示\SGS_new\BLL\bin\Debug\BarCode.dll
+E:\Station\演示\SGS_new\BLL\bin\Debug\FM2E.DALFactory.dll
+E:\Station\演示\SGS_new\BLL\bin\Debug\FM2E.IDAL.dll
+E:\Station\演示\SGS_new\BLL\bin\Debug\FM2E.Model.dll
+E:\Station\演示\SGS_new\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+E:\Station\演示\SGS_new\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\Station\演示\SGS_new\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+E:\Station\演示\SGS_new\BLL\bin\Debug\FM2E.Model.pdb
+E:\Station\演示\SGS_new\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+E:\Station\演示\SGS_new\BLL\bin\Debug\FM2E.IDAL.pdb
+E:\Station\演示\SGS_new\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+E:\Station\演示\SGS_new\BLL\bin\Debug\FM2E.DALFactory.pdb
+E:\Station\演示\SGS_new\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\Station\演示\SGS_new\BLL\obj\Debug\FM2E.BLL.dll
+E:\Station\演示\SGS_new\BLL\obj\Debug\FM2E.BLL.pdb
+E:\机电系统\源文件\SGS_new\BLL\bin\Debug\workflow.xml
+E:\机电系统\源文件\SGS_new\BLL\bin\Debug\FM2E.BLL.dll
+E:\机电系统\源文件\SGS_new\BLL\bin\Debug\FM2E.BLL.pdb
+E:\机电系统\源文件\SGS_new\BLL\bin\Debug\BarCode.dll
+E:\机电系统\源文件\SGS_new\BLL\bin\Debug\FM2E.DALFactory.dll
+E:\机电系统\源文件\SGS_new\BLL\bin\Debug\FM2E.IDAL.dll
+E:\机电系统\源文件\SGS_new\BLL\bin\Debug\FM2E.Model.dll
+E:\机电系统\源文件\SGS_new\BLL\bin\Debug\FM2E.WorkflowLayer.dll
+E:\机电系统\源文件\SGS_new\BLL\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\机电系统\源文件\SGS_new\BLL\bin\Debug\FM2E.SQLServerDAL.dll
+E:\机电系统\源文件\SGS_new\BLL\bin\Debug\FM2E.Model.pdb
+E:\机电系统\源文件\SGS_new\BLL\bin\Debug\FM2E.WorkflowLayer.pdb
+E:\机电系统\源文件\SGS_new\BLL\bin\Debug\FM2E.IDAL.pdb
+E:\机电系统\源文件\SGS_new\BLL\bin\Debug\FM2E.SQLServerDAL.pdb
+E:\机电系统\源文件\SGS_new\BLL\bin\Debug\FM2E.DALFactory.pdb
+E:\机电系统\源文件\SGS_new\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\机电系统\源文件\SGS_new\BLL\obj\Debug\FM2E.BLL.dll
+E:\机电系统\源文件\SGS_new\BLL\obj\Debug\FM2E.BLL.pdb

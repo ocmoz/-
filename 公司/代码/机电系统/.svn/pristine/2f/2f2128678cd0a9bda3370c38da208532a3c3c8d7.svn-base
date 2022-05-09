@@ -1,0 +1,200 @@
+﻿<ns0:SGS_MalFunctionWorkflow InitialStateName="New" x:Name="SGS_MalFunctionWorkflow" DynamicUpdateCondition="{x:Null}" InstanceId="00000000-0000-0000-0000-000000000000" Description="深高速故障维修" CompletedStateName="End" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/workflow" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:ns0="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+	<StateActivity x:Name="New" Description="新建审批">
+		<EventDrivenActivity x:Name="SubmitNewApprovel">
+			<HandleExternalEventActivity Description=" 新建" x:Name="handle1" EventName="SubmitNewApprovel" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+			<SetStateActivity x:Name="SubmitNewApprovel_1" TargetStateName="Wait4MaintainDeptManagerConfirm" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="Wait4MaintainDeptManagerConfirm" Description="等待维护队主管确认">
+		<EventDrivenActivity x:Name="MaintainDeptManagerAccepted">
+			<HandleExternalEventActivity Description="通过" x:Name="handle2" EventName="MaintainDeptManagerAccepted" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+			<SetStateActivity x:Name="MaintainDeptManagerAccepted_1" TargetStateName="Wait4ElectDeptEngineerConfirm" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="MaintainDeptManagerRejectedAndReturnModify">
+			<HandleExternalEventActivity Description="不通过并返回修改" x:Name="handle3" EventName="MaintainDeptManagerRejectedAndReturnModify" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+			<SetStateActivity x:Name="MaintainDeptManagerRejectedAndReturnModify_1" TargetStateName="ReturnModify" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="ReturnModify" Description="返回修改">
+		<EventDrivenActivity x:Name="SubmitReturnModify">
+			<HandleExternalEventActivity Description="重新提交审批" x:Name="handle4" EventName="SubmitReturnModify" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+			<SetStateActivity x:Name="SubmitReturnModify_1" TargetStateName="Wait4MaintainDeptManagerConfirm" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="Wait4ElectDeptEngineerConfirm" Description="等待机电部工程师确认">
+		<EventDrivenActivity x:Name="ElectDeptEngineerAccepted">
+			<HandleExternalEventActivity Description="通过" x:Name="handle5" EventName="ElectDeptEngineerAccepted" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+			<SetStateActivity x:Name="ElectDeptEngineerAccepted_1" TargetStateName="Wait4ElectDeptManagerConfirm" />
+		</EventDrivenActivity>
+
+
+    
+		<EventDrivenActivity x:Name="ElectDeptEngineerRejected">
+			<HandleExternalEventActivity Description="不通过" x:Name="handle6" EventName="ElectDeptEngineerRejected" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+			<SetStateActivity x:Name="ElectDeptEngineerRejected_1" TargetStateName="Wait4MaintainDeptManagerConfirm" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="Wait4ElectDeptManagerConfirm" Description="等待机电部业务经理确认">
+		<EventDrivenActivity x:Name="ElectDeptManagerConfirmAccepted">
+			<HandleExternalEventActivity Description="通过" x:Name="handle7" EventName="ElectDeptManagerConfirmAccepted" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+			<SetStateActivity x:Name="ElectDeptManagerConfirmAccepted_1" TargetStateName="Wait4ElectDeptSeniorManagerConfirm" />
+		</EventDrivenActivity>
+    <EventDrivenActivity x:Name="ElectDeptManagerConfirmBackToJiliang">
+      <HandleExternalEventActivity Description="返回计量" x:Name="handle16" EventName="ElectDeptManagerConfirmBackToJiliang" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+      <SetStateActivity x:Name="ElectDeptManagerConfirmBackToJiliang_1" TargetStateName="Wait4MaintainDeptManagerConfirm" />
+    </EventDrivenActivity>
+
+    <EventDrivenActivity x:Name="ElectDeptEngineerPassed">
+      <HandleExternalEventActivity Description="完成" x:Name="handle15" EventName="ElectDeptEngineerPassed" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+      <SetStateActivity x:Name="ElectDeptEngineerPassed_1" TargetStateName="FinishedNormal" />
+    </EventDrivenActivity>
+    
+		<EventDrivenActivity x:Name="ElectDeptManagerConfirmRejected">
+			<HandleExternalEventActivity Description="不通过" x:Name="handle8" EventName="ElectDeptManagerConfirmRejected" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+			<SetStateActivity x:Name="ElectDeptManagerConfirmRejected_1" TargetStateName="Wait4ElectDeptEngineerConfirm" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="Wait4ElectDeptSeniorManagerConfirm" Description="等待机电部高级经理确认">
+    <EventDrivenActivity x:Name="ManagerDAccepted">
+      <HandleExternalEventActivity Description="完成" x:Name="handle21" EventName="ManagerDAccepted" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+      <SetStateActivity x:Name="ElectManagerDAccepted_1" TargetStateName="Wait4ElectDeptAManagerConfirm" />
+    </EventDrivenActivity>
+
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+    <EventDrivenActivity x:Name="GeneralManagerConfirm3">
+      <HandleExternalEventActivity Description="审批至副总经理" x:Name="handle28" EventName="GeneralManagerConfirm3" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+      <SetStateActivity x:Name="GeneralManagerConfirm3_1" TargetStateName="WaitGeneralManagerConfirm3" />
+    </EventDrivenActivity>
+    
+    
+    <EventDrivenActivity x:Name="GeneralManagerConfirm1">
+      <HandleExternalEventActivity Description="审批至总经理" x:Name="handle9" EventName="GeneralManagerConfirm1" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+      <SetStateActivity x:Name="GeneralManagerConfirm1_1" TargetStateName="WaitGeneralManagerConfirm1" />
+    </EventDrivenActivity>
+
+    <EventDrivenActivity x:Name="GeneralManagerConfirm2">
+      <HandleExternalEventActivity Description="审批至副总裁" x:Name="handle17" EventName="GeneralManagerConfirm2" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+      <SetStateActivity x:Name="GeneralManagerConfirm2_1" TargetStateName="WaitGeneralManagerConfirm2" />
+    </EventDrivenActivity>
+    
+		<!--<EventDrivenActivity x:Name="ElectDeptSeniorManagerAccepted">
+			<HandleExternalEventActivity Description="审批至总经理" x:Name="handle9" EventName="ElectDeptSeniorManagerAccepted" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+			<SetStateActivity x:Name="ElectDeptSeniorManagerAccepted_1" TargetStateName="Wait4ElectDeptGeneralManagerConfirm" />
+		</EventDrivenActivity>
+
+
+    
+    <EventDrivenActivity x:Name="ElectDeptGeneralManagerPass">
+      <HandleExternalEventActivity Description="审批至副总裁" x:Name="handle17" EventName="ElectDeptGeneralManagerPass" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+      <SetStateActivity x:Name="ElectDeptGeneralManagerpass_1" TargetStateName="Wait4ElectDeptCManagerConfirm" />
+    </EventDrivenActivity>-->
+    
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<EventDrivenActivity x:Name="ElectDeptSeniorManagerRejected">
+      <HandleExternalEventActivity Description="不通过" x:Name="handle10" EventName="ElectDeptSeniorManagerRejected" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+      <SetStateActivity x:Name="ElectDeptSeniorManagerRejected_1" TargetStateName="Wait4ElectDeptManagerConfirm" />
+    </EventDrivenActivity>
+  </StateActivity>
+
+  <!--审批至副总经理-->
+  <StateActivity x:Name="WaitGeneralManagerConfirm3" Description="(审批至副总经理)等待副总经理确认">
+    <EventDrivenActivity x:Name="GeneralManagerPass3">
+      <HandleExternalEventActivity Description="通过" x:Name="handle29" EventName="GeneralManagerPass3" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+      <SetStateActivity x:Name="GeneralManagerPass1_3" TargetStateName="Wait4ElectDeptAManagerConfirm" />
+    </EventDrivenActivity>
+    <EventDrivenActivity x:Name="ElectDeptGeneralManagerRejected3">
+      <HandleExternalEventActivity Description="不通过" x:Name="handle30" EventName="ElectDeptGeneralManagerRejected3" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+      <SetStateActivity x:Name="ElectDeptGeneralManagerRejected1_3" TargetStateName="Wait4ElectDeptSeniorManagerConfirm" />
+    </EventDrivenActivity>
+
+  </StateActivity>
+
+
+  <!--审批至总经理-->
+  <StateActivity x:Name="WaitGeneralManagerConfirm1" Description="(审批至总经理)等待副总经理确认">
+    <EventDrivenActivity x:Name="GeneralManagerPass1">
+      <HandleExternalEventActivity Description="通过" x:Name="handle24" EventName="GeneralManagerPass1" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+      <SetStateActivity x:Name="GeneralManagerPass1_1" TargetStateName="Wait4ElectDeptGeneralManagerConfirm" />
+    </EventDrivenActivity>
+    <EventDrivenActivity x:Name="ElectDeptGeneralManagerRejected1">
+      <HandleExternalEventActivity Description="不通过" x:Name="handle26" EventName="ElectDeptGeneralManagerRejected1" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+      <SetStateActivity x:Name="ElectDeptGeneralManagerRejected1_1" TargetStateName="Wait4ElectDeptSeniorManagerConfirm" />
+    </EventDrivenActivity>
+
+  </StateActivity>
+
+
+  <StateActivity x:Name="Wait4ElectDeptGeneralManagerConfirm" Description="等待总经理确认">
+    <EventDrivenActivity x:Name="ElectDeptGeneralManagerAccepted">
+      <HandleExternalEventActivity Description="通过" x:Name="handle11" EventName="ElectDeptGeneralManagerAccepted" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+      <SetStateActivity x:Name="ElectDeptGeneralManagerAccepted_1" TargetStateName="Wait4ElectDeptAManagerConfirm" />
+    </EventDrivenActivity>
+    <EventDrivenActivity x:Name="ElectDeptGeneralManagerRejected">
+      <HandleExternalEventActivity Description="不通过" x:Name="handle12" EventName="ElectDeptGeneralManagerRejected" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+      <SetStateActivity x:Name="ElectDeptGeneralManagerRejected_1" TargetStateName="WaitGeneralManagerConfirm1" />
+    </EventDrivenActivity>
+
+  </StateActivity>
+
+  <!--审批至副总裁-->
+  <StateActivity x:Name="WaitGeneralManagerConfirm2" Description="(审批至副总裁)等待副总经理确认">
+    <EventDrivenActivity x:Name="GeneralManagerPass2">
+      <HandleExternalEventActivity Description="通过" x:Name="handle25" EventName="GeneralManagerPass2" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+      <SetStateActivity x:Name="GeneralManagerPass1_2" TargetStateName="Wait4ElectDeptCManagerConfirm" />
+    </EventDrivenActivity>
+    <EventDrivenActivity x:Name="ElectDeptGeneralManagerRejected2">
+      <HandleExternalEventActivity Description="不通过" x:Name="handle27" EventName="ElectDeptGeneralManagerRejected2" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+      <SetStateActivity x:Name="ElectDeptGeneralManagerRejected1_2" TargetStateName="Wait4ElectDeptSeniorManagerConfirm" />
+    </EventDrivenActivity>
+
+  </StateActivity>
+
+  <StateActivity x:Name="Wait4ElectDeptCManagerConfirm" Description="(审批至副总裁)等待总经理确认">
+    <EventDrivenActivity x:Name="ManagerCAccepted">
+      <HandleExternalEventActivity Description="通过" x:Name="handle19" EventName="ManagerCAccepted" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+      <SetStateActivity x:Name="ElectManagerCAccepted_1" TargetStateName="Wait4PresidentConfirm" />
+    </EventDrivenActivity>
+    <EventDrivenActivity x:Name="ManagerCRejected">
+      <HandleExternalEventActivity Description="不通过" x:Name="handle20" EventName="ManagerCRejected" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+      <SetStateActivity x:Name="ElectManagerCRejected_1" TargetStateName="Wait4ElectDeptSeniorManagerConfirm" />
+    </EventDrivenActivity>
+  </StateActivity>
+  
+  
+	<StateActivity x:Name="Wait4PresidentConfirm" Description="等待副总裁确认">
+		<EventDrivenActivity x:Name="ManagerAAccepted">
+			<HandleExternalEventActivity Description="通过" x:Name="handle13" EventName="ManagerAAccepted" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+			<SetStateActivity x:Name="ElectManagerAAccepted_1" TargetStateName="Wait4ElectDeptAManagerConfirm" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="ManagerARejected">
+			<HandleExternalEventActivity Description="不通过" x:Name="handle14" EventName="ManagerARejected" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+      <SetStateActivity x:Name="ElectManagerARejected_1" TargetStateName="WaitGeneralManagerConfirm2" />
+    </EventDrivenActivity>
+	</StateActivity>
+
+  
+  <StateActivity x:Name="Wait4ElectDeptAManagerConfirm" Description="等待事务经理确认">
+    <EventDrivenActivity x:Name="ManagerBAccepted">
+      <HandleExternalEventActivity Description="已归还" x:Name="handle18" EventName="ManagerBAccepted" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+      <SetStateActivity x:Name="ElectManagerBAccepted_1" TargetStateName="FinishedNormal" />
+    </EventDrivenActivity>
+    <EventDrivenActivity x:Name="ManagerBRejected">
+      <HandleExternalEventActivity Description="无备件归还" x:Name="handle22" EventName="ManagerBRejected" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+      <SetStateActivity x:Name="ElectManagerBRejected_1" TargetStateName="FinishedNormal" />
+    </EventDrivenActivity>
+    <EventDrivenActivity x:Name="ManagerDRejected">
+      <HandleExternalEventActivity Description="包干范围内，无需归还备件" x:Name="handle23" EventName="ManagerDRejected" InterfaceType="{x:Type ns0:ISGS_MalFunctionEventService}" />
+      <SetStateActivity x:Name="ElectManagerDRejected_1" TargetStateName="FinishedNormal" />
+    </EventDrivenActivity>
+  </StateActivity>
+	<StateActivity x:Name="FinishedNormal" Description="处理完毕">
+		<EventDrivenActivity x:Name="AfterRejected">
+			<DelayActivity TimeoutDuration="00:10:00" x:Name="delayStep1" />
+			<SetStateActivity x:Name="AfterRejected_1" TargetStateName="End" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="End" Description="结束" />
+</ns0:SGS_MalFunctionWorkflow>

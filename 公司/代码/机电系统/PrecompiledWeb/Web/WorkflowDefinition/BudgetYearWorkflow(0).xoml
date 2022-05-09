@@ -1,0 +1,74 @@
+<ns0:BudgetYearWorkflow InitialStateName="New" Description="年度预算工作流" x:Name="BudgetYearWorkflow" DynamicUpdateCondition="{x:Null}" CompletedStateName="End" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/workflow" xmlns:ns0="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" >
+	<StateActivity x:Name="New" Description="新建">
+		<EventDrivenActivity x:Name="SaveNew">
+			<HandleExternalEventActivity x:Name="handle1" EventName="SaveNew" Description="保存草稿"  InterfaceType="{x:Type p8:IBudgetYearEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="SaveNew_SetState_1" TargetStateName="Draft" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="SubmitNew">
+			<HandleExternalEventActivity x:Name="handle2" EventName="SubmitNew" Description="提交给财务审批"  InterfaceType="{x:Type p8:IBudgetYearEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="SubmitNew_SetState_2" TargetStateName="Wait4FinanceApproval" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="Draft" Description="草稿">
+		<EventDrivenActivity x:Name="SaveDraft">
+			<HandleExternalEventActivity x:Name="handle3" EventName="SaveDraft" Description="保存草稿"  InterfaceType="{x:Type p8:IBudgetYearEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="SaveDraft_SetState_1" TargetStateName="Draft" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="SubmitDraft">
+			<HandleExternalEventActivity x:Name="handle4" EventName="SubmitDraft" Description="提交给财务审批"  InterfaceType="{x:Type p8:IBudgetYearEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="SubmitDraft_SetState_2" TargetStateName="Wait4FinanceApproval" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="Wait4FinanceApproval" Description="等待财务部审核">
+		<EventDrivenActivity x:Name="FinanceReturntoDraft">
+			<HandleExternalEventActivity x:Name="handle5" EventName="FinanceReturntoDraft" Description="返回编制者"  InterfaceType="{x:Type p8:IBudgetYearEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="FinanceReturntoDraft_SetState_1" TargetStateName="Draft" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="SubmitFinanceApproval">
+			<HandleExternalEventActivity x:Name="handle6" EventName="SubmitFinanceApproval" Description="提交给领导审核"  InterfaceType="{x:Type p8:IBudgetYearEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="SubmitFinanceApproval_SetState_2" TargetStateName="Wait4LeaderApproval" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="Wait4LeaderApproval" Description="等待领导审批">
+		<EventDrivenActivity x:Name="LeaderReturntoDraft">
+			<HandleExternalEventActivity x:Name="handle7" EventName="LeaderReturntoDraft" Description="返回编制者"  InterfaceType="{x:Type p8:IBudgetYearEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="LeaderReturntoDraft_SetState_1" TargetStateName="Draft" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="LeaderReturntoFinance">
+			<HandleExternalEventActivity x:Name="handle8" EventName="LeaderReturntoFinance" Description="返回财务部修改"  InterfaceType="{x:Type p8:IBudgetYearEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="LeaderReturntoFinance_SetState_2" TargetStateName="Wait4FinanceApproval" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="SubmitLeaderApproval">
+			<HandleExternalEventActivity x:Name="handle9" EventName="SubmitLeaderApproval" Description="提交给路达审核"  InterfaceType="{x:Type p8:IBudgetYearEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="SubmitLeaderApproval_SetState_3" TargetStateName="Wait4CompanyApproval" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="Wait4CompanyApproval" Description="等待路桥审核">
+		<EventDrivenActivity x:Name="CompanyReturntoDraft">
+			<HandleExternalEventActivity x:Name="handle10" EventName="CompanyReturntoDraft" Description="返回编制者"  InterfaceType="{x:Type p8:IBudgetYearEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="CompanyReturntoDraft_SetState_1" TargetStateName="Draft" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="CompanyReturntoLeader">
+			<HandleExternalEventActivity x:Name="handle11" EventName="CompanyReturntoLeader" Description="返回子公司修改"  InterfaceType="{x:Type p8:IBudgetYearEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="CompanyReturntoLeader_SetState_2" TargetStateName="Wait4LeaderApproval" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="SubmitCompanySuccess">
+			<HandleExternalEventActivity x:Name="handle12" EventName="SubmitCompanySuccess" Description="提交审核"  InterfaceType="{x:Type p8:IBudgetYearEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="SubmitCompanySuccess_SetState_3" TargetStateName="ApprovalSuccess" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="ApprovalSuccess" Description="审核完成">
+		<EventDrivenActivity x:Name="ToArchinveSuccess">
+			<HandleExternalEventActivity x:Name="handle13" EventName="ToArchinveSuccess" Description="归档"  InterfaceType="{x:Type p8:IBudgetYearEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="ToArchinveSuccess_SetState_1" TargetStateName="Archive" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="Archive" Description="归档">
+		<EventDrivenActivity x:Name="Auto_AfterArchive">
+			<DelayActivity TimeoutDuration="00:10:00" x:Name="delayStep1" Description="归档后"/>
+			<SetStateActivity x:Name="AfterArchive_SetState_1" TargetStateName="End" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="End" Description="结束">
+	</StateActivity>
+</ns0:BudgetYearWorkflow>

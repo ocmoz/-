@@ -1,0 +1,18 @@
+INFO  2015-11-19 16:28:53,742 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionSheets.aspx] FM2E application started at 2015-11-19 16:28:52
+ERROR 2015-11-19 17:02:49,681 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionMaintain%2fMalfunctionSheets.aspx] 密码不能为空
+FATAL 2015-11-19 17:03:01,165 [/Web/Login.aspx] Version:true
+INFO  2015-11-19 17:03:01,165 [/Web/Login.aspx] 欢迎您xiert，成功登入。您的IP为：127.0.0.1！
+ERROR 2015-11-19 17:28:39,858 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionList.aspx] 您已经被系统强制退出！
+ERROR 2015-11-19 17:28:40,049 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionList.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+FATAL 2015-11-19 17:28:42,881 [/Web/Login.aspx] Version:true
+INFO  2015-11-19 17:28:42,881 [/Web/Login.aspx] 欢迎您newsoft，成功登入。您的IP为：127.0.0.1！
+FATAL 2015-11-19 17:29:48,500 [/Web/Login.aspx] Version:true
+INFO  2015-11-19 17:29:48,500 [/Web/Login.aspx] 欢迎您hebiao，成功登入。您的IP为：127.0.0.1！
+ERROR 2015-11-19 17:29:58,324 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=5376] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2015-11-19 17:30:12,188 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=5376] 故障处理单审批成功,故障处理单号为：SY1412251401
+FATAL 2015-11-19 17:30:40,487 [/Web/Login.aspx] Version:true
+INFO  2015-11-19 17:30:40,487 [/Web/Login.aspx] 欢迎您longtn，成功登入。您的IP为：127.0.0.1！
+INFO  2015-11-19 17:30:51,460 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=5376] 验收故障处理单成功,故障处理单号为：SY1412251401
+INFO  2015-11-19 17:31:06,215 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionStationCheck/StationCheckMalfunctionSheet.aspx?cmd=view&id=5376] 确定故障处理单成功,故障处理单号为：SY1412251401
+INFO  2015-11-19 17:34:41,474 FM2E application ended at 2015-11-19 17:34:41

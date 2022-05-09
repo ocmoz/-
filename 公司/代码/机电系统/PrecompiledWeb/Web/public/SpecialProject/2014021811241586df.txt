@@ -1,0 +1,22 @@
+SELECT     c.PersonName AS RecorderName, b.Name AS DepartmentName, d.Name AS MaintainDeptName, e.Name AS RecordDeptName, dbo.FM2E_Address.AddressName, 
+                      a.SheetID, a.SheetNO, a.CompanyID, a.DepartmentID, a.Reporter, a.ReportDate, a.SystemID, a.AddressID, a.AddressDetail, a.MalfunctionDescription, a.Recorder, 
+                      a.RecordDept, a.MaintainDept, a.MalfunctionRank, a.ResponseTime, a.ResponseUnit, a.ActualResponseTime, a.ActualResponseUnit, a.FunRestoreTime, 
+                      a.FunRestoreUnit, a.ActualFunRestoreTime, a.ActualFunRestoreUnit, a.RepairTime, a.RepairUnit, a.ActualRepairTime, a.ActualRepairUnit, a.Receiver, a.ReceiveDate, 
+                      a.Effect, a.TechnicEvaluate, a.Attitude, a.Rationality, a.Feeback, a.IsResponseInTime, a.IsFunRestoreInTime, a.IsRepairInTime, a.Investigator, a.Status, 
+                      a.CancelReason, a.Canceler, a.IsPrinted, a.UpdateTime, a.IsDelivered, a.editor, a.editreason, a.ReportDate2, a.Stationcheck, a.IsDelayApply, g.IsMeasure, 
+                      h.EquipmentNO, i.Name, i.Specification, i.Model, a.DelayApplyTime, a.FirstConsultTime, a.FirstConsultUnit, a.FirstApproveTime, a.FirstDelayRemark, 
+                      a.FirstDelayApprove, a.FirstApproveName, a.FinalConsultTime, a.FinalConsultUnit, a.FinalDelayRemark, a.FinalAprroveTime, a.FinalDelayApprove, 
+                      a.FinalApproveName, a.TimeConfirmer, a.DelayForTime, a.DelayForUnit, a.CancelApplyTime, a.CancelApproveName, a.CancelApproveRemark, a.CancelApproveTime, 
+                      a.CancelApproveResult, g.IsApplyMeasure, g.IsProvider
+FROM         dbo.FM2E_MalfunctionHandle AS a LEFT OUTER JOIN
+                      dbo.FM2E_Department AS b ON a.DepartmentID = b.DepartmentID LEFT OUTER JOIN
+                      dbo.FM2E_User AS c ON a.Recorder = c.UserName LEFT OUTER JOIN
+                      dbo.FM2E_Department AS d ON a.MaintainDept = d.DepartmentID LEFT OUTER JOIN
+                      dbo.FM2E_Department AS e ON a.RecordDept = e.DepartmentID LEFT OUTER JOIN
+                      dbo.FM2E_MalfunctionEquipmentCost AS g ON a.SheetID = g.SheetID LEFT OUTER JOIN
+                      dbo.FM2E_Address ON a.AddressID = dbo.FM2E_Address.ID LEFT OUTER JOIN
+                          (SELECT     SheetID, EquipmentNO, Model
+                            FROM          dbo.FM2E_MaintainedEquipment
+                            WHERE      (MaintainResult <> 4)) AS h ON h.SheetID = a.SheetID LEFT OUTER JOIN
+                          (SELECT     EquipmentNO, Name, Model, Specification
+                            FROM          dbo.FM2E_Equipment) AS i ON i.EquipmentNO = h.EquipmentNO

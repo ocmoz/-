@@ -1,0 +1,10 @@
+INFO  2013-05-22 01:25:21,333 [/Web/default.aspx] FM2E application started at 2013-05-22 01:25:20
+FATAL 2013-05-22 01:31:47,540 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-05-22 01:31:47,540 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您wangyf，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-22 01:32:00,970 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=852] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+ERROR 2013-05-22 01:37:11,116 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=842] 获取故障处理历史失败，原因：未将对象引用设置到对象的实例。
+ERROR 2013-05-22 01:37:27,959 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=852] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+ERROR 2013-05-22 01:37:38,442 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=842] 获取故障处理历史失败，原因：未将对象引用设置到对象的实例。
+INFO  2013-05-22 01:52:40,576 FM2E application ended at 2013-05-22 01:52:40

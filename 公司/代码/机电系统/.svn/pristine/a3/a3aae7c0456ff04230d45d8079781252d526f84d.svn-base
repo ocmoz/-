@@ -1,0 +1,372 @@
+INFO  2013-05-21 08:45:41,956 [/Web/default.aspx] FM2E application started at 2013-05-21 08:45:40
+FATAL 2013-05-21 08:45:49,901 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-05-21 08:45:49,902 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-21 08:51:17,581 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/RecordMalfunction.aspx?cmd=add] 提交故障处理单失败:添加故障处理单失败(caused by 参数化查询 '(@Recorder varchar(20),@RecordDept bigint,@MaintainDept bigint,@' 需要参数 '@CancelApproveName'，但未提供该参数。) 
+STACK   在 FM2E.BLL.Maintain.MalfunctionHandle.AddMalfunctionSheet(MalfunctionHandleInfo model) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\Maintain\MalfunctionHandle.cs:行号 123
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionReport_RecordMalfunction.btSubmit_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionReport\RecordMalfunction.aspx.cs:行号 430
+INFO  2013-05-21 08:54:25,300 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionCheck%2fCancelMalfunctionSheet.aspx] 您的用户名(admin3)已经于(2013/5/21 8:45:49),从(127.0.0.1)IP登陆在本系统.在线时间:5.48分.
+INFO  2013-05-21 08:54:27,452 [/Web/Login.aspx?CMD=OutOnline&OPCode=7763&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=livjdy454hnukvrnfrffzf55] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-21 08:55:35,360 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/RecordMalfunction.aspx?cmd=add] 提交故障处理单失败:添加故障处理单失败(caused by 参数化查询 '(@Recorder varchar(20),@RecordDept bigint,@MaintainDept bigint,@' 需要参数 '@CancelApproveName'，但未提供该参数。) 
+STACK   在 FM2E.BLL.Maintain.MalfunctionHandle.AddMalfunctionSheet(MalfunctionHandleInfo model) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\Maintain\MalfunctionHandle.cs:行号 123
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionReport_RecordMalfunction.btSubmit_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionReport\RecordMalfunction.aspx.cs:行号 430
+ERROR 2013-05-21 08:59:45,604 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/RecordMalfunction.aspx?cmd=add] 提交故障处理单失败:添加故障处理单失败(caused by 参数化查询 '(@Recorder varchar(20),@RecordDept bigint,@MaintainDept bigint,@' 需要参数 '@CancelApproveName'，但未提供该参数。) 
+STACK   在 FM2E.BLL.Maintain.MalfunctionHandle.AddMalfunctionSheet(MalfunctionHandleInfo model) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\Maintain\MalfunctionHandle.cs:行号 123
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionReport_RecordMalfunction.btSubmit_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionReport\RecordMalfunction.aspx.cs:行号 430
+ERROR 2013-05-21 09:00:17,356 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/RecordMalfunction.aspx?cmd=add] 提交故障处理单失败:添加故障处理单失败(caused by 参数化查询 '(@Recorder varchar(20),@RecordDept bigint,@MaintainDept bigint,@' 需要参数 '@CancelApproveName'，但未提供该参数。) 
+STACK   在 FM2E.BLL.Maintain.MalfunctionHandle.AddMalfunctionSheet(MalfunctionHandleInfo model) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\Maintain\MalfunctionHandle.cs:行号 123
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionReport_RecordMalfunction.btSubmit_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionReport\RecordMalfunction.aspx.cs:行号 430
+ERROR 2013-05-21 09:08:32,825 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/RecordMalfunction.aspx?cmd=add] 提交故障处理单失败:添加故障处理单失败(caused by 参数化查询 '(@Recorder varchar(20),@RecordDept bigint,@MaintainDept bigint,@' 需要参数 '@CancelApproveName'，但未提供该参数。) 
+STACK   在 FM2E.BLL.Maintain.MalfunctionHandle.AddMalfunctionSheet(MalfunctionHandleInfo model) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\Maintain\MalfunctionHandle.cs:行号 123
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionReport_RecordMalfunction.btSubmit_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionReport\RecordMalfunction.aspx.cs:行号 430
+INFO  2013-05-21 09:12:17,221 FM2E application ended at 2013-05-21 09:12:17
+INFO  2013-05-21 09:18:49,511 [/Web/default.aspx] FM2E application started at 2013-05-21 09:18:49
+FATAL 2013-05-21 09:18:57,558 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-05-21 09:18:57,559 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-21 09:23:40,504 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/RecordMalfunction.aspx?cmd=add] 提交故障处理单失败:添加故障处理单失败(caused by 参数化查询 '(@Recorder varchar(20),@RecordDept bigint,@MaintainDept bigint,@' 需要参数 '@CancelApproveName'，但未提供该参数。) 
+STACK   在 FM2E.BLL.Maintain.MalfunctionHandle.AddMalfunctionSheet(MalfunctionHandleInfo model) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\Maintain\MalfunctionHandle.cs:行号 123
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionReport_RecordMalfunction.btSubmit_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionReport\RecordMalfunction.aspx.cs:行号 430
+ERROR 2013-05-21 09:30:26,006 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/RecordMalfunction.aspx?cmd=add] 提交故障处理单失败:添加故障处理单失败(caused by 参数化查询 '(@Recorder varchar(20),@RecordDept bigint,@MaintainDept bigint,@' 需要参数 '@CancelApproveName'，但未提供该参数。) 
+STACK   在 FM2E.BLL.Maintain.MalfunctionHandle.AddMalfunctionSheet(MalfunctionHandleInfo model) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\Maintain\MalfunctionHandle.cs:行号 123
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionReport_RecordMalfunction.btSubmit_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionReport\RecordMalfunction.aspx.cs:行号 430
+INFO  2013-05-21 09:44:18,533 FM2E application ended at 2013-05-21 09:44:18
+INFO  2013-05-21 09:56:28,754 [/Web/default.aspx] FM2E application started at 2013-05-21 09:56:28
+FATAL 2013-05-21 09:56:35,744 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-05-21 09:56:35,744 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-21 10:05:54,938 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/RecordMalfunction.aspx?cmd=add] 提交故障处理单失败:添加故障处理单失败(caused by 在结果列列表中多次出现列名 'CancelApproveRemark'。) 
+STACK   在 FM2E.BLL.Maintain.MalfunctionHandle.AddMalfunctionSheet(MalfunctionHandleInfo model) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\Maintain\MalfunctionHandle.cs:行号 123
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionReport_RecordMalfunction.btSubmit_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionReport\RecordMalfunction.aspx.cs:行号 430
+ERROR 2013-05-21 10:11:17,592 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/RecordMalfunction.aspx?cmd=add] 提交故障处理单失败:添加故障处理单失败(caused by 在结果列列表中多次出现列名 'CancelApproveRemark'。) 
+STACK   在 FM2E.BLL.Maintain.MalfunctionHandle.AddMalfunctionSheet(MalfunctionHandleInfo model) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\Maintain\MalfunctionHandle.cs:行号 123
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionReport_RecordMalfunction.btSubmit_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionReport\RecordMalfunction.aspx.cs:行号 430
+INFO  2013-05-21 10:14:03,348 FM2E application ended at 2013-05-21 10:14:03
+INFO  2013-05-21 10:20:04,290 [/Web/default.aspx] FM2E application started at 2013-05-21 10:20:04
+FATAL 2013-05-21 10:20:08,461 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-05-21 10:20:08,461 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-21 10:20:53,054 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/RecordMalfunction.aspx?cmd=add] 提交故障处理单成功,故障处理单号为：FM1305211003
+FATAL 2013-05-21 10:21:06,179 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 10:21:06,180 [/Web/Login.aspx] 欢迎您linmx，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-21 10:21:18,341 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionHandle.aspx?cmd=edit&from=1&id=850] 受理故障失败:更新故障处理单失败(caused by 关键字 'where' 附近有语法错误。) 
+STACK   在 FM2E.BLL.Maintain.MalfunctionHandle.UpdateMalfunctionSheetBasicData(MalfunctionHandleInfo model) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\Maintain\MalfunctionHandle.cs:行号 265
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionMaintain_MalfunctionHandle.btAccept_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionMaintain\MalfunctionHandle.aspx.cs:行号 515
+ERROR 2013-05-21 10:22:33,030 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionMaintain%2fMalfunctionHandle.aspx] 用户名/密码(limx/1)错误！
+INFO  2013-05-21 10:22:37,984 [/Web/login.aspx] 您的用户名(linmx)已经于(2013/5/21 10:21:06),从(127.0.0.1)IP登陆在本系统.在线时间:0.20分.
+INFO  2013-05-21 10:22:40,568 [/Web/Login.aspx?CMD=OutOnline&OPCode=4144&U_LoginName=linmx&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=t3xgup550jdo1fqjhiygyguk] 欢迎您linmx，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-21 10:27:15,358 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionHandle.aspx?cmd=edit&from=1&id=850] 受理故障失败:更新故障处理单失败(caused by 关键字 'where' 附近有语法错误。) 
+STACK   在 FM2E.BLL.Maintain.MalfunctionHandle.UpdateMalfunctionSheetBasicData(MalfunctionHandleInfo model) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\Maintain\MalfunctionHandle.cs:行号 265
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionMaintain_MalfunctionHandle.btAccept_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionMaintain\MalfunctionHandle.aspx.cs:行号 515
+INFO  2013-05-21 10:32:49,484 FM2E application ended at 2013-05-21 10:32:49
+INFO  2013-05-21 10:39:26,015 [/Web/default.aspx] FM2E application started at 2013-05-21 10:39:25
+FATAL 2013-05-21 10:39:31,862 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-05-21 10:39:31,863 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您linmx，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-21 10:40:56,455 [/Web/Module/FM2E/DeviceManager/BarCode/BarCodeImage.aspx?data=手持机0024&type=CODE128B&cp=手持机] 无权访问当前页面！
+ERROR 2013-05-21 10:40:56,458 [/Web/Module/FM2E/DeviceManager/BarCode/BarCodeImage.aspx?data=手持机0024&type=CODE128B&cp=手持机] 执行SystemPermission的事件时出错：正在中止线程。
+FATAL 2013-05-21 10:41:05,226 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 10:41:05,226 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-21 10:41:42,778 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 10:41:42,778 [/Web/Login.aspx] 欢迎您wulei，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-21 10:41:48,521 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/MalfunctionCheckList.aspx] 无权访问当前页面！
+ERROR 2013-05-21 10:41:48,523 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/MalfunctionCheckList.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+FATAL 2013-05-21 10:41:58,949 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 10:41:58,949 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-21 10:42:20,082 FM2E application ended at 2013-05-21 10:42:20
+INFO  2013-05-21 10:42:23,534 [/Web/Logout.aspx] FM2E application started at 2013-05-21 10:42:23
+ERROR 2013-05-21 10:42:23,746 [/Web/Logout.aspx] 您已经被系统强制退出！
+ERROR 2013-05-21 10:42:23,749 [/Web/Logout.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+FATAL 2013-05-21 10:42:28,035 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 10:42:28,038 [/Web/Login.aspx] 欢迎您wulei，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-21 10:44:41,518 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 10:44:41,518 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-21 10:47:34,540 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 10:47:34,540 [/Web/Login.aspx] 欢迎您wulei，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-21 10:48:19,738 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/RecordMalfunction.aspx?cmd=add] 提交故障处理单成功,故障处理单号为：SHLJ1305211001
+FATAL 2013-05-21 10:48:30,917 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 10:48:30,917 [/Web/Login.aspx] 欢迎您linmx，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-21 10:49:02,407 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 10:49:02,407 [/Web/Login.aspx] 欢迎您wulei，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-21 12:03:42,677 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionCheck%2fCheckMalfunctionSheet.aspx] 您的用户名(wulei)已经于(2013/5/21 10:49:02),从(127.0.0.1)IP登陆在本系统.在线时间:3.81分.
+INFO  2013-05-21 12:03:43,942 [/Web/Login.aspx?CMD=OutOnline&OPCode=8542&U_LoginName=wulei&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=md0glnfykzjm4tyilthzf5ab] 欢迎您wulei，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-21 12:05:53,256 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=851] App_Web_checkmalfunctionsheet.aspx.e54f48fb.u_ubzcpm thrown System.InvalidCastException
+无法将类型为“FM2E.Model.System.UserInfo”的对象强制转换为类型“FM2E.Model.System.UserRoleInfo”。   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionCheck_CheckMalfunctionSheet.btNotice_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionCheck\CheckMalfunctionSheet.aspx.cs:行号 717
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ERROR 2013-05-21 12:08:44,958 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=851] App_Web_checkmalfunctionsheet.aspx.e54f48fb.u_ubzcpm thrown System.InvalidCastException
+无法将类型为“FM2E.Model.System.UserInfo”的对象强制转换为类型“FM2E.Model.System.UserRoleInfo”。   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionCheck_CheckMalfunctionSheet.btNotice_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionCheck\CheckMalfunctionSheet.aspx.cs:行号 717
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+INFO  2013-05-21 12:15:09,434 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionCheck%2fCheckMalfunctionSheet.aspx] 您的用户名(wulei)已经于(2013/5/21 12:03:43),从(127.0.0.1)IP登陆在本系统.在线时间:4.31分.
+INFO  2013-05-21 12:15:10,669 [/Web/Login.aspx?CMD=OutOnline&OPCode=3203&U_LoginName=wulei&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=vbyqzojpsbyyeo45laeb1mad] 欢迎您wulei，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-21 12:16:23,884 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=787] App_Web_checkmalfunctionsheet.aspx.e54f48fb.x2x85dqt thrown System.InvalidCastException
+无法将类型为“System.Collections.ArrayList”的对象强制转换为类型“FM2E.Model.System.UserInfo”。   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionCheck_CheckMalfunctionSheet.btNotice_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionCheck\CheckMalfunctionSheet.aspx.cs:行号 711
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+INFO  2013-05-21 12:19:54,763 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionCheck%2fCheckMalfunctionSheet.aspx] 您的用户名(wulei)已经于(2013/5/21 12:15:10),从(127.0.0.1)IP登陆在本系统.在线时间:0.69分.
+INFO  2013-05-21 12:19:56,003 [/Web/Login.aspx?CMD=OutOnline&OPCode=8675&U_LoginName=wulei&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=eehoi2br3bbhjqrl2rxgu2mi] 欢迎您wulei，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-21 12:20:58,160 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=787] App_Web_checkmalfunctionsheet.aspx.e54f48fb.7lg6bqlq thrown System.InvalidCastException
+无法将类型为“FM2E.Model.System.UserInfo”的对象强制转换为类型“FM2E.Model.System.UserRoleInfo”。   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionCheck_CheckMalfunctionSheet.btNotice_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionCheck\CheckMalfunctionSheet.aspx.cs:行号 717
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+INFO  2013-05-21 13:05:55,956 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionCheck%2fCheckMalfunctionSheet.aspx] 您的用户名(wulei)已经于(2013/5/21 12:19:56),从(127.0.0.1)IP登陆在本系统.在线时间:1.04分.
+INFO  2013-05-21 13:05:57,546 [/Web/Login.aspx?CMD=OutOnline&OPCode=4616&U_LoginName=wulei&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=xvthn32bf32uxvrvhpdgyo3f] 欢迎您wulei，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-21 13:30:56,025 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-05-21 13:30:56,025 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-21 13:31:25,617 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/RecordMalfunction.aspx?cmd=add] 提交故障处理单成功,故障处理单号为：BNK1305211301
+FATAL 2013-05-21 13:31:34,521 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 13:31:34,521 [/Web/Login.aspx] 欢迎您linmx，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-21 13:31:48,931 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 13:31:48,931 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-21 13:32:05,476 [/Web/Login.aspx] 您的用户名(wulei)已经于(2013/5/21 13:05:57),从(127.0.0.1)IP登陆在本系统.在线时间:0.58分.
+INFO  2013-05-21 13:32:06,789 [/Web/Login.aspx?CMD=OutOnline&OPCode=7525&U_LoginName=wulei&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=clrsda55ono2hcm1rpl2riaa] 欢迎您wulei，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-21 13:32:16,413 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionList.aspx] 故障处理单实际修复时间确认成功，故障处理单号为：BNK1305211301
+FATAL 2013-05-21 13:32:39,891 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 13:32:39,892 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-21 13:32:49,409 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 13:32:49,409 [/Web/Login.aspx] 欢迎您linmx，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-21 13:33:24,396 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 13:33:24,396 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-21 13:42:22,236 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=852] 故障单转交验收成功,故障处理单号为：BNK1305211301
+FATAL 2013-05-21 13:42:30,886 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 13:42:30,886 [/Web/Login.aspx] 欢迎您wulei，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-21 13:42:35,091 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionStationCheck/MalfunctionStationCheckList.aspx] 无权访问当前页面！
+ERROR 2013-05-21 13:42:35,091 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionStationCheck/MalfunctionStationCheckList.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+ERROR 2013-05-21 13:42:38,607 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionStationCheck/MalfunctionStationCheckList.aspx] 无权访问当前页面！
+ERROR 2013-05-21 13:42:38,607 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionStationCheck/MalfunctionStationCheckList.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+INFO  2013-05-21 13:44:40,704 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=852] 验收故障处理单成功,故障处理单号为：BNK1305211301
+FATAL 2013-05-21 13:46:15,762 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 13:46:15,762 [/Web/Login.aspx] 欢迎您linmx，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-21 13:46:34,346 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 13:46:34,346 [/Web/Login.aspx] 欢迎您linya，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-21 13:46:43,548 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=852] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+ERROR 2013-05-21 13:46:43,957 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=852] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+ERROR 2013-05-21 13:49:36,754 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=852] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+ERROR 2013-05-21 13:52:07,199 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=852] 故障处理单审批失败:将参数值从 SqlString 转换到 Decimal 失败。(caused by 对象必须实现 IConvertible。) 
+STACK   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   在 System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   在 System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   在 System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters)
+   在 System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 FM2E.SQLServerDAL.Utils.SQLHelper.ExecuteNonQuery(String connectionString, CommandType cmdType, String cmdText, SqlParameter[] commandParameters) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\SQLServerDAL\Utils\SQLHelper.cs:行号 48
+   在 FM2E.SQLServerDAL.Maintain.EquipmentCost.UpdateEquipmentCostInfor(EquipmentCostInfor item) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\SQLServerDAL\Maintain\EquipmentCost.cs:行号 371
+   在 FM2E.BLL.Maintain.EquipmentCost.UpdateEquipmentCostInfor(EquipmentCostInfor item) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\Maintain\EquipmentCost.cs:行号 50
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1023
+FATAL 2013-05-21 13:52:42,731 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionApproval%2fViewApprovalMfSheet.aspx] Version:true
+INFO  2013-05-21 13:52:42,731 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionApproval%2fViewApprovalMfSheet.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-21 13:54:02,644 [/Web/Login.aspx] 您的用户名(linya)已经于(2013/5/21 13:46:34),从(127.0.0.1)IP登陆在本系统.在线时间:5.60分.
+INFO  2013-05-21 13:54:03,881 [/Web/Login.aspx?CMD=OutOnline&OPCode=7455&U_LoginName=linya&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=2es1wz45pthhxuazldxo5bib] 欢迎您linya，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-21 13:54:23,651 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=852] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+ERROR 2013-05-21 13:54:41,127 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=852] 故障处理单审批失败:将参数值从 SqlString 转换到 Decimal 失败。(caused by 对象必须实现 IConvertible。) 
+STACK   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   在 System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   在 System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   在 System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters)
+   在 System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 FM2E.SQLServerDAL.Utils.SQLHelper.ExecuteNonQuery(String connectionString, CommandType cmdType, String cmdText, SqlParameter[] commandParameters) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\SQLServerDAL\Utils\SQLHelper.cs:行号 48
+   在 FM2E.SQLServerDAL.Maintain.EquipmentCost.UpdateEquipmentCostInfor(EquipmentCostInfor item) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\SQLServerDAL\Maintain\EquipmentCost.cs:行号 371
+   在 FM2E.BLL.Maintain.EquipmentCost.UpdateEquipmentCostInfor(EquipmentCostInfor item) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\Maintain\EquipmentCost.cs:行号 50
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1023
+ERROR 2013-05-21 13:55:56,556 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=852] 故障处理单审批失败:将参数值从 SqlString 转换到 Decimal 失败。(caused by 对象必须实现 IConvertible。) 
+STACK   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   在 System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   在 System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   在 System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters)
+   在 System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 FM2E.SQLServerDAL.Utils.SQLHelper.ExecuteNonQuery(String connectionString, CommandType cmdType, String cmdText, SqlParameter[] commandParameters) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\SQLServerDAL\Utils\SQLHelper.cs:行号 48
+   在 FM2E.SQLServerDAL.Maintain.EquipmentCost.UpdateEquipmentCostInfor(EquipmentCostInfor item) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\SQLServerDAL\Maintain\EquipmentCost.cs:行号 371
+   在 FM2E.BLL.Maintain.EquipmentCost.UpdateEquipmentCostInfor(EquipmentCostInfor item) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\Maintain\EquipmentCost.cs:行号 50
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1023
+ERROR 2013-05-21 14:02:04,198 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=852] 故障处理单审批失败:将参数值从 SqlString 转换到 Decimal 失败。(caused by 对象必须实现 IConvertible。) 
+STACK   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   在 System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   在 System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   在 System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters)
+   在 System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 FM2E.SQLServerDAL.Utils.SQLHelper.ExecuteNonQuery(String connectionString, CommandType cmdType, String cmdText, SqlParameter[] commandParameters) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\SQLServerDAL\Utils\SQLHelper.cs:行号 48
+   在 FM2E.SQLServerDAL.Maintain.EquipmentCost.UpdateEquipmentCostInfor(EquipmentCostInfor item) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\SQLServerDAL\Maintain\EquipmentCost.cs:行号 371
+   在 FM2E.BLL.Maintain.EquipmentCost.UpdateEquipmentCostInfor(EquipmentCostInfor item) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\Maintain\EquipmentCost.cs:行号 50
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1023
+ERROR 2013-05-21 14:07:48,766 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=852] 故障处理单审批失败:将参数值从 SqlString 转换到 Decimal 失败。(caused by 对象必须实现 IConvertible。) 
+STACK   在 System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)
+   在 System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   在 System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   在 System.Data.SqlClient.SqlCommand.BuildParamList(TdsParser parser, SqlParameterCollection parameters)
+   在 System.Data.SqlClient.SqlCommand.BuildExecuteSql(CommandBehavior behavior, String commandText, SqlParameterCollection parameters, _SqlRPC& rpc)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 FM2E.SQLServerDAL.Utils.SQLHelper.ExecuteNonQuery(String connectionString, CommandType cmdType, String cmdText, SqlParameter[] commandParameters) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\SQLServerDAL\Utils\SQLHelper.cs:行号 48
+   在 FM2E.SQLServerDAL.Maintain.EquipmentCost.UpdateEquipmentCostInfor(EquipmentCostInfor item) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\SQLServerDAL\Maintain\EquipmentCost.cs:行号 371
+   在 FM2E.BLL.Maintain.EquipmentCost.UpdateEquipmentCostInfor(EquipmentCostInfor item) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\Maintain\EquipmentCost.cs:行号 50
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1023
+INFO  2013-05-21 14:08:55,007 FM2E application ended at 2013-05-21 14:08:55
+INFO  2013-05-21 14:26:09,190 [/Web/default.aspx] FM2E application started at 2013-05-21 14:26:08
+FATAL 2013-05-21 14:26:15,643 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-05-21 14:26:15,643 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您linya，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-21 14:26:44,867 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=852] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+ERROR 2013-05-21 14:26:50,148 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=852] 故障处理单审批失败:索引超出了数组界限。 
+STACK   在 FM2E.SQLServerDAL.Maintain.EquipmentCost.UpdateEquipmentCostInfor(EquipmentCostInfor item) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\SQLServerDAL\Maintain\EquipmentCost.cs:行号 367
+   在 FM2E.BLL.Maintain.EquipmentCost.UpdateEquipmentCostInfor(EquipmentCostInfor item) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\Maintain\EquipmentCost.cs:行号 50
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1023
+ERROR 2013-05-21 14:27:00,802 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=852] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-05-21 14:27:55,602 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 您的用户名(linya)已经于(2013/5/21 14:26:15),从(127.0.0.1)IP登陆在本系统.在线时间:0.75分.
+INFO  2013-05-21 14:27:57,003 [/Web/Login.aspx?CMD=OutOnline&OPCode=8630&U_LoginName=linya&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=53arfrzu0quyzrytyrzat1ac] 欢迎您linya，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-21 14:28:17,215 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=852] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+ERROR 2013-05-21 14:32:52,907 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=852] 故障处理单审批失败:索引超出了数组界限。 
+STACK   在 FM2E.SQLServerDAL.Maintain.EquipmentCost.UpdateEquipmentCostInfor(EquipmentCostInfor item) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\SQLServerDAL\Maintain\EquipmentCost.cs:行号 367
+   在 FM2E.BLL.Maintain.EquipmentCost.UpdateEquipmentCostInfor(EquipmentCostInfor item) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\Maintain\EquipmentCost.cs:行号 50
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1023
+INFO  2013-05-21 14:34:29,691 FM2E application ended at 2013-05-21 14:34:29
+INFO  2013-05-21 14:40:23,901 [/Web/default.aspx] FM2E application started at 2013-05-21 14:40:23
+FATAL 2013-05-21 15:07:35,885 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-05-21 15:07:35,886 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您linya，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-21 15:07:48,404 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=852] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-05-21 15:07:56,693 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=852] 故障处理单审批成功,故障处理单号为：BNK1305211301
+FATAL 2013-05-21 15:08:10,513 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 15:08:10,513 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-21 15:08:34,508 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 15:08:34,508 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-21 15:09:03,473 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 15:09:03,474 [/Web/Login.aspx] 欢迎您wulei，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-21 15:09:15,839 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=852] 验收故障处理单成功,故障处理单号为：BNK1305211301
+FATAL 2013-05-21 15:09:23,125 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 15:09:23,125 [/Web/Login.aspx] 欢迎您zhaofang，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-21 15:12:58,425 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 15:12:58,425 [/Web/Login.aspx] 欢迎您wulei，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-21 15:13:01,496 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionStationCheck/MalfunctionStationCheckList.aspx] 无权访问当前页面！
+ERROR 2013-05-21 15:13:01,497 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionStationCheck/MalfunctionStationCheckList.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+FATAL 2013-05-21 15:22:19,392 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 15:22:19,392 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-21 15:22:39,089 FM2E application ended at 2013-05-21 15:22:39
+INFO  2013-05-21 15:22:40,746 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] FM2E application started at 2013-05-21 15:22:40
+ERROR 2013-05-21 15:22:42,476 [/Web/Logout.aspx] 您已经被系统强制退出！
+ERROR 2013-05-21 15:22:42,479 [/Web/Logout.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+FATAL 2013-05-21 15:22:46,497 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 15:22:46,497 [/Web/Login.aspx] 欢迎您wulei，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-21 15:23:01,904 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionStationCheck/StationCheckMalfunctionSheet.aspx?cmd=view&id=852] 确定故障处理单成功,故障处理单号为：BNK1305211301
+FATAL 2013-05-21 15:23:07,599 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 15:23:07,599 [/Web/Login.aspx] 欢迎您zhaofang，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-21 15:23:18,886 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=852] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-05-21 15:23:49,452 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=852] 故障处理单审批成功,故障处理单号为：BNK1305211301
+FATAL 2013-05-21 15:23:56,991 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 15:23:56,991 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-21 15:24:32,851 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/ViewMalfunctionSheet.aspx?cmd=view&id=851] 撤消故障处理单成功,故障处理单号为：SHLJ1305211001
+ERROR 2013-05-21 15:40:05,947 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionList.aspx] 此页面只允许维修部门人员进入
+INFO  2013-05-21 15:50:51,947 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CancelMalfunctionSheet.aspx?cmd=view&id=851] 撤消故障处理单成功,故障处理单号为：SHLJ1305211001
+ERROR 2013-05-21 15:50:55,804 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/MalfunctionList.aspx] 文件不存在:http://localhost:1094/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/MalfunctionList.aspx
+INFO  2013-05-21 15:52:31,477 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CancelMalfunctionSheet.aspx?cmd=view&id=846] 撤消故障处理单成功,故障处理单号为：FM1304241401
+INFO  2013-05-21 15:54:42,948 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CancelMalfunctionSheet.aspx?cmd=view&id=790] 审批撤消故障处理单成功,故障处理单号为：KFZX1302101301
+INFO  2013-05-21 15:55:32,570 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CancelMalfunctionSheet.aspx?cmd=view&id=790] 审批撤消故障处理单成功,故障处理单号为：KFZX1302101301
+INFO  2013-05-21 15:56:38,147 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CancelMalfunctionSheet.aspx?cmd=view&id=764] 审批撤消故障处理单成功,故障处理单号为：FM1302011601
+INFO  2013-05-21 15:57:34,499 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/ViewMalfunctionSheet.aspx?cmd=view&id=850] 撤消故障处理单成功,故障处理单号为：FM1305211003
+INFO  2013-05-21 15:57:44,099 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CancelMalfunctionSheet.aspx?cmd=view&id=850] 审批撤消故障处理单成功,故障处理单号为：FM1305211003
+FATAL 2013-05-21 15:58:10,814 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 15:58:10,814 [/Web/Login.aspx] 欢迎您linmx，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-21 16:03:32,351 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 16:03:32,351 [/Web/Login.aspx] 欢迎您linmx，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-21 16:12:44,240 FM2E application ended at 2013-05-21 16:12:44
+INFO  2013-05-21 16:12:53,723 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] FM2E application started at 2013-05-21 16:12:53
+INFO  2013-05-21 16:13:17,242 FM2E application ended at 2013-05-21 16:13:17
+INFO  2013-05-21 16:13:23,558 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] FM2E application started at 2013-05-21 16:13:23
+ERROR 2013-05-21 16:17:07,330 [/Web/Logout.aspx] 您已经被系统强制退出！
+ERROR 2013-05-21 16:17:07,332 [/Web/Logout.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+FATAL 2013-05-21 16:17:12,041 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 16:17:12,042 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-21 16:17:51,401 [/Web/Module/FM2E/SystemManager/RoleManager/RoleManage.aspx?cmd=add] 添加角色资料成功！
+INFO  2013-05-21 16:18:14,626 [/Web/Module/FM2E/SystemManager/RoleManager/RoleManage.aspx?cmd=add] 添加角色资料成功！
+INFO  2013-05-21 16:41:04,076 FM2E application ended at 2013-05-21 16:41:04
+INFO  2013-05-21 16:41:23,326 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] FM2E application started at 2013-05-21 16:41:23
+ERROR 2013-05-21 16:54:10,889 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionList.aspx] 您已经被系统强制退出！
+ERROR 2013-05-21 16:54:10,894 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionList.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+FATAL 2013-05-21 16:54:17,170 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 16:54:17,170 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-21 18:46:16,963 FM2E application ended at 2013-05-21 18:46:16
+INFO  2013-05-21 19:06:13,586 [/Web/default.aspx] FM2E application started at 2013-05-21 19:06:13
+FATAL 2013-05-21 19:06:19,905 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-05-21 19:06:19,906 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-21 19:06:30,367 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 19:06:30,367 [/Web/Login.aspx] 欢迎您linmx，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-21 19:07:11,852 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 19:07:11,852 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-21 19:08:08,363 [/Web/Module/FM2E/SystemManager/ModuleManager/ModuleManager.aspx?cmd=add&id=3382eacc3e3f4dc19c06c4b153f35acd] 添加模块成功！
+INFO  2013-05-21 19:40:13,749 FM2E application ended at 2013-05-21 19:40:13
+INFO  2013-05-21 19:40:31,522 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] FM2E application started at 2013-05-21 19:40:31
+ERROR 2013-05-21 20:02:50,717 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/DelayMalfunctionList.aspx] 您已经被系统强制退出！
+ERROR 2013-05-21 20:02:50,722 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/DelayMalfunctionList.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+FATAL 2013-05-21 20:06:31,574 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 20:06:31,575 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-21 20:06:39,214 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CancelMalfunctionSheet.aspx?cmd=view&id=849] 获取故障处理单内容失败:未将对象引用设置到对象的实例。 
+STACK   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionCheck_CancelMalfunctionSheet.FillData() 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionCheck\CancelMalfunctionSheet.aspx.cs:行号 334
+ERROR 2013-05-21 20:07:42,209 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/DelayMalfunctionSheet.aspx?cmd=view&id=849] 获取故障处理单内容失败:未将对象引用设置到对象的实例。 
+STACK   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionCheck_DelayMalfunctionSheet.FillData() 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionCheck\DelayMalfunctionSheet.aspx.cs:行号 334
+ERROR 2013-05-21 20:10:01,065 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/DelayMalfunctionSheet.aspx?cmd=view&id=849] 获取故障处理单内容失败:未将对象引用设置到对象的实例。 
+STACK   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionCheck_DelayMalfunctionSheet.FillData() 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionCheck\DelayMalfunctionSheet.aspx.cs:行号 334
+ERROR 2013-05-21 20:10:51,311 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionCheck%2fDelayMalfunctionSheet.aspx] 用户名/密码(admin3/1\)错误！
+INFO  2013-05-21 20:10:55,162 [/Web/login.aspx] 您的用户名(admin3)已经于(2013/5/21 20:06:31),从(127.0.0.1)IP登陆在本系统.在线时间:3.49分.
+INFO  2013-05-21 20:10:56,486 [/Web/Login.aspx?CMD=OutOnline&OPCode=5572&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=d2l5x4rmrtr24u55sqallfm1] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-21 20:12:16,483 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/DelayMalfunctionSheet.aspx?cmd=view&id=849] 获取故障处理单内容失败:未将对象引用设置到对象的实例。 
+STACK   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionCheck_DelayMalfunctionSheet.FillData() 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionCheck\DelayMalfunctionSheet.aspx.cs:行号 334
+ERROR 2013-05-21 20:12:37,593 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/DelayMalfunctionSheet.aspx?cmd=view&id=849] 获取故障处理单内容失败:未将对象引用设置到对象的实例。 
+STACK   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionCheck_DelayMalfunctionSheet.FillData() 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionCheck\DelayMalfunctionSheet.aspx.cs:行号 334
+ERROR 2013-05-21 20:14:37,646 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/DelayMalfunctionSheet.aspx?cmd=view&id=849] 获取故障处理单内容失败:未将对象引用设置到对象的实例。 
+STACK   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionCheck_DelayMalfunctionSheet.FillData() 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionCheck\DelayMalfunctionSheet.aspx.cs:行号 334
+INFO  2013-05-21 20:15:22,376 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 您的用户名(admin3)已经于(2013/5/21 20:10:56),从(127.0.0.1)IP登陆在本系统.在线时间:2.01分.
+INFO  2013-05-21 20:15:23,404 [/Web/Login.aspx?CMD=OutOnline&OPCode=5552&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=rpumyl45cher402usxelqe3p] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-21 20:15:29,172 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/DelayMalfunctionSheet.aspx?cmd=view&id=849] 获取故障处理单内容失败:未将对象引用设置到对象的实例。 
+STACK   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionCheck_DelayMalfunctionSheet.FillData() 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionCheck\DelayMalfunctionSheet.aspx.cs:行号 336
+INFO  2013-05-21 20:16:22,226 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionCheck%2fDelayMalfunctionSheet.aspx] 您的用户名(admin3)已经于(2013/5/21 20:15:23),从(127.0.0.1)IP登陆在本系统.在线时间:0.10分.
+INFO  2013-05-21 20:16:24,104 [/Web/Login.aspx?CMD=OutOnline&OPCode=0613&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=1pxkpp55bpooxmndaeilvhig] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-21 20:44:47,842 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionCheck%2fDelayMalfunctionSheet.aspx] 您的用户名(admin3)已经于(2013/5/21 20:16:24),从(127.0.0.1)IP登陆在本系统.在线时间:0.60分.
+INFO  2013-05-21 20:44:48,989 [/Web/Login.aspx?CMD=OutOnline&OPCode=7758&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=ywte3ridzfjghh45dqbgra55] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-21 20:50:02,300 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 您的用户名(admin3)已经于(2013/5/21 20:44:48),从(127.0.0.1)IP登陆在本系统.在线时间:0.42分.
+INFO  2013-05-21 20:50:03,467 [/Web/Login.aspx?CMD=OutOnline&OPCode=4418&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=vnneyj55ykanta551n2thf45] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-21 20:51:49,956 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 您的用户名(admin3)已经于(2013/5/21 20:50:03),从(127.0.0.1)IP登陆在本系统.在线时间:0.12分.
+INFO  2013-05-21 20:51:51,390 [/Web/Login.aspx?CMD=OutOnline&OPCode=6633&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=vq50d3ymuusvmk45o2y5jjuq] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-21 21:14:46,926 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionList.aspx] 此页面只允许维修部门人员进入
+FATAL 2013-05-21 21:14:56,218 [/Web/Login.aspx] Version:true
+INFO  2013-05-21 21:14:56,218 [/Web/Login.aspx] 欢迎您admin2，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-21 21:22:44,122 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/DelayMalfunctionSheet.aspx?cmd=view&id=849] 获取故障处理单内容失败:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。 
+STACK   在 System.Enum.ToString(String format)
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionCheck_DelayMalfunctionSheet.FillData() 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionCheck\DelayMalfunctionSheet.aspx.cs:行号 357
+INFO  2013-05-21 21:25:52,633 FM2E application ended at 2013-05-21 21:25:52
+INFO  2013-05-21 21:25:57,970 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] FM2E application started at 2013-05-21 21:25:57
+INFO  2013-05-21 21:39:26,042 FM2E application ended at 2013-05-21 21:39:26

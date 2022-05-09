@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?><ns0:SGS_InWarehouseWorkflow InitialStateName="WaitSubmint" x:Name="SGS_InWarehouseWorkflow" DynamicUpdateCondition="{x:Null}" InstanceId="00000000-0000-0000-0000-000000000000" Description="易耗品入库申请流程" CompletedStateName="End" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/workflow" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:ns0="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+	<StateActivity x:Name="WaitSubmint" Description="提交申请">
+		<EventDrivenActivity x:Name="AppSubmited" Description="提交申请">
+			<HandleExternalEventActivity Description="提交申请" x:Name="handle1" EventName="AppSubmited" InterfaceType="{x:Type ns0:ISGS_InWarehouseEventService}" />
+			<SetStateActivity x:Name="AppSubmited_1" TargetStateName="WaitEngineer" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="WaitEngineer" Description="工程师审批">
+		<EventDrivenActivity x:Name="EngineerApproved">
+			<HandleExternalEventActivity Description="工程师审批通过" x:Name="handle2" EventName="EngineerApproved" InterfaceType="{x:Type ns0:ISGS_InWarehouseEventService}" />
+			<SetStateActivity x:Name="EngineerApproved_1" TargetStateName="WaitManager" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="EngineerRejected">
+			<HandleExternalEventActivity Description="返回修改" x:Name="handle3" EventName="EngineerRejected" InterfaceType="{x:Type ns0:ISGS_InWarehouseEventService}" />
+			<SetStateActivity x:Name="EngineerRejected_1" TargetStateName="ReturnModify" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="WaitManager" Description="经理审批">
+		<EventDrivenActivity x:Name="ManagerApproved">
+			<HandleExternalEventActivity Description="经理批准" x:Name="handle4" EventName="ManagerApproved" InterfaceType="{x:Type ns0:ISGS_InWarehouseEventService}" />
+			<SetStateActivity x:Name="ManagerApproved_1" TargetStateName="WaitWarehouseKeeper" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="RetuenEngineer">
+			<HandleExternalEventActivity Description="返回工程师" x:Name="handle5" EventName="RetuenEngineer" InterfaceType="{x:Type ns0:ISGS_InWarehouseEventService}" />
+			<SetStateActivity x:Name="RetuenEngineer_1" TargetStateName="WaitEngineer" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="ManagerRejected">
+			<HandleExternalEventActivity Description="经理拒绝，结束该申请" x:Name="handle6" EventName="ManagerRejected" InterfaceType="{x:Type ns0:ISGS_InWarehouseEventService}" />
+			<SetStateActivity x:Name="ManagerRejected_1" TargetStateName="ApprovalFailed" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="WaitWarehouseKeeper" Description="审批通过，等待入库">
+		<EventDrivenActivity x:Name="WarehouseKeeperApproved">
+			<HandleExternalEventActivity Description="入库" x:Name="handle7" EventName="WarehouseKeeperApproved" InterfaceType="{x:Type ns0:ISGS_InWarehouseEventService}" />
+			<SetStateActivity x:Name="WarehouseKeeperApproved_1" TargetStateName="InWarehouse" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="ApprovalFailed" Description="审批不通过，直接否决">
+		<EventDrivenActivity x:Name="Auto_AfterApprovalFailed">
+			<DelayActivity Description="否决后" TimeoutDuration="00:10:00" x:Name="delayStep1" />
+			<SetStateActivity x:Name="AfterApprovalFailed_SetState_1" TargetStateName="End" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="InWarehouse" Description="入库完毕">
+		<EventDrivenActivity x:Name="Auto_AfterOutFinish">
+			<DelayActivity Description="出库完毕后" TimeoutDuration="00:10:00" x:Name="delayStep2" />
+			<SetStateActivity x:Name="AfterOutFinish_SetState_1" TargetStateName="End" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="ReturnModify" Description="返回修改">
+		<EventDrivenActivity x:Name="SubmitReturnModify">
+			<HandleExternalEventActivity Description="重新提交审批" x:Name="handle8" EventName="SubmitReturnModify" InterfaceType="{x:Type ns0:ISGS_InWarehouseEventService}" />
+			<SetStateActivity x:Name="SubmitReturnModify_1" TargetStateName="WaitEngineer" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="End" Description="申请结束" />
+</ns0:SGS_InWarehouseWorkflow>

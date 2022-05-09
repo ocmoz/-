@@ -1,0 +1,9 @@
+INFO  2013-05-06 03:45:48,236 [/Web/default.aspx] FM2E application started at 2013-05-06 03:45:47
+FATAL 2013-05-06 03:45:56,034 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-05-06 03:45:56,034 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-06 03:46:21,778 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionList.aspx] 此页面只允许维修部门人员进入
+INFO  2013-05-06 04:39:01,458 FM2E application ended at 2013-05-06 04:39:01
+INFO  2013-05-06 15:05:46,858 [/Web/default.aspx] FM2E application started at 2013-05-06 15:05:44
+FATAL 2013-05-06 15:05:59,230 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-05-06 15:05:59,263 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-06 17:57:40,670 FM2E application ended at 2013-05-06 17:57:40

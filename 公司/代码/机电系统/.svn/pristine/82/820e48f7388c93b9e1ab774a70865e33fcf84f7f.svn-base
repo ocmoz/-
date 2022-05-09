@@ -1,0 +1,74 @@
+INFO  2013-05-19 15:36:00,197 [/Web/default.aspx] FM2E application started at 2013-05-19 15:35:59
+FATAL 2013-05-19 15:36:11,279 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-05-19 15:36:11,280 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您chengang，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-19 15:36:33,324 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=689] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-05-19 15:36:42,871 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=689] 故障处理单审批成功,故障处理单号为：XL1301201001
+ERROR 2013-05-19 15:36:48,952 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=602] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-05-19 15:36:53,430 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=602] 故障处理单审批成功,故障处理单号为：TM1301050901
+INFO  2013-05-19 16:02:33,312 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=847] 验收故障处理单成功,故障处理单号为：BG1304241401
+FATAL 2013-05-19 16:04:13,100 [/Web/Login.aspx] Version:true
+INFO  2013-05-19 16:04:13,100 [/Web/Login.aspx] 欢迎您linya，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-19 16:04:18,819 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=847] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-05-19 16:04:58,964 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=847] 故障处理单审批成功,故障处理单号为：BG1304241401
+ERROR 2013-05-19 16:05:12,344 [/Web/Login.aspx] 用户名/密码(chengang/1\)错误！
+FATAL 2013-05-19 16:05:16,427 [/Web/login.aspx] Version:true
+INFO  2013-05-19 16:05:16,427 [/Web/login.aspx] 欢迎您chengang，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-19 16:25:49,826 [/Web/Module/FM2E/SystemManager/ModuleManager/ModuleManager.aspx?cmd=add&id=3382eacc3e3f4dc19c06c4b153f35acd] 添加模块成功！
+ERROR 2013-05-19 16:25:53,727 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx] 获取故障处理单内容失败:获取故障处理单失败(caused by 未将对象引用设置到对象的实例。) 
+STACK   在 FM2E.SQLServerDAL.Maintain.MalfunctionHandle.FM2E.IDAL.Maintain.IMalfunctionHandle.GetMalfunctionSheet(Int64 id) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\SQLServerDAL\Maintain\MalfunctionHandle.cs:行号 572
+   在 FM2E.BLL.Maintain.MalfunctionHandle.GetMalfunctionSheet(Int64 id) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\Maintain\MalfunctionHandle.cs:行号 42
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionCheck_CheckMalfunctionSheet.FillData() 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionCheck\CheckMalfunctionSheet.aspx.cs:行号 207
+ERROR 2013-05-19 16:26:52,203 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx] 获取故障处理单内容失败:获取故障处理单失败(caused by 未将对象引用设置到对象的实例。) 
+STACK   在 FM2E.SQLServerDAL.Maintain.MalfunctionHandle.FM2E.IDAL.Maintain.IMalfunctionHandle.GetMalfunctionSheet(Int64 id) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\SQLServerDAL\Maintain\MalfunctionHandle.cs:行号 572
+   在 FM2E.BLL.Maintain.MalfunctionHandle.GetMalfunctionSheet(Int64 id) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\Maintain\MalfunctionHandle.cs:行号 42
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionCheck_CheckMalfunctionSheet.FillData() 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionCheck\CheckMalfunctionSheet.aspx.cs:行号 207
+ERROR 2013-05-19 16:28:12,534 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx] 获取故障处理单内容失败:获取故障处理单失败(caused by 未将对象引用设置到对象的实例。) 
+STACK   在 FM2E.SQLServerDAL.Maintain.MalfunctionHandle.FM2E.IDAL.Maintain.IMalfunctionHandle.GetMalfunctionSheet(Int64 id) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\SQLServerDAL\Maintain\MalfunctionHandle.cs:行号 572
+   在 FM2E.BLL.Maintain.MalfunctionHandle.GetMalfunctionSheet(Int64 id) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\Maintain\MalfunctionHandle.cs:行号 42
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionCheck_CheckMalfunctionSheet.FillData() 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionCheck\CheckMalfunctionSheet.aspx.cs:行号 207
+FATAL 2013-05-19 16:28:18,665 [/Web/Login.aspx] Version:true
+INFO  2013-05-19 16:28:18,666 [/Web/Login.aspx] 欢迎您admin2，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-19 16:28:21,932 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx] 获取故障处理单内容失败:获取故障处理单失败(caused by 未将对象引用设置到对象的实例。) 
+STACK   在 FM2E.SQLServerDAL.Maintain.MalfunctionHandle.FM2E.IDAL.Maintain.IMalfunctionHandle.GetMalfunctionSheet(Int64 id) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\SQLServerDAL\Maintain\MalfunctionHandle.cs:行号 572
+   在 FM2E.BLL.Maintain.MalfunctionHandle.GetMalfunctionSheet(Int64 id) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\Maintain\MalfunctionHandle.cs:行号 42
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionCheck_CheckMalfunctionSheet.FillData() 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionCheck\CheckMalfunctionSheet.aspx.cs:行号 207
+ERROR 2013-05-19 16:30:11,434 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx] 获取故障处理单内容失败:获取故障处理单失败(caused by 未将对象引用设置到对象的实例。) 
+STACK   在 FM2E.SQLServerDAL.Maintain.MalfunctionHandle.FM2E.IDAL.Maintain.IMalfunctionHandle.GetMalfunctionSheet(Int64 id) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\SQLServerDAL\Maintain\MalfunctionHandle.cs:行号 572
+   在 FM2E.BLL.Maintain.MalfunctionHandle.GetMalfunctionSheet(Int64 id) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\Maintain\MalfunctionHandle.cs:行号 42
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionCheck_CheckMalfunctionSheet.FillData() 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionCheck\CheckMalfunctionSheet.aspx.cs:行号 207
+INFO  2013-05-19 16:30:38,874 FM2E application ended at 2013-05-19 16:30:38
+INFO  2013-05-19 16:30:40,117 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] FM2E application started at 2013-05-19 16:30:39
+ERROR 2013-05-19 16:30:41,746 [/Web/Module/FM2E/SystemManager/ModuleManager/ModuleManager.aspx?cmd=view&id=3382eacc3e3f4dc19c06c4b153f35acd] 您已经被系统强制退出！
+ERROR 2013-05-19 16:30:41,748 [/Web/Module/FM2E/SystemManager/ModuleManager/ModuleManager.aspx?cmd=view&id=3382eacc3e3f4dc19c06c4b153f35acd] 执行SystemPermission的事件时出错：正在中止线程。
+FATAL 2013-05-19 16:30:46,641 [/Web/Login.aspx] Version:true
+INFO  2013-05-19 16:30:46,641 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-19 16:31:48,157 [/Web/Module/FM2E/SystemManager/ModuleManager/ModuleManager.aspx?cmd=edit&id=e89dea8d865f43edad55d7fc7b4dbefd] 修改模块信息成功！
+FATAL 2013-05-19 16:38:43,303 [/Web/Login.aspx] Version:true
+INFO  2013-05-19 16:38:43,303 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-19 16:39:13,913 [/Web/Module/FM2E/SystemManager/ModuleManager/ModuleManager.aspx?cmd=edit&id=e89dea8d865f43edad55d7fc7b4dbefd] 修改模块信息成功！
+ERROR 2013-05-19 16:57:49,791 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CancelMalfunctionSheet.aspx?cmd=view&id=790] System.Web thrown System.Web.HttpParseException
+ID“lbCancelReason”已被其他控件使用。   在 System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   在 System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+ERROR 2013-05-19 16:58:09,811 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CancelMalfunctionSheet.aspx?cmd=view&id=790] System.Web thrown System.Web.HttpCompileException
+g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionCheck\CancelMalfunctionSheet.aspx.cs(138): error CS0103: 当前上下文中不存在名称“tbCancelReason”   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+INFO  2013-05-19 17:13:19,338 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/ViewMalfunctionSheet.aspx?cmd=view&id=846] 撤消故障处理单成功,故障处理单号为：FM1304241401
+ERROR 2013-05-19 17:57:29,323 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionList.aspx] 获取故障处理单列表失败:获取故障处理单列表分页失败(caused by IsDelayCheck1) 
+STACK   在 FM2E.SQLServerDAL.Maintain.MalfunctionHandle.FM2E.IDAL.Maintain.IMalfunctionHandle.GetMalfunctionSheets(QueryParam term, Int32& recordCount) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\SQLServerDAL\Maintain\MalfunctionHandle.cs:行号 677
+   在 FM2E.BLL.Maintain.MalfunctionHandle.GetMalfunctionList(MalfunctionSearchInfo term, Int32 currentPageIndex, Int32 pageSize, Int32& recordCount) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\Maintain\MalfunctionHandle.cs:行号 471
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionReport_MalfunctionList.FillData() 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionReport\MalfunctionList.aspx.cs:行号 168
+INFO  2013-05-19 18:39:00,503 FM2E application ended at 2013-05-19 18:39:00

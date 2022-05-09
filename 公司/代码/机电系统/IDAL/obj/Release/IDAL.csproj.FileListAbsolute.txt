@@ -1,0 +1,14 @@
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\IDAL\bin\Release\FM2E.IDAL.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\IDAL\bin\Release\FM2E.IDAL.pdb
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\IDAL\bin\Release\FM2E.Model.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\IDAL\bin\Release\FM2E.Model.pdb
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\IDAL\obj\Release\ResolveAssemblyReference.cache
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\IDAL\obj\Release\FM2E.IDAL.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\IDAL\obj\Release\FM2E.IDAL.pdb
+G:\Station\SGS\SGS\trunk\IDAL\bin\Release\FM2E.IDAL.dll
+G:\Station\SGS\SGS\trunk\IDAL\bin\Release\FM2E.IDAL.pdb
+G:\Station\SGS\SGS\trunk\IDAL\bin\Release\FM2E.Model.dll
+G:\Station\SGS\SGS\trunk\IDAL\bin\Release\FM2E.Model.pdb
+G:\Station\SGS\SGS\trunk\IDAL\obj\Release\ResolveAssemblyReference.cache
+G:\Station\SGS\SGS\trunk\IDAL\obj\Release\FM2E.IDAL.dll
+G:\Station\SGS\SGS\trunk\IDAL\obj\Release\FM2E.IDAL.pdb

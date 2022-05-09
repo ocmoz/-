@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+<Permission>
+<ModuleID name="考核项配置">ab74b21ed1d04324b637b8093322f231</ModuleID>
+<Item value="2" name="列表/查看">,ExamineItemConfig.aspx,</Item>
+<Item value="4" name="新增">,ExamineItemConfig.aspx,</Item>
+<Item value="8" name="修改">,ExamineItemConfig.aspx,</Item>
+<Item value="16" name="删除">,ExamineItemConfig.aspx,</Item>
+<Item value="32" name="打印">,ExamineItemConfig.aspx,</Item>
+<Item value="64" name="审批">,ExamineItemConfig.aspx,</Item>
+<Item value="128" name="权限A">,ExamineItemConfig.aspx,</Item>
+<Item value="256" name="权限B"></Item>
+</Permission>
+</configuration>

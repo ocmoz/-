@@ -1,0 +1,539 @@
+<%@ Page Language="C#" MasterPageFile="~/MasterPage/MasterPage.master" AutoEventWireup="true"
+    CodeFile="ViewDeviceInfo.aspx.cs" Inherits="Module_FM2E_DeviceManager_DeviceInfo_CurrentEuipementInfo_AllEquipmentInfo_ViewDeviceInfo"
+    Title="Untitled Page" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc2" %>
+<%@ Register Assembly="WebUtility" Namespace="WebUtility.WebControls" TagPrefix="cc1" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="PageBody" runat="Server">
+
+    <script type="text/javascript" src="<%=Page.ResolveUrl("~/") %>inc/FineMessBox/js/common.js"></script>
+
+    <link href="<%=Page.ResolveUrl("~/") %>inc/FineMessBox/css/subModal.css" rel="stylesheet"
+        type="text/css" />
+
+    <script type="text/javascript" src="<%=Page.ResolveUrl("~/") %>inc/FineMessBox/js/subModal.js"></script>
+
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <cc1:HeadMenuWebControls ID="HeadMenuWebControls1" runat="server" HeadTitleTxt="在用设备管理"
+        HeadOPTxt="目前操作功能：查看设备信息">
+        <cc1:HeadMenuButtonItem ButtonIcon="list.gif" ButtonName="设备信息列表" ButtonPopedom="List"
+            ButtonUrlType="href" ButtonUrl="DeviceInfo.aspx" />
+        <cc1:HeadMenuButtonItem ButtonIcon="move.gif" ButtonName="拆分设备" ButtonPopedom="New" />
+        <cc1:HeadMenuButtonItem ButtonIcon="edit.gif" ButtonName="编辑" ButtonPopedom="Edit" />
+        <cc1:HeadMenuButtonItem ButtonIcon="delete.gif" ButtonName="删除" ButtonPopedom="Delete" />
+        <cc1:HeadMenuButtonItem ButtonIcon="print.gif" ButtonName="打印条形码" ButtonPopedom="Print"
+            ButtonUrlType="JavaScript" />
+        <cc1:HeadMenuButtonItem ButtonIcon="back.gif" ButtonName="返回" ButtonUrlType="href" ButtonPopedom="List" />
+    </cc1:HeadMenuWebControls>
+    <div style="width: 100%; ">
+        <cc2:TabContainer ID="TabContainer1" runat="server" ActiveTabIndex="0">
+            <cc2:TabPanel runat="server" HeaderText="设备基本信息" ID="TabPanel1">
+                <ContentTemplate>
+                    <div style="width: 100%; text-align: center; vertical-align: top; padding: 0px 0px 0px 0px;">
+                 
+                        <table style="width: 100%; border-collapse: collapse; vertical-align: middle; text-align: left;
+                             border: solid 1px #a7c5e2;" border="1px">
+                            <tr>
+                                <td class="Table_searchtitle" colspan="5">
+                                    设备基本信息
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="table_body table_body_NoWidth">
+                                    条形码：
+                                </td>
+                                <td class="table_none table_none_NoWidth" >
+                                    <table width="100%">
+                                        <tr align="center">
+                                            <td align="center">
+                                                <asp:Label ID="equipmentno" runat="server"></asp:Label>
+                                            </td>
+                                            <td align="center">
+                                                <asp:Image ID="equipmentpic" runat="server" Height="100px" />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td class="table_body table_body_NoWidth">
+                                    设备类型：
+                                </td>
+                                <td class="table_none table_none_NoWidth">
+                                    <asp:Label ID="serialnum" runat="server"></asp:Label>
+                                </td>
+                                
+                                <td rowspan="2" style="vertical-align: top;">
+                                 <%--  //BY L 4-27 屏蔽拆分项************************************************************************
+                                 <div id="div_basicequipment" runat="server">
+                                          拆分自：<br />
+                                          <asp:HyperLink ID="HyperLink_BasicDevice" runat="server" ForeColor="Blue" 
+                                              Font-Underline="True"></asp:HyperLink>
+                                    </div>
+                                   
+                                    <asp:Repeater ID="Repeater_RelatedDevice" runat="server">
+                                        <HeaderTemplate>
+                                            相关设备：<br />
+                                        </HeaderTemplate>
+                                        <ItemTemplate>
+                                            <asp:HyperLink ID="HyperLink_RelatedDevice" runat="server" ForeColor="Blue" Font-Underline="true"
+                                            Text='<%# Eval("EquipmentNO").ToString()+ "  " + Eval("Name").ToString() + "  "+ (!string.IsNullOrEmpty(Convert.ToString(Eval("Model")))?Eval("Model").ToString():"") %>'
+                                             NavigateUrl='<%# "ViewDeviceInfo.aspx?cmd=view&id=" + Eval("EquipmentID").ToString() +" &companyid=" + companyid %>'></asp:HyperLink><br />
+                                        </ItemTemplate>
+                                    </asp:Repeater>
+                                    --%>   
+                                   
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="table_body table_body_NoWidth">
+                                    公司：
+                                </td>
+                                <td class="table_none table_none_NoWidth">
+                                    <asp:Label ID="companyname" runat="server"></asp:Label>
+                                </td>
+                                 <td class="table_body table_body_NoWidth">
+                                    资产号：
+                                </td>
+                                <td class="table_none table_none_NoWidth">
+                                    <asp:Label ID="Label_AssertNumber" runat="server"></asp:Label>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="table_body table_body_NoWidth">
+                                    设备名称：
+                                </td>
+                                <td class="table_none table_none_NoWidth">
+                                    <asp:Label ID="equipmentname" runat="server"></asp:Label>
+                                </td>
+                           
+                                <td class="table_body table_body_NoWidth">
+                                    品牌型号：
+                                </td>
+                                <td class="table_none table_none_NoWidth">
+                                    <asp:Label ID="model" runat="server"></asp:Label><asp:Label ID="specification" 
+                                        runat="server"></asp:Label>
+                                </td>
+                                 <td rowspan="5" style="vertical-align: top;">
+                                    <div style="width: 100%; text-align: center; vertical-align: middle;">
+                                        <asp:Image ID="Image1" runat="server" Width="220px" AlternateText="No Picture" /></div>
+                                </td>
+                            </tr>
+                            <tr>
+                            <td class="table_body table_body_NoWidth">
+                                   种类：
+                                </td>
+                                <td class="table_none table_none_NoWidth">
+                                    <asp:Label ID="categoryname" runat="server"></asp:Label>
+                                </td>
+                                
+                                <td class="table_body table_body_NoWidth">
+                                    所属系统：
+                                </td>
+                                <td class="table_none table_none_NoWidth">
+                                    <asp:Label ID="systemname" runat="server" ></asp:Label>
+                                </td>
+                                
+                            </tr>    
+                           
+                            <tr>
+                                <td class="table_body table_body_NoWidth">
+                                    地址信息：
+                                </td>
+                                <td class="table_none table_none_NoWidth" colspan="3">
+                               <asp:Label ID="Label_AddressName" runat="server"></asp:Label>     
+                                    <asp:Label ID="Label_DetailLocation" runat="server"></asp:Label>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td class="table_body table_body_NoWidth">
+                                    设备单位：
+                                </td>
+                                <td class="table_none table_none_NoWidth">
+                                    <asp:Label ID="Label_Unit" runat="server"></asp:Label>
+                                </td>
+                           
+                                <td class="table_body table_body_NoWidth">
+                                    设备数量：
+                                </td>
+                                <td class="table_none table_none_NoWidth">
+                                    <asp:Label ID="Label_Count" runat="server"></asp:Label>
+                                </td>
+                            </tr>                            
+                            <tr>
+                                <td class="table_body table_body_NoWidth">
+                                    设备状态：
+                                </td>
+                                <td class="table_none table_none_NoWidth">
+                                    <asp:Label ID="status" runat="server"></asp:Label>
+                                </td>
+                           
+                                <td class="table_body table_body_NoWidth">
+                                    净值/购置价格(元)：
+                                </td>
+                                <td class="table_none table_none_NoWidth">
+                                    <asp:Label ID="net" runat="server"></asp:Label>/<asp:Label ID="price" 
+                                        runat="server"></asp:Label>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </ContentTemplate>
+            </cc2:TabPanel>
+            <cc2:TabPanel runat="server" HeaderText="其它参考信息" ID="TabPanel2">
+                <ContentTemplate>
+                    <div style="width: 100%; text-align: center; vertical-align: top; padding: 0px 0px 0px 0px;">
+                      
+                        <table style="width: 100%; border-collapse: collapse; vertical-align: middle; text-align: left;
+                            border: solid 1px #a7c5e2;" border="1px">
+                            <tr>
+                                <td class="Table_searchtitle" colspan="4">
+                                    其它参考信息
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="table_body table_body_NoWidth">
+                                    采购单号：
+                                </td>
+                                <td class="table_none table_none_NoWidth">
+                                
+                                    <asp:Label ID="purchaseorderid" runat="server" Width="250px"></asp:Label>
+                                </td>
+                                <td class="table_body table_body_NoWidth">
+                                    采购人：
+                                </td>
+                                <td class="table_none table_none_NoWidth">
+                                    <asp:Label ID="purchasername" runat="server" Text="" Width="250px"></asp:Label>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td class="table_body table_body_NoWidth">
+                                    采购日期：
+                                </td>
+                                <td class="table_none table_none_NoWidth">
+                                    <asp:Label ID="purchasedate" runat="server" Text="" Width="250px"></asp:Label>
+                                </td>
+                                <td class="table_body table_body_NoWidth">
+                                    验收日期：
+                                </td>
+                                <td class="table_none table_none_NoWidth">
+                                    <asp:Label ID="examdate" runat="server" Text="" Width="250px"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="table_body table_body_NoWidth">
+                                    生产商：
+                                </td>
+                                <td class="table_none table_none_NoWidth">
+                                    <asp:Label ID="Label_Producer" runat="server" Text="" Width="250px"></asp:Label>
+                                </td>
+                                <td class="table_body table_body_NoWidth">
+                                    供应商：
+                                </td>
+                                <td class="table_none table_none_NoWidth">
+                                    <asp:Label ID="Label_Supplier" runat="server" Text="" Width="250px"></asp:Label>
+                                </td>
+                                
+                            </tr>
+                            <tr>
+                                <td class="table_body table_body_NoWidth">
+                                    责任人：
+                                </td>
+                                <td class="table_none table_none_NoWidth">
+                                    <asp:Label ID="responsibilityname" runat="server" Text="" Width="250px"></asp:Label>
+                                </td>
+                                <td class="table_body table_body_NoWidth">
+                                    验收人：
+                                </td>
+                                <td class="table_none table_none_NoWidth">
+                                    <asp:Label ID="checkername" runat="server" Text="" Width="250px"></asp:Label>
+                                </td>
+                            </tr>
+                           
+                            <tr>
+                                <td class="table_body table_body_NoWidth">
+                                    启用日期：
+                                </td>
+                                <td class="table_none table_none_NoWidth">
+                                    <asp:Label ID="openingdate" runat="server" Text="" Width="250px"></asp:Label>
+                                </td>
+                                <td class="table_body table_body_NoWidth">
+                                    建档日期：
+                                </td>
+                                <td class="table_none table_none_NoWidth">
+                                    <asp:Label ID="filedate" runat="server" Text="" Width="250px"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="table_body table_body_NoWidth">
+                                    保修至：
+                                </td>
+                                <td class="table_none table_none_NoWidth">
+                                    <asp:Label ID="warrantydate" runat="server" Text="" Width="250px"></asp:Label>
+                                </td>
+                                <td class="table_body table_body_NoWidth">
+                                    使用年限：
+                                </td>
+                                <td class="table_none table_none_NoWidth">
+                                    <asp:Label ID="servicelife" runat="server" Text="" Width="250px"></asp:Label>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td class="table_body table_body_NoWidth">
+                                    折旧方法：
+                                </td>
+                                <td class="table_none table_none_NoWidth">
+                                    <asp:Label ID="depreciationmethod" runat="server" Text="" Width="250px"></asp:Label>
+                                </td>
+                                <td class="table_body table_body_NoWidth">
+                                    折旧年限：
+                                </td>
+                                <td class="table_none table_none_NoWidth">
+                                    <asp:Label ID="depreciablelife" runat="server" Text="" Width="250px"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="table_body table_body_NoWidth">
+                                    折旧净残率：
+                                </td>
+                                <td class="table_none table_none_NoWidth">
+                                    <asp:Label ID="residualrate" runat="server" Text="" Width="250px"></asp:Label>
+                                </td>
+                                <td class="table_body table_body_NoWidth">
+                                    维修次数：
+                                </td>
+                                <td class="table_none table_none_NoWidth">
+                                    <asp:Label ID="maintenancetimes" runat="server" Text="" Width="250px"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="table_body table_body_NoWidth">
+                                    备注：
+                                </td>
+                                <td class="table_none table_none_NoWidth">
+                                    <asp:Label ID="remark" runat="server" Text="" Width="250px"></asp:Label>
+                                </td>
+                                <td class="table_body table_body_NoWidth">
+                                    是否已资产注销：
+                                </td>
+                                <td class="table_none table_none_NoWidth">
+                                    <asp:Label ID="iscancel" runat="server" Text="" Width="250px"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="table_body table_body_NoWidth">
+                                    最近更新时间：
+                                </td>
+                                <td class="table_none table_none_NoWidth" colspan="3">
+                                    <asp:Label ID="updatetime" runat="server" Text="" Width="250px"></asp:Label>
+                                </td>
+                                
+                            </tr>
+                        </table>
+                        
+                    </div>
+                </ContentTemplate>
+            </cc2:TabPanel>
+            <cc2:TabPanel runat="server" HeaderText="维修记录" ID="TabPanel3">
+                <ContentTemplate>
+                    <div style="width: 100%; text-align: center; vertical-align: top; padding: 0px 0px 0px 0px;">
+                        <asp:GridView ID="GridView1" runat="server" Width="100%" AutoGenerateColumns="False"
+                            OnRowDataBound="GridView1_RowDataBound" ShowFooter="true">
+                            <EmptyDataTemplate>
+                                没有维修信息
+                            </EmptyDataTemplate>
+                            <EmptyDataRowStyle HorizontalAlign="Center" />
+                            <Columns>
+                                      <asp:TemplateField HeaderText="故障处理单">
+                                <ItemTemplate>
+                                    <asp:Literal ID="ltSheetNOTxt" runat="server"></asp:Literal>
+                                </ItemTemplate>
+                                <ItemStyle HorizontalAlign="Center" Width="20%" />
+                            </asp:TemplateField>
+                            <asp:BoundField DataField="DepartmentName" HeaderText="故障部门" />
+                             <asp:TemplateField HeaderText="维修费用（元）">
+                                                    <ItemTemplate>
+                                                        <%# Eval("MaintainFee", "{0:#,0.##}") %>
+                                                    </ItemTemplate>
+                                                    <FooterTemplate>
+                                                        <asp:Label ID="lbTotalFee" runat="server"></asp:Label>
+                                                    </FooterTemplate>
+                                                </asp:TemplateField>
+                             <asp:TemplateField>
+                                                <HeaderTemplate>
+                                                    维修结果</HeaderTemplate>
+                                                <ItemTemplate>
+                                                    <%#EnumHelper.GetDescription((Enum)Eval("MaintainResult")) %>
+                                                </ItemTemplate>
+                                            </asp:TemplateField>
+                            <asp:BoundField DataField="MaintainDeptName" HeaderText="维修单位" />
+                            <asp:BoundField DataField="MaintainDate" HeaderText="维修时间" HtmlEncode="false" DataFormatString="{0:yyyy-MM-dd}" />
+                            </Columns>
+                            <HeaderStyle HorizontalAlign="Center" BackColor="#EFEFEF" Height="25px" />
+                            <RowStyle HorizontalAlign="Center" Height="20px" />
+                        </asp:GridView>
+                        <cc1:AspNetPager ID="AspNetPager1" runat="server" OnPageChanged="AspNetPager1_PageChanged"
+                            AlwaysShow="True" CloneFrom="" CssClass="" CustomInfoClass="" CustomInfoHTML="总记录：0  页码：1/1  每页：10"
+                            InvalidPageIndexErrorMessage="页索引不是有效的数值！" NavigationToolTipTextFormatString=""
+                            PageIndexOutOfRangeErrorMessage="页索引超出范围！" ShowCustomInfoSection="Left">
+                        </cc1:AspNetPager>
+                                                <asp:Label ID="Label_MalFunctionRecordError" ForeColor="Red" Visible="false" Text="维修记录读取失败" runat="server"></asp:Label>
+
+                    </div>
+                </ContentTemplate>
+            </cc2:TabPanel>
+             <cc2:TabPanel runat="server" HeaderText="日常巡查记录" ID="TabPanel4">
+                <ContentTemplate>
+                    <div style="width: 100%; text-align: center; vertical-align: top; padding: 0px 0px 0px 0px;">
+                        <asp:GridView ID="GridView2" Width="100%" runat="server" AutoGenerateColumns="False" OnRowDataBound="GridView_RowDataBound">
+                            <Columns>
+                                <asp:BoundField DataField="MaintainTime" HeaderText="巡查时间" HtmlEncode="false" DataFormatString="{0:yyyy-MM-dd}">
+                                    <ItemStyle Width="10%" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="MaintainerName" HeaderText="巡查人">
+                                   <ItemStyle Width="10%" />
+                                </asp:BoundField>
+                                <asp:TemplateField>
+                                    <HeaderTemplate>异常</HeaderTemplate>
+                                    <ItemTemplate>
+                                        <font color="red">
+                                            <%# (bool)Eval("IsNormal") ? "" : "■"%></font>
+                                    </ItemTemplate>
+                                    <ItemStyle Width="10%" />
+                                </asp:TemplateField>
+                                <asp:TemplateField>
+                                    <HeaderTemplate>状态</HeaderTemplate>
+                                    <ItemTemplate>
+                                        <font color="red">
+                                            <%# EnumHelper.GetDescription((Enum)Eval("NewStatus")) %></font>
+                                    </ItemTemplate>
+                                   <ItemStyle Width="10%" />
+                                </asp:TemplateField>
+                                <asp:BoundField DataField="DetailLocation" HeaderText="具体位置">
+                                    <ItemStyle Width="30%" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="Remark" HeaderText="备注">
+                                   <ItemStyle Width="30%" />
+                                </asp:BoundField>
+                            </Columns>
+                            <EmptyDataTemplate>
+                              <center><font color="red">  没有日常巡查记录</font></center>
+                            </EmptyDataTemplate>
+                            <HeaderStyle HorizontalAlign="Center" BackColor="#EFEFEF" Height="25px" />
+                            <RowStyle HorizontalAlign="Center" Height="20px" />
+                        </asp:GridView>
+                        <cc1:AspNetPager ID="AspNetPager2" runat="server" AlwaysShow="True" OnPageChanged="AspNetPager2_PageChanged"
+                            CssClass="" CustomInfoClass="" CustomInfoHTML="总记录：0  页码：1/1  每页：10" InvalidPageIndexErrorMessage="页索引不是有效的数值！"
+                            NavigationToolTipTextFormatString="{0}" PageIndexOutOfRangeErrorMessage="页索引超出范围！"
+                            ShowCustomInfoSection="Left" CloneFrom="">
+                        </cc1:AspNetPager>
+                                                <asp:Label ID="Label_DailyPatrolRecordError" ForeColor="Red" Visible="false" Text="日常巡查记录读取失败" runat="server"></asp:Label>
+
+                    </div>
+                </ContentTemplate>
+            </cc2:TabPanel>
+             <cc2:TabPanel ID="TabPanel5" runat="server" HeaderText="例行保养记录">
+                <ContentTemplate>
+                    <div style="width: 100%; text-align: center; vertical-align: top; padding: 0px 0px 0px 0px;">
+                        <asp:GridView ID="GridView3" Width="100%" runat="server" AutoGenerateColumns="False" OnRowDataBound="GridView_RowDataBound">
+                            <Columns>
+                               <asp:BoundField DataField="MaintainTime" HeaderText="保养时间" HtmlEncode="false" DataFormatString="{0:yyyy-MM-dd}">
+                                   <ItemStyle Width="10%" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="MaintainerName" HeaderText="保养人">
+                                    <ItemStyle Width="10%" />
+                                </asp:BoundField>
+                                <asp:TemplateField>
+                                    <HeaderTemplate>异常</HeaderTemplate>
+                                    <ItemTemplate>
+                                        <font color="red">
+                                            <%# (bool)Eval("IsNormal") ? "" : "■"%></font>
+                                    </ItemTemplate>
+                                  <ItemStyle Width="10%" />
+                                </asp:TemplateField>
+                                <asp:TemplateField>
+                                    <HeaderTemplate>状态</HeaderTemplate>
+                                    <ItemTemplate>
+                                        <font color="red">
+                                            <%# EnumHelper.GetDescription((Enum)Eval("NewStatus")) %></font>
+                                    </ItemTemplate>
+                                   <ItemStyle Width="10%" />
+                                </asp:TemplateField>
+                                <asp:BoundField DataField="DetailLocation" HeaderText="具体位置">
+                                   <ItemStyle Width="30%" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="Remark" HeaderText="备注">
+                                   <ItemStyle Width="30%" />
+                                </asp:BoundField>
+                            </Columns>
+                            <EmptyDataTemplate>
+                              <center><font color="red">    没有例行保养记录</font></center>
+                            </EmptyDataTemplate>
+                            <HeaderStyle HorizontalAlign="Center" BackColor="#EFEFEF" Height="25px" />
+                            <RowStyle HorizontalAlign="Center" Height="20px" />
+                        </asp:GridView>
+                        <cc1:AspNetPager ID="AspNetPager3" runat="server" AlwaysShow="True" OnPageChanged="AspNetPager3_PageChanged"
+                            CssClass="" CustomInfoClass="" CustomInfoHTML="总记录：0  页码：1/1  每页：10" InvalidPageIndexErrorMessage="页索引不是有效的数值！"
+                            NavigationToolTipTextFormatString="{0}" PageIndexOutOfRangeErrorMessage="页索引超出范围！"
+                            ShowCustomInfoSection="Left" CloneFrom="">
+                        </cc1:AspNetPager>
+                                              <asp:Label ID="Label_RoutineMaintainRecordError" ForeColor="Red" Visible="false" Text="例行保养记录读取失败" runat="server"></asp:Label>
+
+                    </div>
+                </ContentTemplate>
+            </cc2:TabPanel>
+            <cc2:TabPanel ID="TabPanel6" runat="server" HeaderText="例行检测记录">
+                <ContentTemplate>
+                    <div style="width: 100%; text-align: center; vertical-align: top; padding: 0px 0px 0px 0px;">
+                        <asp:GridView ID="GridView4" Width="100%" runat="server" AutoGenerateColumns="False" OnRowDataBound="GridView_RowDataBound">
+                            <Columns>
+                                 <asp:BoundField DataField="MaintainTime" HeaderText="检测时间" HtmlEncode="false" DataFormatString="{0:yyyy-MM-dd}">
+                                    <ItemStyle Width="10%" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="MaintainerName" HeaderText="检测人">
+                                   <ItemStyle Width="10%" />
+                                </asp:BoundField>
+                                <asp:TemplateField>
+                                    <HeaderTemplate>异常</HeaderTemplate>
+                                    <ItemTemplate>
+                                        <font color="red">
+                                            <%# (bool)Eval("IsNormal") ? "" : "■"%></font>
+                                    </ItemTemplate>
+                                   <ItemStyle Width="10%" />
+                                </asp:TemplateField>
+                                <asp:TemplateField>
+                                    <HeaderTemplate>状态</HeaderTemplate>
+                                    <ItemTemplate>
+                                        <font color="red">
+                                            <%# EnumHelper.GetDescription((Enum)Eval("NewStatus")) %></font>
+                                    </ItemTemplate>
+                                   <ItemStyle Width="10%" />
+                                </asp:TemplateField>
+                                <asp:BoundField DataField="DetailLocation" HeaderText="具体位置">
+                                    <ItemStyle Width="30%" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="Remark" HeaderText="备注">
+                                    <ItemStyle Width="30%" />
+                                </asp:BoundField>
+                            </Columns>
+                            <EmptyDataTemplate>
+                                <center><font color="red">   没有例行检测记录</font></center>
+                            </EmptyDataTemplate>
+                            <HeaderStyle HorizontalAlign="Center" BackColor="#EFEFEF" Height="25px" />
+                            <RowStyle HorizontalAlign="Center" Height="20px" />
+                        </asp:GridView>
+                        <cc1:AspNetPager ID="AspNetPager4" runat="server" AlwaysShow="True" OnPageChanged="AspNetPager4_PageChanged"
+                            CssClass="" CustomInfoClass="" CustomInfoHTML="总记录：0  页码：1/1  每页：10" InvalidPageIndexErrorMessage="页索引不是有效的数值！"
+                            NavigationToolTipTextFormatString="{0}" PageIndexOutOfRangeErrorMessage="页索引超出范围！"
+                            ShowCustomInfoSection="Left" CloneFrom="">
+                        </cc1:AspNetPager>
+                                            <asp:Label ID="Label_RoutineInspectRecordError" ForeColor="Red" Visible="false" Text="例行检测记录读取失败" runat="server"></asp:Label>
+
+                    </div>
+                </ContentTemplate>
+            </cc2:TabPanel>
+        </cc2:TabContainer>
+    </div>
+</asp:Content>

@@ -1,0 +1,36 @@
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Release\workflow.xml
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Release\FM2E.BLL.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Release\FM2E.BLL.pdb
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Release\BarCode.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Release\FM2E.DALFactory.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Release\FM2E.IDAL.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Release\FM2E.Model.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Release\FM2E.WorkflowLayer.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Release\Microsoft.Office.Interop.Excel.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Release\FM2E.SQLServerDAL.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Release\FM2E.Model.pdb
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Release\FM2E.WorkflowLayer.pdb
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Release\FM2E.IDAL.pdb
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Release\FM2E.SQLServerDAL.pdb
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\bin\Release\FM2E.DALFactory.pdb
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\obj\Release\ResolveAssemblyReference.cache
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\obj\Release\FM2E.BLL.dll
+G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\obj\Release\FM2E.BLL.pdb
+G:\Station\SGS\SGS\trunk\BLL\bin\Release\workflow.xml
+G:\Station\SGS\SGS\trunk\BLL\bin\Release\FM2E.BLL.dll
+G:\Station\SGS\SGS\trunk\BLL\bin\Release\FM2E.BLL.pdb
+G:\Station\SGS\SGS\trunk\BLL\bin\Release\BarCode.dll
+G:\Station\SGS\SGS\trunk\BLL\bin\Release\FM2E.DALFactory.dll
+G:\Station\SGS\SGS\trunk\BLL\bin\Release\FM2E.IDAL.dll
+G:\Station\SGS\SGS\trunk\BLL\bin\Release\FM2E.Model.dll
+G:\Station\SGS\SGS\trunk\BLL\bin\Release\FM2E.WorkflowLayer.dll
+G:\Station\SGS\SGS\trunk\BLL\bin\Release\Microsoft.Office.Interop.Excel.dll
+G:\Station\SGS\SGS\trunk\BLL\bin\Release\FM2E.SQLServerDAL.dll
+G:\Station\SGS\SGS\trunk\BLL\bin\Release\FM2E.Model.pdb
+G:\Station\SGS\SGS\trunk\BLL\bin\Release\FM2E.WorkflowLayer.pdb
+G:\Station\SGS\SGS\trunk\BLL\bin\Release\FM2E.IDAL.pdb
+G:\Station\SGS\SGS\trunk\BLL\bin\Release\FM2E.SQLServerDAL.pdb
+G:\Station\SGS\SGS\trunk\BLL\bin\Release\FM2E.DALFactory.pdb
+G:\Station\SGS\SGS\trunk\BLL\obj\Release\ResolveAssemblyReference.cache
+G:\Station\SGS\SGS\trunk\BLL\obj\Release\FM2E.BLL.dll
+G:\Station\SGS\SGS\trunk\BLL\obj\Release\FM2E.BLL.pdb

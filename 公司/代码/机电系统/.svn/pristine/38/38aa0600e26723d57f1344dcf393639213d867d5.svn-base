@@ -1,0 +1,506 @@
+﻿using System;
+using System.Collections;
+using System.Configuration;
+using System.Data;
+using System.Linq;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.HtmlControls;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Xml.Linq;
+using WebUtility;
+using FM2E.BLL.Contract;
+using FM2E.Model.Contract;
+using WebUtility.WebControls;
+using WebUtility.Components;
+using FM2E.Model.Exceptions;
+
+using FM2E.BLL.System;
+using System.Collections.Generic;
+using System.IO;
+
+public partial class Module_FM2E_Contract_ContractInformation_EditContractInformation : System.Web.UI.Page
+{
+    private string cmd = (string)Common.sink("cmd", MethodType.Get, 50, 0, DataType.Str);
+    private int id = 0;
+
+    [Serializable]
+    private class PageInfo
+    {
+        private string pageName;
+        public string PageName
+        {
+            get { return pageName; }
+            set { pageName = value; }
+        }
+
+        public PageInfo(string pageName)
+        {
+            this.pageName = pageName;
+        }
+    }
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        id = (int)Common.sink("id", MethodType.Get, 50, 0, DataType.Int);
+
+        SystemPermission.CheckCommandPermission(cmd);
+
+        // TextBox4.Attributes.Add("ReadOnly", "ReadOnly");
+
+        if (!IsPostBack)
+        {
+            //校验是否有权限执行此cmd
+            SystemPermission.CheckCommandPermission(cmd);
+
+            //BuildTree();
+            FillData();
+            ButtonBind();
+            PermissionControl();
+            FillInterimPaymentData();
+        }
+        Session["Contract"] = id;
+    }
+
+    private void PermissionControl()
+    {
+        if (SystemPermission.CheckPermission(PopedomType.Delete))
+            GridView1.Columns[GridView1.Columns.Count - 1].Visible = true;
+        else GridView1.Columns[GridView1.Columns.Count - 1].Visible = false;
+
+        //期中支付编辑/删除安包的显示/隐藏
+        ContractInformation contractInformationBll = new ContractInformation();
+        ContractInformationInfo contractInformationInfo = contractInformationBll.GetContractInformationInfo(id);
+        if (contractInformationInfo.PrepaidState == 1 && contractInformationInfo.HandOverpayState == 0)
+        {
+            GridView1.Columns[GridView1.Columns.Count - 1].Visible = true;
+            GridView1.Columns[GridView1.Columns.Count - 2].Visible = true;
+        }
+        else
+        {
+            GridView1.Columns[GridView1.Columns.Count - 1].Visible = false;
+            GridView1.Columns[GridView1.Columns.Count - 2].Visible = false;
+        }
+    }
+
+    private void FillData()
+    {
+        ContractInformation contractInformationBll = new ContractInformation();
+        ContractInformationInfo contractInformationInfo = contractInformationBll.GetContractInformationInfo(id);
+        //ViewState["ContractInformationInfo"] = contractInformationInfo;
+
+
+        if (cmd == "add")
+        {
+        }
+        else if (cmd == "view")
+        {
+            //修改和查看时，需要先查询出模块的信息
+            //修改和查看时，传进来的参数id为本模块id
+            if (contractInformationInfo != null)
+            {
+                lb_ContractNo.Text = contractInformationInfo.ContractNo;
+                lb_ContractName.Text = contractInformationInfo.ContractName;
+                lb_ContractAmount.Text = contractInformationInfo.ContractAmount.ToString();
+                lb_SettlementAmount.Text = contractInformationInfo.SettlementAmount.ToString();
+                lb_ContractedUnits.Text = contractInformationInfo.ContractedUnits;
+                lb_Period.Text = contractInformationInfo.Period.ToString();
+                lb_Retentions.Text = contractInformationInfo.Retentions.ToString();
+                lb_ContractPeople.Text = contractInformationInfo.ContractPeople;
+                lb_ContractTheWay.Text = contractInformationInfo.ContractTheWay;
+                lb_NoSettlementAmount.Text = contractInformationInfo.NoSettlementAmount.ToString();
+
+
+                tb_Prepaid.Text = contractInformationInfo.Prepaid.ToString();
+                tb_CompletedPayment.Text = contractInformationInfo.CompletedPayment.ToString();
+                tb_HandOverpay.Text = contractInformationInfo.HandOverpay.ToString();
+            }
+        }
+        else if (cmd == "edit")
+        {
+            if (contractInformationInfo != null)
+            {
+                tb_ContractNo.Text = contractInformationInfo.ContractNo;
+                tb_ContractName.Text = contractInformationInfo.ContractName;
+                tb_ContractAmount.Text = contractInformationInfo.ContractAmount.ToString();
+                tb_SettlementAmount.Text = contractInformationInfo.SettlementAmount.ToString();
+                tb_ContractedUnits.Text = contractInformationInfo.ContractedUnits;
+                tb_Period.Text = contractInformationInfo.Period.ToString();
+                tb_Retentions.Text = contractInformationInfo.Retentions.ToString();
+                tb_ContractPeople.Text = contractInformationInfo.ContractPeople;
+                tb_ContractTheWay.Text = contractInformationInfo.ContractTheWay;
+                tb_NoSettlementAmount.Text = contractInformationInfo.NoSettlementAmount.ToString();
+            }
+        }
+
+        if (cmd == "add")
+        {
+            HideDisplay();
+        }
+        if (cmd == "edit")
+        {
+            HideDisplay();
+        }
+        if (cmd == "view")
+        {
+            HideEdit();
+        }
+    }
+
+    private void HideEdit()
+    {
+        tb_ContractNo.Visible = false;
+        tb_ContractName.Visible = false;
+        tb_ContractAmount.Visible = false;
+        tb_SettlementAmount.Visible = false;
+        tb_ContractedUnits.Visible = false;
+        tb_Period.Visible = false;
+        tb_Retentions.Visible = false;
+        tb_ContractPeople.Visible = false;
+        tb_ContractTheWay.Visible = false;
+        tb_NoSettlementAmount.Visible = false;
+
+        lb_ContractNo.Visible = true;
+        lb_ContractName.Visible = true;
+        lb_ContractAmount.Visible = true;
+        lb_SettlementAmount.Visible = true;
+        lb_ContractedUnits.Visible = true;
+        lb_Period.Visible = true;
+        lb_Retentions.Visible = true;
+        lb_ContractPeople.Visible = true;
+        lb_ContractTheWay.Visible = true;
+        lb_NoSettlementAmount.Visible = true;
+
+        PostButton.Visible = false;
+
+        TabPanel2.Visible = true;
+        TabPanel3.Visible = true;
+        TabPanel4.Visible = true;
+        TabPanel5.Visible = true;
+
+
+        //期中支付新增按钮的显示/隐藏
+        ContractInformation contractInformationBll = new ContractInformation();
+        ContractInformationInfo contractInformationInfo = contractInformationBll.GetContractInformationInfo(id);
+
+        if (contractInformationInfo.PrepaidState == 1 && contractInformationInfo.HandOverpayState == 0)
+        {
+            HeadMenuWebControls2.Visible = true;
+        }
+        else
+        {
+            HeadMenuWebControls2.Visible = false;
+        }
+
+
+    }
+
+    private void HideDisplay()
+    {
+        tb_ContractNo.Visible = true;
+        tb_ContractName.Visible = true;
+        tb_ContractAmount.Visible = true;
+        tb_SettlementAmount.Visible = true;
+        tb_ContractedUnits.Visible = true;
+        tb_Period.Visible = true;
+        tb_Retentions.Visible = true;
+        tb_ContractPeople.Visible = true;
+        tb_ContractTheWay.Visible = true;
+        tb_NoSettlementAmount.Visible = true;
+
+        lb_ContractNo.Visible = false;
+        lb_ContractName.Visible = false;
+        lb_ContractAmount.Visible = false;
+        lb_SettlementAmount.Visible = false;
+        lb_ContractedUnits.Visible = false;
+        lb_Period.Visible = false;
+        lb_Retentions.Visible = false;
+        lb_ContractPeople.Visible = false;
+        lb_ContractTheWay.Visible = false;
+        lb_NoSettlementAmount.Visible = false;
+
+        PostButton.Visible = true;
+
+        TabPanel2.Visible = false;
+        TabPanel3.Visible = false;
+        TabPanel4.Visible = false;
+        TabPanel5.Visible = false;
+    }
+
+    private void ButtonBind()
+    {
+
+        if (cmd == "add")
+        {
+
+        }
+        else if (cmd == "edit")
+        {
+            //添加新增与删除按钮
+            //string moduleName = Label2.Text.Trim();
+            HeadMenuButtonItem itemAdd = new HeadMenuButtonItem();
+            itemAdd.ButtonName = "新增模块";
+            itemAdd.ButtonIcon = "new.gif";
+            itemAdd.ButtonPopedom = PopedomType.New;
+            itemAdd.ButtonUrl = "?cmd=add&id=" + id;
+            HeadMenuWebControls1.ButtonList.Add(itemAdd);
+
+            HeadMenuButtonItem itemDel = new HeadMenuButtonItem();
+            itemDel.ButtonName = "删除";
+            itemDel.ButtonIcon = "delete.gif";
+            itemDel.ButtonPopedom = PopedomType.Delete;
+            itemDel.ButtonUrl = string.Format("DelData('?cmd=delete&id={0}')", id);
+            itemDel.ButtonUrlType = UrlType.JavaScript;
+            HeadMenuWebControls1.ButtonList.Add(itemDel);
+        }
+        else if (cmd == "view")
+        {
+            //添加新增与修改按钮
+            //view 有两种情况，一是查看最上层的模块，二是查看第二层以下的模块
+            //对于查看最上层模块的情况，传进来的参数id为本模块id，parentName为"无"
+            //string moduleName = Label2.Text.Trim();
+            HeadMenuButtonItem itemAdd = new HeadMenuButtonItem();
+            itemAdd.ButtonName = "新增模块";
+            itemAdd.ButtonIcon = "new.gif";
+            itemAdd.ButtonPopedom = PopedomType.New;
+            itemAdd.ButtonUrl = "?cmd=add&id=" + id;
+            HeadMenuWebControls1.ButtonList.Add(itemAdd);
+
+            HeadMenuButtonItem itemEdit = new HeadMenuButtonItem();
+            itemEdit.ButtonName = "修改";
+            itemEdit.ButtonIcon = "edit.gif";
+            itemEdit.ButtonPopedom = PopedomType.Edit;
+            itemEdit.ButtonUrl = "?cmd=edit&id=" + id;
+            HeadMenuWebControls1.ButtonList.Add(itemEdit);
+
+
+        }
+        else if (cmd == "delete")
+        {
+
+
+            bool bSuccess = false;
+            try
+            {
+
+                bSuccess = true;
+            }
+            catch (Exception ex)
+            {
+                EventMessage.MessageBox(Msg_Type.Error, "操作失败", "删除保单失败", ex, Icon_Type.Error, true, "window.history.go(-1)", UrlType.JavaScript, "");
+            }
+            if (bSuccess)
+            {
+                string url = "ContractInformation.aspx";
+
+                EventMessage.MessageBox(Msg_Type.Info, "操作成功", "删除合同基本信息(ID:" + id + ")成功！", Icon_Type.OK, true, Common.GetHomeBaseUrl(url), UrlType.Href, "");
+            }
+        }
+    }
+
+    /// <summary>
+    /// 添加/修改模块
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        ContractInformationInfo contractInformationInfo = new ContractInformationInfo();
+        //获取用户输入
+        try
+        {
+            contractInformationInfo.ContractNo = tb_ContractNo.Text;
+            contractInformationInfo.ContractName = tb_ContractName.Text;
+            contractInformationInfo.ContractAmount = Convert.ToDecimal(tb_ContractAmount.Text);
+            contractInformationInfo.SettlementAmount = Convert.ToDecimal(tb_SettlementAmount.Text);
+            contractInformationInfo.ContractedUnits = tb_ContractedUnits.Text;
+            contractInformationInfo.Period = Convert.ToInt32(tb_Period.Text);
+            contractInformationInfo.Retentions = Convert.ToDecimal(tb_Retentions.Text);
+            contractInformationInfo.ContractPeople = tb_ContractPeople.Text;
+            contractInformationInfo.ContractTheWay = tb_ContractTheWay.Text;
+            contractInformationInfo.NoSettlementAmount = Convert.ToDecimal(tb_NoSettlementAmount.Text);
+        }
+        catch (WebException ex)
+        {
+            EventMessage.MessageBox(Msg_Type.Error, "操作失败", "添加合同基本信息失败", ex, Icon_Type.Error, true, "window.history.go(-1)",
+                UrlType.JavaScript, "");
+        }
+
+        bool bSuccess = false;
+        ContractInformation contractInformationBll = new ContractInformation();
+        if (cmd == "add")
+        {
+            try
+            {
+                contractInformationBll.InsertContractInformation(contractInformationInfo);
+                bSuccess = true;
+            }
+            catch (Exception ex)
+            {
+                EventMessage.MessageBox(Msg_Type.Error, "操作失败", "添加合同基本信息失败", ex, Icon_Type.Error, true, "window.history.go(-1)", UrlType.JavaScript, "");
+            }
+            if (bSuccess)
+            {
+                string url = "ContractInformation.aspx";
+
+                EventMessage.MessageBox(Msg_Type.Info, "操作成功", "添加合同基本信息成功！", Icon_Type.OK, true, Common.GetHomeBaseUrl(url), UrlType.Href, "");
+            }
+        }
+        if (cmd == "edit")
+        {
+            try
+            {
+                //module.ChildCount = GridView1.Rows.Count;
+                //ContractInformationInfo oldContractInformationInfo = (ContractInformationInfo)ViewState["ContractInformationInfo"];
+                //contractInformationInfo.Id = oldContractInformationInfo.Id;
+                contractInformationInfo.Id = id;
+
+                contractInformationBll.UpdateContractInformationInfo(contractInformationInfo);
+                bSuccess = true;
+            }
+            catch (Exception ex)
+            {
+                EventMessage.MessageBox(Msg_Type.Error, "操作失败", "修改保单信息失败", ex, Icon_Type.Error, true, "window.history.go(-1)", UrlType.JavaScript, "");
+            }
+            if (bSuccess)
+            {
+                EventMessage.MessageBox(Msg_Type.Info, "操作成功", "修改保单信息成功！", Icon_Type.OK, true, Common.GetHomeBaseUrl("ContractInformation.aspx"), UrlType.Href, "");
+            }
+        }
+    }
+
+    /// <summary>
+    /// 添加预付
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
+    protected void Button2_Click(object sender, EventArgs e)
+    {
+        UpdateContractPayment("Prepaid");
+    }
+
+    /// <summary>
+    /// 添加期中支付
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
+    protected void Button3_Click(object sender, EventArgs e)
+    {
+    }
+
+    /// <summary>
+    /// 添加竣工支付
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
+    protected void Button4_Click(object sender, EventArgs e)
+    {
+        UpdateContractPayment("CompletedPayment");
+    }
+
+    /// <summary>
+    /// 添加交工支付
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
+    protected void Button5_Click(object sender, EventArgs e)
+    {
+        UpdateContractPayment("HandOverpay");
+    }
+
+    private void UpdateContractPayment(string name)
+    {
+        bool bSuccess = false;
+        try
+        {
+            ContractInformation contractInformationBll = new ContractInformation();
+            ContractInformationInfo contractInformationInfo = new ContractInformationInfo();
+            contractInformationInfo.Id = id;
+            if (name == "Prepaid")
+            {
+                contractInformationInfo.Prepaid = Convert.ToDecimal(tb_Prepaid.Text);
+            }
+            else if (name == "CompletedPayment")
+            {
+                contractInformationInfo.CompletedPayment = Convert.ToDecimal(tb_CompletedPayment.Text);
+            }
+            else if (name == "HandOverpay")
+            {
+                contractInformationInfo.HandOverpay = Convert.ToDecimal(tb_HandOverpay.Text);
+            }
+            contractInformationBll.UpdatePrepaid(contractInformationInfo, name);
+            bSuccess = true;
+        }
+        catch (Exception ex)
+        {
+            EventMessage.MessageBox(Msg_Type.Error, "操作失败", "保存失败", ex, Icon_Type.Error, true, "window.history.go(-1)", UrlType.JavaScript, "");
+        }
+        if (bSuccess)
+        {
+            EventMessage.MessageBox(Msg_Type.Info, "操作成功", "保存成功！", Icon_Type.OK, true, Common.GetHomeBaseUrl("EditContractInformation.aspx?cmd=view&id=" + id), UrlType.Href, "");
+        }
+    }
+
+
+    private void FillInterimPaymentData()
+    {
+        try
+        {
+            ContractInformation contractInformationBll = new ContractInformation();
+            IList list = contractInformationBll.GetInterimPayment(id);
+
+            GridView1.DataSource = list;
+            GridView1.DataBind();
+        }
+        catch (Exception ex)
+        {
+            EventMessage.MessageBox(Msg_Type.Error, "操作失败", "获取数据失败", ex, Icon_Type.Error, true, "window.history.go(-1)", UrlType.JavaScript, "");
+        }
+    }
+
+    protected void GridView1_RowCommand(object sender, GridViewCommandEventArgs e)
+    {
+        GridViewRow gvRow = GridView1.Rows[Convert.ToInt32(e.CommandArgument)];
+        if (e.CommandName == "edit")
+        {
+            string interimPaymentId = gvRow.Attributes["Id"];
+            Response.Redirect("EditInterimPayment.aspx?cmd=edit&id=" + interimPaymentId + "&ContractId=" + id);
+        }
+        else if (e.CommandName == "del")
+        {
+            try
+            {
+                int row = Convert.ToInt32(e.CommandArgument);
+                long interimPaymentId = Convert.ToInt64(gvRow.Attributes["Id"]);
+                ContractInformation contractInformationBll = new ContractInformation();
+                contractInformationBll.DelInterimPayment(interimPaymentId);
+
+                FillInterimPaymentData();
+                // GridView1.Rows[row].Visible = false;
+            }
+            catch (Exception ex)
+            {
+                EventMessage.MessageBox(Msg_Type.Error, "操作失败", "删除数据失败", ex, Icon_Type.Error, true, "window.history.go(-1)", UrlType.JavaScript, "");
+            }
+        }
+    }
+    protected void GridView1_RowDataBound(object sender, GridViewRowEventArgs e)
+    {
+        if (e.Row.RowType == DataControlRowType.DataRow)
+        {
+            //鼠标移动到每项时颜色交替效果    
+            e.Row.Attributes.Add("OnMouseOut", "this.style.backgroundColor='White';");
+            e.Row.Attributes.Add("OnMouseOver", "this.style.backgroundColor='#f7f7f7';");
+
+            //设置悬浮鼠标指针形状为"小手"    
+            e.Row.Attributes["style"] = "Cursor:hand";
+
+            ContractInterimPaymentInfo item = (ContractInterimPaymentInfo)e.Row.DataItem;
+            e.Row.Attributes["Id"] = item.Id.ToString();
+        }
+
+    }
+
+}

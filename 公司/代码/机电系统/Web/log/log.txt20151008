@@ -1,0 +1,13 @@
+INFO  2015-10-08 09:56:40,466 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx] FM2E application started at 2015-10-08 09:56:39
+FATAL 2015-10-08 09:58:10,850 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionApproval%2fViewApprovalMfSheet.aspx] Version:true
+INFO  2015-10-08 09:58:10,850 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionApproval%2fViewApprovalMfSheet.aspx] 欢迎您admin，成功登入。您的IP为：127.0.0.1！
+FATAL 2015-10-08 10:02:09,733 [/Web/Login.aspx] Version:true
+INFO  2015-10-08 10:02:09,733 [/Web/Login.aspx] 欢迎您yill，成功登入。您的IP为：127.0.0.1！
+INFO  2015-10-08 11:26:20,023 FM2E application ended at 2015-10-08 11:26:20
+INFO  2015-10-08 11:27:20,875 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] FM2E application started at 2015-10-08 11:27:13
+INFO  2015-10-08 11:27:51,290 FM2E application ended at 2015-10-08 11:27:51
+INFO  2015-10-08 11:47:00,053 FM2E application ended at 2015-10-08 11:47:00
+INFO  2015-10-08 11:47:18,135 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] FM2E application started at 2015-10-08 11:47:18
+INFO  2015-10-08 11:47:18,752 FM2E application ended at 2015-10-08 11:47:18
+INFO  2015-10-08 11:47:23,595 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] FM2E application started at 2015-10-08 11:47:23
+INFO  2015-10-08 16:45:25,879 FM2E application ended at 2015-10-08 16:45:25

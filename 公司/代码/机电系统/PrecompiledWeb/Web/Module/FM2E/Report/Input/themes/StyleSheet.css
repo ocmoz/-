@@ -1,0 +1,151 @@
+﻿@charset "utf-8";
+
+a  {
+	font-family: "宋体";
+	font-size: 12px;
+	text-decoration: none;
+}
+ul {
+	padding-left: 0px;
+	list-style-image: none;
+}
+li {
+	float: left;
+	text-indent: 0px;
+	margin-right: 19px;
+}
+#main{
+	width: 97%;
+	float: left;
+	overflow: visible;
+	position: absolute;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#button-bar{
+	margin-top: 15px;
+	
+}
+#table{
+	position: relative;
+	background-image: url(images/lmbg.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+	float: left;
+	width: 100%;
+	left: 1%;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #cecece;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #2289bf;
+	margin-top: 15px;
+}
+#tabtop-l{
+	height: 23px;
+	position: relative;
+	float: left;
+	background-image: url(images/lmpt-l.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 0px;
+}
+#tabtop-z{
+	height: 23px;
+	position: relative;
+	float: left;
+	background-image: url(images/lmpt-bg.gif);
+	background-repeat: repeat-x;
+	background-position: left;
+	line-height: 23px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	color: #000000;
+	width: 100%;
+	text-align: center;
+	
+}
+#ptk{
+	width: 100%;
+	float: left;
+	clear: both;
+}
+#main-tablist {
+	clear: both;
+	float: left;
+	width: 100%;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #cecece;
+	border-right-color: #cecece;
+	border-bottom-color: #cecece;
+	border-left-color: #cecece;
+	/*background-image: url(../images/images3/images/lmtext-bg.gif);*/
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	left: 1%;
+	margin-right: 1px;
+	padding-left: 0px;
+	padding-bottom: 15px;
+	position: relative;
+}
+.main-tablist {
+	clear: both;
+	float: left;
+	width: 100%;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #cecece;
+	border-right-color: #cecece;
+	border-bottom-color: #cecece;
+	border-left-color: #cecece;
+	background-image: url(images/lmtext-bg.gif);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	left: 1%;
+	margin-right: 1px;
+	padding-left: 0px;
+	padding-bottom: 15px;
+	position: relative;
+}
+#main-tablist2 {
+	clear: both;
+	float: left;
+	width: 100%;
+	padding-bottom: 10px;
+	position: relative;
+	padding-top: 5px;
+	color: #9DA0A4;
+	left: 1%;
+}
+.tabny-l-1{
+	border-style: none;
+	color: #888d91;
+	background-image: url('images/tabny-1.gif');
+		background-repeat: no-repeat;
+		background-color: transparent;
+		display: block;
+		height: 20px;
+	width: 85px;
+		margin-left: 10px;
+		line-height: 22px;
+		text-align: center;
+		cursor: hand;
+	margin-right: 0px;
+}

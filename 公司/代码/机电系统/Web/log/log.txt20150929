@@ -1,0 +1,103 @@
+INFO  2015-09-29 09:52:40,607 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx] FM2E application started at 2015-09-29 09:52:39
+FATAL 2015-09-29 10:09:49,190 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionApproval%2fViewApprovalMfSheet.aspx] Version:true
+INFO  2015-09-29 10:09:49,190 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionApproval%2fViewApprovalMfSheet.aspx] 欢迎您admin，成功登入。您的IP为：127.0.0.1！
+FATAL 2015-09-29 10:23:44,911 [/Web/Login.aspx] Version:true
+INFO  2015-09-29 10:23:44,911 [/Web/Login.aspx] 欢迎您zhangkq，成功登入。您的IP为：127.0.0.1！
+ERROR 2015-09-29 10:24:27,640 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=5686] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+ERROR 2015-09-29 10:24:27,828 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=5686] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+ERROR 2015-09-29 10:25:19,343 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=5686] 故障处理单审批失败:参数化查询 '(@StateName varchar(50),@StateDescription varchar(50),@instanceI' 需要参数 '@NextUserName'，但未提供该参数。 
+STACK   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 FM2E.SQLServerDAL.Utils.SQLHelper.ExecuteNonQuery(SqlConnection connection, CommandType cmdType, String cmdText, SqlParameter[] commandParameters) 位置 F:\骏兰\SGS\深高速\SGS_new - 副本\SQLServerDAL\Utils\SQLHelper.cs:行号 73
+   在 FM2E.SQLServerDAL.Workflow.WorkflowHelperDAL.UpdateInstanceStatusAndNextUser3(String workflowName, Guid instanceID, String stateName, String stateDescription, String company, String delegateUserName, String& nextUserName) 位置 F:\骏兰\SGS\深高速\SGS_new - 副本\SQLServerDAL\Workflow\WorkflowHelperDAL.cs:行号 546
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine3[T](Guid instanceID, String eventName, String workflowName, String company, String delegateUserName, String& nextUserName) 位置 F:\骏兰\SGS\深高速\SGS_new - 副本\WorkflowLayer\Base\WorkflowHelper.cs:行号 235
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 f:\骏兰\SGS\深高速\SGS_new - 副本\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1078
+ERROR 2015-09-29 10:26:13,489 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=5686] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+ERROR 2015-09-29 10:29:02,171 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=5686] 故障处理单审批失败:参数化查询 '(@StateName varchar(50),@StateDescription varchar(50),@instanceI' 需要参数 '@NextUserName'，但未提供该参数。 
+STACK   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 FM2E.SQLServerDAL.Utils.SQLHelper.ExecuteNonQuery(SqlConnection connection, CommandType cmdType, String cmdText, SqlParameter[] commandParameters) 位置 F:\骏兰\SGS\深高速\SGS_new - 副本\SQLServerDAL\Utils\SQLHelper.cs:行号 73
+   在 FM2E.SQLServerDAL.Workflow.WorkflowHelperDAL.UpdateInstanceStatusAndNextUser3(String workflowName, Guid instanceID, String stateName, String stateDescription, String company, String delegateUserName, String& nextUserName) 位置 F:\骏兰\SGS\深高速\SGS_new - 副本\SQLServerDAL\Workflow\WorkflowHelperDAL.cs:行号 546
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine3[T](Guid instanceID, String eventName, String workflowName, String company, String delegateUserName, String& nextUserName) 位置 F:\骏兰\SGS\深高速\SGS_new - 副本\WorkflowLayer\Base\WorkflowHelper.cs:行号 235
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 f:\骏兰\SGS\深高速\SGS_new - 副本\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1078
+ERROR 2015-09-29 10:30:14,153 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=5686] 故障处理单审批失败:参数化查询 '(@StateName varchar(50),@StateDescription varchar(50),@instanceI' 需要参数 '@NextUserName'，但未提供该参数。 
+STACK   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 FM2E.SQLServerDAL.Utils.SQLHelper.ExecuteNonQuery(SqlConnection connection, CommandType cmdType, String cmdText, SqlParameter[] commandParameters) 位置 F:\骏兰\SGS\深高速\SGS_new - 副本\SQLServerDAL\Utils\SQLHelper.cs:行号 73
+   在 FM2E.SQLServerDAL.Workflow.WorkflowHelperDAL.UpdateInstanceStatusAndNextUser3(String workflowName, Guid instanceID, String stateName, String stateDescription, String company, String delegateUserName, String& nextUserName) 位置 F:\骏兰\SGS\深高速\SGS_new - 副本\SQLServerDAL\Workflow\WorkflowHelperDAL.cs:行号 546
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine3[T](Guid instanceID, String eventName, String workflowName, String company, String delegateUserName, String& nextUserName) 位置 F:\骏兰\SGS\深高速\SGS_new - 副本\WorkflowLayer\Base\WorkflowHelper.cs:行号 235
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 f:\骏兰\SGS\深高速\SGS_new - 副本\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1078
+FATAL 2015-09-29 10:30:31,013 [/Web/Login.aspx] Version:true
+INFO  2015-09-29 10:30:31,013 [/Web/Login.aspx] 欢迎您zhangkq，成功登入。您的IP为：127.0.0.1！
+ERROR 2015-09-29 10:30:41,335 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=5686] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+ERROR 2015-09-29 10:31:40,934 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=5686] 故障处理单审批失败:无法为实例 ID“9fc9e014-d890-421b-8f55-b6694d9bc770”传递接口类型“FM2E.WorkflowLayer.ISGS_MalFunctionEventService”上的事件“MaintainDeptManagerAccepted”。(caused by 未启用队列“Message Properties
+Interface Type:FM2E.WorkflowLayer.ISGS_MalFunctionEventService
+Method Name:MaintainDeptManagerAccepted
+CorrelationValues:
+”。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_MalFunctionEventService.RaiseEvent(String eventName, Guid instanceID) 位置 F:\骏兰\SGS\深高速\SGS_new - 副本\WorkflowLayer\EventService\SGS_MalFunctionEventService.cs:行号 13
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, Boolean stationCheck, String systemID, String next, String& nextUserName) 位置 F:\骏兰\SGS\深高速\SGS_new - 副本\WorkflowLayer\Base\WorkflowHelper.cs:行号 251
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 f:\骏兰\SGS\深高速\SGS_new - 副本\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1082
+ERROR 2015-09-29 10:31:47,162 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=7128] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2015-09-29 10:34:06,484 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=7128] 故障处理单审批成功,故障处理单号为：FM1509241401
+INFO  2015-09-29 10:48:27,567 FM2E application ended at 2015-09-29 10:48:27
+INFO  2015-09-29 10:52:55,570 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx] FM2E application started at 2015-09-29 10:52:55
+FATAL 2015-09-29 10:52:59,365 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionApproval%2fViewApprovalMfSheet.aspx] Version:true
+INFO  2015-09-29 10:52:59,365 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionApproval%2fViewApprovalMfSheet.aspx] 欢迎您admin，成功登入。您的IP为：127.0.0.1！
+FATAL 2015-09-29 10:53:07,309 [/Web/Login.aspx] Version:true
+INFO  2015-09-29 10:53:07,309 [/Web/Login.aspx] 欢迎您zhangkq，成功登入。您的IP为：127.0.0.1！
+ERROR 2015-09-29 10:53:20,365 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=5686] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2015-09-29 10:53:50,394 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=5686] 故障处理单审批成功,故障处理单号为：HH1502101503
+FATAL 2015-09-29 10:55:20,732 [/Web/Login.aspx] Version:true
+INFO  2015-09-29 10:55:20,732 [/Web/Login.aspx] 欢迎您wangmx，成功登入。您的IP为：127.0.0.1！
+ERROR 2015-09-29 10:55:38,932 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=5686] 获取故障处理历史失败，原因：未将对象引用设置到对象的实例。
+INFO  2015-09-29 10:55:44,631 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=5686] 验收故障处理单成功,故障处理单号为：HH1502101503
+FATAL 2015-09-29 10:56:10,509 [/Web/Login.aspx] Version:true
+INFO  2015-09-29 10:56:10,509 [/Web/Login.aspx] 欢迎您cuibc，成功登入。您的IP为：127.0.0.1！
+ERROR 2015-09-29 10:56:17,067 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionStationCheck/StationCheckMalfunctionSheet.aspx?cmd=view&id=5686] 获取故障处理历史失败，原因：未将对象引用设置到对象的实例。
+INFO  2015-09-29 10:56:29,744 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionStationCheck/StationCheckMalfunctionSheet.aspx?cmd=view&id=5686] 确定故障处理单成功,故障处理单号为：HH1502101503
+FATAL 2015-09-29 10:56:44,073 [/Web/Login.aspx] Version:true
+INFO  2015-09-29 10:56:44,073 [/Web/Login.aspx] 欢迎您zhangkq，成功登入。您的IP为：127.0.0.1！
+ERROR 2015-09-29 10:56:51,267 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=7127] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2015-09-29 10:57:29,980 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=7127] 故障处理单审批成功,故障处理单号为：BNK1509241401
+ERROR 2015-09-29 10:57:39,386 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=7122] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2015-09-29 10:57:48,015 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=7122] 故障处理单审批成功,故障处理单号为：SL1509240901
+INFO  2015-09-29 10:58:17,636 FM2E application ended at 2015-09-29 10:58:17
+INFO  2015-09-29 10:59:02,407 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] FM2E application started at 2015-09-29 10:59:02
+INFO  2015-09-29 10:59:04,677 FM2E application ended at 2015-09-29 10:59:04
+INFO  2015-09-29 10:59:16,994 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] FM2E application started at 2015-09-29 10:59:16
+INFO  2015-09-29 11:09:04,168 FM2E application ended at 2015-09-29 11:09:04
+INFO  2015-09-29 11:09:08,778 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] FM2E application started at 2015-09-29 11:09:08
+INFO  2015-09-29 11:09:13,836 FM2E application ended at 2015-09-29 11:09:13
+INFO  2015-09-29 11:09:17,553 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] FM2E application started at 2015-09-29 11:09:17
+INFO  2015-09-29 15:35:49,541 FM2E application ended at 2015-09-29 15:35:49

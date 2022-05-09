@@ -1,0 +1,73 @@
+﻿BODY
+{
+	font-size: 12px;
+	font-family: "Verdana" , "Arial" , "细明体" , "sans-serif";
+	background-color: White;
+}
+table
+{
+	font-size: 12px;
+	font-family: "Verdana" , "Arial" , "细明体" , "sans-serif";
+}
+/*******以下是待办事务提示框样式******/
+#HintBox
+{
+	width: 409px;
+	Z-INDEX: 99999; 
+	LEFT: 0px;
+	overflow:hidden;
+}
+#HintBox .HintBoxtitle
+{
+	background:url(../images/BottomToolBar/Hint.gif) no-repeat 0 0px;
+	padding:0 0 0 0;
+	height:30px;
+	vertical-align:middle;
+}
+
+#HintBox .HintBoxbody
+{
+	border-left:solid 1px #8DB3D8;
+    border-bottom:solid 1px #8DB3D8; 
+    border-right:solid 1px #8DB3D8; 
+    background-color:#FBFBFB;
+    padding:0px 10px 10px 10px;
+    text-align:center;
+    vertical-align:middle;
+    height:100px;
+}
+#HintBox .NewMessage
+{
+	width:95%;
+	padding-left:10px;
+	text-align:left;
+	padding-top:5px;
+}
+#HintBox .OtherMessage
+{
+	float:right;
+}
+#HintBox .SendBy
+{
+	float:right; 
+	width:100%; 
+	text-align:left;
+	color:#1E5494;
+	font-weight:bold;
+}
+#HintBox .CloseButton
+{
+	float:right;
+    margin-top:2px; 
+    margin-right:10px; 
+    width:13px; 
+    height:13px; 
+    cursor:pointer;
+}
+#HintBox A{
+	color:#1E5494;
+	text-decoration:underline;
+}
+#HintBox A:hover{
+	color:red;
+}

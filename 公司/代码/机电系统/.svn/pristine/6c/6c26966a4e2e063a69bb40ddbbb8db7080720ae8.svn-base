@@ -1,0 +1,5 @@
+INFO  2013-04-29 12:05:08,478 [/Web/default.aspx] FM2E application started at 2013-04-29 12:05:07
+FATAL 2013-04-29 12:05:15,242 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-04-29 12:05:15,243 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+WARN  2013-04-29 15:05:24,727 移除在线用户admin3
+INFO  2013-04-29 23:58:54,609 FM2E application ended at 2013-04-29 23:58:54

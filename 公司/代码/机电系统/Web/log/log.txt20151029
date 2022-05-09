@@ -1,0 +1,6 @@
+INFO  2015-10-29 16:09:35,711 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionHandle.aspx] FM2E application started at 2015-10-29 16:09:34
+ERROR 2015-10-29 16:09:39,237 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionHandle.aspx] from字段值：低于系统允许长度1!
+ERROR 2015-10-29 16:09:39,983 [/Web/Messages.aspx?OPID=33544] 您已经被系统强制退出！
+ERROR 2015-10-29 16:09:40,045 [/Web/Messages.aspx?OPID=33544] 执行SystemPermission的事件时出错：正在中止线程。
+FATAL 2015-10-29 16:10:31,746 [/Web/Login.aspx] Version:true
+INFO  2015-10-29 16:10:31,746 [/Web/Login.aspx] 欢迎您admin，成功登入。您的IP为：127.0.0.1！

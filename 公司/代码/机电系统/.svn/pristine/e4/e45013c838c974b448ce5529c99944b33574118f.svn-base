@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>深高速营运业务管理系统</title>
+    <link href="../Css/Site_Css.css" rel="stylesheet" type="text/css" />
+    <%--     <script type="text/javascript" language="javascript" src="../js/checkform.js" charset="utf-8"></script>
+    <script type="text/javascript" language="javascript" src="../js/date/date.js"  charset="utf-8"></script>--%>
+    <link rel="stylesheet" type="text/css" href="../inc/FineMessBox/css/subModal.css" />
+    <link href="../Css/AjaxStyleSheet.css" rel="stylesheet" type="text/css" />
+    <link href="../Css/Table/default/css.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" language="javascript">
+        var causeValidate = true;
+    </script>
+</head>
+<body style="margin:0 10px 0 0">
+    <form id="form1" runat="server" enctype="multipart/form-data" onsubmit="javascript:return checkForm(document.forms[0],causeValidate)">
+    <div>
+        <asp:ContentPlaceHolder ID="PageBody" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+                         
+    </form>
+</body>
+</html>

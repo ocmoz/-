@@ -1,0 +1,310 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EF8A93ED-2FE7-4DEA-B080-61731B3D1772}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FM2E.Model</RootNamespace>
+    <AssemblyName>FM2E.Model</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.JScript" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Archives\ArchivesAttachmentInfo.cs" />
+    <Compile Include="Archives\ArchivesBorrowApplyDetailInfo.cs" />
+    <Compile Include="Archives\ArchivesBorrowApplyInfo.cs" />
+    <Compile Include="Archives\ArchivesDestroyApplyDetailInfo.cs" />
+    <Compile Include="Archives\ArchivesDestroyApplyInfo.cs" />
+    <Compile Include="Archives\ArchivesInfo.cs" />
+    <Compile Include="Archives\ArchivesTypeInfo.cs" />
+    <Compile Include="Basic\AddressInfo.cs" />
+    <Compile Include="Basic\CategorysearchInfo.cs" />
+    <Compile Include="Basic\ChannalInfo.cs" />
+    <Compile Include="Basic\CompanyInfo.cs" />
+    <Compile Include="Basic\ContractorInfo.cs" />
+    <Compile Include="Basic\DepartmentInfo.cs" />
+    <Compile Include="Basic\EquipmentSystemInfo.cs" />
+    <Compile Include="Basic\PositionInfo.cs" />
+    <Compile Include="Basic\RStatusInfo.cs" />
+    <Compile Include="Basic\SectionInfo.cs" />
+    <Compile Include="Basic\SubEquipmentSystemInfo.cs" />
+    <Compile Include="Basic\TollGateInfo.cs" />
+    <Compile Include="Basic\UStatusInfo.cs" />
+    <Compile Include="Basic\CategoryInfo.cs" />
+    <Compile Include="Basic\ProducerInfo.cs" />
+    <Compile Include="Basic\SupplierInfo.cs" />
+    <Compile Include="Basic\WarehouseInfo.cs" />
+    <Compile Include="Basic\WarehouseUserInfo.cs" />
+    <Compile Include="BudgetManagement\BudgetYearDetailInfo.cs" />
+    <Compile Include="BudgetManagement\BudgetYearInfo.cs" />
+    <Compile Include="BudgetManagement\QuarterlyBudgetDetailInfo.cs" />
+    <Compile Include="BudgetManagement\QuarterlyBudgetInfo.cs" />
+    <Compile Include="BudgetManagement\QuarterlyBudgetTotalInfo.cs" />
+    <Compile Include="BudgetManagement\QuarterlyForecastDetailInfo.cs" />
+    <Compile Include="BudgetManagement\QuarterlyForecastInfo.cs" />
+    <Compile Include="BudgetManagement\QuarterlyForecastTotalInfo.cs" />
+    <Compile Include="BudgetManagement\SubjectPerYear.cs" />
+    <Compile Include="BudgetManagement\SubjectRelationInfos.cs" />
+    <Compile Include="Budget\BudgetDetailInfo.cs" />
+    <Compile Include="Budget\BudgetPermonthInfo.cs" />
+    <Compile Include="Budget\BudgetPerMonthTotalInfo.cs" />
+    <Compile Include="Budget\BudgetYearDetailInfo.cs" />
+    <Compile Include="Budget\BudgetYearInfo.cs" />
+    <Compile Include="Budget\SubjectPerYear.cs" />
+    <Compile Include="Budget\SubjectRelationInfos.cs" />
+    <Compile Include="BugReportManager\BugReportInfo.cs" />
+    <Compile Include="Consumables\Consumables.cs" />
+    <Compile Include="Contract\ContractInformationInfo.cs" />
+    <Compile Include="Contract\ContractInterimPaymentInfo.cs" />
+    <Compile Include="Equipment\AssetAndDepreciationInfo.cs" />
+    <Compile Include="Equipment\BorrowApplyDetailInfo.cs" />
+    <Compile Include="Equipment\BorrowApplyInfo.cs" />
+    <Compile Include="Equipment\BorrowApplySearchInfo.cs" />
+    <Compile Include="Equipment\BorrowApprovalFacadeInfo.cs" />
+    <Compile Include="Equipment\BorrowApprovalInfo.cs" />
+    <Compile Include="Equipment\BorrowApprovalSearchInfo.cs" />
+    <Compile Include="Equipment\BorrowRecordInfo.cs" />
+    <Compile Include="Equipment\BorrowRecordSearchInfo.cs" />
+    <Compile Include="Equipment\CheckAcceptanceDetailBarcodeInfo.cs" />
+    <Compile Include="Equipment\CheckAcceptanceDetailInfo.cs" />
+    <Compile Include="Equipment\CheckAcceptanceInfo.cs" />
+    <Compile Include="Equipment\ConsumableEquipmentDetailInfo.cs" />
+    <Compile Include="Equipment\ConsumableEquipmentInfo.cs" />
+    <Compile Include="Equipment\EmployeesInfomodel.cs" />
+    <Compile Include="Equipment\EquipmentExportInfo.cs" />
+    <Compile Include="Equipment\EquipmentInfo.cs" />
+    <Compile Include="Equipment\EquipmentInfoFacade.cs" />
+    <Compile Include="Equipment\EquipmentSearchInfo.cs" />
+    <Compile Include="Equipment\EquipmentStorageInfo.cs" />
+    <Compile Include="Equipment\ExpendableInfo.cs" />
+    <Compile Include="Equipment\ExpendableInOutRecordInfo.cs" />
+    <Compile Include="Equipment\ExpendableModify.cs" />
+    <Compile Include="Equipment\ExpendableSheet.cs" />
+    <Compile Include="Equipment\ExpendableStatisticsInfo.cs" />
+    <Compile Include="Equipment\InEquipmentsInfo.cs" />
+    <Compile Include="Equipment\InOutApproval.cs" />
+    <Compile Include="Equipment\InWarehouseInfo.cs" />
+    <Compile Include="Equipment\OutEquipmentSearchForApprovalerInfo.cs" />
+    <Compile Include="Equipment\OutEquipmentsInfo.cs" />
+    <Compile Include="Equipment\OutWarehouseApplyInfo.cs" />
+    <Compile Include="Equipment\OutWarehouseApplySearchInfo.cs" />
+    <Compile Include="Equipment\OutWarehouseApprovalInfo.cs" />
+    <Compile Include="Equipment\OutWarehouseDetailInfo.cs" />
+    <Compile Include="Equipment\PriceApplyInfo.cs" />
+    <Compile Include="Equipment\PriceApplyDetailInfo.cs" />
+    <Compile Include="Equipment\PriceApplySearchInfo.cs" />
+    <Compile Include="Equipment\PriceDetailInfo.cs" />
+    <Compile Include="Equipment\PriceDetailSearchInfo.cs" />
+    <Compile Include="Equipment\PriceHistoryInfo.cs" />
+    <Compile Include="Equipment\PriceHistorySearchInfo.cs" />
+    <Compile Include="Equipment\PricePurchaseHistoryInfo.cs" />
+    <Compile Include="Equipment\PurchaseBarcodeInfo.cs" />
+    <Compile Include="Equipment\PurchaseOrderApprovalInfo.cs" />
+    <Compile Include="Equipment\PurchaseOrderCheckSearchInfo.cs" />
+    <Compile Include="Equipment\PurchaseOrderDetailInfo.cs" />
+    <Compile Include="Equipment\PurchaseOrderInfo.cs" />
+    <Compile Include="Equipment\PurchaseOrderModifyInfo.cs" />
+    <Compile Include="Equipment\PurchaseOrderSearchInfo.cs" />
+    <Compile Include="Equipment\PurchasePriceInfo.cs" />
+    <Compile Include="Equipment\PurchaseRecordInfo.cs" />
+    <Compile Include="Equipment\PurchaserInfo.cs" />
+    <Compile Include="Equipment\ReturnAcceptanceInfo.cs" />
+    <Compile Include="Equipment\ReturnAcceptanceSearchInfo.cs" />
+    <Compile Include="Equipment\ScrapApplyDetailInfo.cs" />
+    <Compile Include="Equipment\ScrapApplyInfo.cs" />
+    <Compile Include="Equipment\ScrapApplySearchInfo.cs" />
+    <Compile Include="Equipment\ScrapApprovaFacadelInfo.cs" />
+    <Compile Include="Equipment\ScrapApprovalDetailInfo.cs" />
+    <Compile Include="Equipment\ScrapApprovalInfo.cs" />
+    <Compile Include="Equipment\ScrapApprovalSearchInfo.cs" />
+    <Compile Include="Equipment\ScrapInfo.cs" />
+    <Compile Include="Equipment\ScrapRecordInfo.cs" />
+    <Compile Include="Equipment\ScrapRecordSearchInfo.cs" />
+    <Compile Include="Equipment\SubsidiaryEquipmentInfo.cs" />
+    <Compile Include="Equipment\WareHouseCheckInfo.cs" />
+    <Compile Include="Equipment\WareHouseCheckSearchInfo.cs" />
+    <Compile Include="Equipment\WareHouseConsumableInfo.cs" />
+    <Compile Include="Equipment\WarehouseInventoryInfo.cs" />
+    <Compile Include="Equipment\CheckAcceptanceSearchInfo.cs" />
+    <Compile Include="Equipment\OutWarehouseInfo.cs" />
+    <Compile Include="Examine\ExamineDetailInfo.cs" />
+    <Compile Include="Examine\ExamineInfo.cs" />
+    <Compile Include="Examine\ExamineItemInfo.cs" />
+    <Compile Include="Examine\ExamineResultInfo.cs" />
+    <Compile Include="Exceptions\BLLException.cs" />
+    <Compile Include="Exceptions\DALException.cs" />
+    <Compile Include="Exceptions\DuplicateException.cs" />
+    <Compile Include="Exceptions\WebException.cs" />
+    <Compile Include="Insurance\InsuranceInfo.cs" />
+    <Compile Include="Insurance\InsuranceReportInfo.cs" />
+    <Compile Include="Maintain\ApprovalRecord.cs" />
+    <Compile Include="Maintain\CheckRecord.cs" />
+    <Compile Include="Maintain\ComputeMaintainedEquipmentRateInfo.cs" />
+    <Compile Include="Maintain\DailyPatrolConfigInfo.cs" />
+    <Compile Include="Maintain\DailyPatrolDetailInfo.cs" />
+    <Compile Include="Maintain\DailyPatrolPlanInfo.cs" />
+    <Compile Include="Maintain\DailyPatrolRecordInfo.cs" />
+    <Compile Include="Maintain\DailyPatrolTrackInfo.cs" />
+    <Compile Include="Maintain\EquipmentCostInfor.cs" />
+    <Compile Include="Maintain\EquipmentMaintainRecordInfo.cs" />
+    <Compile Include="Maintain\EquipmentMaintainRecordSearchInfo.cs" />
+    <Compile Include="Maintain\FaultyEquipmentInfo.cs" />
+    <Compile Include="Maintain\MaintainedEquipmentInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Maintain\MaintainedEquipmentPartInfo.cs" />
+    <Compile Include="Maintain\MaintainedEquipmentRateInfo.cs" />
+    <Compile Include="Maintain\MaintainEquipmentsUpdateInfo.cs" />
+    <Compile Include="Maintain\MaintainFeeApplyInfo.cs" />
+    <Compile Include="Maintain\MaintainFeeApprovalInfo.cs" />
+    <Compile Include="Maintain\MaintainItemInfo.cs" />
+    <Compile Include="Maintain\MaintainPatrolAddressInfo.cs" />
+    <Compile Include="Maintain\MaintainPlanConfigInfo.cs" />
+    <Compile Include="Maintain\MaintainPlanEquipmentInfo.cs" />
+    <Compile Include="Maintain\MaintainPlanRecordInfo.cs" />
+    <Compile Include="Maintain\MaintainPlanTrackInfo.cs" />
+    <Compile Include="Maintain\MaintainRecordAddressInfo.cs" />
+    <Compile Include="Maintain\MaintainRecordEquipmentInfo.cs" />
+    <Compile Include="Maintain\MaintainSheetEquipmentInfo.cs" />
+    <Compile Include="Maintain\MaintainSheetInfo.cs" />
+    <Compile Include="Maintain\MalfuncitonMaintainInfo.cs" />
+    <Compile Include="Maintain\MalfunctionClassifyInfo.cs" />
+    <Compile Include="Maintain\MalfunctionClassifySearchInfo.cs" />
+    <Compile Include="Maintain\MalfunctionHandleInfo.cs" />
+    <Compile Include="Maintain\MalfunctionMaintainStaffInfo.cs" />
+    <Compile Include="Maintain\MalfunctionModifyRecordInfo.cs" />
+    <Compile Include="Maintain\MalfunctionSearchInfo.cs" />
+    <Compile Include="Maintain\MalfunctionStatisticInfo.cs" />
+    <Compile Include="Maintain\MalfunctionStatisticTerm.cs" />
+    <Compile Include="Maintain\RoutineInspectDetailInfo.cs" />
+    <Compile Include="Maintain\RoutineInspectPlanInfo.cs" />
+    <Compile Include="Maintain\RoutineInspectRecordInfo.cs" />
+    <Compile Include="Maintain\RoutineInspectTrackInfo.cs" />
+    <Compile Include="Maintain\RoutineMaintainConfigInfo.cs" />
+    <Compile Include="Maintain\RoutineMaintainDetailInfo.cs" />
+    <Compile Include="Maintain\RoutineMaintainPlanInfo.cs" />
+    <Compile Include="Maintain\RoutineMaintainRecordInfo.cs" />
+    <Compile Include="Maintain\RoutineMaintainTrackInfo.cs" />
+    <Compile Include="Maintain\TemplateMaintainSheetInfo.cs" />
+    <Compile Include="Maintain\TemplateSheetEquipmentInfo.cs" />
+    <Compile Include="Message\MessageInfo.cs" />
+    <Compile Include="Message\MessageReceiverCombineInfo.cs" />
+    <Compile Include="Message\MessageReceiverInfo.cs" />
+    <Compile Include="PendingOrder\PendingOrderInfo.cs" />
+    <Compile Include="PendingOrder\PendingOrderReceiverCombineInfo.cs" />
+    <Compile Include="PendingOrder\PendingOrderReceiverInfo.cs" />
+    <Compile Include="Plan\MonthFundsUsePlanInfo.cs" />
+    <Compile Include="Plan\PlanInfo.cs" />
+    <Compile Include="Plan\ScheduleInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpecialProject\SpecialProjectApprovalInfo.cs" />
+    <Compile Include="SpecialProject\SpecialProjectBidInfo.cs" />
+    <Compile Include="SpecialProject\SpecialProjectBudgetItemInfo.cs" />
+    <Compile Include="SpecialProject\SpecialProjectCheckAcceptInfo.cs" />
+    <Compile Include="SpecialProject\SpecialProjectCheckRecordInfo.cs" />
+    <Compile Include="SpecialProject\SpecialProjectContractPayInfo.cs" />
+    <Compile Include="SpecialProject\SpecialProjectDesignInfo.cs" />
+    <Compile Include="SpecialProject\SpecialProjectDeviceInfo.cs" />
+    <Compile Include="SpecialProject\SpecialProjectDeviceInRecord.cs" />
+    <Compile Include="SpecialProject\SpecialProjectInfo.cs" />
+    <Compile Include="SpecialProject\SpecialProjectJobItemInfo.cs" />
+    <Compile Include="SpecialProject\SpecialProjectModifyDeviceInfo.cs" />
+    <Compile Include="SpecialProject\SpecialProjectModifyInfo.cs" />
+    <Compile Include="SpecialProject\SpecialProjectPayRecordInfo.cs" />
+    <Compile Include="SpecialProject\SpecialProjectPlanInfo.cs" />
+    <Compile Include="SpecialProject\SpecialProjectPrePayInfo.cs" />
+    <Compile Include="SpecialProject\SpecialProjectSearchInfo.cs" />
+    <Compile Include="System\LoginUserInfo.cs" />
+    <Compile Include="System\ModuleInfo.cs" />
+    <Compile Include="System\RoleForWorkflowInfo.cs" />
+    <Compile Include="System\RoleInfo.cs" />
+    <Compile Include="System\RolePermissionInfo.cs" />
+    <Compile Include="System\UserInfo.cs" />
+    <Compile Include="System\UserRoleInfo.cs" />
+    <Compile Include="System\UserSearchInfo.cs" />
+    <Compile Include="Utils\EnumDescriptionAttribute.cs" />
+    <Compile Include="Utils\Enums.cs" />
+    <Compile Include="Workflow\UserDelegateInfo.cs" />
+    <Compile Include="Workflow\WorkflowInstanceInfo.cs" />
+    <Compile Include="Workflow\WorkflowRoleInfo.cs" />
+    <Compile Include="Utils\QueryParam.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\SheetType.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Basic\README.txt" />
+    <Content Include="System\README.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

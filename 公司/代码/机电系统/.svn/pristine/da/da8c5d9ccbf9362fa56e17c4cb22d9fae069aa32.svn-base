@@ -1,0 +1,14 @@
+INFO  2013-05-14 15:20:19,298 [/Web/default.aspx] FM2E application started at 2013-05-14 15:20:17
+FATAL 2013-05-14 15:20:30,054 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-05-14 15:20:30,054 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-14 15:21:32,962 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/RecordMalfunction.aspx?cmd=add] 提交故障处理单成功,故障处理单号为：BNK1305141501
+ERROR 2013-05-14 15:32:25,121 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionList.aspx] 此页面只允许维修部门人员进入
+FATAL 2013-05-14 15:32:43,302 [/Web/Login.aspx] Version:true
+INFO  2013-05-14 15:32:43,302 [/Web/Login.aspx] 欢迎您admin2，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-14 16:07:56,966 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionReport%2fViewMalfunctionSheet.aspx] 您的用户名(admin2)已经于(2013/5/14 15:32:43),从(127.0.0.1)IP登陆在本系统.在线时间:3.02分.
+INFO  2013-05-14 16:08:00,589 [/Web/Login.aspx?CMD=OutOnline&OPCode=7020&U_LoginName=admin2&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=eaqti345pqtwkcmyinrlbcen] 欢迎您admin2，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-14 18:21:23,311 FM2E application ended at 2013-05-14 18:21:23
+INFO  2013-05-14 18:31:39,396 [/Web/default.aspx] FM2E application started at 2013-05-14 18:31:38
+FATAL 2013-05-14 18:31:44,427 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-05-14 18:31:44,428 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-14 18:43:32,578 FM2E application ended at 2013-05-14 18:43:32

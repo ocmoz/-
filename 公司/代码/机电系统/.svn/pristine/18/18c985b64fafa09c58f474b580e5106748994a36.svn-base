@@ -1,0 +1,241 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5EFA4C81-365C-4CFF-A6DB-7A328D11B748}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FM2E.BLL</RootNamespace>
+    <AssemblyName>FM2E.BLL</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BarCode, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Microsoft.Vbe.Interop, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Workflow.Activities">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Workflow.ComponentModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Workflow.Runtime">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Archives\Archives.cs" />
+    <Compile Include="Archives\ArchivesAttachment.cs" />
+    <Compile Include="Archives\ArchivesBorrowApply.cs" />
+    <Compile Include="Archives\ArchivesDestroyApply.cs" />
+    <Compile Include="Archives\ArchivesType.cs" />
+    <Compile Include="BarCode\BarCode.cs" />
+    <Compile Include="BarCode\BarCodeImage.cs" />
+    <Compile Include="BarCode\BarCodeInfo.cs" />
+    <Compile Include="BarCode\PrintParameter.cs" />
+    <Compile Include="Basic\Address.cs" />
+    <Compile Include="Basic\Channal.cs" />
+    <Compile Include="Basic\Company.cs" />
+    <Compile Include="Basic\Consumables.cs" />
+    <Compile Include="Basic\Contractor.cs" />
+    <Compile Include="Basic\Department.cs" />
+    <Compile Include="Basic\Category.cs" />
+    <Compile Include="Basic\EquipmentSystem.cs" />
+    <Compile Include="Basic\Position.cs" />
+    <Compile Include="Basic\Producer.cs" />
+    <Compile Include="Basic\RStatus.cs" />
+    <Compile Include="Basic\Section.cs" />
+    <Compile Include="Basic\Supplier.cs" />
+    <Compile Include="Basic\TollGate.cs" />
+    <Compile Include="Basic\UStatus.cs" />
+    <Compile Include="Basic\Warehouse.cs" />
+    <Compile Include="Budget\AnnualBudget.cs" />
+    <Compile Include="Budget\SubjectRelation.cs" />
+    <Compile Include="BugReport\BugReport.cs" />
+    <Compile Include="EmployeesInfo\EmployeesInfo.cs" />
+    <Compile Include="Equipment\CheckAcceptance.cs" />
+    <Compile Include="Equipment\ConsumableEquipment.cs" />
+    <Compile Include="Equipment\ConsumableEquipmentDetail.cs" />
+    <Compile Include="Equipment\Equipment.cs" />
+    <Compile Include="Equipment\EquipmentStatistic.cs" />
+    <Compile Include="Equipment\Expendable.cs" />
+    <Compile Include="Equipment\ExpendableInOut.cs" />
+    <Compile Include="Equipment\InEquipments.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Equipment\InWarehouse.cs" />
+    <Compile Include="Equipment\OutEquipments.cs" />
+    <Compile Include="Equipment\OutWarehouse.cs" />
+    <Compile Include="Equipment\OutWarehouseDetail.cs" />
+    <Compile Include="Equipment\PriceManager.cs" />
+    <Compile Include="Equipment\Purchase.cs" />
+    <Compile Include="Equipment\Scrap.cs" />
+    <Compile Include="Equipment\Secondment.cs" />
+    <Compile Include="Equipment\SubsidiaryEquipment.cs" />
+    <Compile Include="Equipment\WareHouseCheck.cs" />
+    <Compile Include="Equipment\WarehouseInventory.cs" />
+    <Compile Include="Examine\Examine.cs" />
+    <Compile Include="Insurance\Insurance.cs" />
+    <Compile Include="Insurance\InsuranceReport.cs" />
+    <Compile Include="Maintain\DailyPatrolConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Maintain\DailyPatrolDetail.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Maintain\DailyPatrolPlan.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Maintain\DailyPatrolRecord.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Maintain\Maintain.cs" />
+    <Compile Include="Maintain\MaintainPlanConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Maintain\MaintainPlanRecord.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Maintain\MalfunctionClassify.cs" />
+    <Compile Include="Maintain\MalfunctionHandle.cs" />
+    <Compile Include="Maintain\RoutineInspectDetail.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Maintain\RoutineInspectPlan.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Maintain\RoutineInspectRecord.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Maintain\RoutineMaintainConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Maintain\RoutineMaintainDetail.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Maintain\RoutineMaintainPlan.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Maintain\RoutineMaintainRecord.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Maintain\EquipmentCost.cs" />
+    <Compile Include="Maintain\StrToFirstPinyin.cs" />
+    <Compile Include="Message\Message.cs" />
+    <Compile Include="PendingOrder\PendingOrder.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpecialProject\SpecialProject.cs" />
+    <Compile Include="System\ConfigItems.cs" />
+    <Compile Include="System\Module.cs" />
+    <Compile Include="System\Role.cs" />
+    <Compile Include="System\RoleForWorkflow.cs" />
+    <Compile Include="System\RolePermission.cs" />
+    <Compile Include="System\User.cs" />
+    <Compile Include="Utils\ConvertIListToDataSet.cs" />
+    <Compile Include="Utils\DepreciationMethod.cs" />
+    <Compile Include="Utils\EnumHelper.cs" />
+    <Compile Include="Utils\Location.cs" />
+    <Compile Include="Utils\NoSortHashTable .cs" />
+    <Compile Include="Utils\SheetNOGenerator.cs" />
+    <Compile Include="Utils\StringHelper.cs" />
+    <Compile Include="Utils\WorkflowApplication.cs" />
+    <Compile Include="Workflow\WorkflowRole.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DALFactory\DALFactory.csproj">
+      <Project>{DCFC9CF5-F520-4508-B450-8150F7B8574F}</Project>
+      <Name>DALFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IDAL\IDAL.csproj">
+      <Project>{4E6AC3FF-4BC6-452E-9684-A7FF4236B917}</Project>
+      <Name>IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{EF8A93ED-2FE7-4DEA-B080-61731B3D1772}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WorkflowLayer\WorkflowLayer.csproj">
+      <Project>{E4893488-3528-44BC-91C6-083B3D4299E7}</Project>
+      <Name>WorkflowLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BarCode\BarCode.dll" />
+    <Content Include="Basic\README.txt" />
+    <Content Include="System\README.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

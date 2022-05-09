@@ -1,0 +1,84 @@
+INFO  2013-04-12 09:57:47,403 [/Web/default.aspx] FM2E application started at 2013-04-12 09:57:47
+FATAL 2013-04-12 09:57:53,625 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-04-12 09:57:53,626 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-04-12 09:59:40,171 [/Web/Module/FM2E/DeviceManager/SpareEquipmentManager/Purchase/PurchaseInWarehouse/DoInWarehouse.aspx?type=ca&id=8&itemid=1&recordid=0&warehouse=JD] App_Web_doinwarehouse.aspx.837f1512.hwfr7dzp thrown System.NullReferenceException
+未将对象引用设置到对象的实例。   在 Module_FM2E_DeviceManager_SpareEquipmentManager_Purchase_PurchaseInWarehouse_DoInWarehouse.Button_DeviceInWarehouse_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\DeviceManager\SpareEquipmentManager\Purchase\PurchaseInWarehouse\DoInWarehouse.aspx.cs:行号 517
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ERROR 2013-04-12 10:00:46,231 [/Web/Module/FM2E/DeviceManager/SpareEquipmentManager/Purchase/PurchaseInWarehouse/DoInWarehouse.aspx?type=ca&id=9&itemid=1&recordid=0&warehouse=JD] App_Web_doinwarehouse.aspx.837f1512.hwfr7dzp thrown System.NullReferenceException
+未将对象引用设置到对象的实例。   在 Module_FM2E_DeviceManager_SpareEquipmentManager_Purchase_PurchaseInWarehouse_DoInWarehouse.Button_DeviceInWarehouse_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\DeviceManager\SpareEquipmentManager\Purchase\PurchaseInWarehouse\DoInWarehouse.aspx.cs:行号 517
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+INFO  2013-04-12 10:03:37,049 [/Web/Module/FM2E/DeviceManager/SpareEquipmentManager/Purchase/PurchaseInWarehouse/DoInWarehouse.aspx?type=ca&id=10&itemid=1&recordid=0&warehouse=JD] 条形码分别为 <br/>aaa<br/>ccc<br/>ddd<br/>eee<br/>fff<br/>ggg<br/>hhh<br/>iii<br/>jjj<br/>kkk<br/>lll<br/>mmm<br/>nnn
+INFO  2013-04-12 10:04:29,890 [/Web/Module/FM2E/DeviceManager/SpareEquipmentManager/Purchase/PurchaseInWarehouse/DoInWarehouse.aspx?type=ca&id=9&itemid=1&recordid=0&warehouse=JD] 条形码分别为 <br/>aaa<br/>ccc<br/>ddd<br/>eee<br/>fff<br/>ggg<br/>hhh<br/>iii<br/>jjj<br/>kkk<br/>lll
+ERROR 2013-04-12 10:24:12,376 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionSheetPrint.aspx?id=840] System.Web thrown System.Web.HttpCompileException
+g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionReport\MalfunctionSheetPrint.aspx.cs(85): error CS0103: 当前上下文中不存在名称“lbAddressDetail”   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ERROR 2013-04-12 10:24:22,033 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionSheetPrint.aspx?id=840] System.Web thrown System.Web.HttpCompileException
+g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionReport\MalfunctionSheetPrint.aspx.cs(85): error CS0103: 当前上下文中不存在名称“lbAddressDetail”   在 System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+INFO  2013-04-12 11:03:23,283 FM2E application ended at 2013-04-12 11:03:23
+INFO  2013-04-12 11:03:28,622 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] FM2E application started at 2013-04-12 11:03:28
+ERROR 2013-04-12 11:03:34,499 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionSheetPrint.aspx?id=840] 您已经被系统强制退出！
+ERROR 2013-04-12 11:03:34,502 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionSheetPrint.aspx?id=840] 执行SystemPermission的事件时出错：正在中止线程。
+FATAL 2013-04-12 11:03:39,568 [/Web/Login.aspx] Version:true
+INFO  2013-04-12 11:03:39,568 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-04-12 11:46:42,291 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionSheetPrint.aspx?id=840] System.Web.Extensions thrown System.InvalidOperationException
+ID 为“UpdatePanel_MoneyStatistics”的控件需要页面上有 ScriptManager。ScriptManager 必须在任何需要它的控件之前出现。   在 System.Web.UI.UpdatePanel.get_ScriptManager()
+   在 System.Web.UI.UpdatePanel.RegisterPanel()
+   在 System.Web.UI.UpdatePanel.OnInit(EventArgs e)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ERROR 2013-04-12 11:50:03,694 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionSheetPrint.aspx?id=840] System.Web.Extensions thrown System.InvalidOperationException
+ID 为“UpdatePanel_MoneyStatistics”的控件需要页面上有 ScriptManager。ScriptManager 必须在任何需要它的控件之前出现。   在 System.Web.UI.UpdatePanel.get_ScriptManager()
+   在 System.Web.UI.UpdatePanel.RegisterPanel()
+   在 System.Web.UI.UpdatePanel.OnInit(EventArgs e)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Control.InitRecursive(Control namingContainer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+INFO  2013-04-12 11:52:07,122 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 您的用户名(admin3)已经于(2013/4/12 11:03:39),从(127.0.0.1)IP登陆在本系统.在线时间:46.40分.
+INFO  2013-04-12 11:52:08,632 [/Web/Login.aspx?CMD=OutOnline&OPCode=6020&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=cegrs455yz2euavp15xnqy55] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-04-12 11:55:06,004 FM2E application ended at 2013-04-12 11:55:06
+INFO  2013-04-12 11:55:09,426 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionSheetPrint.aspx?id=840] FM2E application started at 2013-04-12 11:55:09
+ERROR 2013-04-12 11:55:10,374 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionSheetPrint.aspx?id=840] 您已经被系统强制退出！
+ERROR 2013-04-12 11:55:10,377 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionSheetPrint.aspx?id=840] 执行SystemPermission的事件时出错：正在中止线程。
+FATAL 2013-04-12 11:55:20,849 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fDefault.aspx] Version:true
+INFO  2013-04-12 11:55:20,849 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fDefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-04-12 13:21:15,495 FM2E application ended at 2013-04-12 13:21:15

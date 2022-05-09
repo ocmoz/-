@@ -1,0 +1,150 @@
+INFO  2013-06-03 06:25:52,856 [/Web/default.aspx] FM2E application started at 2013-06-03 06:25:51
+FATAL 2013-06-03 06:26:01,680 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-06-03 06:26:01,681 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-06-03 06:26:14,950 [/Web/Login.aspx] Version:true
+INFO  2013-06-03 06:26:14,950 [/Web/Login.aspx] 欢迎您dubing，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-06-03 06:27:04,007 [/Web/Login.aspx] Version:true
+INFO  2013-06-03 06:27:04,007 [/Web/Login.aspx] 欢迎您wanglei，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-06-03 06:27:25,261 [/Web/Login.aspx] Version:true
+INFO  2013-06-03 06:27:25,261 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-06-03 06:28:01,367 [/Web/Login.aspx] Version:true
+INFO  2013-06-03 06:28:01,367 [/Web/Login.aspx] 欢迎您hech，成功登入。您的IP为：127.0.0.1！
+INFO  2013-06-03 06:29:33,359 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/RecordMalfunction.aspx?cmd=add] 提交故障处理单成功,故障处理单号为：CD1306030601
+FATAL 2013-06-03 06:30:17,145 [/Web/Login.aspx] Version:true
+INFO  2013-06-03 06:30:17,145 [/Web/Login.aspx] 欢迎您dubing，成功登入。您的IP为：127.0.0.1！
+INFO  2013-06-03 06:33:31,233 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 您的用户名(dubing)已经于(2013/6/3 6:30:17),从(127.0.0.1)IP登陆在本系统.在线时间:1.62分.
+INFO  2013-06-03 06:33:32,897 [/Web/Login.aspx?CMD=OutOnline&OPCode=1750&U_LoginName=dubing&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=ukqvtnic4u5kjbb0sq2q2z2y] 欢迎您dubing，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-06-03 06:35:02,134 [/Web/Module/FM2E/DeviceManager/BarCode/BarCodeImage.aspx?data=费额显示器0054&type=CODE128B&cp=费额显示器] 无权访问当前页面！
+ERROR 2013-06-03 06:35:02,134 [/Web/Module/FM2E/DeviceManager/BarCode/BarCodeImage.aspx?data=费额显示器0054&type=CODE128B&cp=费额显示器] 执行SystemPermission的事件时出错：正在中止线程。
+ERROR 2013-06-03 06:35:13,782 [/Web/Module/FM2E/DeviceManager/BarCode/BarCodeImage.aspx?data=费额显示器0054&type=CODE128B&cp=费额显示器] 无权访问当前页面！
+ERROR 2013-06-03 06:35:13,782 [/Web/Module/FM2E/DeviceManager/BarCode/BarCodeImage.aspx?data=费额显示器0054&type=CODE128B&cp=费额显示器] 执行SystemPermission的事件时出错：正在中止线程。
+FATAL 2013-06-03 06:35:32,697 [/Web/Login.aspx] Version:true
+INFO  2013-06-03 06:35:32,697 [/Web/Login.aspx] 欢迎您hech，成功登入。您的IP为：127.0.0.1！
+INFO  2013-06-03 06:35:59,052 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=1362] 验收故障处理单成功,故障处理单号为：CD1306030601
+FATAL 2013-06-03 06:36:09,769 [/Web/Login.aspx] Version:true
+INFO  2013-06-03 06:36:09,769 [/Web/Login.aspx] 欢迎您linmx，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-06-03 06:36:17,909 [/Web/Login.aspx] Version:true
+INFO  2013-06-03 06:36:17,909 [/Web/Login.aspx] 欢迎您linya，成功登入。您的IP为：127.0.0.1！
+INFO  2013-06-03 06:37:20,678 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1362] 故障处理单审批成功,故障处理单号为：CD1306030601
+FATAL 2013-06-03 06:37:39,131 [/Web/Login.aspx] Version:true
+INFO  2013-06-03 06:37:39,131 [/Web/Login.aspx] 欢迎您hech，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-06-03 06:37:50,718 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=1362] 获取故障处理历史失败，原因：未将对象引用设置到对象的实例。
+INFO  2013-06-03 06:38:04,820 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=1362] 验收故障处理单成功,故障处理单号为：CD1306030601
+FATAL 2013-06-03 06:38:16,975 [/Web/Login.aspx] Version:true
+INFO  2013-06-03 06:38:16,975 [/Web/Login.aspx] 欢迎您zhaofang，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-06-03 06:38:36,314 [/Web/Login.aspx] Version:true
+INFO  2013-06-03 06:38:36,314 [/Web/Login.aspx] 欢迎您wanglei，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-06-03 06:38:57,145 [/Web/Login.aspx] Version:true
+INFO  2013-06-03 06:38:57,145 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-06-03 06:39:23,592 [/Web/Login.aspx] Version:true
+INFO  2013-06-03 06:39:23,592 [/Web/Login.aspx] 欢迎您wulei，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-06-03 06:39:35,870 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionStationCheck/StationCheckMalfunctionSheet.aspx?cmd=view&id=1362] 获取故障处理历史失败，原因：未将对象引用设置到对象的实例。
+INFO  2013-06-03 06:39:50,641 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionStationCheck/StationCheckMalfunctionSheet.aspx?cmd=view&id=1362] 确定故障处理单成功,故障处理单号为：CD1306030601
+FATAL 2013-06-03 06:39:58,016 [/Web/Login.aspx] Version:true
+INFO  2013-06-03 06:39:58,016 [/Web/Login.aspx] 欢迎您zhaofang，成功登入。您的IP为：127.0.0.1！
+INFO  2013-06-03 06:40:23,572 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1362] 故障处理单审批成功,故障处理单号为：CD1306030601
+FATAL 2013-06-03 06:40:34,621 [/Web/Login.aspx] Version:true
+INFO  2013-06-03 06:40:34,621 [/Web/Login.aspx] 欢迎您wangyf，成功登入。您的IP为：127.0.0.1！
+INFO  2013-06-03 06:41:53,174 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1362] 故障处理单审批成功,故障处理单号为：CD1306030601
+FATAL 2013-06-03 06:42:09,471 [/Web/Login.aspx] Version:true
+INFO  2013-06-03 06:42:09,471 [/Web/Login.aspx] 欢迎您chensq，成功登入。您的IP为：127.0.0.1！
+INFO  2013-06-03 06:42:39,478 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1362] 故障处理单审批成功,故障处理单号为：CD1306030601
+FATAL 2013-06-03 06:42:54,340 [/Web/Login.aspx] Version:true
+INFO  2013-06-03 06:42:54,340 [/Web/Login.aspx] 欢迎您chengang，成功登入。您的IP为：127.0.0.1！
+INFO  2013-06-03 06:43:16,013 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1362] 故障处理单审批成功,故障处理单号为：CD1306030601
+ERROR 2013-06-03 06:44:01,693 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1215] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+FATAL 2013-06-03 06:44:18,538 [/Web/Login.aspx] Version:true
+INFO  2013-06-03 06:44:18,538 [/Web/Login.aspx] 欢迎您wangyf，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-06-03 06:44:28,707 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1060] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+ERROR 2013-06-03 06:46:39,863 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1060] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-06-03 06:46:57,291 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1060] 故障处理单审批成功,故障处理单号为：ML1304100901
+FATAL 2013-06-03 06:47:08,535 [/Web/Login.aspx] Version:true
+INFO  2013-06-03 06:47:08,535 [/Web/Login.aspx] 欢迎您chensq，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-06-03 06:47:19,402 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1060] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-06-03 06:47:38,540 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1060] 故障处理单审批成功,故障处理单号为：ML1304100901
+FATAL 2013-06-03 06:47:52,910 [/Web/Login.aspx] Version:true
+INFO  2013-06-03 06:47:52,910 [/Web/Login.aspx] 欢迎您chengang，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-06-03 06:48:04,079 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1060] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+FATAL 2013-06-03 06:56:14,722 [/Web/Login.aspx] Version:true
+INFO  2013-06-03 06:56:14,722 [/Web/Login.aspx] 欢迎您chengang，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-06-03 06:56:26,868 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1060] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-06-03 06:58:59,267 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionApproval%2fViewApprovalMfSheet.aspx] 您的用户名(chengang)已经于(2013/6/3 6:56:14),从(127.0.0.1)IP登陆在本系统.在线时间:0.19分.
+INFO  2013-06-03 06:59:01,991 [/Web/Login.aspx?CMD=OutOnline&OPCode=1584&U_LoginName=chengang&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=vghqaveyegffah55hijf5rbi] 欢迎您chengang，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-06-03 07:00:15,168 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1060] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-06-03 07:04:15,988 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1060] 故障处理单审批成功,故障处理单号为：ML1304100901
+INFO  2013-06-03 09:37:43,542 [/Web/default.aspx] FM2E application started at 2013-06-03 09:37:42
+FATAL 2013-06-03 09:37:55,480 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-06-03 09:37:55,480 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-06-03 09:52:00,921 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/RecordMalfunction.aspx?cmd=add] 提交故障处理单成功,故障处理单号为：BNK1306030901
+ERROR 2013-06-03 09:52:08,272 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionList.aspx] 此页面只允许维修部门人员进入
+FATAL 2013-06-03 09:52:25,608 [/Web/Login.aspx] Version:true
+INFO  2013-06-03 09:52:25,608 [/Web/Login.aspx] 欢迎您dubing，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-06-03 10:00:20,722 [/Web/Login.aspx] Version:true
+INFO  2013-06-03 10:00:20,722 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-06-03 15:40:40,018 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx] FM2E application started at 2013-06-03 15:40:39
+FATAL 2013-06-03 15:41:08,677 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionApproval%2fViewApprovalMfSheet.aspx] Version:true
+INFO  2013-06-03 15:41:08,677 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionApproval%2fViewApprovalMfSheet.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-06-03 15:41:19,616 [/Web/Login.aspx] Version:true
+INFO  2013-06-03 15:41:19,616 [/Web/Login.aspx] 欢迎您wangyf，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-06-03 15:41:25,965 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/MalfunctionApprovalList.aspx] 获取故障处理单列表失败:获取故障处理单列表分页失败(caused by CancelApplyTime) 
+STACK   在 FM2E.SQLServerDAL.Maintain.MalfunctionHandle.FM2E.IDAL.Maintain.IMalfunctionHandle.GetMalfunctionSheets(QueryParam term, Int32& recordCount) 位置 G:\Station\SGS\SGS\trunk\SQLServerDAL\Maintain\MalfunctionHandle.cs:行号 739
+   在 FM2E.BLL.Maintain.MalfunctionHandle.GetMalfunctionApprovalList(MalfunctionSearchInfo term, String userName, Int32 currentPageIndex, Int32 pageSize, Int32& recordCount) 位置 G:\Station\SGS\SGS\trunk\BLL\Maintain\MalfunctionHandle.cs:行号 632
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_MalfunctionApprovalList.FillData() 位置 g:\Station\SGS\SGS\trunk\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\MalfunctionApprovalList.aspx.cs:行号 133
+ERROR 2013-06-03 15:41:31,322 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/MalfunctionApprovalList.aspx] 获取故障处理单列表失败:获取故障处理单列表分页失败(caused by CancelApplyTime) 
+STACK   在 FM2E.SQLServerDAL.Maintain.MalfunctionHandle.FM2E.IDAL.Maintain.IMalfunctionHandle.GetMalfunctionSheets(QueryParam term, Int32& recordCount) 位置 G:\Station\SGS\SGS\trunk\SQLServerDAL\Maintain\MalfunctionHandle.cs:行号 739
+   在 FM2E.BLL.Maintain.MalfunctionHandle.GetMalfunctionApprovalList(MalfunctionSearchInfo term, String userName, Int32 currentPageIndex, Int32 pageSize, Int32& recordCount) 位置 G:\Station\SGS\SGS\trunk\BLL\Maintain\MalfunctionHandle.cs:行号 632
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_MalfunctionApprovalList.FillData() 位置 g:\Station\SGS\SGS\trunk\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\MalfunctionApprovalList.aspx.cs:行号 133
+INFO  2013-06-03 15:42:54,125 FM2E application ended at 2013-06-03 15:42:54
+ERROR 2013-06-03 15:43:28,004 [/Web/default.aspx] FM2E 应用程序启动失败：无法打开数据库连接
+参数名: connectionString
+FATAL 2013-06-03 15:43:34,496 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-06-03 15:43:34,496 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-06-03 15:43:43,112 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionList.aspx] 此页面只允许维修部门人员进入
+FATAL 2013-06-03 15:43:55,326 [/Web/Login.aspx] Version:true
+INFO  2013-06-03 15:43:55,326 [/Web/Login.aspx] 欢迎您wangyf，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-06-03 15:43:58,778 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/MalfunctionApprovalList.aspx] 获取故障处理单列表失败:获取故障处理单列表分页失败(caused by CancelApplyTime) 
+STACK   在 FM2E.SQLServerDAL.Maintain.MalfunctionHandle.FM2E.IDAL.Maintain.IMalfunctionHandle.GetMalfunctionSheets(QueryParam term, Int32& recordCount) 位置 G:\Station\SGS\SGS\trunk\SQLServerDAL\Maintain\MalfunctionHandle.cs:行号 739
+   在 FM2E.BLL.Maintain.MalfunctionHandle.GetMalfunctionApprovalList(MalfunctionSearchInfo term, String userName, Int32 currentPageIndex, Int32 pageSize, Int32& recordCount) 位置 G:\Station\SGS\SGS\trunk\BLL\Maintain\MalfunctionHandle.cs:行号 632
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_MalfunctionApprovalList.FillData() 位置 g:\Station\SGS\SGS\trunk\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\MalfunctionApprovalList.aspx.cs:行号 133
+INFO  2013-06-03 15:44:12,962 FM2E application ended at 2013-06-03 15:44:12
+ERROR 2013-06-03 15:44:34,360 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] FM2E 应用程序启动失败：在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+ERROR 2013-06-03 15:44:35,720 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] 无法更新用户的消息记录。原因：在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+ERROR 2013-06-03 15:44:35,721 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] 无法获取用户最新待办事项。原因：未将对象引用设置到对象的实例。
+INFO  2013-06-03 15:44:50,223 FM2E application ended at 2013-06-03 15:44:50
+ERROR 2013-06-03 15:45:21,102 [/Web/default.aspx] FM2E 应用程序启动失败：在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+ERROR 2013-06-03 15:45:43,480 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 登录失败：用户登录失败在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+ERROR 2013-06-03 15:49:21,762 [/Web/Login.aspx] 登录失败：用户登录失败在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+INFO  2013-06-03 15:58:07,684 FM2E application ended at 2013-06-03 15:58:07
+INFO  2013-06-03 15:58:30,656 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx] FM2E application started at 2013-06-03 15:58:30
+FATAL 2013-06-03 15:58:40,829 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionApproval%2fViewApprovalMfSheet.aspx] Version:true
+INFO  2013-06-03 15:58:40,829 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionApproval%2fViewApprovalMfSheet.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-06-03 15:58:52,488 [/Web/Login.aspx] Version:true
+INFO  2013-06-03 15:58:52,488 [/Web/Login.aspx] 欢迎您wangyf，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-06-03 15:59:10,095 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1267] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-06-03 16:00:06,605 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1267] 故障处理单审批成功,故障处理单号为：ML1305141601
+ERROR 2013-06-03 16:00:14,177 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1254] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-06-03 16:05:27,732 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1254] 故障处理单审批成功,故障处理单号为：ML1305131301
+INFO  2013-06-03 16:05:39,650 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionApproval%2fViewApprovalMfSheet.aspx] 您的用户名(wangyf)已经于(2013/6/3 15:58:52),从(127.0.0.1)IP登陆在本系统.在线时间:1.70分.
+INFO  2013-06-03 16:05:41,268 [/Web/Login.aspx?CMD=OutOnline&OPCode=1776&U_LoginName=wangyf&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=ds1z14550vjbol55xg14rz45] 欢迎您wangyf，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-06-03 16:05:54,048 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1222] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-06-03 16:06:14,822 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1222] 故障处理单审批成功,故障处理单号为：ML1305061501
+ERROR 2013-06-03 16:06:23,231 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1156] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+ERROR 2013-06-03 16:06:42,288 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1156] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-06-03 16:07:50,480 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1156] 故障处理单审批成功,故障处理单号为：ML1304241201
+FATAL 2013-06-03 16:08:02,711 [/Web/Login.aspx] Version:true
+INFO  2013-06-03 16:08:02,711 [/Web/Login.aspx] 欢迎您chensq，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-06-03 16:08:21,470 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1156] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-06-03 16:44:30,475 FM2E application ended at 2013-06-03 16:44:30

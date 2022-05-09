@@ -1,0 +1,222 @@
+﻿using System;
+using System.Collections;
+using System.Configuration;
+using System.Data;
+using System.Linq;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.HtmlControls;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Windows.Forms.VisualStyles;
+using System.Xml.Linq;
+using FM2E.WorkflowLayer;
+using WebUtility;
+using WebUtility.WebControls;
+using WebUtility.Components;
+using FM2E.BLL.Basic;
+using FM2E.BLL.System;
+using FM2E.BLL.Utils;
+using FM2E.Model.Basic;
+using FM2E.Model.Utils;
+using FM2E.BLL.Equipment;
+using FM2E.Model.Equipment;
+using System.Collections.Generic;
+
+using System.IO;
+using FM2E.Model.Exceptions;
+using FM2E.Model.System;
+
+public partial class Module_FM2E_DeviceManager_DeviceInfo_ExpendableInfo_InWarehouseApprove : System.Web.UI.Page
+{
+    long id = (long)Common.sink("id", MethodType.Get, 255, 0, DataType.Long);
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!IsPostBack)
+        {
+            FillData();
+        }
+    }
+
+    private void FillData()
+    {
+        try
+        {
+            InWarehouse inbll = new InWarehouse();
+            InWarehouseInfo info = inbll.GetInWarehouse(id);
+
+            WorkFlowUserSelectControl1.EventIDField = "Name";
+            WorkFlowUserSelectControl1.EventNameField = "Description";
+            WorkFlowUserSelectControl1.WorkFlowState = info.CurrentStateName;
+            WorkFlowUserSelectControl1.WorkFlowName = SGS_InWarehouseWorkflow.WorkflowName;
+
+            List<WorkflowEventInfo> eventlist = WorkflowHelper.GetEventInfoList(SGS_InWarehouseWorkflow.WorkflowName, info.CurrentStateName);
+            List<WorkflowEventInfo> temlist = eventlist;
+            WorkFlowUserSelectControl1.EventListDataSource = temlist;
+            //  [4/11/2012 L]
+            WorkFlowUserSelectControl1.EventListDataBind();
+
+            WorkFlowUserSelectControl1.ShowCompanySelect = false;
+
+            LB_Department.Text = info.CompanyName;
+            LB_sheetName.Text = info.SheetName;
+
+            if (info.CurrentStateName == InWarehouseInfoStatus.WaitEngineer.ToString())
+            {
+                FileUpload_ArchivesAttachmentFile.Visible = true;
+            }
+            else
+                FileUpload_ArchivesAttachmentFile.Visible = false;
+            if (info.CurrentStateName == InWarehouseInfoStatus.WaitWarehouseKeeper.ToString())
+                EAndA.Visible = false;
+
+            #region 附件绑定
+            string separatorStr = "@First@";
+            string[] split = { separatorStr };
+            if (info.Attachment != null)
+            {
+                if (!info.Attachment.Contains(separatorStr))
+                {
+                    info.Attachment += " " + separatorStr + " ";  //附件名称+附件地址
+                }
+            }
+            else
+            {
+                info.Attachment += " " + separatorStr + " ";  //附件名称+附件地址
+            }
+            string[] editreason1 = info.Attachment.Split(split, StringSplitOptions.None);
+            if (info.Attachment.Length > 0)
+            {
+                HyperLink_File.NavigateUrl = editreason1[1];
+                HyperLink_File.Text = editreason1[0];
+                HyperLink_File.Visible = true;
+            }
+            #endregion
+
+            #region 审批意见
+            if (info.Editreason != null)
+            {
+                string[] aa = { "→" };
+                string[] approvalrecordSplit = info.Editreason.Split(aa, StringSplitOptions.RemoveEmptyEntries);
+                List<FM2E.Model.Maintain.ApprovalRecord> arList = new List<FM2E.Model.Maintain.ApprovalRecord>();
+                for (int i = 0; i < approvalrecordSplit.Length; i++)
+                {
+                    string[] bb = { "#" };
+                    string[] arsplitsplit = approvalrecordSplit[i].Split(bb, StringSplitOptions.None);
+                    if (arsplitsplit.Length == 6)
+                    {
+                        FM2E.Model.Maintain.ApprovalRecord ar = new FM2E.Model.Maintain.ApprovalRecord(arsplitsplit[0], arsplitsplit[2], arsplitsplit[1], arsplitsplit[3], arsplitsplit[4], arsplitsplit[5]);
+                        arList.Add(ar);
+                    }
+                }
+                Repeater1.DataSource = arList;
+                Repeater1.DataBind();
+            }
+            #endregion
+
+            Lb_SubmitTime.Text = info.SubmitTime.ToString("yyyy-MM-dd");
+            LB_IWRemark.Text = info.Remark;
+
+            LB_IWName.Text = ((FM2E.Model.Equipment.InEquipmentsInfo)(info.InWarehouseList[0])).Name;
+            LB_IWModel.Text = ((FM2E.Model.Equipment.InEquipmentsInfo)(info.InWarehouseList[0])).Model;
+            LB_IWCount.Text = ((FM2E.Model.Equipment.InEquipmentsInfo)(info.InWarehouseList[0])).Count.ToString();
+            LB_IWUnit.Text = ((FM2E.Model.Equipment.InEquipmentsInfo)(info.InWarehouseList[0])).Unit;
+            CategorysearchInfo item = new CategorysearchInfo();
+            item.CategoryID = ((FM2E.Model.Equipment.InEquipmentsInfo)(info.InWarehouseList[0])).ExpendableTypeID;
+            Category bll = new Category();
+            QueryParam qp = bll.GenerateSearchTerm(item);
+            qp.PageIndex = 1;
+            qp.PageSize = 1;
+            int recordCount = 0;
+            IList list = bll.GetList(qp, out recordCount);
+            LB_IWCategory.Text = ((FM2E.Model.Basic.CategoryInfo)(list[0])).CategoryName;
+            LB_IWPrice.Text = ((FM2E.Model.Equipment.InEquipmentsInfo)(info.InWarehouseList[0])).ExpendablePrice.ToString();
+        }
+        catch (Exception ex)
+        {
+            EventMessage.MessageBox(Msg_Type.Error, "操作失败", "初始化数据失败", ex, Icon_Type.Error, true, "window.history.go(-1)", UrlType.JavaScript, "");
+        }
+    }
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        InWarehouse inbll = new InWarehouse();
+        InWarehouseInfo item = inbll.GetInWarehouse(id);
+      
+        #region 附件
+        FileUpLoadCommon fileUtility_ArchivesAttachment = new FileUpLoadCommon(SystemConfig.Instance.UploadPath + "ScrapManager/", false);
+        if (FileUpload_ArchivesAttachmentFile.HasFile)
+        {
+
+            if (fileUtility_ArchivesAttachment.SaveFile(FileUpload_ArchivesAttachmentFile, false))
+            {
+                if (HyperLink_File.Text != "")
+                {
+                    File.Delete(HyperLink_File.NavigateUrl);
+                }
+                item.Attachment = FileUpload_ArchivesAttachmentFile.FileName + "@First@" + SystemConfig.Instance.UploadPath + "ScrapManager/" + fileUtility_ArchivesAttachment.NewFileName;
+            }
+            else
+            {
+                EventMessage.MessageBox(Msg_Type.Error, "操作失败", "附件上传失败：" + fileUtility_ArchivesAttachment.ErrorMsg, new FM2E.Model.Exceptions.WebException(fileUtility_ArchivesAttachment.ErrorMsg), Icon_Type.Error, true, "window.history.go(-1)", UrlType.JavaScript, "");
+            }
+        }
+        #endregion
+
+        FM2E.Model.System.UserInfo userinfor = (new FM2E.BLL.System.User().GetUser(WebUtility.Common.Get_UserName));
+        // 用户真名，职位名，部门名，时间，事件名，意见
+        if (item.CurrentStateName == "WaitWarehouseKeeper")
+        {
+            tbApprovalRemark.Text = WorkFlowUserSelectControl1.SelectedEventName;
+
+            #region 入库
+            //入库记录
+            ExpendableInOutRecordInfo record = new ExpendableInOutRecordInfo();
+            record.InOutTime = DateTime.Now;
+            record.CompanyID = item.CompanyID;
+            record.Amount = ((FM2E.Model.Equipment.InEquipmentsInfo)(item.InWarehouseList[0])).Count;
+            record.CategoryID = ((FM2E.Model.Equipment.InEquipmentsInfo)(item.InWarehouseList[0])).ExpendableTypeID;
+            record.Model = ((FM2E.Model.Equipment.InEquipmentsInfo)(item.InWarehouseList[0])).Model;
+            record.Name = ((FM2E.Model.Equipment.InEquipmentsInfo)(item.InWarehouseList[0])).Name;
+            record.Price = ((FM2E.Model.Equipment.InEquipmentsInfo)(item.InWarehouseList[0])).ExpendablePrice;
+            record.Receiver = UserData.CurrentUserData.UserName;
+            record.ReceiverName = UserData.CurrentUserData.PersonName;
+            record.Remark = item.Remark;
+            record.Type = ExpendableInOutRecordType.In;
+            record.Unit = ((FM2E.Model.Equipment.InEquipmentsInfo)(item.InWarehouseList[0])).Unit;
+            record.WarehouseID = item.WarehouseID;
+            record.WarehouseKeeper = Common.Get_UserName;
+            record.WarehouseKeeperName = UserData.CurrentUserData.PersonName;
+
+            Expendable bll = new Expendable();
+            bll.ExpendableInWarehouse(UserData.CurrentUserData.CompanyID, record);
+
+
+
+            #endregion
+        }
+
+        item.Editreason += "→" + userinfor.PersonName + "#" + userinfor.PositionName + "#" + userinfor.DepartmentName + "#" + DateTime.Now.ToString("yyyy-MM-dd HH:mm") + "#" + WorkFlowUserSelectControl1.SelectedEventName + "#" + tbApprovalRemark.Text.Replace('#', '。').Trim();
+
+        try
+        {
+            inbll.UpdateInWarehouse(item);
+
+            string URL = "../DeviceManager/DeviceInfo/ExpendableInfo/InWarehouseApply.aspx";
+            string title = "你有新的易耗品入库申请" + item.SheetName + "待审批";
+
+            //这里需要工作流跳转 更新下一个审批者 发送待办事务
+
+            WorkflowApplication.SetStateMachineAndSendingPendingOrderAndNextUserMachine<SGS_InWarehouseEventService>(id, title, URL, SGS_InWarehouseWorkflow.WorkflowName, WorkFlowUserSelectControl1.SelectedEvent, SGS_InWarehouseWorkflow.TableName, Common.Get_UserName, UserData.CurrentUserData.PersonName, 0, null);
+        }
+        catch (Exception ex)
+        {
+            EventMessage.MessageBox(Msg_Type.Error, "操作失败", "提交失败", ex, Icon_Type.Error, true,
+                "window.history.go(-1)", UrlType.JavaScript, "");
+        }
+        EventMessage.MessageBox(Msg_Type.Info, "操作成功", string.Format("审批成功,入库单号为：{0}", item.SheetName), Icon_Type.OK, true, Common.GetHomeBaseUrl("InWarehouseApprovalList.aspx"), UrlType.Href, "");
+    }
+}
+
+
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+<Permission>
+<ModuleID name="报废申请">4c1e1e095aa84f3eaf84aaffabc809c8</ModuleID>
+<Item value="2" name="列表/查看">,EditScrapApply.aspx,ScrapApply.aspx,ViewScrapApply.aspx,</Item>
+<Item value="4" name="新增">,EditScrapApply.aspx,ScrapApply.aspx,ViewScrapApply.aspx,</Item>
+<Item value="8" name="修改">,EditScrapApply.aspx,ScrapApply.aspx,ViewScrapApply.aspx,</Item>
+<Item value="16" name="删除">,EditScrapApply.aspx,ScrapApply.aspx,ViewScrapApply.aspx,</Item>
+<Item value="32" name="打印">,EditScrapApply.aspx,ScrapApply.aspx,ViewScrapApply.aspx,</Item>
+<Item value="64" name="审批">,EditScrapApply.aspx,ScrapApply.aspx,ViewScrapApply.aspx,</Item>
+<Item value="128" name="权限A"></Item>
+<Item value="256" name="权限B"></Item>
+</Permission>
+</configuration>

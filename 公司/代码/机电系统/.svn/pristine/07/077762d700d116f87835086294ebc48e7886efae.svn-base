@@ -1,0 +1,213 @@
+INFO  2013-03-27 14:14:54,978 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx] FM2E application started at 2013-03-27 14:14:54
+FATAL 2013-03-27 14:15:19,408 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionReport%2fViewMalfunctionSheet.aspx] Version:true
+INFO  2013-03-27 14:15:19,409 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionReport%2fViewMalfunctionSheet.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-03-27 14:15:50,799 [/Web/Login.aspx] Version:true
+INFO  2013-03-27 14:15:50,799 [/Web/Login.aspx] 欢迎您chensq，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-03-27 14:48:56,460 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=765] 故障处理单审批失败:无法为实例 ID“69e78c1d-875f-432a-8d04-7ccf5f9b0a0a”传递接口类型“FM2E.WorkflowLayer.ISGS_MalFunctionEventService”上的事件“ManagerDAccepted”。(caused by 事件队列操作失败，队列“Message Properties
+Interface Type:FM2E.WorkflowLayer.ISGS_MalFunctionEventService
+Method Name:ManagerDAccepted
+CorrelationValues:
+”的 MessageQueueErrorCode 为 QueueNotFound。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_MalFunctionEventService.RaiseEvent(String eventName, Guid instanceID) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\EventService\SGS_MalFunctionEventService.cs:行号 13
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1107
+ERROR 2013-03-27 14:50:02,277 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=765] 故障处理单审批失败:无法为实例 ID“69e78c1d-875f-432a-8d04-7ccf5f9b0a0a”传递接口类型“FM2E.WorkflowLayer.ISGS_MalFunctionEventService”上的事件“ManagerDAccepted”。(caused by 事件队列操作失败，队列“Message Properties
+Interface Type:FM2E.WorkflowLayer.ISGS_MalFunctionEventService
+Method Name:ManagerDAccepted
+CorrelationValues:
+”的 MessageQueueErrorCode 为 QueueNotFound。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_MalFunctionEventService.RaiseEvent(String eventName, Guid instanceID) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\EventService\SGS_MalFunctionEventService.cs:行号 13
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1107
+ERROR 2013-03-27 15:05:23,656 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=765] 故障处理单审批失败:无法为实例 ID“69e78c1d-875f-432a-8d04-7ccf5f9b0a0a”传递接口类型“FM2E.WorkflowLayer.ISGS_MalFunctionEventService”上的事件“ManagerDAccepted”。(caused by 事件队列操作失败，队列“Message Properties
+Interface Type:FM2E.WorkflowLayer.ISGS_MalFunctionEventService
+Method Name:ManagerDAccepted
+CorrelationValues:
+”的 MessageQueueErrorCode 为 QueueNotFound。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_MalFunctionEventService.RaiseEvent(String eventName, Guid instanceID) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\EventService\SGS_MalFunctionEventService.cs:行号 13
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1107
+ERROR 2013-03-27 15:07:08,261 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=765] 故障处理单审批失败:无法为实例 ID“69e78c1d-875f-432a-8d04-7ccf5f9b0a0a”传递接口类型“FM2E.WorkflowLayer.ISGS_MalFunctionEventService”上的事件“ManagerDAccepted”。(caused by 事件队列操作失败，队列“Message Properties
+Interface Type:FM2E.WorkflowLayer.ISGS_MalFunctionEventService
+Method Name:ManagerDAccepted
+CorrelationValues:
+”的 MessageQueueErrorCode 为 QueueNotFound。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_MalFunctionEventService.RaiseEvent(String eventName, Guid instanceID) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\EventService\SGS_MalFunctionEventService.cs:行号 13
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1107
+ERROR 2013-03-27 15:17:27,478 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=765] 故障处理单审批失败:无法为实例 ID“69e78c1d-875f-432a-8d04-7ccf5f9b0a0a”传递接口类型“FM2E.WorkflowLayer.ISGS_MalFunctionEventService”上的事件“ManagerDAccepted”。(caused by 事件队列操作失败，队列“Message Properties
+Interface Type:FM2E.WorkflowLayer.ISGS_MalFunctionEventService
+Method Name:ManagerDAccepted
+CorrelationValues:
+”的 MessageQueueErrorCode 为 QueueNotFound。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_MalFunctionEventService.RaiseEvent(String eventName, Guid instanceID) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\EventService\SGS_MalFunctionEventService.cs:行号 13
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1107
+ERROR 2013-03-27 15:18:54,721 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=765] 故障处理单审批失败:无法为实例 ID“69e78c1d-875f-432a-8d04-7ccf5f9b0a0a”传递接口类型“FM2E.WorkflowLayer.ISGS_MalFunctionEventService”上的事件“ManagerDAccepted”。(caused by 事件队列操作失败，队列“Message Properties
+Interface Type:FM2E.WorkflowLayer.ISGS_MalFunctionEventService
+Method Name:ManagerDAccepted
+CorrelationValues:
+”的 MessageQueueErrorCode 为 QueueNotFound。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_MalFunctionEventService.RaiseEvent(String eventName, Guid instanceID) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\EventService\SGS_MalFunctionEventService.cs:行号 13
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1107
+ERROR 2013-03-27 15:26:48,480 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=765] 故障处理单审批失败:无法为实例 ID“69e78c1d-875f-432a-8d04-7ccf5f9b0a0a”传递接口类型“FM2E.WorkflowLayer.ISGS_MalFunctionEventService”上的事件“ManagerDAccepted”。(caused by 事件队列操作失败，队列“Message Properties
+Interface Type:FM2E.WorkflowLayer.ISGS_MalFunctionEventService
+Method Name:ManagerDAccepted
+CorrelationValues:
+”的 MessageQueueErrorCode 为 QueueNotFound。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_MalFunctionEventService.RaiseEvent(String eventName, Guid instanceID) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\EventService\SGS_MalFunctionEventService.cs:行号 13
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1107
+ERROR 2013-03-27 15:27:32,584 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=765] 故障处理单审批失败:无法为实例 ID“69e78c1d-875f-432a-8d04-7ccf5f9b0a0a”传递接口类型“FM2E.WorkflowLayer.ISGS_MalFunctionEventService”上的事件“ManagerDAccepted”。(caused by 事件队列操作失败，队列“Message Properties
+Interface Type:FM2E.WorkflowLayer.ISGS_MalFunctionEventService
+Method Name:ManagerDAccepted
+CorrelationValues:
+”的 MessageQueueErrorCode 为 QueueNotFound。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_MalFunctionEventService.RaiseEvent(String eventName, Guid instanceID) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\EventService\SGS_MalFunctionEventService.cs:行号 13
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1107
+ERROR 2013-03-27 15:28:05,625 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=765] 故障处理单审批失败:无法为实例 ID“69e78c1d-875f-432a-8d04-7ccf5f9b0a0a”传递接口类型“FM2E.WorkflowLayer.ISGS_MalFunctionEventService”上的事件“ManagerDAccepted”。(caused by 事件队列操作失败，队列“Message Properties
+Interface Type:FM2E.WorkflowLayer.ISGS_MalFunctionEventService
+Method Name:ManagerDAccepted
+CorrelationValues:
+”的 MessageQueueErrorCode 为 QueueNotFound。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_MalFunctionEventService.RaiseEvent(String eventName, Guid instanceID) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\EventService\SGS_MalFunctionEventService.cs:行号 13
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1107
+ERROR 2013-03-27 15:29:39,476 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=765] 故障处理单审批失败:无法为实例 ID“69e78c1d-875f-432a-8d04-7ccf5f9b0a0a”传递接口类型“FM2E.WorkflowLayer.ISGS_MalFunctionEventService”上的事件“ManagerDAccepted”。(caused by 事件队列操作失败，队列“Message Properties
+Interface Type:FM2E.WorkflowLayer.ISGS_MalFunctionEventService
+Method Name:ManagerDAccepted
+CorrelationValues:
+”的 MessageQueueErrorCode 为 QueueNotFound。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_MalFunctionEventService.RaiseEvent(String eventName, Guid instanceID) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\EventService\SGS_MalFunctionEventService.cs:行号 13
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1107
+ERROR 2013-03-27 15:31:39,482 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=765] 故障处理单审批失败:无法为实例 ID“69e78c1d-875f-432a-8d04-7ccf5f9b0a0a”传递接口类型“FM2E.WorkflowLayer.ISGS_MalFunctionEventService”上的事件“ManagerDAccepted”。(caused by 事件队列操作失败，队列“Message Properties
+Interface Type:FM2E.WorkflowLayer.ISGS_MalFunctionEventService
+Method Name:ManagerDAccepted
+CorrelationValues:
+”的 MessageQueueErrorCode 为 QueueNotFound。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_MalFunctionEventService.RaiseEvent(String eventName, Guid instanceID) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\EventService\SGS_MalFunctionEventService.cs:行号 13
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1107
+ERROR 2013-03-27 15:33:28,136 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=765] 故障处理单审批失败:无法为实例 ID“69e78c1d-875f-432a-8d04-7ccf5f9b0a0a”传递接口类型“FM2E.WorkflowLayer.ISGS_MalFunctionEventService”上的事件“ManagerDAccepted”。(caused by 事件队列操作失败，队列“Message Properties
+Interface Type:FM2E.WorkflowLayer.ISGS_MalFunctionEventService
+Method Name:ManagerDAccepted
+CorrelationValues:
+”的 MessageQueueErrorCode 为 QueueNotFound。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_MalFunctionEventService.RaiseEvent(String eventName, Guid instanceID) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\EventService\SGS_MalFunctionEventService.cs:行号 13
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1107
+ERROR 2013-03-27 15:36:59,393 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=765] 故障处理单审批失败:无法为实例 ID“69e78c1d-875f-432a-8d04-7ccf5f9b0a0a”传递接口类型“FM2E.WorkflowLayer.ISGS_MalFunctionEventService”上的事件“ManagerDAccepted”。(caused by 事件队列操作失败，队列“Message Properties
+Interface Type:FM2E.WorkflowLayer.ISGS_MalFunctionEventService
+Method Name:ManagerDAccepted
+CorrelationValues:
+”的 MessageQueueErrorCode 为 QueueNotFound。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_MalFunctionEventService.RaiseEvent(String eventName, Guid instanceID) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\EventService\SGS_MalFunctionEventService.cs:行号 13
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1107
+INFO  2013-03-27 15:37:03,398 FM2E application ended at 2013-03-27 15:37:03
+INFO  2013-03-27 16:16:39,647 [/Web/default.aspx] FM2E application started at 2013-03-27 16:16:38
+FATAL 2013-03-27 16:16:52,305 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-03-27 16:16:52,307 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您chensq，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-03-27 16:16:57,818 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-03-27 16:16:57,818 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您chensq，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-03-27 16:20:06,633 [/Web/Module/FM2E/DeviceManager/BarCode/BarCodeImage.aspx?data=便携机0048&type=CODE128B&cp=便携机] 无权访问当前页面！
+ERROR 2013-03-27 16:20:06,645 [/Web/Module/FM2E/DeviceManager/BarCode/BarCodeImage.aspx?data=便携机0048&type=CODE128B&cp=便携机] 执行SystemPermission的事件时出错：正在中止线程。
+ERROR 2013-03-27 16:27:28,892 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=765] 故障处理单审批失败:无法为实例 ID“69e78c1d-875f-432a-8d04-7ccf5f9b0a0a”传递接口类型“FM2E.WorkflowLayer.ISGS_MalFunctionEventService”上的事件“ManagerDAccepted”。(caused by 事件队列操作失败，队列“Message Properties
+Interface Type:FM2E.WorkflowLayer.ISGS_MalFunctionEventService
+Method Name:ManagerDAccepted
+CorrelationValues:
+”的 MessageQueueErrorCode 为 QueueNotFound。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_MalFunctionEventService.RaiseEvent(String eventName, Guid instanceID) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\EventService\SGS_MalFunctionEventService.cs:行号 13
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1107
+ERROR 2013-03-27 16:53:49,245 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=765] 故障处理单审批失败:无法为实例 ID“69e78c1d-875f-432a-8d04-7ccf5f9b0a0a”传递接口类型“FM2E.WorkflowLayer.ISGS_MalFunctionEventService”上的事件“ManagerDAccepted”。(caused by 事件队列操作失败，队列“Message Properties
+Interface Type:FM2E.WorkflowLayer.ISGS_MalFunctionEventService
+Method Name:ManagerDAccepted
+CorrelationValues:
+”的 MessageQueueErrorCode 为 QueueNotFound。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_MalFunctionEventService.RaiseEvent(String eventName, Guid instanceID) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\EventService\SGS_MalFunctionEventService.cs:行号 13
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1107
+INFO  2013-03-27 19:56:05,972 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx] FM2E application started at 2013-03-27 19:56:04
+FATAL 2013-03-27 19:56:20,391 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionApproval%2fViewApprovalMfSheet.aspx] Version:true
+INFO  2013-03-27 19:56:20,392 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionApproval%2fViewApprovalMfSheet.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-03-27 19:58:24,871 [/Web/Login.aspx] Version:true
+INFO  2013-03-27 19:58:24,871 [/Web/Login.aspx] 欢迎您chensq，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-03-27 20:01:21,229 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=765] 故障处理单审批失败:无法为实例 ID“69e78c1d-875f-432a-8d04-7ccf5f9b0a0a”传递接口类型“FM2E.WorkflowLayer.ISGS_MalFunctionEventService”上的事件“ManagerDAccepted”。(caused by 事件队列操作失败，队列“Message Properties
+Interface Type:FM2E.WorkflowLayer.ISGS_MalFunctionEventService
+Method Name:ManagerDAccepted
+CorrelationValues:
+”的 MessageQueueErrorCode 为 QueueNotFound。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_MalFunctionEventService.RaiseEvent(String eventName, Guid instanceID) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\EventService\SGS_MalFunctionEventService.cs:行号 13
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1107
+ERROR 2013-03-27 20:38:14,386 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=765] 故障处理单审批失败:无法为实例 ID“69e78c1d-875f-432a-8d04-7ccf5f9b0a0a”传递接口类型“FM2E.WorkflowLayer.ISGS_MalFunctionEventService”上的事件“ManagerDAccepted”。(caused by 事件队列操作失败，队列“Message Properties
+Interface Type:FM2E.WorkflowLayer.ISGS_MalFunctionEventService
+Method Name:ManagerDAccepted
+CorrelationValues:
+”的 MessageQueueErrorCode 为 QueueNotFound。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_MalFunctionEventService.RaiseEvent(String eventName, Guid instanceID) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\EventService\SGS_MalFunctionEventService.cs:行号 13
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1107
+INFO  2013-03-27 20:39:13,845 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=765] 故障处理单审批成功,故障处理单号为：XL1302021101
+INFO  2013-03-27 20:40:14,397 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=841] 故障处理单审批成功,故障处理单号为：SD1303251301
+ERROR 2013-03-27 20:40:37,334 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=753] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+ERROR 2013-03-27 20:41:06,117 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=753] 故障处理单审批失败:无法为实例 ID“de0b2272-608a-45c7-b08a-10c5e4556b2f”传递接口类型“FM2E.WorkflowLayer.ISGS_MalFunctionEventService”上的事件“ManagerDAccepted”。(caused by 事件队列操作失败，队列“Message Properties
+Interface Type:FM2E.WorkflowLayer.ISGS_MalFunctionEventService
+Method Name:ManagerDAccepted
+CorrelationValues:
+”的 MessageQueueErrorCode 为 QueueNotFound。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_MalFunctionEventService.RaiseEvent(String eventName, Guid instanceID) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\EventService\SGS_MalFunctionEventService.cs:行号 13
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1107
+ERROR 2013-03-27 20:56:35,252 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=753] 故障处理单审批失败:无法为实例 ID“de0b2272-608a-45c7-b08a-10c5e4556b2f”传递接口类型“FM2E.WorkflowLayer.ISGS_MalFunctionEventService”上的事件“ManagerDAccepted”。(caused by 事件队列操作失败，队列“Message Properties
+Interface Type:FM2E.WorkflowLayer.ISGS_MalFunctionEventService
+Method Name:ManagerDAccepted
+CorrelationValues:
+”的 MessageQueueErrorCode 为 QueueNotFound。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_MalFunctionEventService.RaiseEvent(String eventName, Guid instanceID) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\EventService\SGS_MalFunctionEventService.cs:行号 13
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1107
+ERROR 2013-03-27 20:59:16,960 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=753] 故障处理单审批失败:无法为实例 ID“de0b2272-608a-45c7-b08a-10c5e4556b2f”传递接口类型“FM2E.WorkflowLayer.ISGS_MalFunctionEventService”上的事件“ManagerDAccepted”。(caused by 事件队列操作失败，队列“Message Properties
+Interface Type:FM2E.WorkflowLayer.ISGS_MalFunctionEventService
+Method Name:ManagerDAccepted
+CorrelationValues:
+”的 MessageQueueErrorCode 为 QueueNotFound。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_MalFunctionEventService.RaiseEvent(String eventName, Guid instanceID) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\EventService\SGS_MalFunctionEventService.cs:行号 13
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1107
+ERROR 2013-03-27 21:03:29,078 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=753] 故障处理单审批失败:无法为实例 ID“de0b2272-608a-45c7-b08a-10c5e4556b2f”传递接口类型“FM2E.WorkflowLayer.ISGS_MalFunctionEventService”上的事件“ManagerDAccepted”。(caused by 事件队列操作失败，队列“Message Properties
+Interface Type:FM2E.WorkflowLayer.ISGS_MalFunctionEventService
+Method Name:ManagerDAccepted
+CorrelationValues:
+”的 MessageQueueErrorCode 为 QueueNotFound。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_MalFunctionEventService.RaiseEvent(String eventName, Guid instanceID) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\EventService\SGS_MalFunctionEventService.cs:行号 13
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1107
+INFO  2013-03-27 21:07:44,700 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=753] 故障处理单审批成功,故障处理单号为：TM1301301101
+INFO  2013-03-27 21:26:09,886 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=839] 故障处理单审批成功,故障处理单号为：XL1303251201

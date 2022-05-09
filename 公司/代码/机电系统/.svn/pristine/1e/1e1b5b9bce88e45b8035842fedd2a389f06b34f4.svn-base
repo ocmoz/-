@@ -1,0 +1,23 @@
+<ArchivesConfig>
+    <EquipmentManage ModuleName="设备管理">
+        <OutWarehouseRecord ModuleName="设备出库单" SearchUrl="OutWarehouseRecord.aspx" ViewUrl="DeviceManager/SpareEquipmentManager/OutWarehouse/OutWarehouseRecord/ViewOutWarehouseRecord.aspx" />
+        <InWarehouse ModuleName="设备入库单" SearchUrl="InWarehouse.aspx" ViewUrl="DeviceManager/SpareEquipmentManager/InWarehouse/ViewInWarehouse.aspx"/>
+        <PurchaseOrder ModuleName="采购单" SearchUrl="PurchaseOrder.aspx" ViewUrl="DeviceManager/SpareEquipmentManager/Purchase/PurchaseApply/ViewPurchaseOrder.aspx"/>
+        <CheckAcceptance ModuleName="报验单" SearchUrl="CheckAcceptance.aspx" ViewUrl="DeviceManager/SpareEquipmentManager/Purchase/ExecutePurchasing/ViewCAForm.aspx"/>
+		<BorrowApply ModuleName="设备借调单" SearchUrl="BorrowApply.aspx" ViewUrl="DeviceManager/UsedEquipmentManager/EquipmentSecondment/BorrowApply/ViewBorrowApply.aspx"/>
+		<ScrapApply ModuleName="设备报废单" SearchUrl="ScrapApply.aspx" ViewUrl="DeviceManager/AssetManager/ScrapManager/ScrapApply/ViewScrapApply.aspx"/>
+	</EquipmentManage>
+    <MaintainManage ModuleName="维护管理">
+      <DailyPatrolPlan ModuleName="日常巡查计划单" SearchUrl="DailyPatrolPlan.aspx" ViewUrl="MaintainManager/DailyPatrolManager/DailyPatrolView/ViewDailyPatrolPlan.aspx"/>
+      <RoutineInspectPlan ModuleName="例行检测计划单" SearchUrl="RoutineInspectPlan.aspx" ViewUrl="MaintainManager/RoutineInspectManager/RoutineInspectView/ViewRoutineInspectPlan.aspx"/>
+      <RoutineMaintainPlan ModuleName="例行保养计划单" SearchUrl="RoutineMaintainPlan.aspx" ViewUrl="MaintainManager/RoutineMaintainManager/RoutineMaintainView/ViewRoutineMaintainPlan.aspx"/>
+	<MalfunctionHandle ModuleName="故障处理单" SearchUrl="MalfunctionHandle.aspx" ViewUrl="MaintainManager/MalFunctionManager/MalfunctionReport/ViewMalfunctionSheet.aspx"/>
+    </MaintainManage>
+    <ArchivesManager ModuleName="档案管理">
+        <ArchivesBorrowApply ModuleName="档案借阅单" SearchUrl="ArchivesBorrowApply.aspx" ViewUrl="ArchivesManager/ArchivesBorrowApply/ArchivesBorrowApply/ViewArchivesBorrowApply.aspx"/>
+        <ArchivesDestroyApply ModuleName="档案销毁单" SearchUrl="ArchivesDestroyApply.aspx" ViewUrl="ArchivesManager/ArchivesDestroyApply/ArchivesDestroyRecord/ArchivesDestroyRecord.aspx"/>
+    </ArchivesManager>
+    <SpecialProjectManage ModuleName="专项工程管理">
+        <SpecialProjectDocument ModuleName="工程资料" SearchUrl="SpecialProject.aspx" ViewUrl="SpecialProject/ViewProject.aspx"/>
+    </SpecialProjectManage>
+</ArchivesConfig>

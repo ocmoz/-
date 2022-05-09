@@ -1,0 +1,188 @@
+INFO  2016-02-29 09:45:50,685 [/Web/Login.aspx] FM2E application started at 2016-02-29 09:45:50
+ERROR 2016-02-29 09:45:51,436 [/Web/Login.aspx] 您已经被系统强制退出！
+ERROR 2016-02-29 09:45:51,442 [/Web/Login.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+ERROR 2016-02-29 09:46:04,094 [/Web/Login.aspx] 用户名/密码(admin3/a)错误！
+FATAL 2016-02-29 09:46:19,118 [/Web/login.aspx] Version:true
+INFO  2016-02-29 09:46:19,119 [/Web/login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2016-02-29 10:03:48,868 FM2E application ended at 2016-02-29 10:03:48
+INFO  2016-02-29 10:12:37,886 [/Web/Login.aspx] FM2E application started at 2016-02-29 10:12:37
+ERROR 2016-02-29 10:12:43,165 [/Web/Login.aspx] 用户名/密码(admin2/a)错误！
+FATAL 2016-02-29 10:12:48,704 [/Web/login.aspx] Version:true
+INFO  2016-02-29 10:12:48,705 [/Web/login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2016-02-29 10:13:33,948 [/Web/Module/FM2E/SystemManager/ModuleManager/ModuleManager.aspx?cmd=add] 添加模块成功！
+INFO  2016-02-29 10:14:02,518 [/Web/Module/FM2E/SystemManager/ModuleManager/Modulelist.aspx] 模块分类排序成功！
+ERROR 2016-02-29 10:14:09,490 [/Web/report/themes/StyleSheet.css] 文件不存在:http://localhost:41765/Web/report/themes/StyleSheet.css
+ERROR 2016-02-29 10:17:14,307 [/Web/report/themes/StyleSheet.css] 文件不存在:http://localhost:41765/Web/report/themes/StyleSheet.css
+ERROR 2016-02-29 10:17:15,569 [/Web/report/themes/StyleSheet.css] 文件不存在:http://localhost:41765/Web/report/themes/StyleSheet.css
+ERROR 2016-02-29 10:18:10,915 [/Web/report/themes/StyleSheet.css] 文件不存在:http://localhost:41765/Web/report/themes/StyleSheet.css
+ERROR 2016-02-29 10:18:59,306 [/Web/report/themes/StyleSheet.css] 文件不存在:http://localhost:41765/Web/report/themes/StyleSheet.css
+FATAL 2016-02-29 10:22:15,082 [/Web/Login.aspx] Version:true
+INFO  2016-02-29 10:22:15,082 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2016-02-29 10:23:06,820 [/Web/Module/FM2E/SystemManager/ModuleManager/ModuleManager.aspx?cmd=edit&id=3ce06ea4dbe048cbaa23225f12370c99] 修改模块信息成功！
+ERROR 2016-02-29 10:24:03,585 [/Web/Module/FM2E/Report/StationInput/Business/Business.aspx] .Net SqlClient Data Provider thrown System.Data.SqlClient.SqlException
+用户 'sa' 登录失败。   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Module_FM2E_Report_Input_Business.ExecuteScalar(String Sql, SqlParameter[] parameters) 位置 e:\Station\深高速\SGS_new\Web\Module\FM2E\Report\StationInput\Business\Business.aspx.cs:行号 139
+   在 Module_FM2E_Report_Input_Business.Page_Load(Object sender, EventArgs e) 位置 e:\Station\深高速\SGS_new\Web\Module\FM2E\Report\StationInput\Business\Business.aspx.cs:行号 45
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ERROR 2016-02-29 10:24:10,246 [/Web/Module/FM2E/Report/Input/Customer/Customer.aspx] .Net SqlClient Data Provider thrown System.Data.SqlClient.SqlException
+用户 'sa' 登录失败。   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Module_FM2E_Report_Input_Customer.ExecuteScalar(String Sql, SqlParameter[] parameters) 位置 e:\Station\深高速\SGS_new\Web\Module\FM2E\Report\Input\Customer\Customer.aspx.cs:行号 137
+   在 Module_FM2E_Report_Input_Customer.Page_Load(Object sender, EventArgs e) 位置 e:\Station\深高速\SGS_new\Web\Module\FM2E\Report\Input\Customer\Customer.aspx.cs:行号 42
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ERROR 2016-02-29 10:24:13,025 [/Web/report/themes/StyleSheet.css] 文件不存在:http://localhost:41765/Web/report/themes/StyleSheet.css
+ERROR 2016-02-29 10:32:40,458 [/Web/Login.aspx] 您已经被系统强制退出！
+ERROR 2016-02-29 10:32:40,463 [/Web/Login.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+ERROR 2016-02-29 10:32:46,799 [/Web/Login.aspx] 用户名/密码(admin/1)错误！
+ERROR 2016-02-29 10:32:50,799 [/Web/login.aspx] 密码不能为空
+INFO  2016-02-29 10:32:57,517 [/Web/Login.aspx] 您的用户名(admin3)已经于(2016-2-29 10:12:48),从(127.0.0.1)IP登陆在本系统.在线时间:15.52分.
+INFO  2016-02-29 10:32:59,204 [/Web/Login.aspx?CMD=OutOnline&OPCode=3584&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=bmqf4k55qwygzk45ftik1y45] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2016-02-29 10:33:02,421 [/Web/report/themes/StyleSheet.css] 文件不存在:http://localhost:41765/Web/report/themes/StyleSheet.css
+ERROR 2016-02-29 10:33:28,267 [/Web/report/themes/StyleSheet.css] 文件不存在:http://localhost:41765/Web/report/themes/StyleSheet.css
+INFO  2016-02-29 10:41:13,381 FM2E application ended at 2016-02-29 10:41:13
+INFO  2016-02-29 10:41:21,971 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] FM2E application started at 2016-02-29 10:41:21
+ERROR 2016-02-29 10:41:24,715 [/Web/Login.aspx] 您已经被系统强制退出！
+ERROR 2016-02-29 10:41:24,723 [/Web/Login.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+FATAL 2016-02-29 10:41:33,356 [/Web/Login.aspx] Version:true
+INFO  2016-02-29 10:41:33,357 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2016-02-29 10:42:10,646 FM2E application ended at 2016-02-29 10:42:10
+INFO  2016-02-29 10:42:17,533 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] FM2E application started at 2016-02-29 10:42:17
+INFO  2016-02-29 10:46:57,468 FM2E application ended at 2016-02-29 10:46:57
+INFO  2016-02-29 11:52:54,264 [/Web/Login.aspx] FM2E application started at 2016-02-29 11:52:54
+ERROR 2016-02-29 11:52:54,960 [/Web/Login.aspx] 您已经被系统强制退出！
+ERROR 2016-02-29 11:52:54,965 [/Web/Login.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+ERROR 2016-02-29 11:53:03,005 [/Web/Login.aspx] 用户名/密码(admin/1)错误！
+FATAL 2016-02-29 11:53:13,343 [/Web/login.aspx] Version:true
+INFO  2016-02-29 11:53:13,344 [/Web/login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2016-02-29 12:00:41,437 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/ViewDeviceInfo.aspx?cmd=view&id=38674&companyid=HG&index=] 获取维修记录失败：DataBinding:“FM2E.Model.Maintain.EquipmentMaintainRecordInfo”不包含名为“ltSheetNOTxt”的属性。
+ERROR 2016-02-29 12:20:29,698 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fDefault.aspx] 用户名/密码(admin/1)错误！
+INFO  2016-02-29 12:20:34,205 [/Web/login.aspx] 您的用户名(admin3)已经于(2016-2-29 11:53:13),从(127.0.0.1)IP登陆在本系统.在线时间:25.80分.
+INFO  2016-02-29 12:20:35,242 [/Web/Login.aspx?CMD=OutOnline&OPCode=8337&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=f2tf1h55mlj4h1fucronfz55] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2016-02-29 12:22:03,696 [/Web/Module/FM2E/DeviceManager/SpareEquipmentManager/Purchase/PurchaseInWarehouse/InWarehouse.aspx] 您已经被系统强制退出！
+ERROR 2016-02-29 12:22:03,707 [/Web/Module/FM2E/DeviceManager/SpareEquipmentManager/Purchase/PurchaseInWarehouse/InWarehouse.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+INFO  2016-02-29 12:22:09,868 [/Web/Login.aspx] 您的用户名(admin3)已经于(2016-2-29 12:20:35),从(127.0.0.1)IP登陆在本系统.在线时间:0.12分.
+ERROR 2016-02-29 13:27:04,515 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/ViewDeviceInfo.aspx?cmd=view&id=38674&companyid=HG&index=] 获取维修记录失败：DataBinding:“FM2E.Model.Maintain.EquipmentMaintainRecordInfo”不包含名为“url”的属性。
+ERROR 2016-02-29 13:27:06,819 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/DeviceInfo.aspx] mscorlib thrown System.ArgumentOutOfRangeException
+索引超出范围。必须为非负值并小于集合大小。
+参数名: index   在 System.Collections.ArrayList.get_Item(Int32 index)
+   在 System.Web.UI.WebControls.GridViewRowCollection.get_Item(Int32 index)
+   在 Module_FM2E_DeviceManager_DeviceInfo_CurrentEuipementInfo_AllEquipmentInfo_DeviceInfo.GridView1_RowCommand(Object sender, GridViewCommandEventArgs e) 位置 e:\Station\深高速\SGS_new\Web\Module\FM2E\DeviceManager\DeviceInfo\CurrentEuipementInfo\AllEquipmentInfo\DeviceInfo.aspx.cs:行号 232
+   在 System.Web.UI.WebControls.GridView.OnRowCommand(GridViewCommandEventArgs e)
+   在 System.Web.UI.WebControls.GridView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   在 System.Web.UI.WebControls.GridView.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.GridView.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ERROR 2016-02-29 14:04:00,346 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/ViewDeviceInfo.aspx?cmd=view&id=38674&companyid=HG&index=] 获取维修记录失败：DataBinding:“FM2E.Model.Maintain.EquipmentMaintainRecordInfo”不包含名为“url”的属性。
+ERROR 2016-02-29 14:05:17,240 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/ViewDeviceInfo.aspx?cmd=view&id=38674&companyid=HG&index=] 获取维修记录失败：DataBinding:“FM2E.Model.Maintain.EquipmentMaintainRecordInfo”不包含名为“url”的属性。
+INFO  2016-02-29 14:08:07,397 FM2E application ended at 2016-02-29 14:08:07
+INFO  2016-02-29 14:08:13,796 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] FM2E application started at 2016-02-29 14:08:13
+INFO  2016-02-29 14:12:03,383 FM2E application ended at 2016-02-29 14:12:03
+INFO  2016-02-29 14:12:12,979 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] FM2E application started at 2016-02-29 14:12:12
+FATAL 2016-02-29 14:16:47,049 [/Web/Login.aspx] Version:true
+INFO  2016-02-29 14:16:47,049 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2016-02-29 14:18:14,736 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/ViewDeviceInfo.aspx?cmd=view&id=38674&companyid=HG&index=] 获取维修记录失败：获取维修记录失败
+INFO  2016-02-29 14:25:50,435 FM2E application ended at 2016-02-29 14:25:50
+INFO  2016-02-29 14:26:04,813 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] FM2E application started at 2016-02-29 14:26:04
+FATAL 2016-02-29 14:29:18,495 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fDefault.aspx] Version:true
+INFO  2016-02-29 14:29:18,495 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fDefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2016-02-29 14:29:27,048 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/ViewDeviceInfo.aspx?cmd=view&id=38674&companyid=HG&index=] 获取维修记录失败：获取维修记录失败
+INFO  2016-02-29 14:35:45,551 FM2E application ended at 2016-02-29 14:35:45
+INFO  2016-02-29 14:35:54,931 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] FM2E application started at 2016-02-29 14:35:54
+INFO  2016-02-29 14:38:25,902 FM2E application ended at 2016-02-29 14:38:25
+INFO  2016-02-29 14:38:33,367 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] FM2E application started at 2016-02-29 14:38:33
+INFO  2016-02-29 14:42:16,139 FM2E application ended at 2016-02-29 14:42:16
+INFO  2016-02-29 14:42:27,409 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] FM2E application started at 2016-02-29 14:42:27
+FATAL 2016-02-29 14:45:10,058 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fDefault.aspx] Version:true
+INFO  2016-02-29 14:45:10,058 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fDefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2016-02-29 14:45:32,418 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/ViewDeviceInfo.aspx?cmd=view&id=38674&companyid=HG&index=] 获取维修记录失败：获取维修记录失败
+INFO  2016-02-29 14:46:29,990 [/Web/Login.aspx] 您的用户名(admin3)已经于(2016-2-29 14:45:10),从(127.0.0.1)IP登陆在本系统.在线时间:0.39分.
+INFO  2016-02-29 14:46:31,838 [/Web/Login.aspx?CMD=OutOnline&OPCode=8247&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=yqxflx45lwkqcn55ryuhrsv0] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2016-02-29 14:47:18,954 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/ViewDeviceInfo.aspx?cmd=view&id=38674&companyid=HG&index=] 获取维修记录失败：获取维修记录失败
+INFO  2016-02-29 14:48:05,125 FM2E application ended at 2016-02-29 14:48:05
+INFO  2016-02-29 14:48:16,956 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] FM2E application started at 2016-02-29 14:48:16
+ERROR 2016-02-29 14:52:16,141 [/Web/Login.aspx] 您已经被系统强制退出！
+ERROR 2016-02-29 14:52:16,147 [/Web/Login.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+FATAL 2016-02-29 14:52:22,863 [/Web/Login.aspx] Version:true
+INFO  2016-02-29 14:52:22,864 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2016-02-29 14:52:42,825 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/ViewDeviceInfo.aspx?cmd=view&id=38674&companyid=HG&index=] 获取维修记录失败：未将对象引用设置到对象的实例。
+ERROR 2016-02-29 14:52:53,229 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/InCAForm.aspx?id=134] 文件不存在:http://localhost:41765/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/InCAForm.aspx?id=134
+ERROR 2016-02-29 15:01:45,182 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/ViewDeviceInfo.aspx?cmd=view&id=38674&companyid=HG&index=] 获取维修记录失败：未将对象引用设置到对象的实例。
+ERROR 2016-02-29 15:03:13,721 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/ViewDeviceInfo.aspx?cmd=view&id=20080&companyid=HG&index=] 获取维修记录失败：未将对象引用设置到对象的实例。
+ERROR 2016-02-29 15:08:15,982 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/ViewDeviceInfo.aspx?cmd=view&id=20080&companyid=HG&index=] 获取维修记录失败：未将对象引用设置到对象的实例。
+ERROR 2016-02-29 15:17:42,483 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/ViewDeviceInfo.aspx?cmd=view&id=20080&companyid=HG&index=] 获取维修记录失败：无法将类型为“System.Int64”的对象强制转换为类型“System.Enum”。
+INFO  2016-02-29 15:17:56,914 FM2E application ended at 2016-02-29 15:17:56
+INFO  2016-02-29 15:18:07,178 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] FM2E application started at 2016-02-29 15:18:07
+INFO  2016-02-29 15:21:34,550 FM2E application ended at 2016-02-29 15:21:34
+INFO  2016-02-29 15:21:43,898 [/Web/Login.aspx] FM2E application started at 2016-02-29 15:21:43
+ERROR 2016-02-29 15:21:45,195 [/Web/Login.aspx] 您已经被系统强制退出！
+ERROR 2016-02-29 15:21:45,203 [/Web/Login.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+FATAL 2016-02-29 15:21:51,077 [/Web/Login.aspx] Version:true
+INFO  2016-02-29 15:21:51,078 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2016-02-29 15:24:06,494 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/ViewDeviceInfo.aspx?cmd=view&id=20080&companyid=HG&index=] 获取维修记录失败：无法将类型为“System.Int32”的对象强制转换为类型“System.Enum”。
+INFO  2016-02-29 15:25:28,151 FM2E application ended at 2016-02-29 15:25:28
+INFO  2016-02-29 15:25:37,766 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] FM2E application started at 2016-02-29 15:25:37
+INFO  2016-02-29 15:28:26,764 FM2E application ended at 2016-02-29 15:28:26
+INFO  2016-02-29 15:32:14,396 [/Web/Login.aspx] FM2E application started at 2016-02-29 15:32:14
+FATAL 2016-02-29 15:34:23,770 [/Web/Login.aspx] Version:true
+INFO  2016-02-29 15:34:23,770 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2016-02-29 15:34:50,492 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/ViewDeviceInfo.aspx?cmd=view&id=20080&companyid=HG&index=] 获取维修记录失败：给定关键字不在字典中。
+ERROR 2016-02-29 15:35:04,196 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/ViewDeviceInfo.aspx?cmd=view&id=38674&companyid=HG&index=] 获取维修记录失败：给定关键字不在字典中。
+ERROR 2016-02-29 15:35:42,393 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/ViewDeviceInfo.aspx?cmd=view&id=38674&companyid=HG&index=] 获取维修记录失败：给定关键字不在字典中。
+INFO  2016-02-29 15:38:59,765 FM2E application ended at 2016-02-29 15:38:59
+INFO  2016-02-29 15:39:10,781 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] FM2E application started at 2016-02-29 15:39:10
+FATAL 2016-02-29 15:42:55,488 [/Web/Login.aspx] Version:true
+INFO  2016-02-29 15:42:55,488 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2016-02-29 15:52:15,865 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/ViewDeviceInfo.aspx?cmd=view&id=38674&companyid=HG&index=] 获取维修记录失败：在选定的数据源上未找到名为“DepartmentName”的字段或属性。
+ERROR 2016-02-29 15:53:03,177 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/ViewDeviceInfo.aspx?cmd=view&id=38674&companyid=HG&index=] 获取维修记录失败：在选定的数据源上未找到名为“DepartmentName”的字段或属性。
+ERROR 2016-02-29 15:53:49,245 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/ViewDeviceInfo.aspx?cmd=view&id=38674&companyid=HG&index=] 获取维修记录失败：在选定的数据源上未找到名为“DepartmentName”的字段或属性。
+ERROR 2016-02-29 15:54:10,891 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/ViewDeviceInfo.aspx?cmd=view&id=38674&companyid=HG&index=] 获取维修记录失败：在选定的数据源上未找到名为“DepartmentName”的字段或属性。
+ERROR 2016-02-29 15:56:36,926 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/ViewDeviceInfo.aspx?cmd=view&id=38674&companyid=HG&index=] 获取维修记录失败：在选定的数据源上未找到名为“DepartmentName”的字段或属性。
+ERROR 2016-02-29 15:57:51,300 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/ViewDeviceInfo.aspx?cmd=view&id=38674&companyid=HG&index=] 获取维修记录失败：在选定的数据源上未找到名为“DepartmentName”的字段或属性。
+ERROR 2016-02-29 15:58:40,873 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/ViewDeviceInfo.aspx?cmd=view&id=38674&companyid=HG&index=] 获取维修记录失败：在选定的数据源上未找到名为“DepartmentName”的字段或属性。
+INFO  2016-02-29 16:11:21,570 FM2E application ended at 2016-02-29 16:11:21
+INFO  2016-02-29 16:11:40,356 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] FM2E application started at 2016-02-29 16:11:40
+ERROR 2016-02-29 16:30:25,333 [/Web/Login.aspx] 您已经被系统强制退出！
+ERROR 2016-02-29 16:30:25,338 [/Web/Login.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+ERROR 2016-02-29 16:32:08,401 [/Web/Login.aspx] 用户名/密码(admin3/a)错误！
+FATAL 2016-02-29 16:32:15,072 [/Web/login.aspx] Version:true
+INFO  2016-02-29 16:32:15,072 [/Web/login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2016-02-29 16:36:53,968 FM2E application ended at 2016-02-29 16:36:53

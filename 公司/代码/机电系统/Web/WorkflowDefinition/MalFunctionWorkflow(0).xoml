@@ -1,0 +1,86 @@
+<ns0:MalFunctionWorkflow InitialStateName="WaitSubmint" Description="故障维修" x:Name="MalFunctionWorkflow" DynamicUpdateCondition="{x:Null}" CompletedStateName="End" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/workflow" xmlns:ns0="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" >
+	<StateActivity x:Name="WaitSubmint" Description="">
+		<EventDrivenActivity x:Name="AppSubmited">
+			<HandleExternalEventActivity x:Name="handle1" EventName="AppSubmited" Description="故障上报"  InterfaceType="{x:Type p8:IMalFunctionEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="AppSubmited_1" TargetStateName="Waiting4SupervisorConfirm" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="Waiting4SupervisorConfirm" Description="等待监控主管确认">
+		<EventDrivenActivity x:Name="SupervisorAccepted">
+			<HandleExternalEventActivity x:Name="handle2" EventName="SupervisorAccepted" Description="确认通过"  InterfaceType="{x:Type p8:IMalFunctionEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="SupervisorAccepted_1" TargetStateName="Waiting4ElectDeptConfirm" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="SupervisorRejected">
+			<HandleExternalEventActivity x:Name="handle3" EventName="SupervisorRejected" Description="确认不通过"  InterfaceType="{x:Type p8:IMalFunctionEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="SupervisorRejected_1" TargetStateName="FinishedUnNormal" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="Waiting4ElectDeptConfirm" Description="等待机电部确认">
+		<EventDrivenActivity x:Name="ElectDeptAccepted">
+			<HandleExternalEventActivity x:Name="handle4" EventName="ElectDeptAccepted" Description="确认通过"  InterfaceType="{x:Type p8:IMalFunctionEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="ElectDeptAccepted_1" TargetStateName="Waiting4ApprovalResult" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="Waiting4ApprovalResult" Description="等待审批维修方式">
+		<EventDrivenActivity x:Name="ApprovalAccepted">
+			<HandleExternalEventActivity x:Name="handle5" EventName="ApprovalAccepted" Description="审批通过"  InterfaceType="{x:Type p8:IMalFunctionEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="ApprovalAccepted_1" TargetStateName="Waiting4MaintainResult" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="ApprovalFailedAndReturn">
+			<HandleExternalEventActivity x:Name="handle6" EventName="ApprovalFailedAndReturn" Description="审批不通过并返回修改"  InterfaceType="{x:Type p8:IMalFunctionEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="ApprovalFailedAndReturn_1" TargetStateName="Waiting4ElectDeptConfirm" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="ApprovalFailedAndBreak">
+			<HandleExternalEventActivity x:Name="handle7" EventName="ApprovalFailedAndBreak" Description="审批不通过并终止维修"  InterfaceType="{x:Type p8:IMalFunctionEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="ApprovalFailedAndBreak_1" TargetStateName="FinishedUnNormal" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="Waiting4MaintainResult" Description="等待维修结果">
+		<EventDrivenActivity x:Name="Maintain">
+			<HandleExternalEventActivity x:Name="handle8" EventName="Maintain" Description="维修"  InterfaceType="{x:Type p8:IMalFunctionEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="Maintain_1" TargetStateName="Waiting4Acceptance" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="Waiting4Acceptance" Description="等待验收">
+		<EventDrivenActivity x:Name="Accepted">
+			<HandleExternalEventActivity x:Name="handle9" EventName="Accepted" Description="验收通过"  InterfaceType="{x:Type p8:IMalFunctionEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="Accepted_1" TargetStateName="Waiting4Confirm" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="AcceptanceFailedAndContinue">
+			<HandleExternalEventActivity x:Name="handle10" EventName="AcceptanceFailedAndContinue" Description="验收不通过并继续维修"  InterfaceType="{x:Type p8:IMalFunctionEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="AcceptanceFailedAndContinue_1" TargetStateName="Waiting4MaintainResult" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="AcceptanceFailedAndBreak">
+			<HandleExternalEventActivity x:Name="handle11" EventName="AcceptanceFailedAndBreak" Description="验收不通过并终止维修"  InterfaceType="{x:Type p8:IMalFunctionEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="AcceptanceFailedAndBreak_1" TargetStateName="FinishedUnNormal" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="Waiting4Confirm" Description="等待确认维修结果">
+		<EventDrivenActivity x:Name="Confirmed">
+			<HandleExternalEventActivity x:Name="handle12" EventName="Confirmed" Description="恢复使用"  InterfaceType="{x:Type p8:IMalFunctionEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="Confirmed_1" TargetStateName="FinishedNormal" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="ConfirmFailedAndContinue">
+			<HandleExternalEventActivity x:Name="handle13" EventName="ConfirmFailedAndContinue" Description="无法使用并继续维修"  InterfaceType="{x:Type p8:IMalFunctionEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="ConfirmFailedAndContinue_1" TargetStateName="Waiting4MaintainResult" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="ConfirmFailedAndBreak">
+			<HandleExternalEventActivity x:Name="handle14" EventName="ConfirmFailedAndBreak" Description="无法使用并终止维修"  InterfaceType="{x:Type p8:IMalFunctionEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="ConfirmFailedAndBreak_1" TargetStateName="FinishedUnNormal" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="FinishedNormal" Description="处理完毕">
+		<EventDrivenActivity x:Name="AfterApproved">
+			<DelayActivity TimeoutDuration="00:10:00" x:Name="delayStep1" />
+			<SetStateActivity x:Name="AfterApproved_1" TargetStateName="End" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="FinishedUnNormal" Description="被终止">
+		<EventDrivenActivity x:Name="AfterRejected">
+			<DelayActivity TimeoutDuration="00:10:00" x:Name="delayStep2" />
+			<SetStateActivity x:Name="AfterRejected_1" TargetStateName="End" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="End" Description="结束">
+	</StateActivity>
+</ns0:MalFunctionWorkflow>

@@ -1,0 +1,33 @@
+INFO  2013-05-20 09:10:09,981 [/Web/default.aspx] FM2E application started at 2013-05-20 09:10:08
+FATAL 2013-05-20 09:10:16,075 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-05-20 09:10:16,075 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-20 09:41:36,014 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionList.aspx] 获取故障处理单列表失败:获取故障处理单列表分页失败(caused by IsDelayCheck1) 
+STACK   在 FM2E.SQLServerDAL.Maintain.MalfunctionHandle.FM2E.IDAL.Maintain.IMalfunctionHandle.GetMalfunctionSheets(QueryParam term, Int32& recordCount) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\SQLServerDAL\Maintain\MalfunctionHandle.cs:行号 677
+   在 FM2E.BLL.Maintain.MalfunctionHandle.GetMalfunctionList(MalfunctionSearchInfo term, Int32 currentPageIndex, Int32 pageSize, Int32& recordCount) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\Maintain\MalfunctionHandle.cs:行号 471
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionReport_MalfunctionList.FillData() 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionReport\MalfunctionList.aspx.cs:行号 168
+WARN  2013-05-20 12:41:36,178 移除在线用户admin3
+INFO  2013-05-20 17:58:02,074 [/Web/default.aspx] FM2E application started at 2013-05-20 17:58:00
+FATAL 2013-05-20 17:58:07,827 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-05-20 17:58:07,827 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-20 17:58:14,005 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionList.aspx] 获取故障处理单列表失败:获取故障处理单列表分页失败(caused by 列名 'IsDelayApprove' 无效。
+由于绑定错误，无法使用视图或函数 'FM2E_MalfunctionSheetView'。
+列名 'IsDelayApprove' 无效。
+由于绑定错误，无法使用视图或函数 'FM2E_MalfunctionSheetView'。
+列名 'IsDelayApprove' 无效。
+由于绑定错误，无法使用视图或函数 'FM2E_MalfunctionSheetView'。
+SELECT @TotalRecordBeforeDistinct=Count(*) From FM2E_MalfunctionSheetView a where 1=1 
+SELECT * FROM
+					(SELECT TOP         20 * FROM 
+						(SELECT TOP         20 * FROM (SELECT TOP         20 * FROM (SELECT DISTINCT a.*,a.UpdateTime as SortedUpdateTime
+										FROM FM2E_MalfunctionSheetView a where 1=1 ) TB2 
+							order by SortedUpdateTime desc) TB5 
+						order by SortedUpdateTime desc) TB3 
+					 order by sortedupdatetime asc) TB4 
+				  order by SortedUpdateTime desc) 
+STACK   在 FM2E.SQLServerDAL.Maintain.MalfunctionHandle.FM2E.IDAL.Maintain.IMalfunctionHandle.GetMalfunctionSheets(QueryParam term, Int32& recordCount) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\SQLServerDAL\Maintain\MalfunctionHandle.cs:行号 730
+   在 FM2E.BLL.Maintain.MalfunctionHandle.GetMalfunctionList(MalfunctionSearchInfo term, Int32 currentPageIndex, Int32 pageSize, Int32& recordCount) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\Maintain\MalfunctionHandle.cs:行号 471
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionReport_MalfunctionList.FillData() 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionReport\MalfunctionList.aspx.cs:行号 168
+ERROR 2013-05-20 18:01:02,188 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionList.aspx] 此页面只允许维修部门人员进入
+INFO  2013-05-20 19:31:25,761 FM2E application ended at 2013-05-20 19:31:25
+INFO  2013-05-20 19:31:43,982 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] FM2E application started at 2013-05-20 19:31:43
+INFO  2013-05-20 19:35:59,256 FM2E application ended at 2013-05-20 19:35:59

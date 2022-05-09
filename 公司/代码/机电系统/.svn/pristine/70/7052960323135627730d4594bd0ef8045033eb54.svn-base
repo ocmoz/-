@@ -1,0 +1,44 @@
+﻿using System;
+using System.Collections;
+using System.Configuration;
+using System.Data;
+using System.Linq;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.HtmlControls;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Xml.Linq;
+using FM2E.BLL.System;
+using FM2E.BLL.Basic;
+using WebUtility;
+using FM2E.Model.System;
+public partial class Module_FM2E_Report_Input_Marketing : System.Web.UI.Page
+{
+    private readonly User userBll = new User();
+    private readonly Company companyBll = new Company();
+    protected String station;
+
+    protected String quieeIP;
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        
+       quieeIP = ConfigurationManager.AppSettings["QuieeIP"];
+    
+
+        UserInfo userinf = userBll.GetUser(Common.Get_UserName);
+
+
+        if (userinf.DepartmentName.EndsWith("站"))
+        {
+            station = userinf.DepartmentName;
+        }
+        else
+        {
+            station = "";
+        }
+    }
+    
+}

@@ -1,0 +1,29 @@
+INFO  2015-10-21 09:47:27,485 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionStationCheck/StationCheckMalfunctionSheet.aspx] FM2E application started at 2015-10-21 09:47:26
+FATAL 2015-10-21 09:59:53,075 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionStationCheck%2fStationCheckMalfunctionSheet.aspx] Version:true
+INFO  2015-10-21 09:59:53,075 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionStationCheck%2fStationCheckMalfunctionSheet.aspx] 欢迎您admin，成功登入。您的IP为：127.0.0.1！
+FATAL 2015-10-21 10:01:51,274 [/Web/Login.aspx] Version:true
+INFO  2015-10-21 10:01:51,274 [/Web/Login.aspx] 欢迎您hewh，成功登入。您的IP为：127.0.0.1！
+INFO  2015-10-21 10:02:45,758 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/RecordMalfunction.aspx?cmd=add] 提交故障处理单成功,故障处理单号为：SY1510211001
+FATAL 2015-10-21 10:03:48,704 [/Web/Login.aspx] Version:true
+INFO  2015-10-21 10:03:48,704 [/Web/Login.aspx] 欢迎您yill，成功登入。您的IP为：127.0.0.1！
+INFO  2015-10-21 10:04:01,254 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionHandle.aspx?cmd=edit&from=1&id=7134] 受理成功，该故障单已被受理！
+FATAL 2015-10-21 10:08:19,208 [/Web/Login.aspx] Version:true
+INFO  2015-10-21 10:08:19,208 [/Web/Login.aspx] 欢迎您zhangkq，成功登入。您的IP为：127.0.0.1！
+ERROR 2015-10-21 10:08:32,160 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=7115] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+FATAL 2015-10-21 10:08:35,842 [/Web/Login.aspx] Version:true
+INFO  2015-10-21 10:08:35,842 [/Web/Login.aspx] 欢迎您yill，成功登入。您的IP为：127.0.0.1！
+ERROR 2015-10-21 10:08:48,272 [/Web/Login.aspx] 密码不能为空
+FATAL 2015-10-21 10:08:50,015 [/Web/Login.aspx] Version:true
+INFO  2015-10-21 10:08:50,015 [/Web/Login.aspx] 欢迎您hewh，成功登入。您的IP为：127.0.0.1！
+INFO  2015-10-21 10:08:58,853 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionList.aspx] 故障处理单实际修复时间确认成功，故障处理单号为：SY1510211001
+ERROR 2015-10-21 10:34:12,787 [/Web/Login.aspx] 密码不能为空
+FATAL 2015-10-21 10:34:14,862 [/Web/Login.aspx] Version:true
+INFO  2015-10-21 10:34:14,862 [/Web/Login.aspx] 欢迎您luobing，成功登入。您的IP为：127.0.0.1！
+FATAL 2015-10-21 10:55:27,968 [/Web/Login.aspx] Version:true
+INFO  2015-10-21 10:55:27,968 [/Web/Login.aspx] 欢迎您yill，成功登入。您的IP为：127.0.0.1！
+FATAL 2015-10-21 10:55:41,638 [/Web/Login.aspx] Version:true
+INFO  2015-10-21 10:55:41,638 [/Web/Login.aspx] 欢迎您admin，成功登入。您的IP为：127.0.0.1！
+FATAL 2015-10-21 10:55:46,044 [/Web/Login.aspx] Version:true
+INFO  2015-10-21 10:55:46,044 [/Web/Login.aspx] 欢迎您hewh，成功登入。您的IP为：127.0.0.1！
+INFO  2015-10-21 11:54:28,205 FM2E application ended at 2015-10-21 11:54:28

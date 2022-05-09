@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+<Permission>
+<ModuleID name="出库审批">195c91bbbc0c4eb7a3a6111328be98dd</ModuleID>
+<Item value="2" name="列表/查看">,OutWarehouseApply.aspx,OutWarehouseApproval.aspx,QueryStorage.aspx,</Item>
+<Item value="4" name="新增">,OutWarehouseApply.aspx,OutWarehouseApproval.aspx,QueryStorage.aspx,</Item>
+<Item value="8" name="修改">,OutWarehouseApply.aspx,OutWarehouseApproval.aspx,QueryStorage.aspx,</Item>
+<Item value="16" name="删除">,OutWarehouseApply.aspx,OutWarehouseApproval.aspx,QueryStorage.aspx,</Item>
+<Item value="32" name="打印">,OutWarehouseApply.aspx,OutWarehouseApproval.aspx,QueryStorage.aspx,</Item>
+<Item value="64" name="审批">,OutWarehouseApply.aspx,OutWarehouseApproval.aspx,QueryStorage.aspx,</Item>
+<Item value="128" name="权限A"></Item>
+<Item value="256" name="权限B"></Item>
+</Permission>
+</configuration>

@@ -1,0 +1,14 @@
+INFO  2015-10-12 14:55:06,432 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/RecordMalfunction.aspx] FM2E application started at 2015-10-12 14:55:06
+ERROR 2015-10-12 14:55:10,120 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/RecordMalfunction.aspx] cmd字段值：低于系统允许长度1!
+ERROR 2015-10-12 14:55:10,840 [/Web/Messages.aspx?OPID=14026] 您已经被系统强制退出！
+ERROR 2015-10-12 14:55:10,841 [/Web/Messages.aspx?OPID=14026] 执行SystemPermission的事件时出错：正在中止线程。
+INFO  2015-10-12 14:56:09,651 FM2E application ended at 2015-10-12 14:56:09
+INFO  2015-10-12 15:01:13,085 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/RecordMalfunction.aspx] FM2E application started at 2015-10-12 15:01:12
+FATAL 2015-10-12 15:02:47,851 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionReport%2fRecordMalfunction.aspx] Version:true
+INFO  2015-10-12 15:02:47,851 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionReport%2fRecordMalfunction.aspx] 欢迎您admin，成功登入。您的IP为：127.0.0.1！
+ERROR 2015-10-12 15:15:15,769 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/WarehouseEquipmentInfo/DeviceInfo.aspx] 本页面只允许仓管员进入:本页面只允许仓管员进入 
+STACK
+INFO  2015-10-12 15:15:49,173 [/Web/Module/FM2E/SystemManager/UserManager/EditUser.aspx?cmd=edit&name=admin] 修改用户成功！
+ERROR 2015-10-12 15:16:53,190 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/WarehouseEquipmentInfo/DeviceInfo.aspx] 本页面只允许仓管员进入:本页面只允许仓管员进入 
+STACK
+INFO  2015-10-12 15:21:44,424 FM2E application ended at 2015-10-12 15:21:44

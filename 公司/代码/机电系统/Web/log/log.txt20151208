@@ -1,0 +1,6 @@
+INFO  2015-12-08 11:49:49,552 [/Web/default.aspx] FM2E application started at 2015-12-08 11:49:49
+ERROR 2015-12-08 11:49:50,278 [/Web/default.aspx] 您已经被系统强制退出！
+ERROR 2015-12-08 11:49:50,287 [/Web/default.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+FATAL 2015-12-08 11:50:57,386 [/Web/Login.aspx] Version:true
+INFO  2015-12-08 11:50:57,386 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2015-12-08 12:28:49,214 FM2E application ended at 2015-12-08 12:28:49

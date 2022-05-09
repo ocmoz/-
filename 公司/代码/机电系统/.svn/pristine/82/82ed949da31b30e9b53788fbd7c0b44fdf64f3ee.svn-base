@@ -1,0 +1,139 @@
+INFO  2013-03-31 18:35:42,968 [/Web/default.aspx] FM2E application started at 2013-03-31 18:35:42
+ERROR 2013-03-31 18:35:49,138 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 密码不能为空
+FATAL 2013-03-31 18:35:56,125 [/Web/Login.aspx] Version:true
+INFO  2013-03-31 18:35:56,126 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-03-31 18:36:54,481 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/RecordMalfunction.aspx?cmd=add] 提交故障处理单成功,故障处理单号为：SD1303311801
+INFO  2013-03-31 18:37:25,027 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/RecordMalfunction.aspx?cmd=add] 提交故障处理单成功,故障处理单号为：FM1303311801
+FATAL 2013-03-31 18:37:34,587 [/Web/Login.aspx] Version:true
+INFO  2013-03-31 18:37:34,587 [/Web/Login.aspx] 欢迎您linmx，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-03-31 18:38:58,392 [/Web/Login.aspx] Version:true
+INFO  2013-03-31 18:38:58,392 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-03-31 18:39:02,801 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionList.aspx] 此页面只允许维修部门人员进入
+INFO  2013-03-31 18:39:17,155 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=842] 验收故障处理单成功,故障处理单号为：SD1303311801
+INFO  2013-03-31 18:39:24,954 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=843] 验收故障处理单成功,故障处理单号为：FM1303311801
+FATAL 2013-03-31 18:42:01,855 [/Web/Login.aspx] Version:true
+INFO  2013-03-31 18:42:01,855 [/Web/Login.aspx] 欢迎您linya，成功登入。您的IP为：127.0.0.1！
+INFO  2013-03-31 18:42:14,439 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=843] 故障处理单审批成功,故障处理单号为：FM1303311801
+INFO  2013-03-31 18:42:23,352 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=842] 故障处理单审批成功,故障处理单号为：SD1303311801
+FATAL 2013-03-31 18:42:29,498 [/Web/Login.aspx] Version:true
+INFO  2013-03-31 18:42:29,498 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-03-31 18:42:39,699 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=842] 验收故障处理单成功,故障处理单号为：SD1303311801
+INFO  2013-03-31 18:42:46,379 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=843] 验收故障处理单成功,故障处理单号为：FM1303311801
+INFO  2013-03-31 18:43:09,963 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionStationCheck/StationCheckMalfunctionSheet.aspx?cmd=view&id=843] 确定故障处理单成功,故障处理单号为：FM1303311801
+INFO  2013-03-31 18:43:15,934 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionStationCheck/StationCheckMalfunctionSheet.aspx?cmd=view&id=842] 确定故障处理单成功,故障处理单号为：SD1303311801
+FATAL 2013-03-31 18:43:35,172 [/Web/Login.aspx] Version:true
+INFO  2013-03-31 18:43:35,172 [/Web/Login.aspx] 欢迎您zhaofang，成功登入。您的IP为：127.0.0.1！
+INFO  2013-03-31 18:43:52,021 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=842] 故障处理单审批成功,故障处理单号为：SD1303311801
+FATAL 2013-03-31 18:46:21,777 [/Web/Login.aspx] Version:true
+INFO  2013-03-31 18:46:21,777 [/Web/Login.aspx] 欢迎您wangyf，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-03-31 18:47:02,341 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=843] 故障处理单审批失败:无法为实例 ID“9343b9c1-210d-4c71-bf42-76b78a13d237”传递接口类型“FM2E.WorkflowLayer.ISGS_MalFunctionEventService”上的事件“ElectDeptManagerConfirmAccepted”。(caused by 未启用队列“Message Properties
+Interface Type:FM2E.WorkflowLayer.ISGS_MalFunctionEventService
+Method Name:ElectDeptManagerConfirmAccepted
+CorrelationValues:
+”。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_MalFunctionEventService.RaiseEvent(String eventName, Guid instanceID) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\EventService\SGS_MalFunctionEventService.cs:行号 13
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1107
+FATAL 2013-03-31 20:28:55,469 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionApproval%2fViewApprovalMfSheet.aspx] Version:true
+INFO  2013-03-31 20:28:55,470 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionApproval%2fViewApprovalMfSheet.aspx] 欢迎您chensq，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-03-31 20:29:34,786 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=684] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+ERROR 2013-03-31 20:32:49,077 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=684] 故障处理单审批失败:无法为实例 ID“08537e71-7836-4b15-9f30-ede494b2afe8”传递接口类型“FM2E.WorkflowLayer.ISGS_MalFunctionEventService”上的事件“ManagerDAccepted”。(caused by 未启用队列“Message Properties
+Interface Type:FM2E.WorkflowLayer.ISGS_MalFunctionEventService
+Method Name:ManagerDAccepted
+CorrelationValues:
+”。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_MalFunctionEventService.RaiseEvent(String eventName, Guid instanceID) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\EventService\SGS_MalFunctionEventService.cs:行号 13
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String company, String& nextUserName) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\Base\WorkflowHelper.cs:行号 211
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 945
+INFO  2013-03-31 20:46:06,289 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionApproval%2fViewApprovalMfSheet.aspx] 您的用户名(chensq)已经于(2013/3/31 20:28:55),从(127.0.0.1)IP登陆在本系统.在线时间:0.90分.
+INFO  2013-03-31 20:46:08,627 [/Web/Login.aspx?CMD=OutOnline&OPCode=4753&U_LoginName=chensq&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=f530wv45ey1lcb45lhbdbhep] 欢迎您chensq，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-03-31 20:46:31,849 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=602] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-03-31 20:49:55,448 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=602] 故障处理单审批成功,故障处理单号为：TM1301050901
+ERROR 2013-03-31 20:50:14,939 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=602] 故障处理单审批失败:无法为实例 ID“c0e34711-a93f-4e57-94d1-096773cd6ff0”传递接口类型“FM2E.WorkflowLayer.ISGS_MalFunctionEventService”上的事件“ManagerDAccepted”。(caused by 未启用队列“Message Properties
+Interface Type:FM2E.WorkflowLayer.ISGS_MalFunctionEventService
+Method Name:ManagerDAccepted
+CorrelationValues:
+”。) 
+STACK   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)
+   在 FM2E.WorkflowLayer.SGS_MalFunctionEventService.RaiseEvent(String eventName, Guid instanceID) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\EventService\SGS_MalFunctionEventService.cs:行号 13
+   在 FM2E.WorkflowLayer.WorkflowHelper.SetStateAndNextUserMachine[T](Guid instanceID, String eventName, String workflowName, String& nextUserName) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WorkflowLayer\Base\WorkflowHelper.cs:行号 194
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 1122
+INFO  2013-03-31 20:51:20,521 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 您的用户名(chensq)已经于(2013/3/31 20:46:08),从(127.0.0.1)IP登陆在本系统.在线时间:4.05分.
+INFO  2013-03-31 20:51:21,791 [/Web/Login.aspx?CMD=OutOnline&OPCode=2833&U_LoginName=chensq&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=criwi545p2bn2n55viist545] 欢迎您chensq，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-03-31 20:51:28,556 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=689] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-03-31 20:51:34,939 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=689] 故障处理单审批成功,故障处理单号为：XL1301201001
+ERROR 2013-03-31 20:51:45,625 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=727] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-03-31 20:51:49,999 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=727] 故障处理单审批成功,故障处理单号为：XL1301271101
+FATAL 2013-03-31 20:52:05,717 [/Web/Login.aspx] Version:true
+INFO  2013-03-31 20:52:05,717 [/Web/Login.aspx] 欢迎您chengang，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-03-31 20:52:12,228 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=727] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-03-31 20:52:17,301 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=727] 故障处理单审批成功,故障处理单号为：XL1301271101
+WARN  2013-03-31 21:47:02,437 移除在线用户wangyf
+ERROR 2013-03-31 23:30:15,752 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=602] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+FATAL 2013-03-31 23:30:23,957 [/Web/Login.aspx] Version:true
+INFO  2013-03-31 23:30:23,957 [/Web/Login.aspx] 欢迎您chensq，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-03-31 23:30:30,202 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=641] 获取故障处理单内容失败:“RadioButtonList_Events”有一个无效 SelectedValue，因为它不在项目列表中。
+参数名: value 
+STACK   在 System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   在 System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   在 System.Web.UI.WebControls.ListControl.PerformSelect()
+   在 System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   在 control_WorkFlowUserSelectControl.EventListDataBind() 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\control\WorkFlowUserSelectControl.ascx.cs:行号 110
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.FillData() 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 264
+ERROR 2013-03-31 23:30:33,731 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=659] 获取故障处理单内容失败:“RadioButtonList_Events”有一个无效 SelectedValue，因为它不在项目列表中。
+参数名: value 
+STACK   在 System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   在 System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   在 System.Web.UI.WebControls.ListControl.PerformSelect()
+   在 System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   在 control_WorkFlowUserSelectControl.EventListDataBind() 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\control\WorkFlowUserSelectControl.ascx.cs:行号 110
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.FillData() 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 264
+ERROR 2013-03-31 23:32:47,846 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=713] 获取故障处理单内容失败:“RadioButtonList_Events”有一个无效 SelectedValue，因为它不在项目列表中。
+参数名: value 
+STACK   在 System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   在 System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   在 System.Web.UI.WebControls.ListControl.PerformSelect()
+   在 System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   在 control_WorkFlowUserSelectControl.EventListDataBind() 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\control\WorkFlowUserSelectControl.ascx.cs:行号 110
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.FillData() 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 283
+INFO  2013-03-31 23:33:32,184 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionApproval%2fViewApprovalMfSheet.aspx] 您的用户名(chensq)已经于(2013/3/31 23:30:23),从(127.0.0.1)IP登陆在本系统.在线时间:2.40分.
+INFO  2013-03-31 23:33:34,364 [/Web/Login.aspx?CMD=OutOnline&OPCode=0620&U_LoginName=chensq&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=w41vnrqshmbakkak3wa3ux55] 欢迎您chensq，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-03-31 23:35:47,696 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=670] 获取故障处理单内容失败:“RadioButtonList_Events”有一个无效 SelectedValue，因为它不在项目列表中。
+参数名: value 
+STACK   在 System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   在 System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   在 System.Web.UI.WebControls.ListControl.PerformSelect()
+   在 System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   在 control_WorkFlowUserSelectControl.EventListDataBind() 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\control\WorkFlowUserSelectControl.ascx.cs:行号 110
+   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.FillData() 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 283
+FATAL 2013-03-31 23:41:47,417 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionApproval%2fViewApprovalMfSheet.aspx] Version:true
+INFO  2013-03-31 23:41:47,417 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionApproval%2fViewApprovalMfSheet.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-03-31 23:42:26,506 [/Web/Login.aspx] 您的用户名(chensq)已经于(2013/3/31 23:33:34),从(127.0.0.1)IP登陆在本系统.在线时间:2.22分.
+INFO  2013-03-31 23:42:28,416 [/Web/Login.aspx?CMD=OutOnline&OPCode=1781&U_LoginName=chensq&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=ugvkdx4500racbm1sgkvll45] 欢迎您chensq，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-03-31 23:46:23,257 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=659] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-03-31 23:49:27,678 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionApproval%2fViewApprovalMfSheet.aspx] 您的用户名(chensq)已经于(2013/3/31 23:42:28),从(127.0.0.1)IP登陆在本系统.在线时间:0.32分.
+INFO  2013-03-31 23:49:28,733 [/Web/Login.aspx?CMD=OutOnline&OPCode=1412&U_LoginName=chensq&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=oswunbztpageds55j5kqae3e] 欢迎您chensq，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-03-31 23:51:03,394 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=618] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-03-31 23:52:05,183 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=618] 故障处理单审批成功,故障处理单号为：TM1301071401
+FATAL 2013-03-31 23:52:50,034 [/Web/Login.aspx] Version:true
+INFO  2013-03-31 23:52:50,034 [/Web/Login.aspx] 欢迎您wangyf，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-03-31 23:53:12,526 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=618] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-03-31 23:53:39,919 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=618] 故障处理单审批成功,故障处理单号为：TM1301071401
+FATAL 2013-03-31 23:53:58,303 [/Web/Login.aspx] Version:true
+INFO  2013-03-31 23:53:58,303 [/Web/Login.aspx] 欢迎您chensq，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-03-31 23:54:21,055 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=618] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+ERROR 2013-03-31 23:55:09,065 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=641] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-03-31 23:57:10,355 FM2E application ended at 2013-03-31 23:57:10

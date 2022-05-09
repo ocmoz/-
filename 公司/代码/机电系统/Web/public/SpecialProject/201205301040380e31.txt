@@ -1,0 +1,8 @@
+"   在 System.ThrowHelper.ThrowKeyNotFoundException()\r\n   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)\r\n   在 FM2E.WorkflowLayer.WorkflowParser`1.GetEventInfoList(String stateName, Boolean includeParallel) 位置 G:\\Documents and Settings\\Administrator\\桌面\\SGS\\FM2E V3.1.2\\WorkflowLayer\\Base\\WorkflowParser.cs:行号 171\r\n   在 FM2E.WorkflowLayer.WorkflowHelper.GetEventInfoList(String workflowName, String stateName) 位置 G:\\Documents and Settings\\Administrator\\桌面\\SGS\\FM2E V3.1.2\\WorkflowLayer\\Base\\WorkflowHelper.cs:行号 372\r\n   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.FillData() 位置 g:\\Documents and Settings\\Administrator\\桌面\\SGS\\FM2E V3.1.2\\Web\\Module\\FM2E\\MaintainManager\\MalFunctionManager\\MalfunctionApproval\\ViewApprovalMfSheet.aspx.cs:行号 202"\
+
+
+{"无法为实例 ID“fca3be9b-b1a6-4cbf-a421-0feee4ac997d”传递接口类型“FM2E.WorkflowLayer.ISGS_MalFunctionEventService”上的事件“ElectDeptEngineerPassed”。"}
+
+
+"事件队列操作失败，队列“Message Properties\r\nInterface Type:FM2E.WorkflowLayer.ISGS_MalFunctionEventService\r\nMethod Name:ElectDeptEngineerPassed\r\nCorrelationValues:\r\n”的 MessageQueueErrorCode 为 QueueNotFound。"
+v"   在 System.Workflow.Runtime.WorkflowQueuingService.GetQueue(IComparable queueID)\r\n   在 System.Workflow.Runtime.WorkflowQueuingService.EnqueueEvent(IComparable queueName, Object item)\r\n   在 System.Workflow.Runtime.WorkflowExecutor.EnqueueItem(IComparable queueName, Object item, IPendingWork pendingWork, Object workItem)\r\n   在 System.Workflow.Runtime.WorkflowInstance.EnqueueItem(IComparable queueName, Object item, IPendingWork pendingWork, Object workItem)\r\n   在 System.Workflow.Activities.WorkflowMessageEventHandler.EventHandler(Object sender, ExternalDataEventArgs eventArgs)"

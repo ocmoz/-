@@ -1,0 +1,300 @@
+INFO  2013-04-24 01:26:33,146 [/Web/default.aspx] FM2E application started at 2013-04-24 01:26:31
+FATAL 2013-04-24 01:26:55,557 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-04-24 01:26:55,557 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-24 01:42:55,511 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 01:42:55,511 [/Web/Login.aspx] 欢迎您zhaofang，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-04-24 01:43:03,070 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=702] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+ERROR 2013-04-24 01:43:05,457 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/MalfunctionSheetPrint.aspx?id=702] 文件不存在:http://localhost:1094/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/MalfunctionSheetPrint.aspx?id=702
+ERROR 2013-04-24 01:43:53,922 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=702] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+ERROR 2013-04-24 01:43:55,420 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/MalfunctionSheetPrint.aspx?id=702] 文件不存在:http://localhost:1094/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/MalfunctionSheetPrint.aspx?id=702
+ERROR 2013-04-24 01:47:53,147 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/MalfunctionSheetPrint.aspx?id=702] 文件不存在:http://localhost:1094/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/MalfunctionSheetPrint.aspx?id=702
+ERROR 2013-04-24 01:49:31,279 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=837] 获取故障处理历史失败，原因：未将对象引用设置到对象的实例。
+ERROR 2013-04-24 01:49:32,993 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/MalfunctionSheetPrint.aspx?id=837] 文件不存在:http://localhost:1094/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/MalfunctionSheetPrint.aspx?id=837
+ERROR 2013-04-24 01:50:19,624 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionList.aspx] 此页面只允许维修部门人员进入
+ERROR 2013-04-24 01:50:29,361 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionStationCheck/StationCheckMalfunctionSheet.aspx?cmd=view&id=758] 获取故障处理历史失败，原因：未将对象引用设置到对象的实例。
+ERROR 2013-04-24 01:50:33,202 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionStationCheck/MalfunctionSheetPrint.aspx?id=758] 文件不存在:http://localhost:1094/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionStationCheck/MalfunctionSheetPrint.aspx?id=758
+ERROR 2013-04-24 01:51:37,845 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=702] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-04-24 01:53:04,503 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionList.aspx] 故障处理单实际修复时间确认成功，故障处理单号为：YT1302220801
+FATAL 2013-04-24 01:53:23,824 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 01:53:23,824 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-24 01:53:42,401 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 01:53:42,401 [/Web/Login.aspx] 欢迎您luoxj，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-24 02:27:41,404 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-04-24 02:27:41,404 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-24 02:28:28,174 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 02:28:28,174 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-04-24 02:29:48,954 [/Web/Module/FM2E/SystemManager/UserManager/EditUser.aspx?cmd=edit&name=admin3] 修改用户成功！
+ERROR 2013-04-24 02:44:43,724 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/EditDevice.aspx?cmd=add&companyid=SG] 重复的设备条形码
+ERROR 2013-04-24 02:44:43,884 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/EditDevice.aspx?cmd=add&companyid=SG] 添加设备失败:正在中止线程。 
+STACK   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 WebUtility.EventMessage.MessageBox(MessageBox MBx) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WebUtility\EventMessage.cs:行号 143
+   在 WebUtility.EventMessage.MessageBox(Msg_Type M_Type, String M_Title, String M_Body, Exception M_Exception, Icon_Type M_IconType, Boolean M_WriteToLog, List`1 M_ButtonList, String M_ReturnScript) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WebUtility\EventMessage.cs:行号 119
+   在 WebUtility.EventMessage.MessageBox(Msg_Type M_Type, String M_Title, String M_Body, Exception M_Exception, Icon_Type M_IconType, Boolean M_WriteToLog, String Url, UrlType M_UrlType, String ReturnScript) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WebUtility\EventMessage.cs:行号 94
+   在 Module_FM2E_DeviceManager_DeviceInfo_CurrentEuipementInfo_AllEquipmentInfo_EditDevice.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\DeviceManager\DeviceInfo\CurrentEuipementInfo\AllEquipmentInfo\EditDevice.aspx.cs:行号 796
+ERROR 2013-04-24 02:44:51,315 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/EditDevice.aspx?cmd=add&companyid=SG] mscorlib thrown System.FormatException
+输入字符串的格式不正确。   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Convert.ToInt64(String value)
+   在 Module_FM2E_DeviceManager_DeviceInfo_CurrentEuipementInfo_AllEquipmentInfo_EditDevice.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\DeviceManager\DeviceInfo\CurrentEuipementInfo\AllEquipmentInfo\EditDevice.aspx.cs:行号 701
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ERROR 2013-04-24 02:44:58,273 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/EditDevice.aspx?cmd=add&companyid=SG] mscorlib thrown System.FormatException
+输入字符串的格式不正确。   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Convert.ToInt64(String value)
+   在 Module_FM2E_DeviceManager_DeviceInfo_CurrentEuipementInfo_AllEquipmentInfo_EditDevice.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\DeviceManager\DeviceInfo\CurrentEuipementInfo\AllEquipmentInfo\EditDevice.aspx.cs:行号 701
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ERROR 2013-04-24 02:47:45,777 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/EditDevice.aspx?cmd=add&companyid=SG] mscorlib thrown System.FormatException
+输入字符串的格式不正确。   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Convert.ToInt64(String value)
+   在 Module_FM2E_DeviceManager_DeviceInfo_CurrentEuipementInfo_AllEquipmentInfo_EditDevice.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\DeviceManager\DeviceInfo\CurrentEuipementInfo\AllEquipmentInfo\EditDevice.aspx.cs:行号 701
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+INFO  2013-04-24 02:48:06,153 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 您的用户名(admin3)已经于(2013/4/24 2:28:28),从(127.0.0.1)IP登陆在本系统.在线时间:19.29分.
+INFO  2013-04-24 02:48:07,602 [/Web/Login.aspx?CMD=OutOnline&OPCode=7210&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=swefiz3qu5f2fyjlfryiduze] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-04-24 02:49:11,819 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/EditDevice.aspx?cmd=add&companyid=SG] 添加设备信息成功，条形码为便携机0048！
+ERROR 2013-04-24 02:59:06,758 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/EditDevice.aspx?cmd=add&companyid=SG] 添加设备失败
+ERROR 2013-04-24 02:59:06,763 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/EditDevice.aspx?cmd=add&companyid=SG] 添加设备失败:正在中止线程。 
+STACK   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 WebUtility.EventMessage.MessageBox(MessageBox MBx) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WebUtility\EventMessage.cs:行号 143
+   在 WebUtility.EventMessage.MessageBox(Msg_Type M_Type, String M_Title, String M_Body, Exception M_Exception, Icon_Type M_IconType, Boolean M_WriteToLog, List`1 M_ButtonList, String M_ReturnScript) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WebUtility\EventMessage.cs:行号 119
+   在 WebUtility.EventMessage.MessageBox(Msg_Type M_Type, String M_Title, String M_Body, Exception M_Exception, Icon_Type M_IconType, Boolean M_WriteToLog, String Url, UrlType M_UrlType, String ReturnScript) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\WebUtility\EventMessage.cs:行号 94
+   在 Module_FM2E_DeviceManager_DeviceInfo_CurrentEuipementInfo_AllEquipmentInfo_EditDevice.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\DeviceManager\DeviceInfo\CurrentEuipementInfo\AllEquipmentInfo\EditDevice.aspx.cs:行号 803
+ERROR 2013-04-24 02:59:14,372 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/EditDevice.aspx?cmd=add&companyid=SG] mscorlib thrown System.FormatException
+输入字符串的格式不正确。   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Convert.ToInt64(String value)
+   在 Module_FM2E_DeviceManager_DeviceInfo_CurrentEuipementInfo_AllEquipmentInfo_EditDevice.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\DeviceManager\DeviceInfo\CurrentEuipementInfo\AllEquipmentInfo\EditDevice.aspx.cs:行号 702
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ERROR 2013-04-24 02:59:20,510 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/EditDevice.aspx?cmd=add&companyid=SG] mscorlib thrown System.FormatException
+输入字符串的格式不正确。   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Convert.ToInt64(String value)
+   在 Module_FM2E_DeviceManager_DeviceInfo_CurrentEuipementInfo_AllEquipmentInfo_EditDevice.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\DeviceManager\DeviceInfo\CurrentEuipementInfo\AllEquipmentInfo\EditDevice.aspx.cs:行号 702
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+INFO  2013-04-24 02:59:52,242 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/EditDevice.aspx?cmd=add&companyid=SG] 添加设备信息成功，条形码为便携机00955！
+INFO  2013-04-24 03:01:14,094 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fDeviceManager%2fDeviceInfo%2fCurrentEuipementInfo%2fAllEquipmentInfo%2fEditDevice.aspx] 您的用户名(admin3)已经于(2013/4/24 2:48:07),从(127.0.0.1)IP登陆在本系统.在线时间:11.76分.
+INFO  2013-04-24 03:01:16,219 [/Web/Login.aspx?CMD=OutOnline&OPCode=0565&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=fqyz4gfvdnei5yr2na5hynvj] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-04-24 03:03:49,271 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 您的用户名(admin3)已经于(2013/4/24 3:01:16),从(127.0.0.1)IP登陆在本系统.在线时间:1.94分.
+INFO  2013-04-24 03:03:50,786 [/Web/Login.aspx?CMD=OutOnline&OPCode=2623&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=blnq4nrfrrrzf045ztr5ds55] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-04-24 03:04:38,547 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/EditDevice.aspx?cmd=add&companyid=SG] 添加设备信息成功，条形码为便携机0096！
+ERROR 2013-04-24 03:11:16,250 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/EditDevice.aspx?cmd=add&companyid=SG] 重复的条码
+ERROR 2013-04-24 03:11:22,242 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/EditDevice.aspx?cmd=add&companyid=SG] mscorlib thrown System.FormatException
+输入字符串的格式不正确。   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Convert.ToInt64(String value)
+   在 Module_FM2E_DeviceManager_DeviceInfo_CurrentEuipementInfo_AllEquipmentInfo_EditDevice.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\DeviceManager\DeviceInfo\CurrentEuipementInfo\AllEquipmentInfo\EditDevice.aspx.cs:行号 709
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ERROR 2013-04-24 03:11:31,044 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/AllEquipmentInfo/EditDevice.aspx?cmd=add&companyid=SG] mscorlib thrown System.FormatException
+输入字符串的格式不正确。   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Convert.ToInt64(String value)
+   在 Module_FM2E_DeviceManager_DeviceInfo_CurrentEuipementInfo_AllEquipmentInfo_EditDevice.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\DeviceManager\DeviceInfo\CurrentEuipementInfo\AllEquipmentInfo\EditDevice.aspx.cs:行号 709
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+INFO  2013-04-24 09:44:23,889 [/Web/default.aspx] FM2E application started at 2013-04-24 09:44:23
+FATAL 2013-04-24 09:45:25,305 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-04-24 09:45:25,306 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-24 10:08:28,921 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 10:08:28,921 [/Web/Login.aspx] 欢迎您lvdie，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-04-24 10:09:45,607 [/Web/Module/FM2E/DeviceManager/SpareEquipmentManager/OutWarehouse/OutWarehouseRecord/OutWarehouseApply.aspx] 本页面只允许仓管员进入:本页面只允许仓管员进入 
+STACK
+ERROR 2013-04-24 10:13:01,368 [/Web/Module/FM2E/DeviceManager/SpareEquipmentManager/OutWarehouse/OutWarehouseRecord/OutWarehouseApply.aspx] 本页面只允许仓管员进入:本页面只允许仓管员进入 
+STACK
+FATAL 2013-04-24 10:13:10,072 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 10:13:10,072 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-04-24 10:20:20,189 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionList.aspx] 此页面只允许维修部门人员进入
+FATAL 2013-04-24 10:20:27,040 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 10:20:27,040 [/Web/Login.aspx] 欢迎您linmx，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-24 10:21:42,053 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 10:21:42,053 [/Web/Login.aspx] 欢迎您linya，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-24 10:22:04,508 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 10:22:04,508 [/Web/Login.aspx] 欢迎您wangyf，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-04-24 10:22:14,115 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=842] 获取故障处理历史失败，原因：未将对象引用设置到对象的实例。
+ERROR 2013-04-24 10:24:14,892 [/Web/Module/FM2E/DeviceManager/BarCode/BarCodeImage.aspx?data=便携机0095&type=CODE128B&cp=便携机] 无权访问当前页面！
+ERROR 2013-04-24 10:24:14,892 [/Web/Module/FM2E/DeviceManager/BarCode/BarCodeImage.aspx?data=便携机0095&type=CODE128B&cp=便携机] 执行SystemPermission的事件时出错：正在中止线程。
+FATAL 2013-04-24 10:25:11,543 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 10:25:11,543 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-04-24 10:25:14,466 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionList.aspx] 此页面只允许维修部门人员进入
+FATAL 2013-04-24 10:25:19,650 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 10:25:19,650 [/Web/Login.aspx] 欢迎您linmx，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-24 10:46:42,681 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 10:46:42,681 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-04-24 10:48:22,154 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/WarehouseEquipmentInfo/EditDevice.aspx?cmd=edit&id=26137&companyid=SG] 修改设备信息成功，条形码为nnn！
+ERROR 2013-04-24 10:48:33,034 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionList.aspx] 此页面只允许维修部门人员进入
+FATAL 2013-04-24 10:48:41,700 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 10:48:41,701 [/Web/Login.aspx] 欢迎您linmx，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-24 10:49:18,234 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 10:49:18,234 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-04-24 10:49:50,191 [/Web/Module/FM2E/DeviceManager/SpareEquipmentManager/OutWarehouse/OutWarehouseRecord/OutWarehouseRecord.aspx?cmd=outEquipments&id=33] 出库成功！
+FATAL 2013-04-24 10:49:58,213 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 10:49:58,213 [/Web/Login.aspx] 欢迎您linmx，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-24 11:13:15,430 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 11:13:15,430 [/Web/Login.aspx] 欢迎您chensq，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-04-24 11:13:22,200 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionList.aspx] 此页面只允许维修部门人员进入
+ERROR 2013-04-24 11:13:30,243 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=618] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+ERROR 2013-04-24 11:14:29,353 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=618] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+FATAL 2013-04-24 11:23:46,283 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 11:23:46,283 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-24 11:29:35,981 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 11:29:35,981 [/Web/Login.aspx] 欢迎您linmx，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-24 11:31:40,312 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 11:31:40,312 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-24 11:52:26,948 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 11:52:26,949 [/Web/Login.aspx] 欢迎您chengang，成功登入。您的IP为：127.0.0.1！
+INFO  2013-04-24 11:52:39,199 [/Web/Module/FM2E/DeviceManager/SpareEquipmentManager/OutWarehouse/OutWarehouseApproval/OutWarehouseApproval.aspx?cmd=approval&id=39] 审批成功！
+INFO  2013-04-24 11:53:23,744 [/Web/Module/FM2E/DeviceManager/SpareEquipmentManager/OutWarehouse/OutWarehouseRecord/OutWarehouseRecord.aspx?cmd=outEquipments&id=39] 出库成功！
+ERROR 2013-04-24 12:30:12,467 [/Web/Login.aspx] 用户名/密码(xinyue/1)错误！
+FATAL 2013-04-24 12:30:16,412 [/Web/login.aspx] Version:true
+INFO  2013-04-24 12:30:16,412 [/Web/login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-24 12:31:11,715 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 12:31:11,715 [/Web/Login.aspx] 欢迎您chengang，成功登入。您的IP为：127.0.0.1！
+INFO  2013-04-24 12:32:04,640 [/Web/Module/FM2E/DeviceManager/SpareEquipmentManager/OutWarehouse/OutWarehouseApproval/OutWarehouseApproval.aspx?cmd=approval&id=40] 审批成功！
+FATAL 2013-04-24 12:32:28,132 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 12:32:28,133 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-24 12:34:29,111 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 12:34:29,111 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-04-24 12:45:04,421 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/RecordMalfunction.aspx?cmd=add] 提交故障处理单成功,故障处理单号为：SD1304241201
+INFO  2013-04-24 13:14:28,940 FM2E application ended at 2013-04-24 13:14:28
+INFO  2013-04-24 13:14:31,033 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] FM2E application started at 2013-04-24 13:14:30
+FATAL 2013-04-24 13:14:48,893 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-04-24 13:14:48,893 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-04-24 13:14:55,735 [/Web/Module/FM2E/DeviceManager/SpareEquipmentManager/Purchase/PurchaseInWarehouse/InCAForm.aspx?id=11&cmd=history] mscorlib thrown System.ArgumentOutOfRangeException
+StartIndex 不能小于 0。
+参数名: startIndex   在 System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 FM2E.Model.Equipment.CheckAcceptanceDetailInfo.set_BarcodeList(IList value) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Model\Equipment\CheckAcceptanceDetailInfo.cs:行号 380
+   在 FM2E.SQLServerDAL.Equipment.CheckAcceptance.FM2E.IDAL.Equipment.ICheckAcceptance.GetCheckAcceptanceInfoWithAllDetail(Int64 id) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\SQLServerDAL\Equipment\CheckAcceptance.cs:行号 1105
+   在 FM2E.BLL.Equipment.CheckAcceptance.GetCheckAcceptanceInfoAllDetail(Int64 id) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\Equipment\CheckAcceptance.cs:行号 50
+   在 Module_FM2E_DeviceManager_SpareEquipmentManager_Purchase_PurchaseInWarehouse_InCAForm.FillData() 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\DeviceManager\SpareEquipmentManager\Purchase\PurchaseInWarehouse\InCAForm.aspx.cs:行号 96
+   在 Module_FM2E_DeviceManager_SpareEquipmentManager_Purchase_PurchaseInWarehouse_InCAForm.InitialPage() 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\DeviceManager\SpareEquipmentManager\Purchase\PurchaseInWarehouse\InCAForm.aspx.cs:行号 83
+   在 Module_FM2E_DeviceManager_SpareEquipmentManager_Purchase_PurchaseInWarehouse_InCAForm.Page_Load(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\DeviceManager\SpareEquipmentManager\Purchase\PurchaseInWarehouse\InCAForm.aspx.cs:行号 61
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+INFO  2013-04-24 13:17:25,957 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fDeviceManager%2fSpareEquipmentManager%2fOutWarehouse%2fOutWarehouseApply%2fOutWarehouseApply.aspx] 您的用户名(admin3)已经于(2013/4/24 13:14:48),从(127.0.0.1)IP登陆在本系统.在线时间:0.11分.
+INFO  2013-04-24 13:17:28,297 [/Web/Login.aspx?CMD=OutOnline&OPCode=4101&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=hyleugmbqhuigy55mvrdura1] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-04-24 13:19:04,851 [/Web/Module/FM2E/DeviceManager/SpareEquipmentManager/Purchase/PurchaseInWarehouse/InCAForm.aspx?id=11&cmd=history] mscorlib thrown System.ArgumentOutOfRangeException
+StartIndex 不能小于 0。
+参数名: startIndex   在 System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   在 System.String.Substring(Int32 startIndex, Int32 length)
+   在 FM2E.Model.Equipment.CheckAcceptanceDetailInfo.set_BarcodeList(IList value) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Model\Equipment\CheckAcceptanceDetailInfo.cs:行号 380
+   在 FM2E.SQLServerDAL.Equipment.CheckAcceptance.FM2E.IDAL.Equipment.ICheckAcceptance.GetCheckAcceptanceInfoWithAllDetail(Int64 id) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\SQLServerDAL\Equipment\CheckAcceptance.cs:行号 1105
+   在 FM2E.BLL.Equipment.CheckAcceptance.GetCheckAcceptanceInfoAllDetail(Int64 id) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\Equipment\CheckAcceptance.cs:行号 50
+   在 Module_FM2E_DeviceManager_SpareEquipmentManager_Purchase_PurchaseInWarehouse_InCAForm.FillData() 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\DeviceManager\SpareEquipmentManager\Purchase\PurchaseInWarehouse\InCAForm.aspx.cs:行号 96
+   在 Module_FM2E_DeviceManager_SpareEquipmentManager_Purchase_PurchaseInWarehouse_InCAForm.InitialPage() 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\DeviceManager\SpareEquipmentManager\Purchase\PurchaseInWarehouse\InCAForm.aspx.cs:行号 83
+   在 Module_FM2E_DeviceManager_SpareEquipmentManager_Purchase_PurchaseInWarehouse_InCAForm.Page_Load(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\DeviceManager\SpareEquipmentManager\Purchase\PurchaseInWarehouse\InCAForm.aspx.cs:行号 61
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+INFO  2013-04-24 14:13:48,821 ExcelHelper get_Resize参数：rowCount=569 colCount=16
+ERROR 2013-04-24 14:14:48,799 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionList.aspx] 此页面只允许维修部门人员进入
+INFO  2013-04-24 14:15:36,432 FM2E application ended at 2013-04-24 14:15:36
+ERROR 2013-04-24 14:15:48,990 [/Web/default.aspx] FM2E 应用程序启动失败：无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+ERROR 2013-04-24 14:41:16,272 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 登录失败：用户登录失败无法打开登录所请求的数据库 "FM2E_SGS_a"。登录失败。
+用户 'sa' 登录失败。
+INFO  2013-04-24 14:41:26,697 FM2E application ended at 2013-04-24 14:41:26
+INFO  2013-04-24 14:41:31,184 [/Web/Login.aspx] FM2E application started at 2013-04-24 14:41:31
+FATAL 2013-04-24 14:41:31,409 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 14:41:31,409 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-04-24 14:42:17,332 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/RecordMalfunction.aspx?cmd=add] 提交故障处理单成功,故障处理单号为：FM1304241401
+ERROR 2013-04-24 14:42:52,872 [/Web/Login.aspx] 密码不能为空
+FATAL 2013-04-24 14:42:56,190 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 14:42:56,190 [/Web/Login.aspx] 欢迎您linmx，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-24 14:45:34,914 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 14:45:34,914 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-04-24 14:46:00,034 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/RecordMalfunction.aspx?cmd=add] 提交故障处理单成功,故障处理单号为：BG1304241401
+FATAL 2013-04-24 14:46:08,656 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 14:46:08,656 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-04-24 14:46:16,606 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionList.aspx] 此页面只允许维修部门人员进入
+FATAL 2013-04-24 14:46:24,610 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 14:46:24,610 [/Web/Login.aspx] 欢迎您linmx，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-24 14:46:45,867 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 14:46:45,867 [/Web/Login.aspx] 欢迎您linmx，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-24 14:47:31,071 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 14:47:31,071 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-04-24 14:49:34,494 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionList.aspx] 此页面只允许维修部门人员进入
+FATAL 2013-04-24 14:54:21,997 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 14:54:21,997 [/Web/Login.aspx] 欢迎您linmx，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-24 15:37:43,130 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 15:37:43,130 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-24 15:42:01,083 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 15:42:01,083 [/Web/Login.aspx] 欢迎您lvdie，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-24 16:04:00,607 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 16:04:00,607 [/Web/Login.aspx] 欢迎您linya，成功登入。您的IP为：127.0.0.1！
+INFO  2013-04-24 16:04:13,979 [/Web/Module/FM2E/DeviceManager/SpareEquipmentManager/OutWarehouse/OutWarehouseApproval/OutWarehouseApproval.aspx?cmd=approval&id=41] 审批成功！
+FATAL 2013-04-24 16:05:30,722 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 16:05:30,722 [/Web/Login.aspx] 欢迎您lvdie，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-04-24 16:05:35,063 [/Web/Module/FM2E/DeviceManager/SpareEquipmentManager/OutWarehouse/OutWarehouseRecord/OutWarehouseApply.aspx] 本页面只允许仓管员进入:本页面只允许仓管员进入 
+STACK
+FATAL 2013-04-24 16:05:46,687 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 16:05:46,687 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-24 16:05:53,339 [/Web/Login.aspx] Version:true
+INFO  2013-04-24 16:05:53,339 [/Web/Login.aspx] 欢迎您linya，成功登入。您的IP为：127.0.0.1！
+INFO  2013-04-24 16:06:37,623 [/Web/Module/FM2E/DeviceManager/SpareEquipmentManager/OutWarehouse/OutWarehouseRecord/OutWarehouseRecord.aspx?cmd=outEquipments&id=41] 出库成功！
+INFO  2013-04-24 16:19:48,124 [/Web/Module/FM2E/DeviceManager/SpareEquipmentManager/OutWarehouse/OutWarehouseApproval/OutWarehouseApproval.aspx?cmd=approval&id=43] 审批成功！
+INFO  2013-04-24 16:22:02,892 [/Web/Module/FM2E/DeviceManager/SpareEquipmentManager/OutWarehouse/OutWarehouseApproval/OutWarehouseApproval.aspx?cmd=approval&id=43] 审批成功！
+INFO  2013-04-24 16:22:50,415 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouse.aspx?id=313] 易耗品入库成功
+INFO  2013-04-24 16:23:53,420 [/Web/Module/FM2E/DeviceManager/SpareEquipmentManager/OutWarehouse/OutWarehouseRecord/OutWarehouseRecord.aspx?cmd=outEquipments&id=43] 出库成功！
+ERROR 2013-04-24 16:26:21,823 [/Web/Module/FM2E/DeviceManager/SpareEquipmentManager/WarehouseInventory/WarehouseInventory.aspx] 查询申请失败:ID 
+STACK   在 System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   在 System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   在 System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   在 FM2E.SQLServerDAL.Equipment.InEquipments.GetDataForOut(IDataReader rd) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\SQLServerDAL\Equipment\InEquipments.cs:行号 328
+   在 FM2E.SQLServerDAL.Utils.SQLHelper.GetObjectList(PopulateDelegate pd, QueryParam pp, Int32& recordCount) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\SQLServerDAL\Utils\SQLHelper.cs:行号 397
+   在 FM2E.SQLServerDAL.Equipment.InEquipments.GetListForOut(QueryParam searchTerm, Int32& recordCount) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\SQLServerDAL\Equipment\InEquipments.cs:行号 107
+   在 FM2E.BLL.Equipment.InEquipments.SearchRecordForOut(InEquipmentsInfo info, Int32 pageIndex, Int32 pageSize, Int32& recordCount) 位置 G:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\BLL\Equipment\InEquipments.cs:行号 59
+   在 Module_FM2E_DeviceManager_SpareEquipmentManager_WarehouseInventory_WarehouseInventory.FillData3() 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\DeviceManager\SpareEquipmentManager\WarehouseInventory\WarehouseInventory.aspx.cs:行号 111
+   在 Module_FM2E_DeviceManager_SpareEquipmentManager_WarehouseInventory_WarehouseInventory.Button1_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\DeviceManager\SpareEquipmentManager\WarehouseInventory\WarehouseInventory.aspx.cs:行号 173
+INFO  2013-04-24 17:33:44,380 FM2E application ended at 2013-04-24 17:33:44

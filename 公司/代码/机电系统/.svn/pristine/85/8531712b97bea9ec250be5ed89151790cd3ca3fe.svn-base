@@ -1,0 +1,114 @@
+INFO  2013-04-09 11:26:50,297 [/Web/default.aspx] FM2E application started at 2013-04-09 11:26:49
+FATAL 2013-04-09 11:26:57,261 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-04-09 11:26:57,261 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-09 11:27:23,395 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:27:23,396 [/Web/Login.aspx] 欢迎您lvdie，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-09 11:27:35,101 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:27:35,101 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-09 11:28:52,341 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:28:52,341 [/Web/Login.aspx] 欢迎您chengang，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-09 11:29:34,732 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:29:34,733 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-04-09 11:31:04,226 [/Web/Module/FM2E/DeviceManager/SpareEquipmentManager/Purchase/PurchaseInWarehouse/DoInWarehouse.aspx?type=ca&id=4&itemid=2&recordid=0&warehouse=XY] 条形码分别为 <br/>111111<br/>222222
+ERROR 2013-04-09 11:32:04,532 [/Web/Module/FM2E/DeviceManager/SpareEquipmentManager/Purchase/PurchaseInWarehouse/DoInWarehouse.aspx?type=ca&id=4&itemid=1&recordid=0&warehouse=XY] App_Web_doinwarehouse.aspx.837f1512.hwfr7dzp thrown System.NullReferenceException
+未将对象引用设置到对象的实例。   在 Module_FM2E_DeviceManager_SpareEquipmentManager_Purchase_PurchaseInWarehouse_DoInWarehouse.Button_DeviceInWarehouse_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\DeviceManager\SpareEquipmentManager\Purchase\PurchaseInWarehouse\DoInWarehouse.aspx.cs:行号 517
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ERROR 2013-04-09 11:32:24,001 [/Web/Module/FM2E/DeviceManager/SpareEquipmentManager/Purchase/PurchaseInWarehouse/DoInWarehouse.aspx?type=ca&id=4&itemid=1&recordid=0&warehouse=XY] App_Web_doinwarehouse.aspx.837f1512.hwfr7dzp thrown System.NullReferenceException
+未将对象引用设置到对象的实例。   在 Module_FM2E_DeviceManager_SpareEquipmentManager_Purchase_PurchaseInWarehouse_DoInWarehouse.Button_DeviceInWarehouse_Click(Object sender, EventArgs e) 位置 g:\HgSoftInfor\Station\ShenGaoSu\FM2E V3.1.2-6-1\FM2E V3.1.2\Web\Module\FM2E\DeviceManager\SpareEquipmentManager\Purchase\PurchaseInWarehouse\DoInWarehouse.aspx.cs:行号 517
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+FATAL 2013-04-09 11:34:14,811 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:34:14,812 [/Web/Login.aspx] 欢迎您linya，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-09 11:39:24,106 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:39:24,106 [/Web/Login.aspx] 欢迎您chengang，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-04-09 11:39:38,039 [/Web/Login.aspx] 密码不能为空
+FATAL 2013-04-09 11:39:43,827 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:39:43,828 [/Web/Login.aspx] 欢迎您linya，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-09 11:39:52,281 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:39:52,281 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-04-09 11:41:13,840 [/Web/Module/FM2E/SystemManager/ModuleManager/ModuleManager.aspx?cmd=add&id=8b2b7ddc9e8b48de84dfe43e3f9fb41b] 添加模块成功！
+FATAL 2013-04-09 11:41:37,820 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:41:37,820 [/Web/Login.aspx] 欢迎您linya，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-09 11:41:49,975 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:41:49,975 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-04-09 11:42:28,032 [/Web/Module/FM2E/SystemManager/UserManager/EditUser.aspx?cmd=edit&name=linya] 修改用户成功！
+FATAL 2013-04-09 11:42:34,311 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:42:34,311 [/Web/Login.aspx] 欢迎您linya，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-09 11:43:16,682 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:43:16,682 [/Web/Login.aspx] 欢迎您admin，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-09 11:43:35,886 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:43:35,886 [/Web/Login.aspx] 欢迎您zhaofang，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-09 11:43:56,396 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:43:56,396 [/Web/Login.aspx] 欢迎您admin2，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-09 11:44:04,121 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:44:04,121 [/Web/Login.aspx] 欢迎您linya，成功登入。您的IP为：127.0.0.1！
+INFO  2013-04-09 11:44:43,837 [/Web/Module/FM2E/DeviceManager/SpareEquipmentManager/Purchase/PurchaseInWarehouse/DoInWarehouse.aspx?type=ca&id=5&itemid=1&recordid=0&warehouse=LS] 条形码分别为 <br/>666666<br/>777777<br/>XY1304000300
+INFO  2013-04-09 11:44:51,025 [/Web/Module/FM2E/DeviceManager/SpareEquipmentManager/Purchase/PurchaseInWarehouse/DoInWarehouse.aspx?type=ca&id=5&itemid=1&recordid=0&warehouse=LS] 条形码分别为 <br/>666666<br/>777777<br/>XY1304000600
+FATAL 2013-04-09 11:45:11,971 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:45:11,972 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-09 11:45:20,920 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:45:20,920 [/Web/Login.aspx] 欢迎您linya，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-09 11:47:25,066 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:47:25,066 [/Web/Login.aspx] 欢迎您chengang，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-09 11:47:35,731 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:47:35,731 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-04-09 11:47:57,141 [/Web/Module/FM2E/SystemManager/UserManager/EditUser.aspx?cmd=edit&name=chengang] 修改用户成功！
+FATAL 2013-04-09 11:48:04,475 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:48:04,475 [/Web/Login.aspx] 欢迎您chengang，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-09 11:48:16,013 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:48:16,013 [/Web/Login.aspx] 欢迎您admin，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-09 11:48:27,212 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:48:27,212 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-09 11:48:55,216 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:48:55,216 [/Web/Login.aspx] 欢迎您admin2，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-09 11:49:08,403 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:49:08,403 [/Web/Login.aspx] 欢迎您linya，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-09 11:49:24,519 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:49:24,519 [/Web/Login.aspx] 欢迎您zhaofang，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-04-09 11:49:31,096 [/Web/Module/FM2E/DeviceManager/DeviceInfo/CurrentEuipementInfo/WarehouseEquipmentInfo/DeviceInfo.aspx] 本页面只允许仓管员进入:本页面只允许仓管员进入 
+STACK
+FATAL 2013-04-09 11:49:39,864 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:49:39,864 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-04-09 11:50:11,615 [/Web/Module/FM2E/SystemManager/UserManager/EditUser.aspx?cmd=edit&name=zhaofang] 修改用户成功！
+FATAL 2013-04-09 11:50:16,783 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:50:16,783 [/Web/Login.aspx] 欢迎您zhaofang，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-09 11:55:42,942 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:55:42,942 [/Web/Login.aspx] 欢迎您linya，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-09 11:56:47,049 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:56:47,050 [/Web/Login.aspx] 欢迎您zhaofang，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-09 11:56:58,066 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:56:58,066 [/Web/Login.aspx] 欢迎您lvdie，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-09 11:58:50,339 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:58:50,339 [/Web/Login.aspx] 欢迎您linya，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-09 11:59:09,499 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 11:59:09,499 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-04-09 12:00:34,444 [/Web/Module/FM2E/SystemManager/UserManager/EditUser.aspx?cmd=edit&name=linya] 修改用户成功！
+FATAL 2013-04-09 12:02:03,777 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 12:02:03,778 [/Web/Login.aspx] 欢迎您lvdie，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-09 12:02:14,337 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 12:02:14,338 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-04-09 12:02:31,114 [/Web/Module/FM2E/SystemManager/UserManager/EditUser.aspx?cmd=edit&name=lvdie] 修改用户成功！
+FATAL 2013-04-09 12:02:37,023 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 12:02:37,023 [/Web/Login.aspx] 欢迎您lvdie，成功登入。您的IP为：127.0.0.1！
+INFO  2013-04-09 12:05:38,031 [/Web/Module/FM2E/SystemManager/ModuleManager/ModuleManager.aspx?cmd=edit&id=4f025578cd8f465480fcabed8e9838e7] 修改模块信息成功！
+FATAL 2013-04-09 12:05:45,373 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 12:05:45,373 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-09 12:09:39,656 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 12:09:39,656 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-04-09 12:10:24,742 [/Web/Module/FM2E/SystemManager/ModuleManager/ModuleManager.aspx?cmd=add&id=ba0cc6dd95734af48ce50170e6f883ca] 添加模块成功！
+INFO  2013-04-09 12:10:58,594 [/Web/Module/FM2E/SystemManager/ModuleManager/ModuleManager.aspx?cmd=view&id=ba0cc6dd95734af48ce50170e6f883ca] 模块分类排序成功！
+FATAL 2013-04-09 12:13:06,317 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 12:13:06,317 [/Web/Login.aspx] 欢迎您lvdie，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-04-09 12:14:01,110 [/Web/Login.aspx] Version:true
+INFO  2013-04-09 12:14:01,110 [/Web/Login.aspx] 欢迎您linya，成功登入。您的IP为：127.0.0.1！
+INFO  2013-04-09 12:17:49,488 [/Web/Module/FM2E/DeviceManager/SpareEquipmentManager/Purchase/PurchaseInWarehouse/DoInWarehouse.aspx?type=ca&id=7&itemid=1&recordid=0&warehouse=LS] 条形码分别为 <br/>aaaa<br/>bbbb<br/>cccc<br/>dddd<br/>eeee
+INFO  2013-04-09 12:49:04,226 FM2E application ended at 2013-04-09 12:49:04

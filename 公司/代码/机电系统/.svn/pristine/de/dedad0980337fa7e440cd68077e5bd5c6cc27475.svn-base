@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+<Permission>
+<ModuleID name="仓库盘点">2d4cdc3fca9c4d7d954deb09a7944b81</ModuleID>
+<Item value="2" name="列表/查看">,WarehouseInventory.aspx,</Item>
+<Item value="4" name="新增">,WarehouseInventory.aspx,</Item>
+<Item value="8" name="修改">,WarehouseInventory.aspx,</Item>
+<Item value="16" name="删除">,WarehouseInventory.aspx,</Item>
+<Item value="32" name="打印">,WarehouseInventory.aspx,</Item>
+<Item value="64" name="审批">,WarehouseInventory.aspx,</Item>
+<Item value="128" name="权限A"></Item>
+<Item value="256" name="权限B"></Item>
+</Permission>
+</configuration>

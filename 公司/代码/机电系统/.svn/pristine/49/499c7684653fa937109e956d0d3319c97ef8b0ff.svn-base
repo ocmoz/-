@@ -1,0 +1,52 @@
+INFO  2013-05-26 14:13:03,581 [/Web/default.aspx] FM2E application started at 2013-05-26 14:13:02
+FATAL 2013-05-26 14:13:17,398 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-05-26 14:13:17,398 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-26 14:22:40,757 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/DelayMalfunctionSheet.aspx?cmd=view&id=849] 审批延迟申请单成功,故障处理单号为：BNK1305141501
+INFO  2013-05-26 14:23:39,110 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/DelayMalfunctionSheet.aspx?cmd=view&id=850] 审批延迟申请单成功,故障处理单号为：FM1305211003
+INFO  2013-05-26 14:49:01,862 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/DelayMalfunctionSheet.aspx?cmd=view&id=849] 审批延迟申请单成功,故障处理单号为：BNK1305141501
+WARN  2013-05-26 17:49:10,976 移除在线用户admin3
+FATAL 2013-05-26 20:23:31,275 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-05-26 20:23:31,275 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-26 20:52:51,420 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/DelayFinalMalfunctionSheet.aspx?cmd=view&id=849] 审批延迟申请单成功,故障处理单号为：BNK1305141501
+FATAL 2013-05-26 20:58:45,215 [/Web/Login.aspx] Version:true
+INFO  2013-05-26 20:58:45,215 [/Web/Login.aspx] 欢迎您wangyf，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-26 20:58:57,708 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=852] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+FATAL 2013-05-26 21:00:34,186 [/Web/Login.aspx] Version:true
+INFO  2013-05-26 21:00:34,186 [/Web/Login.aspx] 欢迎您zhaofang，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-26 21:00:41,315 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=702] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+FATAL 2013-05-26 21:14:01,474 [/Web/Login.aspx] Version:true
+INFO  2013-05-26 21:14:01,474 [/Web/Login.aspx] 欢迎您linya，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-26 21:14:25,464 [/Web/Login.aspx] Version:true
+INFO  2013-05-26 21:14:25,464 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-26 21:14:39,219 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=849] 验收故障处理单成功,故障处理单号为：BNK1305141501
+INFO  2013-05-26 21:14:46,758 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=850] 验收故障处理单成功,故障处理单号为：FM1305211003
+FATAL 2013-05-26 21:15:00,279 [/Web/Login.aspx] Version:true
+INFO  2013-05-26 21:15:00,279 [/Web/Login.aspx] 欢迎您linya，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-26 21:16:17,624 [/Web/Login.aspx] Version:true
+INFO  2013-05-26 21:16:17,624 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-26 21:16:25,594 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=847] 获取故障处理历史失败，原因：未将对象引用设置到对象的实例。
+INFO  2013-05-26 21:16:28,971 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=847] 验收故障处理单成功,故障处理单号为：BG1304241401
+FATAL 2013-05-26 21:16:37,709 [/Web/Login.aspx] Version:true
+INFO  2013-05-26 21:16:37,709 [/Web/Login.aspx] 欢迎您linya，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-26 21:17:01,250 [/Web/Login.aspx] Version:true
+INFO  2013-05-26 21:17:01,251 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-26 21:17:08,948 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=676] 获取故障处理历史失败，原因：未将对象引用设置到对象的实例。
+FATAL 2013-05-26 21:17:25,325 [/Web/Login.aspx] Version:true
+INFO  2013-05-26 21:17:25,325 [/Web/Login.aspx] 欢迎您linmx，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-26 21:17:54,038 [/Web/Login.aspx] Version:true
+INFO  2013-05-26 21:17:54,038 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-26 21:18:03,799 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=676] 获取故障处理历史失败，原因：未将对象引用设置到对象的实例。
+ERROR 2013-05-26 21:18:41,355 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionStationCheck/StationCheckMalfunctionSheet.aspx?cmd=view&id=847] 获取故障处理历史失败，原因：未将对象引用设置到对象的实例。
+INFO  2013-05-26 21:19:23,857 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/RecordMalfunction.aspx?cmd=add] 提交故障处理单成功,故障处理单号为：FM1305262101
+FATAL 2013-05-26 21:19:37,932 [/Web/Login.aspx] Version:true
+INFO  2013-05-26 21:19:37,932 [/Web/Login.aspx] 欢迎您linmx，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-26 21:20:01,316 [/Web/Login.aspx] Version:true
+INFO  2013-05-26 21:20:01,316 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-26 21:20:11,716 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=853] 验收故障处理单成功,故障处理单号为：FM1305262101
+FATAL 2013-05-26 21:20:28,673 [/Web/Login.aspx] Version:true
+INFO  2013-05-26 21:20:28,673 [/Web/Login.aspx] 欢迎您linya，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-26 21:20:34,817 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=853] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-05-26 21:28:21,914 FM2E application ended at 2013-05-26 21:28:21

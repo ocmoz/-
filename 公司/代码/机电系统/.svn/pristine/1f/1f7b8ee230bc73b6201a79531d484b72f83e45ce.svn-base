@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+<Permission>
+<ModuleID name="采购员设置">4f13201210934044bf7ea111f9491f7e</ModuleID>
+<Item value="2" name="列表/查看">,PurchaserManager.aspx,Select.aspx,</Item>
+<Item value="4" name="新增">,PurchaserManager.aspx,Select.aspx,</Item>
+<Item value="8" name="修改">,PurchaserManager.aspx,Select.aspx,</Item>
+<Item value="16" name="删除">,PurchaserManager.aspx,Select.aspx,</Item>
+<Item value="32" name="打印">,PurchaserManager.aspx,Select.aspx,</Item>
+<Item value="64" name="审批">,PurchaserManager.aspx,Select.aspx,</Item>
+<Item value="128" name="权限A">,PurchaserManager.aspx,Select.aspx,</Item>
+<Item value="256" name="权限B">,PurchaserManager.aspx,Select.aspx,</Item>
+</Permission>
+</configuration>

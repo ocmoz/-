@@ -1,0 +1,52 @@
+INFO  2016-03-02 14:23:22,948 [/Web/Default.aspx] FM2E application started at 2016-03-02 14:23:22
+ERROR 2016-03-02 14:23:23,422 [/Web/Default.aspx] 您已经被系统强制退出！
+ERROR 2016-03-02 14:23:23,427 [/Web/Default.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+FATAL 2016-03-02 14:23:31,442 [/Web/Login.aspx] Version:true
+INFO  2016-03-02 14:23:31,442 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2016-03-02 14:23:34,014 [/Web/images/top_bg.png] 文件不存在:http://localhost:41765/Web/images/top_bg.png
+ERROR 2016-03-02 14:26:40,379 [/Web/images/top_bg.png] 文件不存在:http://localhost:41765/Web/images/top_bg.png
+ERROR 2016-03-02 14:27:04,364 [/Web/images/top_bg.png] 文件不存在:http://localhost:41765/Web/images/top_bg.png
+ERROR 2016-03-02 14:28:10,631 [/Web/images/top_bg.png] 文件不存在:http://localhost:41765/Web/images/top_bg.png
+ERROR 2016-03-02 14:29:19,093 [/Web/images/top_bg.png] 文件不存在:http://localhost:41765/Web/images/top_bg.png
+ERROR 2016-03-02 14:30:28,415 [/Web/images/top_bg.png] 文件不存在:http://localhost:41765/Web/images/top_bg.png
+ERROR 2016-03-02 14:34:49,112 [/Web/images/top_bg.png] 文件不存在:http://localhost:41765/Web/images/top_bg.png
+INFO  2016-03-02 14:37:43,197 FM2E application ended at 2016-03-02 14:37:43
+INFO  2016-03-02 15:24:27,263 [/Web/Default.aspx] FM2E application started at 2016-03-02 15:24:27
+FATAL 2016-03-02 15:24:34,791 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fDefault.aspx] Version:true
+INFO  2016-03-02 15:24:34,791 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fDefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2016-03-02 15:24:35,666 [/Web/images/top_bg.png] 文件不存在:http://localhost:41765/Web/images/top_bg.png
+INFO  2016-03-02 15:25:44,222 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fDefault.aspx] 您的用户名(admin3)已经于(2016-3-2 15:24:34),从(127.0.0.1)IP登陆在本系统.在线时间:0.02分.
+INFO  2016-03-02 15:25:58,154 [/Web/Login.aspx?CMD=OutOnline&OPCode=0538&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=bnqggn2pnavg00vpowc5ox3d] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2016-03-02 15:25:58,302 [/Web/images/top_bg.png] 文件不存在:http://localhost:41765/Web/images/top_bg.png
+ERROR 2016-03-02 15:29:23,115 [/Web/images/top_bg.png] 文件不存在:http://localhost:41765/Web/images/top_bg.png
+ERROR 2016-03-02 15:32:50,581 [/Web/images/top_bg.png] 文件不存在:http://localhost:41765/Web/images/top_bg.png
+ERROR 2016-03-02 15:33:07,257 [/Web/Default.aspx] 您已经被系统强制退出！
+ERROR 2016-03-02 15:33:07,264 [/Web/Default.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+INFO  2016-03-02 15:33:12,391 [/Web/Login.aspx] 您的用户名(admin3)已经于(2016-3-2 15:25:58),从(127.0.0.1)IP登陆在本系统.在线时间:6.87分.
+INFO  2016-03-02 15:33:16,156 [/Web/Login.aspx?CMD=OutOnline&OPCode=0436&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=pzay1p55wsxam3551uhpuc55] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2016-03-02 15:33:17,178 [/Web/images/top_bg.png] 文件不存在:http://localhost:41765/Web/images/top_bg.png
+INFO  2016-03-02 15:33:43,900 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 您的用户名(admin3)已经于(2016-3-2 15:33:16),从(127.0.0.1)IP登陆在本系统.在线时间:0.02分.
+INFO  2016-03-02 15:33:45,265 [/Web/Login.aspx?CMD=OutOnline&OPCode=2058&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=bnqggn2pnavg00vpowc5ox3d] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2016-03-02 15:33:46,278 [/Web/images/top_bg.png] 文件不存在:http://localhost:41765/Web/images/top_bg.png
+FATAL 2016-03-02 15:35:50,753 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fDefault.aspx] Version:true
+INFO  2016-03-02 15:35:50,753 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fDefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2016-03-02 15:35:51,817 [/Web/images/top_bg.png] 文件不存在:http://localhost:41765/Web/images/top_bg.png
+ERROR 2016-03-02 15:36:00,104 [/Web/Default.aspx] 您已经被系统强制退出！
+ERROR 2016-03-02 15:36:00,108 [/Web/Default.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+INFO  2016-03-02 15:36:05,777 [/Web/Login.aspx] 您的用户名(admin3)已经于(2016-3-2 15:33:45),从(127.0.0.1)IP登陆在本系统.在线时间:2.11分.
+INFO  2016-03-02 15:36:07,202 [/Web/Login.aspx?CMD=OutOnline&OPCode=1384&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=yft2x155vno2xm4503w1bh45] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2016-03-02 15:36:07,383 [/Web/images/top_bg.png] 文件不存在:http://localhost:41765/Web/images/top_bg.png
+INFO  2016-03-02 15:37:59,726 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fDefault.aspx] 您的用户名(admin3)已经于(2016-3-2 15:36:07),从(127.0.0.1)IP登陆在本系统.在线时间:0.00分.
+INFO  2016-03-02 15:38:01,442 [/Web/Login.aspx?CMD=OutOnline&OPCode=2172&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=pzay1p55wsxam3551uhpuc55] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2016-03-02 15:38:03,307 [/Web/images/top_bg.png] 文件不存在:http://localhost:41765/Web/images/top_bg.png
+ERROR 2016-03-02 15:39:40,000 [/Web/images/top_bg.png] 文件不存在:http://localhost:41765/Web/images/top_bg.png
+INFO  2016-03-02 15:43:04,171 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 您的用户名(admin3)已经于(2016-3-2 15:38:01),从(127.0.0.1)IP登陆在本系统.在线时间:4.67分.
+INFO  2016-03-02 15:43:05,815 [/Web/Login.aspx?CMD=OutOnline&OPCode=2288&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=dg0jphawsr0qvd55v5q1wt55] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2016-03-02 15:52:33,085 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fLogout.aspx] 您的用户名(admin3)已经于(2016-3-2 15:43:05),从(127.0.0.1)IP登陆在本系统.在线时间:9.12分.
+INFO  2016-03-02 15:52:34,692 [/Web/Login.aspx?CMD=OutOnline&OPCode=4028&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=i43bgfnrxmfv4g55wjehjfad] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2016-03-02 15:55:57,666 [/Web/Login.aspx] Version:true
+INFO  2016-03-02 15:55:57,666 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2016-03-02 15:56:37,037 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/RecordMalfunction.aspx?cmd=add] 提交故障处理单成功,故障处理单号为：HG1603021501
+INFO  2016-03-02 15:56:50,572 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionHandle.aspx?cmd=edit&from=1&id=7370] 受理成功，该故障单已被受理！
+ERROR 2016-03-02 17:14:10,543 [/Web/Login.aspx] 用户名/密码(yezhili/a)错误！
+ERROR 2016-03-02 17:14:18,430 [/Web/login.aspx] 用户名/密码(yezhili/a)错误！

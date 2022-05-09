@@ -1,0 +1,98 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Login.aspx.cs" Inherits="Login" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>深高速营运业务管理系统</title>
+    <script type="text/javascript" language="javascript" src="<%=Page.ResolveClientUrl("~/js/checkform.js")%>" charset="utf-8"></script>
+    <style type="text/css">
+        .style1
+        {
+            font-size: small;
+        }
+        .style2
+        {
+            font-size: small;
+            height: 25px;
+        }
+        .style3
+        {
+            height: 25px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server" enctype="multipart/form-data" onsubmit="javascript:return checkForm(this)">
+    <div>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr><td>&nbsp;<br />
+        <br />
+        <br />
+        <br />
+    </td></tr>
+    <tr><td style="vertical-align: bottom; text-align: center">
+        <img src="images/bg.jpg" /></td></tr>
+    <tr><td style="vertical-align: top; text-align:center;">
+        <table border="0" cellpadding="0" cellspacing="0" style="vertical-align:middle; width:50%;">
+            <tr>
+                <%--<td style="text-align: right; color: #003399; vertical-align:middle; text-align:center;">
+                
+                    <strong>
+                    用户名：</strong>
+                    <asp:TextBox ID="TextBox1" runat="server" Width="127px" title="请输入用户名~!"></asp:TextBox>
+                    <strong>
+                    密码：</strong>
+                    <asp:TextBox ID="TextBox2" runat="server" Width="127px" title="请输入密码~!" TextMode="Password"></asp:TextBox>&nbsp;
+                </td>
+                <td>
+                    <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/images/loginbutton.jpg" OnClick="ImageButton1_Click" /></td>--%>
+                 
+                 <td class="style1" style="text-align: right">用户名：</td>
+                <td style="text-align: left"> <asp:TextBox ID="TextBox1" runat="server" Width="127px" title="请输入用户名~!"></asp:TextBox></td>
+            </tr>
+            <tr><td class="style1" style="text-align: right">密码：</td>
+                <td style="text-align: left"> <asp:TextBox ID="TextBox2" runat="server" Width="127px" title="请输入密码~!" TextMode="Password"></asp:TextBox></td></tr>
+            <tr style="display:none;"><td class="style2" style="text-align: right">验证码：</td>
+                <td style="text-align: left" class="style3"><asp:TextBox ID="TextBox3" runat="server" Columns="4" title="请输入验证码~4:!"></asp:TextBox>
+                    <img src=""  id="ImageCheck" align="absmiddle" style="cursor:pointer" onclick="javascript:ChangeCodeImg();" title="点击更换验证码图片!"/></td></tr>
+            <tr><td></td><td align="left">
+                <asp:ImageButton ID="ImageButton2" runat="server" 
+                    ImageUrl="~/images/登录.jpg" OnClick="ImageButton1_Click" Height="60px" 
+                    Width="108px" AlternateText="登录" BackColor="#CCCCFF" ForeColor="#0066FF" />
+                </td></tr>
+        </table>
+    </td></tr>
+    <tr><td>
+    </td></tr>
+    </table>
+    </div>
+    </form>
+</body>
+</html>
+
+<script language="JavaScript" type="text/javascript">
+
+    rnd.today = new Date();
+
+    rnd.seed = rnd.today.getTime();
+
+    function rnd() {
+        rnd.seed = (rnd.seed * 9301 + 49297) % 233280;
+        return rnd.seed / (233280.0);
+
+    };
+
+    function rand(number) {
+        return Math.ceil(rnd() * number);
+
+    }; 
+
+    </script>
+<script language="javascript" type="text/javascript">
+    ChangeCodeImg();
+    function ChangeCodeImg() {
+        a = document.getElementById("ImageCheck");
+        a.src = "inc/CodeImg.aspx?" + rand(10000000);
+    }
+</script>

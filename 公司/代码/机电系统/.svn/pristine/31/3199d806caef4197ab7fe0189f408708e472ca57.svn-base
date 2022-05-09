@@ -1,0 +1,6 @@
+INFO  2013-04-03 10:37:32,744 [/Web/default.aspx] FM2E application started at 2013-04-03 10:37:32
+FATAL 2013-04-03 10:37:40,312 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-04-03 10:37:40,312 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-04-03 10:38:25,427 ExcelHelper get_Resize参数：rowCount=537 colCount=16
+INFO  2013-04-03 10:39:12,927 ExcelHelper get_Resize参数：rowCount=3055 colCount=16
+INFO  2013-04-03 12:32:46,690 FM2E application ended at 2013-04-03 12:32:46

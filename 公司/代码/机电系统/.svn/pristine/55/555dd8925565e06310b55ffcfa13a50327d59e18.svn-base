@@ -1,0 +1,63 @@
+INFO  2013-06-04 11:42:06,577 [/Web/default.aspx] FM2E application started at 2013-06-04 11:42:04
+FATAL 2013-06-04 11:42:15,491 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-06-04 11:42:15,491 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-06-04 11:42:39,368 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/ViewMalfunctionSheet.aspx?cmd=view&id=830] 获取故障处理单内容失败:未将对象引用设置到对象的实例。 
+STACK   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionReport_ViewMalfunctionSheet.FillData() 位置 g:\Station\SGS\SGS\trunk\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionReport\ViewMalfunctionSheet.aspx.cs:行号 254
+INFO  2013-06-04 11:42:56,075 FM2E application ended at 2013-06-04 11:42:56
+INFO  2013-06-04 11:43:46,675 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/ViewMalfunctionSheet.aspx] FM2E application started at 2013-06-04 11:43:46
+FATAL 2013-06-04 11:44:02,091 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionReport%2fViewMalfunctionSheet.aspx] Version:true
+INFO  2013-06-04 11:44:02,092 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionReport%2fViewMalfunctionSheet.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-06-04 11:46:05,635 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/ViewMalfunctionSheet.aspx?cmd=view&id=830] 获取故障处理单内容失败:未将对象引用设置到对象的实例。 
+STACK   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionReport_ViewMalfunctionSheet.FillData() 位置 g:\Station\SGS\SGS\trunk\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionReport\ViewMalfunctionSheet.aspx.cs:行号 254
+ERROR 2013-06-04 11:47:19,474 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/ViewMalfunctionSheet.aspx?cmd=view&id=830] 获取故障处理单内容失败:未将对象引用设置到对象的实例。 
+STACK   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionReport_ViewMalfunctionSheet.FillData() 位置 g:\Station\SGS\SGS\trunk\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionReport\ViewMalfunctionSheet.aspx.cs:行号 254
+INFO  2013-06-04 12:56:10,679 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 您的用户名(admin3)已经于(2013/6/4 11:44:02),从(127.0.0.1)IP登陆在本系统.在线时间:2.20分.
+INFO  2013-06-04 12:56:12,145 [/Web/Login.aspx?CMD=OutOnline&OPCode=7246&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=gfqnsiiolvru2x454qaohy55] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-06-04 12:56:37,816 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/ViewMalfunctionSheet.aspx?cmd=view&id=830] 获取故障处理历史失败，原因：未将对象引用设置到对象的实例。
+INFO  2013-06-04 13:00:26,938 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 您的用户名(admin3)已经于(2013/6/4 12:56:12),从(127.0.0.1)IP登陆在本系统.在线时间:0.73分.
+INFO  2013-06-04 13:00:28,042 [/Web/Login.aspx?CMD=OutOnline&OPCode=1522&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=atxxlp55qnd2id55tsgi5h32] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-06-04 13:00:51,451 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/RecordMalfunction.aspx?cmd=add] 提交故障处理单成功,故障处理单号为：FM1306041301
+FATAL 2013-06-04 13:00:59,150 [/Web/Login.aspx] Version:true
+INFO  2013-06-04 13:00:59,150 [/Web/Login.aspx] 欢迎您linmx，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-06-04 13:01:33,233 [/Web/Login.aspx] Version:true
+INFO  2013-06-04 13:01:33,233 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-06-04 13:01:37,431 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionList.aspx] 此页面只允许维修部门人员进入
+INFO  2013-06-04 13:01:50,927 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=1364] 验收故障处理单成功,故障处理单号为：FM1306041301
+FATAL 2013-06-04 13:01:55,935 [/Web/Login.aspx] Version:true
+INFO  2013-06-04 13:01:55,935 [/Web/Login.aspx] 欢迎您linya，成功登入。您的IP为：127.0.0.1！
+INFO  2013-06-04 13:02:48,713 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1364] 故障处理单审批成功,故障处理单号为：FM1306041301
+FATAL 2013-06-04 13:03:12,589 [/Web/Login.aspx] Version:true
+INFO  2013-06-04 13:03:12,589 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-06-04 13:03:22,981 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=1364] 验收故障处理单成功,故障处理单号为：FM1306041301
+FATAL 2013-06-04 13:03:29,054 [/Web/Login.aspx] Version:true
+INFO  2013-06-04 13:03:29,054 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-06-04 13:03:41,892 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionStationCheck/StationCheckMalfunctionSheet.aspx?cmd=view&id=1364] 确定故障处理单成功,故障处理单号为：FM1306041301
+FATAL 2013-06-04 13:03:51,406 [/Web/Login.aspx] Version:true
+INFO  2013-06-04 13:03:51,406 [/Web/Login.aspx] 欢迎您zhaofang，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-06-04 13:04:10,624 [/Web/Module/FM2E/DeviceManager/BarCode/BarCodeImage.aspx?data=ETC工控机0004&type=CODE128B&cp=ETC工控机] 无权访问当前页面！
+ERROR 2013-06-04 13:04:10,625 [/Web/Module/FM2E/DeviceManager/BarCode/BarCodeImage.aspx?data=ETC工控机0004&type=CODE128B&cp=ETC工控机] 执行SystemPermission的事件时出错：正在中止线程。
+FATAL 2013-06-04 13:08:11,943 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-06-04 13:08:11,943 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-06-04 13:08:38,682 [/Web/Login.aspx] Version:true
+INFO  2013-06-04 13:08:38,682 [/Web/Login.aspx] 欢迎您hebiao，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-06-04 13:09:02,111 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=830] 获取故障处理历史失败，原因：未将对象引用设置到对象的实例。
+ERROR 2013-06-04 13:09:30,965 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=830] App_Web_viewapprovalmfsheet.aspx.6ed4b0c8.45y6rmmx thrown System.NullReferenceException
+未将对象引用设置到对象的实例。   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\Station\SGS\SGS\trunk\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 854
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ERROR 2013-06-04 13:09:32,169 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=830] 获取故障处理历史失败，原因：未将对象引用设置到对象的实例。
+INFO  2013-06-04 13:10:13,736 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionApproval%2fViewApprovalMfSheet.aspx] 您的用户名(hebiao)已经于(2013/6/4 13:08:38),从(127.0.0.1)IP登陆在本系统.在线时间:0.89分.
+INFO  2013-06-04 13:10:15,742 [/Web/Login.aspx?CMD=OutOnline&OPCode=2181&U_LoginName=hebiao&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=y4ocyye2nphxtamo4gbgqt55] 欢迎您hebiao，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-06-04 13:11:16,043 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=830] 获取故障处理历史失败，原因：未将对象引用设置到对象的实例。
+ERROR 2013-06-04 13:13:48,739 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=830] App_Web_viewapprovalmfsheet.aspx.6ed4b0c8.45y6rmmx thrown System.NullReferenceException
+未将对象引用设置到对象的实例。   在 Module_FM2E_MaintainManager_MalFunctionManager_MalfunctionApproval_ViewApprovalMfSheet.Button1_Click(Object sender, EventArgs e) 位置 g:\Station\SGS\SGS\trunk\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionApproval\ViewApprovalMfSheet.aspx.cs:行号 854
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

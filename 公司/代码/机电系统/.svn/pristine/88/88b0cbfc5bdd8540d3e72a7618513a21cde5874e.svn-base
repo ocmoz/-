@@ -1,0 +1,155 @@
+WARN  2014-07-10 16:10:08,775 移除在线用户admin
+WARN  2014-07-10 16:10:08,836 移除在线用户admin3
+ERROR 2014-07-10 16:10:21,259 [/Web/Module/FM2E/InsureManager/InsuranceReport/InsuranceReportlist.aspx] 您已经被系统强制退出！
+ERROR 2014-07-10 16:10:21,266 [/Web/Module/FM2E/InsureManager/InsuranceReport/InsuranceReportlist.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+FATAL 2014-07-10 16:10:28,901 [/Web/Login.aspx] Version:true
+INFO  2014-07-10 16:10:28,901 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2014-07-10 16:17:22,127 FM2E application ended at 2014-07-10 16:17:22
+INFO  2014-07-10 16:25:19,208 [/Web/Login.aspx] FM2E application started at 2014-07-10 16:25:19
+FATAL 2014-07-10 16:25:54,118 [/Web/Login.aspx] Version:true
+INFO  2014-07-10 16:25:54,118 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2014-07-10 16:27:42,995 [/Web/Module/FM2E/InsureManager/InsuranceReport/InsuranceReportManager.aspx?cmd=add&id=3] 添加报险信息成功！
+INFO  2014-07-10 16:32:00,519 [/Web/Login.aspx] FM2E application started at 2014-07-10 16:31:59
+FATAL 2014-07-10 16:32:45,553 [/Web/Login.aspx] Version:true
+INFO  2014-07-10 16:32:45,554 [/Web/Login.aspx] 欢迎您admin，成功登入。您的IP为：127.0.0.1！
+ERROR 2014-07-10 16:33:49,945 [/Web/Module/FM2E/InsureManager/InsuranceReport/InsuranceReportManager.aspx?cmd=view&id=4] App_Web_insurancereportmanager.aspx.bf568341.t5zghz6n thrown System.NullReferenceException
+未将对象引用设置到对象的实例。   在 Module_FM2E_InsureManager_InsureInfoManager_InsuranceManager.FillData() 位置 e:\Station\SGS\SGS_new\Web\Module\FM2E\InsureManager\InsuranceReport\InsuranceReportManager.aspx.cs:行号 129
+   在 Module_FM2E_InsureManager_InsureInfoManager_InsuranceManager.Page_Load(Object sender, EventArgs e) 位置 e:\Station\SGS\SGS_new\Web\Module\FM2E\InsureManager\InsuranceReport\InsuranceReportManager.aspx.cs:行号 61
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+FATAL 2014-07-10 16:38:22,626 [/Web/Login.aspx] Version:true
+INFO  2014-07-10 16:38:22,626 [/Web/Login.aspx] 欢迎您test1，成功登入。您的IP为：127.0.0.1！
+ERROR 2014-07-10 16:38:43,183 [/Web/Module/FM2E/InsureManager/InsuranceReport/InsuranceReportManager.aspx?cmd=repair&id=4] App_Web_insurancereportmanager.aspx.bf568341.t5zghz6n thrown System.NullReferenceException
+未将对象引用设置到对象的实例。   在 Module_FM2E_InsureManager_InsureInfoManager_InsuranceManager.FillData() 位置 e:\Station\SGS\SGS_new\Web\Module\FM2E\InsureManager\InsuranceReport\InsuranceReportManager.aspx.cs:行号 282
+   在 Module_FM2E_InsureManager_InsureInfoManager_InsuranceManager.Page_Load(Object sender, EventArgs e) 位置 e:\Station\SGS\SGS_new\Web\Module\FM2E\InsureManager\InsuranceReport\InsuranceReportManager.aspx.cs:行号 61
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ERROR 2014-07-10 17:21:40,280 [/Web/Module/FM2E/InsureManager/InsuranceReport/InsuranceReportManager.aspx?cmd=add] System.Web thrown System.Web.HttpCompileException
+e:\Station\SGS\SGS_new\Web\Module\FM2E\InsureManager\InsuranceReport\InsuranceReportManager.aspx.cs(381): error CS0103: 当前上下文中不存在名称“FilesDiv”   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ERROR 2014-07-10 17:40:36,149 [/Web/Module/FM2E/InsureManager/InsuranceReport/InsuranceReportManager.aspx?cmd=add] System.Web thrown System.Web.HttpCompileException
+e:\Station\SGS\SGS_new\Web\Module\FM2E\InsureManager\InsuranceReport\InsuranceReportManager.aspx.cs(419): error CS0103: 当前上下文中不存在名称“FileDiv1”   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ERROR 2014-07-10 17:40:40,832 [/Web/Module/FM2E/InsureManager/InsuranceReport/InsuranceReportManager.aspx?cmd=add] System.Web thrown System.Web.HttpCompileException
+e:\Station\SGS\SGS_new\Web\Module\FM2E\InsureManager\InsuranceReport\InsuranceReportManager.aspx.cs(419): error CS0103: 当前上下文中不存在名称“FileDiv1”   在 System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+FATAL 2014-07-10 17:44:51,557 [/Web/Login.aspx] Version:true
+INFO  2014-07-10 17:44:51,557 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2014-07-10 18:09:21,136 [/Web/Login.aspx] 密码不能为空
+INFO  2014-07-10 18:09:25,513 [/Web/Login.aspx] 您的用户名(test1)已经于(2014/7/10 16:38:22),从(127.0.0.1)IP登陆在本系统.在线时间:62.30分.
+INFO  2014-07-10 18:10:17,749 [/Web/Login.aspx?CMD=OutOnline&OPCode=8018&U_LoginName=test1&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=3ubvjk55w4k1k0jayibke4fp] 欢迎您test1，成功登入。您的IP为：127.0.0.1！
+ERROR 2014-07-10 18:10:47,804 [/Web/Module/FM2E/InsureManager/InsuranceReport/InsuranceReportManager.aspx?cmd=repair&id=3] System.Web thrown System.Web.HttpCompileException
+e:\Station\SGS\SGS_new\Web\Module\FM2E\InsureManager\InsuranceReport\InsuranceReportManager.aspx.cs(525): error CS1002: 应输入 ;   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ERROR 2014-07-10 18:10:50,691 [/Web/Module/FM2E/InsureManager/InsuranceReport/InsuranceReportManager.aspx?cmd=view&id=3] System.Web thrown System.Web.HttpCompileException
+e:\Station\SGS\SGS_new\Web\Module\FM2E\InsureManager\InsuranceReport\InsuranceReportManager.aspx.cs(525): error CS1002: 应输入 ;   在 System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ERROR 2014-07-10 18:14:17,047 [/Web/Module/FM2E/InsureManager/InsuranceReport/InsuranceReportManager.aspx?cmd=repair&id=4] System.Web thrown System.Web.HttpCompileException
+e:\Station\SGS\SGS_new\Web\Module\FM2E\InsureManager\InsuranceReport\InsuranceReportManager.aspx.cs(525): error CS1002: 应输入 ;   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ERROR 2014-07-10 18:14:19,722 [/Web/Module/FM2E/InsureManager/InsuranceReport/InsuranceReportManager.aspx?cmd=view&id=4] System.Web thrown System.Web.HttpCompileException
+e:\Station\SGS\SGS_new\Web\Module\FM2E\InsureManager\InsuranceReport\InsuranceReportManager.aspx.cs(525): error CS1002: 应输入 ;   在 System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+INFO  2014-07-10 18:15:54,021 [/Web/Login.aspx] 您的用户名(test1)已经于(2014/7/10 18:10:17),从(127.0.0.1)IP登陆在本系统.在线时间:4.03分.
+INFO  2014-07-10 18:15:56,064 [/Web/Login.aspx?CMD=OutOnline&OPCode=7545&U_LoginName=test1&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=y1tfkpvhppdolej1qks3mtrp] 欢迎您test1，成功登入。您的IP为：127.0.0.1！
+INFO  2014-07-10 18:19:45,537 [/Web/Login.aspx] 您的用户名(test1)已经于(2014/7/10 18:15:56),从(127.0.0.1)IP登陆在本系统.在线时间:0.84分.
+INFO  2014-07-10 18:19:48,489 [/Web/Login.aspx?CMD=OutOnline&OPCode=2170&U_LoginName=test1&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=y42w5o45xvkhdmejheuzji45] 欢迎您test1，成功登入。您的IP为：127.0.0.1！
+FATAL 2014-07-10 18:32:06,749 [/Web/Login.aspx] Version:true
+INFO  2014-07-10 18:32:06,749 [/Web/Login.aspx] 欢迎您test，成功登入。您的IP为：127.0.0.1！
+INFO  2014-07-10 18:32:37,079 [/Web/Login.aspx] 您的用户名(test1)已经于(2014/7/10 18:19:48),从(127.0.0.1)IP登陆在本系统.在线时间:8.09分.
+INFO  2014-07-10 18:32:39,625 [/Web/Login.aspx?CMD=OutOnline&OPCode=0037&U_LoginName=test1&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=5jw4gy3h14czkl2b3f35rhf3] 欢迎您test1，成功登入。您的IP为：127.0.0.1！
+FATAL 2014-07-10 18:33:41,194 [/Web/Login.aspx] Version:true
+INFO  2014-07-10 18:33:41,194 [/Web/Login.aspx] 欢迎您test，成功登入。您的IP为：127.0.0.1！
+ERROR 2014-07-10 18:34:18,933 [/Web/Login.aspx] 密码不能为空
+FATAL 2014-07-10 18:34:24,630 [/Web/Login.aspx] Version:true
+INFO  2014-07-10 18:34:24,630 [/Web/Login.aspx] 欢迎您test1，成功登入。您的IP为：127.0.0.1！
+INFO  2014-07-10 18:40:39,252 FM2E application ended at 2014-07-10 18:40:39
+INFO  2014-07-10 18:40:41,396 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] FM2E application started at 2014-07-10 18:40:41
+ERROR 2014-07-10 18:40:44,896 [/Web/Module/FM2E/InsureManager/InsuranceReport/InsuranceReportlist.aspx] 您已经被系统强制退出！
+ERROR 2014-07-10 18:40:44,903 [/Web/Module/FM2E/InsureManager/InsuranceReport/InsuranceReportlist.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+FATAL 2014-07-10 18:41:02,867 [/Web/Login.aspx] Version:true
+INFO  2014-07-10 18:41:02,867 [/Web/Login.aspx] 欢迎您test1，成功登入。您的IP为：127.0.0.1！
+INFO  2014-07-10 19:02:54,678 [/Web/Login.aspx] 您的用户名(test1)已经于(2014/7/10 18:41:02),从(127.0.0.1)IP登陆在本系统.在线时间:3.35分.
+INFO  2014-07-10 19:03:07,353 [/Web/Login.aspx?CMD=OutOnline&OPCode=8062&U_LoginName=test1&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=p0vlq1uiallazej11y3ltnia] 欢迎您test1，成功登入。您的IP为：127.0.0.1！
+INFO  2014-07-10 19:03:36,414 [/Web/Module/FM2E/InsureManager/InsuranceReport/InsuranceReportManager.aspx?cmd=repair&id=3] 修改保单信息成功！
+ERROR 2014-07-10 19:03:53,274 [/Web/Login.aspx] 密码不能为空
+FATAL 2014-07-10 19:03:57,346 [/Web/Login.aspx] Version:true
+INFO  2014-07-10 19:03:57,346 [/Web/Login.aspx] 欢迎您admin，成功登入。您的IP为：127.0.0.1！
+FATAL 2014-07-10 19:04:36,376 [/Web/Login.aspx] Version:true
+INFO  2014-07-10 19:04:36,376 [/Web/Login.aspx] 欢迎您test-amao，成功登入。您的IP为：127.0.0.1！

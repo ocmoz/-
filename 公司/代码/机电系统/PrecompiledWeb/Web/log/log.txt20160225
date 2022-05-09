@@ -1,0 +1,91 @@
+ERROR 2016-02-25 09:46:27,674 [/Web/Login.aspx] FM2E 应用程序启动失败：在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+ERROR 2016-02-25 09:48:46,583 [/Web/Login.aspx] 登录失败：用户登录失败在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+ERROR 2016-02-25 09:48:48,781 [/Web/Login.aspx] 登录失败：用户登录失败在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+ERROR 2016-02-25 09:48:54,108 [/Web/Login.aspx] 登录失败：用户登录失败在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+INFO  2016-02-25 09:49:21,404 FM2E application ended at 2016-02-25 09:49:21
+ERROR 2016-02-25 09:49:30,047 [/Web/Login.aspx] FM2E 应用程序启动失败：用户 'sa' 登录失败。
+ERROR 2016-02-25 09:49:32,398 [/Web/Login.aspx] 登录失败：用户登录失败用户 'sa' 登录失败。
+ERROR 2016-02-25 09:49:40,195 [/Web/Login.aspx] 登录失败：用户登录失败用户 'sa' 登录失败。
+INFO  2016-02-25 09:50:12,785 FM2E application ended at 2016-02-25 09:50:12
+ERROR 2016-02-25 09:50:18,344 [/Web/Login.aspx] FM2E 应用程序启动失败：用户 'sa' 登录失败。
+ERROR 2016-02-25 09:50:23,486 [/Web/Login.aspx] 登录失败：用户登录失败用户 'sa' 登录失败。
+ERROR 2016-02-25 09:50:31,716 [/Web/Login.aspx] 登录失败：用户登录失败用户 'sa' 登录失败。
+INFO  2016-02-25 09:51:05,291 FM2E application ended at 2016-02-25 09:51:05
+INFO  2016-02-25 09:51:17,579 [/Web/Login.aspx] FM2E application started at 2016-02-25 09:51:17
+FATAL 2016-02-25 09:51:19,816 [/Web/Login.aspx] Version:true
+INFO  2016-02-25 09:51:19,817 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2016-02-25 09:51:42,267 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/OutWarehouseApply.aspx] .Net SqlClient Data Provider thrown System.Data.SqlClient.SqlException
+对象名 'FM2E_OutExpendableEquipmentView' 无效。
+对象名 'FM2E_OutExpendableEquipmentView' 无效。
+对象名 'FM2E_OutExpendableEquipmentView' 无效。
+SELECT @TotalRecordBeforeDistinct=Count(*) From FM2E_OutExpendableEquipmentView s1  where 1=1
+SELECT * FROM
+					(SELECT TOP         20 * FROM 
+						(SELECT TOP         20 * FROM (SELECT TOP         20 * FROM (SELECT DISTINCT *
+										FROM FM2E_OutExpendableEquipmentView s1  where 1=1) TB2 
+							 order by SubmitTime desc) TB5 
+						 order by SubmitTime desc) TB3 
+					  order by submittime asc) TB4 
+				   order by SubmitTime desc   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader()
+   在 FM2E.SQLServerDAL.Utils.SQLHelper.GetObjectListWithDistinct(PopulateDelegate pd, QueryParam pp, Int32& recordCount) 位置 F:\骏兰\SGS\深高速\SGS_new - 副本\SQLServerDAL\Utils\SQLHelper.cs:行号 439
+   在 FM2E.SQLServerDAL.Equipment.ExpendableInOut.SearchOutWarehouseExpendable(QueryParam qp, Int32& recordCount) 位置 F:\骏兰\SGS\深高速\SGS_new - 副本\SQLServerDAL\Equipment\ExpendableInOut.cs:行号 1368
+   在 FM2E.BLL.Equipment.Expendable.SearchOutWarehouseApply(OutWarehouseInfo info, Int32 pageindex, Int32 pagesize, Int32& recordCount) 位置 F:\骏兰\SGS\深高速\SGS_new - 副本\BLL\Equipment\Expendable.cs:行号 197
+   在 Module_FM2E_DeviceManager_DeviceInfo_ExpendableInfo_OutWarehouseApply.FillData() 位置 e:\Station\深高速\SGS_new\Web\Module\FM2E\DeviceManager\DeviceInfo\ExpendableInfo\OutWarehouseApply.aspx.cs:行号 84
+   在 Module_FM2E_DeviceManager_DeviceInfo_ExpendableInfo_OutWarehouseApply.Page_Load(Object sender, EventArgs e) 位置 e:\Station\深高速\SGS_new\Web\Module\FM2E\DeviceManager\DeviceInfo\ExpendableInfo\OutWarehouseApply.aspx.cs:行号 34
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ERROR 2016-02-25 09:59:24,136 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/OutWarehouseApply.aspx] .Net SqlClient Data Provider thrown System.Data.SqlClient.SqlException
+对象名 'FM2E_OutExpendableEquipmentView' 无效。
+对象名 'FM2E_OutExpendableEquipmentView' 无效。
+对象名 'FM2E_OutExpendableEquipmentView' 无效。
+SELECT @TotalRecordBeforeDistinct=Count(*) From FM2E_OutExpendableEquipmentView s1  where 1=1
+SELECT * FROM
+					(SELECT TOP         20 * FROM 
+						(SELECT TOP         20 * FROM (SELECT TOP         20 * FROM (SELECT DISTINCT *
+										FROM FM2E_OutExpendableEquipmentView s1  where 1=1) TB2 
+							 order by SubmitTime desc) TB5 
+						 order by SubmitTime desc) TB3 
+					  order by submittime asc) TB4 
+				   order by SubmitTime desc   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader()
+   在 FM2E.SQLServerDAL.Utils.SQLHelper.GetObjectListWithDistinct(PopulateDelegate pd, QueryParam pp, Int32& recordCount) 位置 F:\骏兰\SGS\深高速\SGS_new - 副本\SQLServerDAL\Utils\SQLHelper.cs:行号 439
+   在 FM2E.SQLServerDAL.Equipment.ExpendableInOut.SearchOutWarehouseExpendable(QueryParam qp, Int32& recordCount) 位置 F:\骏兰\SGS\深高速\SGS_new - 副本\SQLServerDAL\Equipment\ExpendableInOut.cs:行号 1368
+   在 FM2E.BLL.Equipment.Expendable.SearchOutWarehouseApply(OutWarehouseInfo info, Int32 pageindex, Int32 pagesize, Int32& recordCount) 位置 F:\骏兰\SGS\深高速\SGS_new - 副本\BLL\Equipment\Expendable.cs:行号 197
+   在 Module_FM2E_DeviceManager_DeviceInfo_ExpendableInfo_OutWarehouseApply.FillData() 位置 e:\Station\深高速\SGS_new\Web\Module\FM2E\DeviceManager\DeviceInfo\ExpendableInfo\OutWarehouseApply.aspx.cs:行号 84
+   在 Module_FM2E_DeviceManager_DeviceInfo_ExpendableInfo_OutWarehouseApply.Page_Load(Object sender, EventArgs e) 位置 e:\Station\深高速\SGS_new\Web\Module\FM2E\DeviceManager\DeviceInfo\ExpendableInfo\OutWarehouseApply.aspx.cs:行号 34
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+INFO  2016-02-25 10:01:50,464 FM2E application ended at 2016-02-25 10:01:50
+INFO  2016-02-25 10:01:55,086 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] FM2E application started at 2016-02-25 10:01:54
+ERROR 2016-02-25 10:05:32,841 [/Web/Login.aspx] 您已经被系统强制退出！
+ERROR 2016-02-25 10:05:32,845 [/Web/Login.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+FATAL 2016-02-25 10:08:32,059 [/Web/Login.aspx] Version:true
+INFO  2016-02-25 10:08:32,059 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2016-02-25 10:31:17,039 FM2E application ended at 2016-02-25 10:31:17

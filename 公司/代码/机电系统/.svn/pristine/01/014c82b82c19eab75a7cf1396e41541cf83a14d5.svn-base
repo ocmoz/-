@@ -1,0 +1,55 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using FM2E.Model.Equipment;
+using System.Collections;
+using FM2E.Model.Utils;
+using System.Data.Common;
+
+namespace FM2E.IDAL.Equipment
+{
+    public interface IExpendableInOut
+    {
+        /// <summary>
+        /// 增加一条数据，trans可为空
+        /// </summary>
+        long Add(ExpendableInOutRecordInfo model, DbTransaction trans);
+
+        /// <summary>
+        /// 增加一条入库前数据，trans可为空
+        /// </summary>
+        long AddRecord(ExpendableInOutRecordInfo model, DbTransaction trans);
+
+        /// <summary>
+        /// 获取查询对象
+        /// </summary>
+        /// <param name="item"></param>
+        /// <returns></returns>
+        QueryParam GenerateSearchTerm(ExpendableInOutRecordSearchInfo item);
+
+        /// <summary>
+        /// 获取列表
+        /// </summary>
+        /// <param name="searchTerm"></param>
+        /// <param name="recordCount"></param>
+        /// <returns></returns>
+        IList GetList(QueryParam searchTerm, out int recordCount);
+
+        void DelExpendableInOut(long ExpendableID,long ID);
+
+        ExpendableInOutRecordInfo GetExpendableInOut(long ExpendableID);
+
+        IList GetExInOut(String companyid, String warehouseid, DateTime datefrom, DateTime dateto,long categoryid);
+
+        IList GetExInOutYear(String companyid, String warehouseid, DateTime datefrom, DateTime dateto, long categoryid);
+
+        IList GetallInOutRecord(ExpendableInOutRecordType type);
+
+        InOutApproval GetCurrentApprovalStatus();
+
+        Boolean updateCurrentApprovalStatus(InOutApproval item);
+
+        Boolean deleteAllRecord();
+ 
+    }
+}

@@ -1,0 +1,37 @@
+INFO  2013-05-28 09:58:13,932 [/Web/default.aspx] FM2E application started at 2013-05-28 09:58:12
+FATAL 2013-05-28 09:58:19,464 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-05-28 09:58:19,464 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-28 09:58:28,912 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionList.aspx] 此页面只允许维修部门人员进入
+ERROR 2013-05-28 10:41:27,032 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionList.aspx] System.Web thrown System.Web.HttpParseException
+System.Web.UI.WebControls.ListItemCollection 必须具有类型为“System.Web.UI.WebControls.ListItem”的项。“asp:GridView”的类型为“System.Web.UI.WebControls.GridView”。   在 System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   在 System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   在 System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+INFO  2013-05-28 11:11:30,016 FM2E application ended at 2013-05-28 11:11:30
+INFO  2013-05-28 11:11:48,871 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] FM2E application started at 2013-05-28 11:11:48
+INFO  2013-05-28 11:18:29,125 FM2E application ended at 2013-05-28 11:18:29
+INFO  2013-05-28 11:18:42,606 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] FM2E application started at 2013-05-28 11:18:42
+INFO  2013-05-28 11:18:52,648 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] FM2E application started at 2013-05-28 11:18:52
+INFO  2013-05-28 11:26:13,706 FM2E application ended at 2013-05-28 11:26:13
+INFO  2013-05-28 11:26:30,305 [/Web/Module/FM2E/PendingOrderMessage/WebService_NewPendingOrder.asmx] FM2E application started at 2013-05-28 11:26:30
+ERROR 2013-05-28 11:33:07,347 [/Web/default.aspx] 您已经被系统强制退出！
+ERROR 2013-05-28 11:33:07,407 [/Web/default.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+FATAL 2013-05-28 11:33:21,887 [/Web/Login.aspx] Version:true
+INFO  2013-05-28 11:33:21,888 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-05-28 12:25:44,730 [/Web/Login.aspx] Version:true
+INFO  2013-05-28 12:25:44,730 [/Web/Login.aspx] 欢迎您chengang，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-05-28 12:25:59,156 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=859] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-05-28 12:26:13,930 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=859] 故障处理单审批成功,故障处理单号为：BG1303041701
+ERROR 2013-05-28 12:26:50,981 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1206] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-05-28 12:26:56,975 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1206] 故障处理单审批成功,故障处理单号为：SY1305031101
+ERROR 2013-05-28 12:27:21,710 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1159] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-05-28 12:27:27,590 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1159] 故障处理单审批成功,故障处理单号为：DMS1304250901
+ERROR 2013-05-28 14:47:11,608 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1201] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-05-28 14:47:19,604 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1201] 故障处理单审批成功,故障处理单号为：SY1305021001
+FATAL 2013-05-28 15:16:06,435 [/Web/Login.aspx] Version:true
+INFO  2013-05-28 15:16:06,455 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-05-28 15:21:57,215 [/Web/Module/FM2E/SystemManager/UserManager/EditUser.aspx?cmd=edit&name=huangll] 修改用户成功！
+INFO  2013-05-28 17:35:20,247 FM2E application ended at 2013-05-28 17:35:20

@@ -1,0 +1,106 @@
+<ns0:SpecialProjectWorkflow InitialStateName="New" Description="专项工程" x:Name="SpecialProjectWorkflow" DynamicUpdateCondition="{x:Null}" CompletedStateName="Complete" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/workflow" xmlns:ns0="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" >
+	<StateActivity x:Name="New" Description="新建">
+		<EventDrivenActivity x:Name="SaveNew">
+			<HandleExternalEventActivity x:Name="handle1" EventName="SaveNew" Description="保存草稿"  InterfaceType="{x:Type p8:ISpecialProjectEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="SaveNew_1" TargetStateName="Draft" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="SubmitNew">
+			<HandleExternalEventActivity x:Name="handle2" EventName="SubmitNew" Description="提交审批"  InterfaceType="{x:Type p8:ISpecialProjectEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="SubmitNew_1" TargetStateName="BudgetCheck" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="Draft" Description="草稿">
+		<EventDrivenActivity x:Name="SaveDraft">
+			<HandleExternalEventActivity x:Name="handle3" EventName="SaveDraft" Description="保存草稿"  InterfaceType="{x:Type p8:ISpecialProjectEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="SaveDraft_1" TargetStateName="Draft" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="SubmitDraft">
+			<HandleExternalEventActivity x:Name="handle4" EventName="SubmitDraft" Description="提交审批"  InterfaceType="{x:Type p8:ISpecialProjectEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="SubmitDraft_1" TargetStateName="BudgetCheck" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="BudgetCheck" Description="公司主管部门预算审查">
+		<EventDrivenActivity x:Name="BudgetCheckPass">
+			<HandleExternalEventActivity x:Name="handle5" EventName="BudgetCheckPass" Description="通过"  InterfaceType="{x:Type p8:ISpecialProjectEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="BudgetCheckPass_1" TargetStateName="BudgetApproval" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="BudgetCheckFailed">
+			<HandleExternalEventActivity x:Name="handle6" EventName="BudgetCheckFailed" Description="不通过"  InterfaceType="{x:Type p8:ISpecialProjectEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="BudgetCheckFailed_1" TargetStateName="Draft" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="BudgetApproval" Description="路桥公司预算批复">
+		<EventDrivenActivity x:Name="BudgetApprovalPass">
+			<HandleExternalEventActivity x:Name="handle7" EventName="BudgetApprovalPass" Description="通过"  InterfaceType="{x:Type p8:ISpecialProjectEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="BudgetApprovalPass_1" TargetStateName="DesignInput" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="BudgetApprovalFailed">
+			<HandleExternalEventActivity x:Name="handle8" EventName="BudgetApprovalFailed" Description="不通过"  InterfaceType="{x:Type p8:ISpecialProjectEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="BudgetApprovalFailed_1" TargetStateName="BudgetCheck" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="DesignInput" Description="设计中">
+		<EventDrivenActivity x:Name="DesignInputSubmit">
+			<HandleExternalEventActivity x:Name="handle9" EventName="DesignInputSubmit" Description="提交设计"  InterfaceType="{x:Type p8:ISpecialProjectEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="DesignInputSubmit_1" TargetStateName="ProjectSetup" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="DesignCheck" Description="设计审查">
+	</StateActivity>
+	<StateActivity x:Name="CostCheck" Description="设计预算审查">
+	</StateActivity>
+	<StateActivity x:Name="ProjectSetup" Description="立项申请中">
+		<EventDrivenActivity x:Name="ProjectSetupSubmit">
+			<HandleExternalEventActivity x:Name="handle10" EventName="ProjectSetupSubmit" Description="立项提交"  InterfaceType="{x:Type p8:ISpecialProjectEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="ProjectSetupSubmit_1" TargetStateName="CompanyApproval" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="CompanyApproval" Description="公司主管部门立项审批">
+		<EventDrivenActivity x:Name="CompanyApprovalPass">
+			<HandleExternalEventActivity x:Name="handle11" EventName="CompanyApprovalPass" Description="通过"  InterfaceType="{x:Type p8:ISpecialProjectEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="CompanyApprovalPass_1" TargetStateName="Bidding" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="CompanyApprovalFailed">
+			<HandleExternalEventActivity x:Name="handle12" EventName="CompanyApprovalFailed" Description="不通过"  InterfaceType="{x:Type p8:ISpecialProjectEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="CompanyApprovalFailed_1" TargetStateName="ProjectSetup" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="MotherCompanyApproval" Description="路桥公司专项审批">
+	</StateActivity>
+	<StateActivity x:Name="GroupApproval" Description="交通集团专项审批">
+	</StateActivity>
+	<StateActivity x:Name="BidCheck" Description="定标审查">
+	</StateActivity>
+	<StateActivity x:Name="Bidding" Description="招标中">
+		<EventDrivenActivity x:Name="BiddingSubmit">
+			<HandleExternalEventActivity x:Name="handle13" EventName="BiddingSubmit" Description="提交定标"  InterfaceType="{x:Type p8:ISpecialProjectEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="BiddingSubmit_1" TargetStateName="Wait4Start" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="Wait4Start" Description="等待开工">
+		<EventDrivenActivity x:Name="Start">
+			<HandleExternalEventActivity x:Name="handle14" EventName="Start" Description="开工"  InterfaceType="{x:Type p8:ISpecialProjectEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="Start_1" TargetStateName="Working" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="Working" Description="施工中">
+		<EventDrivenActivity x:Name="Finish">
+			<HandleExternalEventActivity x:Name="handle15" EventName="Finish" Description="完工"  InterfaceType="{x:Type p8:ISpecialProjectEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="Finish_1" TargetStateName="FinishProject" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="FinishProject" Description="已完工">
+		<EventDrivenActivity x:Name="Pass">
+			<HandleExternalEventActivity x:Name="handle16" EventName="Pass" Description="交工"  InterfaceType="{x:Type p8:ISpecialProjectEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="Pass_1" TargetStateName="PassProject" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="PassProject" Description="已交工">
+		<EventDrivenActivity x:Name="Complete">
+			<HandleExternalEventActivity x:Name="handle17" EventName="Complete" Description="竣工"  InterfaceType="{x:Type p8:ISpecialProjectEventService}" xmlns:p8="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+			<SetStateActivity x:Name="Complete_1" TargetStateName="Complete" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="CompleteState" Description="已竣工">
+	</StateActivity>
+</ns0:SpecialProjectWorkflow>

@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?><ns0:DemoWorkflow InitialStateName="WaitSubmit" EventFlag="0" x:Name="DemoWorkflow" DynamicUpdateCondition="{x:Null}" DataID="0" InstanceId="00000000-0000-0000-0000-000000000000" Description="含并行事件和规则的示范工作流" CompletedStateName="End" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/workflow" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:ns0="clr-namespace:FM2E.WorkflowLayer;Assembly=FM2E.WorkflowLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+	<StateActivity x:Name="WaitSubmit" Description="提交申请">
+		<EventDrivenActivity x:Name="AppSubmitted">
+			<HandleExternalEventActivity Description="提交申请" x:Name="handle1" EventName="AppSubmitted" InterfaceType="{x:Type ns0:IDemoEventService}" />
+			<SetStateActivity x:Name="AppSubmitted_SetState_1" TargetStateName="WaitFinanceApprove" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="WaitFinanceApprove" Description="财务审批">
+		<EventDrivenActivity x:Name="a_FinanceApproved1_1">
+			<HandleExternalEventActivity Description="财务批准1" Invoked="{ActivityBind DemoWorkflow,Path=Event1_Invoked}" x:Name="handle2" EventName="FinanceApproved1" InterfaceType="{x:Type ns0:IDemoEventService}" />
+			<CallExternalMethodActivity x:Name="callMethod1" InterfaceType="{x:Type ns0:IDemoEventService}" MethodName="RaiseEvent">
+				<CallExternalMethodActivity.ParameterBindings>
+					<WorkflowParameterBinding ParameterName="eventName">
+						<WorkflowParameterBinding.Value>
+							<ns1:String xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">_EstimationEvent_1</ns1:String>
+						</WorkflowParameterBinding.Value>
+					</WorkflowParameterBinding>
+					<WorkflowParameterBinding ParameterName="instanceId">
+						<WorkflowParameterBinding.Value>
+							<ActivityBind Name="DemoWorkflow" Path="InstanceId" />
+						</WorkflowParameterBinding.Value>
+					</WorkflowParameterBinding>
+				</CallExternalMethodActivity.ParameterBindings>
+			</CallExternalMethodActivity>
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="a_FinanceApproved2_1">
+			<HandleExternalEventActivity Description="财务批准2" Invoked="{ActivityBind DemoWorkflow,Path=Event2_Invoked}" x:Name="handle3" EventName="FinanceApproved2" InterfaceType="{x:Type ns0:IDemoEventService}" />
+			<CallExternalMethodActivity x:Name="callMethod2" InterfaceType="{x:Type ns0:IDemoEventService}" MethodName="RaiseEvent">
+				<CallExternalMethodActivity.ParameterBindings>
+					<WorkflowParameterBinding ParameterName="eventName">
+						<WorkflowParameterBinding.Value>
+							<ns1:String xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">_EstimationEvent_1</ns1:String>
+						</WorkflowParameterBinding.Value>
+					</WorkflowParameterBinding>
+					<WorkflowParameterBinding ParameterName="instanceId">
+						<WorkflowParameterBinding.Value>
+							<ActivityBind Name="DemoWorkflow" Path="InstanceId" />
+						</WorkflowParameterBinding.Value>
+					</WorkflowParameterBinding>
+				</CallExternalMethodActivity.ParameterBindings>
+			</CallExternalMethodActivity>
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="a_FinanceApproved3_1">
+			<HandleExternalEventActivity Description="财务批准3" Invoked="{ActivityBind DemoWorkflow,Path=Event3_Invoked}" x:Name="handle4" EventName="FinanceApproved3" InterfaceType="{x:Type ns0:IDemoEventService}" />
+			<CallExternalMethodActivity x:Name="callMethod3" InterfaceType="{x:Type ns0:IDemoEventService}" MethodName="RaiseEvent">
+				<CallExternalMethodActivity.ParameterBindings>
+					<WorkflowParameterBinding ParameterName="eventName">
+						<WorkflowParameterBinding.Value>
+							<ns1:String xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">_EstimationEvent_1</ns1:String>
+						</WorkflowParameterBinding.Value>
+					</WorkflowParameterBinding>
+					<WorkflowParameterBinding ParameterName="instanceId">
+						<WorkflowParameterBinding.Value>
+							<ActivityBind Name="DemoWorkflow" Path="InstanceId" />
+						</WorkflowParameterBinding.Value>
+					</WorkflowParameterBinding>
+				</CallExternalMethodActivity.ParameterBindings>
+			</CallExternalMethodActivity>
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="ba_EstimationEvent_1">
+			<HandleExternalEventActivity x:Name="handle5" EventName="_EstimationEvent_1" InterfaceType="{x:Type ns0:IDemoEventService}" />
+			<IfElseActivity x:Name="ParallelIfElseActivity1">
+				<IfElseBranchActivity x:Name="ParallelIfElseBranchActivity1">
+					<IfElseBranchActivity.Condition>
+						<CodeCondition Condition="{ActivityBind DemoWorkflow,Path=ParallelCondition1}" />
+					</IfElseBranchActivity.Condition>
+					<SetStateActivity x:Name="_EstimationEvent_1_SetState_1" TargetStateName="AppApproved" />
+					<IfElseActivity x:Name="_EstimationEvent_1_IfElse_1">
+						<IfElseBranchActivity x:Name="_EstimationEvent_1_Branch_1" Description="申请金额&lt;10000||申请附加选项=加急">
+							<IfElseBranchActivity.Condition>
+								<RuleConditionReference ConditionName="_EstimationEvent_1_Condition_1" />
+							</IfElseBranchActivity.Condition>
+							<SetStateActivity x:Name="_EstimationEvent_1_SetState_1" TargetStateName="AppApproved" />
+						</IfElseBranchActivity>
+						<IfElseBranchActivity x:Name="_EstimationEvent_1_Branch_2" Description="申请附加选项=普通||申请附加选项=紧急">
+							<IfElseBranchActivity.Condition>
+								<RuleConditionReference ConditionName="_EstimationEvent_1_Condition_2" />
+							</IfElseBranchActivity.Condition>
+							<SetStateActivity x:Name="_EstimationEvent_1_SetState_2" TargetStateName="WaitManagerApprove" />
+						</IfElseBranchActivity>
+					</IfElseActivity>
+				</IfElseBranchActivity>
+			</IfElseActivity>
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="a_FinanceRejected1_2">
+			<HandleExternalEventActivity Description="财务拒绝1" Invoked="{ActivityBind DemoWorkflow,Path=Event4_Invoked}" x:Name="handle6" EventName="FinanceRejected1" InterfaceType="{x:Type ns0:IDemoEventService}" />
+			<CallExternalMethodActivity x:Name="callMethod4" InterfaceType="{x:Type ns0:IDemoEventService}" MethodName="RaiseEvent">
+				<CallExternalMethodActivity.ParameterBindings>
+					<WorkflowParameterBinding ParameterName="eventName">
+						<WorkflowParameterBinding.Value>
+							<ns1:String xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">_EstimationEvent_2</ns1:String>
+						</WorkflowParameterBinding.Value>
+					</WorkflowParameterBinding>
+					<WorkflowParameterBinding ParameterName="instanceId">
+						<WorkflowParameterBinding.Value>
+							<ActivityBind Name="DemoWorkflow" Path="InstanceId" />
+						</WorkflowParameterBinding.Value>
+					</WorkflowParameterBinding>
+				</CallExternalMethodActivity.ParameterBindings>
+			</CallExternalMethodActivity>
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="a_FinanceRejected2_2">
+			<HandleExternalEventActivity Description="财务拒绝2" Invoked="{ActivityBind DemoWorkflow,Path=Event5_Invoked}" x:Name="handle7" EventName="FinanceRejected2" InterfaceType="{x:Type ns0:IDemoEventService}" />
+			<CallExternalMethodActivity x:Name="callMethod5" InterfaceType="{x:Type ns0:IDemoEventService}" MethodName="RaiseEvent">
+				<CallExternalMethodActivity.ParameterBindings>
+					<WorkflowParameterBinding ParameterName="eventName">
+						<WorkflowParameterBinding.Value>
+							<ns1:String xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">_EstimationEvent_2</ns1:String>
+						</WorkflowParameterBinding.Value>
+					</WorkflowParameterBinding>
+					<WorkflowParameterBinding ParameterName="instanceId">
+						<WorkflowParameterBinding.Value>
+							<ActivityBind Name="DemoWorkflow" Path="InstanceId" />
+						</WorkflowParameterBinding.Value>
+					</WorkflowParameterBinding>
+				</CallExternalMethodActivity.ParameterBindings>
+			</CallExternalMethodActivity>
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="a_FinanceRejected3_2">
+			<HandleExternalEventActivity Description="财务拒绝3" Invoked="{ActivityBind DemoWorkflow,Path=Event6_Invoked}" x:Name="handle8" EventName="FinanceRejected3" InterfaceType="{x:Type ns0:IDemoEventService}" />
+			<CallExternalMethodActivity x:Name="callMethod6" InterfaceType="{x:Type ns0:IDemoEventService}" MethodName="RaiseEvent">
+				<CallExternalMethodActivity.ParameterBindings>
+					<WorkflowParameterBinding ParameterName="eventName">
+						<WorkflowParameterBinding.Value>
+							<ns1:String xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">_EstimationEvent_2</ns1:String>
+						</WorkflowParameterBinding.Value>
+					</WorkflowParameterBinding>
+					<WorkflowParameterBinding ParameterName="instanceId">
+						<WorkflowParameterBinding.Value>
+							<ActivityBind Name="DemoWorkflow" Path="InstanceId" />
+						</WorkflowParameterBinding.Value>
+					</WorkflowParameterBinding>
+				</CallExternalMethodActivity.ParameterBindings>
+			</CallExternalMethodActivity>
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="ba_EstimationEvent_2">
+			<HandleExternalEventActivity x:Name="handle9" EventName="_EstimationEvent_2" InterfaceType="{x:Type ns0:IDemoEventService}" />
+			<IfElseActivity x:Name="ParallelIfElseActivity2">
+				<IfElseBranchActivity x:Name="ParallelIfElseBranchActivity2">
+					<IfElseBranchActivity.Condition>
+						<CodeCondition Condition="{ActivityBind DemoWorkflow,Path=ParallelCondition2}" />
+					</IfElseBranchActivity.Condition>
+					<SetStateActivity x:Name="_EstimationEvent_2_SetState_1" TargetStateName="AppRejected" />
+				</IfElseBranchActivity>
+			</IfElseActivity>
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="FinanceCountersigned">
+			<HandleExternalEventActivity Description="财务加签" x:Name="handle10" EventName="FinanceCountersigned" InterfaceType="{x:Type ns0:IDemoEventService}" />
+			<SetStateActivity x:Name="FinanceCountersigned_SetState_3" TargetStateName="WaitManagerApprove" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="WaitManagerApprove" Description="经理审批">
+		<EventDrivenActivity x:Name="ManagerApproved">
+			<HandleExternalEventActivity Description="经理批准" x:Name="handle11" EventName="ManagerApproved" InterfaceType="{x:Type ns0:IDemoEventService}" />
+			<SetStateActivity x:Name="ManagerApproved_SetState_1" TargetStateName="AppApproved" />
+		</EventDrivenActivity>
+		<EventDrivenActivity x:Name="ManagerRejected">
+			<HandleExternalEventActivity Description="经理拒绝" x:Name="handle12" EventName="ManagerRejected" InterfaceType="{x:Type ns0:IDemoEventService}" />
+			<SetStateActivity x:Name="ManagerRejected_SetState_2" TargetStateName="AppRejected" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="AppApproved" Description="批准申请">
+		<EventDrivenActivity x:Name="AfterApproved">
+			<DelayActivity Description="批准申请后" TimeoutDuration="00:10:00" x:Name="delayStep1" />
+			<SetStateActivity x:Name="AfterApproved_SetState_1" TargetStateName="End" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="AppRejected" Description="拒绝申请">
+		<EventDrivenActivity x:Name="AfterRejected">
+			<DelayActivity Description="拒绝申请后" TimeoutDuration="00:10:00" x:Name="delayStep2" />
+			<SetStateActivity x:Name="AfterRejected_SetState_1" TargetStateName="End" />
+		</EventDrivenActivity>
+	</StateActivity>
+	<StateActivity x:Name="End" Description="申请结束" />
+</ns0:DemoWorkflow>

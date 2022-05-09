@@ -1,0 +1,148 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BFCE35CF-32D4-4F20-BC68-2234D247D84B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebUtility</RootNamespace>
+    <AssemblyName>WebUtility</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Web\dll\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CacheOnline.cs" />
+    <Compile Include="Common.cs" />
+    <Compile Include="Components\MessageBox.cs" />
+    <Compile Include="Components\Permission.cs" />
+    <Compile Include="Components\sys_NavigationUrl.cs" />
+    <Compile Include="EventMessage.cs" />
+    <Compile Include="FileLogWriter.cs" />
+    <Compile Include="FileUpLoadCommon.cs" />
+    <Compile Include="IListSort.cs" />
+    <Compile Include="NoSortHashTable .cs" />
+    <Compile Include="PermissionConfigFile.cs" />
+    <Compile Include="PermissionConfigLoad.cs" />
+    <Compile Include="PermissionPrincipal.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SystemConfig.cs" />
+    <Compile Include="SystemLogin.cs" />
+    <Compile Include="SystemPermission.cs" />
+    <Compile Include="UserData.cs" />
+    <Compile Include="ValidateImage.cs" />
+    <Compile Include="WebControls\AspNetPager.cs" />
+    <Compile Include="WebControls\HeadMenuButtonItem.cs" />
+    <Compile Include="WebControls\HeadMenuWebControls.cs" />
+    <Compile Include="WebControls\MultiListBox.cs" />
+    <Compile Include="WebControls\SubContainerControlDesigner.cs" />
+    <Compile Include="WebControls\TabOptionItem.cs" />
+    <Compile Include="WebControls\TaboptionItemCollection.cs" />
+    <Compile Include="WebControls\TabOptionWebControls.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WebControls\Resource\moveAllLeft.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WebControls\Resource\moveAllLeft2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WebControls\Resource\moveAllRight.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WebControls\Resource\moveAllRight2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WebControls\Resource\moveLeft.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WebControls\Resource\moveLeft2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WebControls\Resource\moveRight.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WebControls\Resource\moveRight2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WebControls\AspNetPager.resx">
+      <DependentUpon>AspNetPager.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebControls\Resource\MultiListBox.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="WebControls\AspNetPagerDocs.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{5EFA4C81-365C-4CFF-A6DB-7A328D11B748}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{EF8A93ED-2FE7-4DEA-B080-61731B3D1772}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

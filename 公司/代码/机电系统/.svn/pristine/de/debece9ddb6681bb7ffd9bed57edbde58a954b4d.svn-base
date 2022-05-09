@@ -1,0 +1,654 @@
+﻿using System;
+
+using System.Collections.Generic;
+using System.Web;
+using System.Web.UI.WebControls;
+
+using System.IO;
+using System.Windows.Forms.VisualStyles;
+using FM2E.BLL.Insurance;
+using FM2E.Model.Insurance;
+using WebUtility;
+using WebUtility.Components;
+using WebUtility.WebControls;
+
+using FM2E.BLL.System;
+using FM2E.Model.Exceptions;
+
+using FM2E.WorkflowLayer;
+using FM2E.BLL.Utils;
+using FM2E.Model.Workflow;
+
+public partial class Module_FM2E_InsureManager_InsureInfoManager_InsuranceManager : System.Web.UI.Page
+{
+    private string cmd = (string)Common.sink("cmd", MethodType.Get, 50, 0, DataType.Str);
+    private int id = 0;
+
+
+    private const string UPLOADFOLDER = "/InsuranceReport";
+
+    [Serializable]
+    private class PageInfo
+    {
+        private string pageName;
+
+        public string PageName
+        {
+            get { return pageName; }
+            set { pageName = value; }
+        }
+
+        public PageInfo(string pageName)
+        {
+            this.pageName = pageName;
+        }
+    }
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        id = (int)Common.sink("id", MethodType.Get, 50, 0, DataType.Int);
+
+        SystemPermission.CheckCommandPermission(cmd);
+
+        // TextBox4.Attributes.Add("ReadOnly", "ReadOnly");
+
+        if (!IsPostBack)
+        {
+            //校验是否有权限执行此cmd
+            SystemPermission.CheckCommandPermission(cmd);
+
+            //BuildTree();
+            FillData();
+            ButtonBind();
+            PermissionControl();
+        }
+    }
+
+    private void PermissionControl()
+    {
+        /*if (SystemPermission.CheckPermission(PopedomType.Delete))
+            GridView1.Columns[7].Visible = true;
+        else GridView1.Columns[7].Visible = false;*/
+
+
+    }
+
+
+
+    private void FillData()
+    {
+        InsuranceReport insuranceReportBll = new InsuranceReport();
+        InsuranceReportInfo insuranceReportInfo = null;
+      
+        if (id != 0)
+        {
+            insuranceReportInfo = insuranceReportBll.GetInsuranceReportInfo(id);
+        }
+
+        ViewState["InsuranceReportInfo"] = insuranceReportInfo;
+
+        if (cmd == "add")
+        {
+            /*rb_riskType.Items.Clear();
+            rb_riskType.Items.AddRange(EnumHelper.GetListItems(typeof(RiskType)));*/
+            HideRepair();
+
+        }
+        else if (cmd == "view")
+        {
+            //修改和查看时，需要先查询出模块的信息
+            //修改和查看时，传进来的参数id为本模块id
+            if (insuranceReportInfo != null)
+            {
+
+                lb_insuranceNo.Text = insuranceReportInfo.InsuranceNo;
+                lb_reportNo.Text = insuranceReportInfo.ReportNo;
+                //lb_insuranceType.Text = EnumHelper.GetDescription(insuranceInfo.InsuranceType);
+                string riskTypeTemp;
+                if (insuranceReportInfo.RiskType == RiskType.Other)
+                {
+                    riskTypeTemp = "其他(" + insuranceReportInfo.RiskTypeName + ")";
+                }
+                else
+                {
+                    riskTypeTemp = insuranceReportInfo.RiskTypeName;
+                }
+
+                lb_riskType.Text = riskTypeTemp;
+                lb_riskDate.Text = insuranceReportInfo.RiskDate.ToString("yyyy-M-d");
+                lb_reportDate.Text = insuranceReportInfo.ReportDate.ToString("yyyy-M-d");
+                lb_riskContent.Text = insuranceReportInfo.RiskContent;
+                HyperLink_riskAttachment.NavigateUrl = SystemConfig.Instance.UploadPath + UPLOADFOLDER + "/" + insuranceReportInfo.RiskAttachment;
+                if (insuranceReportInfo.State == State.New)
+                {
+                    HideRepair();
+                    
+                }
+                else if (insuranceReportInfo.State == State.Repaired)
+                {
+                    HideReview();
+                    HideRepairEdit();
+                    lb_repairContent.Text = insuranceReportInfo.RepairContent;
+                    HyperLink_repairAttachment.NavigateUrl = SystemConfig.Instance.UploadPath + UPLOADFOLDER + "/" + insuranceReportInfo.RepairAttachment;
+                    lb_StationManager.InnerText = "站级负责人：" + insuranceReportInfo.StationManager;
+                }
+                else
+                {
+                    table_repair.Visible = true;
+                    tableRow_review.Visible = true;
+                    HideRepairEdit();
+                    HideReviewEdit();
+                    lb_repairContent.Text = insuranceReportInfo.RepairContent;
+                    HyperLink_repairAttachment.NavigateUrl = SystemConfig.Instance.UploadPath + UPLOADFOLDER + "/" + insuranceReportInfo.RepairAttachment;
+                    lb_reviewContent.Text = insuranceReportInfo.ReviewContent;
+                    lb_StationManager.InnerText = "站级负责人：" + insuranceReportInfo.StationManager;
+                    lb_insutanceManager.InnerText = "保险负责人：" + insuranceReportInfo.InsuranceManager;
+                }
+                
+
+            }
+        }
+        else if (cmd == "edit")
+        {
+            if (insuranceReportInfo != null)
+            {
+                /*  rb_riskType.Items.Clear();
+                rb_riskType.Items.AddRange(EnumHelper.GetListItems(typeof(RiskType)));
+                rb_riskType.SelectedValue = Convert.ToString(Convert.ToInt32(insuranceInfo.InsuranceType));*/
+
+                tb_insuranceNo.Text = insuranceReportInfo.InsuranceNo;
+                tb_reportNo.Text = insuranceReportInfo.ReportNo;
+                tb_riskDate.Text = insuranceReportInfo.RiskDate.ToString("yyyy-M-d");
+                tb_reportDate.Text = insuranceReportInfo.ReportDate.ToString("yyyy-M-d");
+
+                //WorkFlowUserSelectControl1.EventIDField = "Name";
+                //WorkFlowUserSelectControl1.EventNameField = "Description";
+                //WorkFlowUserSelectControl1.WorkFlowState = insuranceReportInfo.CurrentStateName;
+                //WorkFlowUserSelectControl1.WorkFlowName = InsuranceWorkflow.WorkflowName;
+
+                //List<WorkflowEventInfo> eventlist = WorkflowHelper.GetEventInfoList(InsuranceWorkflow.WorkflowName, info.CurrentStateName);
+                //List<WorkflowEventInfo> temlist = eventlist;
+                //WorkFlowUserSelectControl1.EventListDataSource = temlist;
+                ////  [4/11/2012 L]
+                //WorkFlowUserSelectControl1.EventListDataBind();
+
+                //WorkFlowUserSelectControl1.ShowCompanySelect = false;
+                
+            }
+        }
+        else if (cmd == "repair")
+        {
+            if (insuranceReportInfo != null)
+            {
+
+                lb_insuranceNo.Text = insuranceReportInfo.InsuranceNo;
+                lb_reportNo.Text = insuranceReportInfo.ReportNo;
+                //lb_insuranceType.Text = EnumHelper.GetDescription(insuranceInfo.InsuranceType);
+                string riskTypeTemp;
+                if (insuranceReportInfo.RiskType == RiskType.Other)
+                {
+                    riskTypeTemp = "其他(" + insuranceReportInfo.RiskTypeName + ")";
+                }
+                else
+                {
+                    riskTypeTemp = insuranceReportInfo.RiskTypeName;
+                }
+
+                lb_riskType.Text = riskTypeTemp;
+                lb_riskDate.Text = insuranceReportInfo.RiskDate.ToString("yyyy-M-d");
+                lb_reportDate.Text = insuranceReportInfo.ReportDate.ToString("yyyy-M-d");
+                lb_riskContent.Text = insuranceReportInfo.RiskContent;
+                HyperLink_riskAttachment.NavigateUrl = SystemConfig.Instance.UploadPath + UPLOADFOLDER + "/" + insuranceReportInfo.RiskAttachment;
+                
+                HideEdit();
+                HideReview();
+                HideRepairDisplay();
+                PostButton.Visible = true;
+
+            }
+        }
+        else if (cmd == "review")
+        {
+            lb_insuranceNo.Text = insuranceReportInfo.InsuranceNo;
+            lb_reportNo.Text = insuranceReportInfo.ReportNo;
+            //lb_insuranceType.Text = EnumHelper.GetDescription(insuranceInfo.InsuranceType);
+            string riskTypeTemp;
+            if (insuranceReportInfo.RiskType == RiskType.Other)
+            {
+                riskTypeTemp = "其他(" + insuranceReportInfo.RiskTypeName + ")";
+            }
+            else
+            {
+                riskTypeTemp = insuranceReportInfo.RiskTypeName;
+            }
+
+            lb_riskType.Text = riskTypeTemp;
+            lb_riskDate.Text = insuranceReportInfo.RiskDate.ToString("yyyy-M-d");
+            lb_reportDate.Text = insuranceReportInfo.ReportDate.ToString("yyyy-M-d");
+            lb_riskContent.Text = insuranceReportInfo.RiskContent;
+            HyperLink_riskAttachment.NavigateUrl = SystemConfig.Instance.UploadPath + UPLOADFOLDER + "/" + insuranceReportInfo.RiskAttachment;
+
+            HideEdit();
+            HideRepairEdit();
+            HideReviewDisplay();
+            lb_repairContent.Text = insuranceReportInfo.RepairContent;
+            HyperLink_repairAttachment.NavigateUrl = SystemConfig.Instance.UploadPath + UPLOADFOLDER + "/" + insuranceReportInfo.RepairAttachment;
+            PostButton.Visible = true;
+        }
+
+
+
+        if (cmd == "add")
+        {
+            HideDisplay();
+        }
+        if (cmd == "edit")
+        {
+            HideDisplay();
+        }
+        if (cmd == "view")
+        {
+
+            HideEdit();
+        }
+       
+    }
+
+    private void HideEdit()
+    {
+        tb_insuranceNo.Visible = false;
+        tb_reportNo.Visible = false;
+        tb_riskDate.Visible = false;
+        tb_reportDate.Visible = false;
+
+        //rb_riskType.Visible = false;
+        tb_riskTypeName.Visible = false;
+        tb_riskContent.Visible = false;
+        FileUpload_riskAttachment.Visible = false;
+        rb_riskType.Visible = false;
+
+        lb_insuranceNo.Visible = true;
+        lb_reportNo.Visible = true;
+        lb_riskDate.Visible = true;
+        lb_reportDate.Visible = true;
+
+        lb_riskType.Visible = true;
+        lb_riskContent.Visible = true;
+        HyperLink_riskAttachment.Visible = true;
+
+        PostButton.Visible = false;
+    }
+
+    private void HideDisplay()
+    {
+        tb_insuranceNo.Visible = true;
+        tb_reportNo.Visible = true;
+        tb_riskDate.Visible = true;
+        tb_reportDate.Visible = true;
+
+        //rb_riskType.Visible = true;
+        tb_riskTypeName.Visible = true;
+        tb_riskContent.Visible = true;
+        FileUpload_riskAttachment.Visible = true;
+        rb_riskType.Visible = true;
+
+
+        lb_insuranceNo.Visible = false;
+        lb_reportNo.Visible = false;
+        lb_riskDate.Visible = false;
+        lb_reportDate.Visible = false;
+
+        lb_riskType.Visible = false;
+        lb_riskContent.Visible = false;
+        HyperLink_riskAttachment.Visible = false;
+
+
+        //lb_insuranceType.Visible = false;
+
+        PostButton.Visible = true;
+    }
+
+    private void HideRepair()
+    {
+        table_repair.Visible = false;
+    }
+
+    private void ShowRepair()
+    {
+        table_repair.Visible = true;
+    }
+
+    private void HideReview()
+    {
+        tableRow_review.Visible = false;
+    }
+
+    private void ShowReview()
+    {
+        table_repair.Visible = true;
+        tableRow_review.Visible = true;
+    }
+
+    private void HideRepairEdit()
+    {
+        FileUpload_repairAttachment.Visible = false;
+        tb_repairContent.Visible = false;
+
+        lb_repairContent.Visible = true;
+        HyperLink_repairAttachment.Visible = true;
+
+    }
+
+    private void HideRepairDisplay()
+    {
+        tb_repairContent.Visible = true;
+        FileUpload_repairAttachment.Visible = true;
+
+        lb_repairContent.Visible = false;
+        HyperLink_repairAttachment.Visible = false;
+
+
+    }
+
+    private void HideReviewEdit()
+    {
+        tb_reviewContent.Visible = false;
+
+        lb_reviewContent.Visible = true;
+    }
+
+    private void HideReviewDisplay()
+    {
+        tb_reviewContent.Visible = true;
+        lb_reviewContent.Visible = false;
+    }
+
+    private void ButtonBind()
+    {
+
+        if (cmd == "add")
+        {
+
+        }
+        else if (cmd == "edit")
+        {
+            //添加新增与删除按钮
+            //string moduleName = Label2.Text.Trim();
+            HeadMenuButtonItem itemAdd = new HeadMenuButtonItem();
+            itemAdd.ButtonName = "新增报险";
+            itemAdd.ButtonIcon = "new.gif";
+            itemAdd.ButtonPopedom = PopedomType.New;
+            itemAdd.ButtonUrl = "?cmd=add&id=" + id;
+            HeadMenuWebControls1.ButtonList.Add(itemAdd);
+
+            //HeadMenuButtonItem itemDel = new HeadMenuButtonItem();
+            //itemDel.ButtonName = "删除";
+            //itemDel.ButtonIcon = "delete.gif";
+            //itemDel.ButtonPopedom = PopedomType.Delete;
+            //itemDel.ButtonUrl = string.Format("DelData('?cmd=delete&id={0}')", id);
+            //itemDel.ButtonUrlType = UrlType.JavaScript;
+            //HeadMenuWebControls1.ButtonList.Add(itemDel);
+        }
+        else if (cmd == "view")
+        {
+            //添加新增与修改按钮
+            //view 有两种情况，一是查看最上层的模块，二是查看第二层以下的模块
+            //对于查看最上层模块的情况，传进来的参数id为本模块id，parentName为"无"
+            //string moduleName = Label2.Text.Trim();
+            HeadMenuButtonItem itemAdd = new HeadMenuButtonItem();
+            itemAdd.ButtonName = "新增报险";
+            itemAdd.ButtonIcon = "new.gif";
+            itemAdd.ButtonPopedom = PopedomType.New;
+            itemAdd.ButtonUrl = "?cmd=add&id=" + id;
+            HeadMenuWebControls1.ButtonList.Add(itemAdd);
+
+            //HeadMenuButtonItem itemEdit = new HeadMenuButtonItem();
+            //itemEdit.ButtonName = "修改";
+            //itemEdit.ButtonIcon = "edit.gif";
+            //itemEdit.ButtonPopedom = PopedomType.Edit;
+            //itemEdit.ButtonUrl = "?cmd=edit&id=" + id;
+            //HeadMenuWebControls1.ButtonList.Add(itemEdit);
+
+        }
+        else if (cmd == "delete")
+        {
+            bool bSuccess = false;
+            try
+            {
+
+                bSuccess = true;
+            }
+            catch (Exception ex)
+            {
+                EventMessage.MessageBox(Msg_Type.Error, "操作失败", "删除保险失败", ex, Icon_Type.Error, true,
+                    "window.history.go(-1)", UrlType.JavaScript, "");
+            }
+            if (bSuccess)
+            {
+                string url = "InsuranceReportlist.aspx";
+
+                EventMessage.MessageBox(Msg_Type.Info, "操作成功", "删除保险(ID:" + id + ")成功！", Icon_Type.OK, true,
+                    Common.GetHomeBaseUrl(url), UrlType.Href, "");
+            }
+        }
+    }
+
+    /* /// <summary>
+    /// 清空用户输入的URL
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
+    protected void btClearUrl_Click(object sender, EventArgs e)
+    {
+        TextBox4.Text = "";
+    }*/
+
+    /// <summary>
+    /// 添加/修改报险
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+
+        InsuranceReportInfo insuranceReportInfo = new InsuranceReportInfo();
+
+        bool bSuccess = false;
+        InsuranceReport insuranceReportBll = new InsuranceReport();
+        if (cmd == "add")
+        {
+            try
+            {
+                insuranceReportInfo = getAddInsuranceReportInfo();
+                long thisID = insuranceReportBll.InsertInsuranceReport(insuranceReportInfo);
+                bSuccess = true;
+
+                //string title = "报险跟踪表" + insuranceReportInfo.ReportNo + "待修复";
+                //string URL = "../InsureManager/InsureReport/InsuranceReportlist";
+                //WorkflowApplication.CreateWorkflowAndSendingPendingOrder1<InsuranceEventService>(thisID, title, InsuranceWorkflow.WorkflowName, InsuranceWorkflow.AppSubmitedEvent, Common.Get_UserName, UserData.CurrentUserData.PersonName, URL, 0, "SG");
+            }
+            catch (Exception ex)
+            {
+                EventMessage.MessageBox(Msg_Type.Error, "操作失败", "添加保险信息失败", ex, Icon_Type.Error, true,
+                    "window.history.go(-1)", UrlType.JavaScript, "");
+            }
+            if (bSuccess)
+            {
+                string url = "InsuranceReportlist.aspx";
+
+                EventMessage.MessageBox(Msg_Type.Info, "操作成功", "添加报险信息成功！", Icon_Type.OK, true, Common.GetHomeBaseUrl(url),
+                    UrlType.Href, "");
+            }
+        }
+        //if (cmd == "edit")
+        //{
+        //    try
+        //    {
+        //        //module.ChildCount = GridView1.Rows.Count;
+        //        InsuranceReportInfo oldInsuranceReportInfo = (InsuranceReportInfo)ViewState["InsuranceReportInfo"];
+        //        insuranceReportInfo.Id = oldInsuranceReportInfo.Id;
+        //        insuranceReportBll.UpdateInsuranceReport(insuranceReportInfo);
+
+        //WorkflowApplication.SetStateMachineAndSendingPendingOrderAndNextUserMachine<InsuranceEventService>(insuranceReportInfo.Id , title, URL, InsuranceWorkflow.WorkflowName, "SubmitReturnModify", InsuranceWorkflow.TableName, Common.Get_UserName, UserData.CurrentUserData.PersonName, 0, null);
+        //        bSuccess = true;
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        EventMessage.MessageBox(Msg_Type.Error, "操作失败", "修改保单信息失败", ex, Icon_Type.Error, true,
+        //            "window.history.go(-1)", UrlType.JavaScript, "");
+        //    }
+        //    if (bSuccess)
+        //    {
+        //        EventMessage.MessageBox(Msg_Type.Info, "操作成功", "修改保单信息成功！", Icon_Type.OK, true,
+        //            Common.GetHomeBaseUrl("InsuranceList.aspx"), UrlType.Href, "");
+        //    }
+        //}
+        if (cmd == "repair")
+        {
+            try
+            {
+                //module.ChildCount = GridView1.Rows.Count;
+                InsuranceReportInfo oldInsuranceReportInfo = (InsuranceReportInfo)ViewState["InsuranceReportInfo"];
+                if (oldInsuranceReportInfo.State != State.New)
+                {
+                    EventMessage.MessageBox(Msg_Type.Info, "操作失败", "修复登记失败,状态不正确！", Icon_Type.Error, true,
+                   Common.GetHomeBaseUrl("InsuranceReportList.aspx"), UrlType.Href, "");
+                }
+                insuranceReportInfo.Id = oldInsuranceReportInfo.Id;
+                insuranceReportInfo.RepairContent = tb_repairContent.Text.Trim();
+                FileUpLoadCommon fileUtility_CurrentStatus =  new FileUpLoadCommon(SystemConfig.Instance.UploadPath + UPLOADFOLDER, false);
+                if (FileUpload_repairAttachment.HasFile)
+                {
+                    if (fileUtility_CurrentStatus.SaveFile(FileUpload_repairAttachment, false))
+                    {
+                        insuranceReportInfo.RepairAttachment = fileUtility_CurrentStatus.NewFileName;
+                    }
+                    else
+                    {
+                        EventMessage.MessageBox(Msg_Type.Error, "操作失败", "附件上传失败：" + fileUtility_CurrentStatus.ErrorMsg,
+                            new WebException(fileUtility_CurrentStatus.ErrorMsg), Icon_Type.Error, true, "window.history.go(-1)",
+                            UrlType.JavaScript, "");
+                        return ;
+                    }
+                }
+                else
+                {
+                    Response.Write("<script>alert('请上传附件!')</script>");
+                    return ;
+                }
+                insuranceReportInfo.State = State.Repaired;
+                insuranceReportInfo.StationManager = UserData.CurrentUserData.UserName;
+                insuranceReportBll.RepairRegister(insuranceReportInfo);
+
+                //string URL = "../DeviceManager/DeviceInfo/ExpendableInfo/InWarehouseApply.aspx";
+                //string title = "您有新的报险单" + item.SheetName + "待复核";
+                //WorkflowApplication.SetStateMachineAndSendingPendingOrderAndNextUserMachine<InsuranceEventService>(insuranceReportInfo.Id, title, URL, InsuranceWorkflow.WorkflowName, "Repair", InsuranceWorkflow.TableName, Common.Get_UserName, UserData.CurrentUserData.PersonName, 0, null);
+       
+                bSuccess = true;
+            }
+            catch (Exception ex)
+            {
+                EventMessage.MessageBox(Msg_Type.Error, "操作失败", "修改保单信息失败", ex, Icon_Type.Error, true,
+                    "window.history.go(-1)", UrlType.JavaScript, "");
+            }
+            if (bSuccess)
+            {
+                EventMessage.MessageBox(Msg_Type.Info, "操作成功", "修改保单信息成功！", Icon_Type.OK, true,
+                    Common.GetHomeBaseUrl("InsuranceReportList.aspx"), UrlType.Href, "");
+            }
+        }
+        if (cmd == "review")
+        {
+            try
+            {   
+                
+                //module.ChildCount = GridView1.Rows.Count;
+                InsuranceReportInfo oldInsuranceReportInfo = (InsuranceReportInfo)ViewState["InsuranceReportInfo"];
+                if (oldInsuranceReportInfo.State != State.Repaired)
+                {
+                    EventMessage.MessageBox(Msg_Type.Info, "操作失败", "审核登记失败,状态不正确！", Icon_Type.Error, true,
+                   Common.GetHomeBaseUrl("InsuranceReportList.aspx"), UrlType.Href, "");
+                }
+                insuranceReportInfo.Id = oldInsuranceReportInfo.Id;
+                insuranceReportInfo.ReviewContent = tb_reviewContent.Text.Trim();
+               
+                insuranceReportInfo.State = State.Reviewed;
+                insuranceReportInfo.InsuranceManager = UserData.CurrentUserData.UserName;
+                insuranceReportBll.ReviewRegister(insuranceReportInfo);
+                bSuccess = true;
+            }
+            catch (Exception ex)
+            {
+                EventMessage.MessageBox(Msg_Type.Error, "操作失败", "修改保单信息失败", ex, Icon_Type.Error, true,
+                    "window.history.go(-1)", UrlType.JavaScript, "");
+            }
+            if (bSuccess)
+            {
+                EventMessage.MessageBox(Msg_Type.Info, "操作成功", "修改保单信息成功！", Icon_Type.OK, true,
+                    Common.GetHomeBaseUrl("InsuranceReportList.aspx"), UrlType.Href, "");
+            }
+        }
+
+    }
+
+    protected void ReorderList1_ItemReorder(object sender, AjaxControlToolkit.ReorderListItemReorderEventArgs e)
+    {
+        List<string> order = (List<string>)Session["order"];
+        if (order == null)
+            return;
+
+        string tmp = order[e.OldIndex];
+        order.RemoveAt(e.OldIndex);
+        order.Insert(e.NewIndex, tmp);
+
+        Session["order"] = order;
+    }
+
+    private InsuranceReportInfo getAddInsuranceReportInfo()
+    {
+        InsuranceReportInfo insuranceReportInfo = new InsuranceReportInfo();
+        insuranceReportInfo.State = State.New;
+        insuranceReportInfo.Operator = UserData.CurrentUserData.UserName;
+        insuranceReportInfo.InsuranceNo = tb_insuranceNo.Text.Trim();
+        insuranceReportInfo.ReportNo = tb_reportNo.Text.Trim();
+        insuranceReportInfo.RiskType = (RiskType)Convert.ToInt32(rb_riskType.SelectedValue);
+
+        //string riskTypeStr =  Request.Form["rd_riskType"];
+        //insuranceReportInfo.RiskType =
+        // (RiskType) Convert.ToInt32(riskTypeStr);
+        if (insuranceReportInfo.RiskType == RiskType.Other)
+        {
+            insuranceReportInfo.RiskTypeName = tb_riskTypeName.Value.Trim();
+        }
+        else
+        {
+            insuranceReportInfo.RiskTypeName = EnumHelper.GetDescription(insuranceReportInfo.RiskType);
+        }
+        insuranceReportInfo.RiskDate = Convert.ToDateTime(tb_riskDate.Text.Trim());
+        insuranceReportInfo.ReportDate = Convert.ToDateTime(tb_reportDate.Text.Trim());
+        insuranceReportInfo.RiskContent = tb_riskContent.Text.Trim();
+        FileUpLoadCommon fileUtility_CurrentStatus =
+            new FileUpLoadCommon(SystemConfig.Instance.UploadPath + UPLOADFOLDER, false);
+        if (FileUpload_riskAttachment.HasFile)
+        {
+            if (fileUtility_CurrentStatus.SaveFile(FileUpload_riskAttachment, false))
+            {
+                insuranceReportInfo.RiskAttachment = fileUtility_CurrentStatus.NewFileName;
+            }
+            else
+            {
+                EventMessage.MessageBox(Msg_Type.Error, "操作失败", "附件上传失败：" + fileUtility_CurrentStatus.ErrorMsg,
+                    new WebException(fileUtility_CurrentStatus.ErrorMsg), Icon_Type.Error, true, "window.history.go(-1)",
+                    UrlType.JavaScript, "");
+                return null;
+            }
+        }
+        else
+        {
+            Response.Write("<script>alert('请上传附件!')</script>");
+            return null;
+        }
+        return insuranceReportInfo;
+
+    }
+}

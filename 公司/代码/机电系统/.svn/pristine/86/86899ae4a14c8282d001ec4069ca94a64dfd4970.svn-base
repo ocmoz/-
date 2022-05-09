@@ -1,0 +1,48 @@
+INFO  2013-09-05 10:33:02,532 [/Web/default.aspx] FM2E application started at 2013-09-05 10:33:02
+FATAL 2013-09-05 10:33:15,237 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] Version:true
+INFO  2013-09-05 10:33:15,238 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-09-05 12:40:33,658 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 您的用户名(admin3)已经于(2013/9/5 10:33:15),从(127.0.0.1)IP登陆在本系统.在线时间:3.59分.
+INFO  2013-09-05 12:40:35,877 [/Web/Login.aspx?CMD=OutOnline&OPCode=8747&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=aunzfcrrn3iim145usywevrn] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-09-05 15:20:43,463 FM2E application ended at 2013-09-05 15:20:43
+INFO  2013-09-05 15:29:55,443 [/Web/default.aspx] FM2E application started at 2013-09-05 15:29:54
+ERROR 2013-09-05 15:29:59,838 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 密码不能为空
+FATAL 2013-09-05 15:30:04,103 [/Web/Login.aspx] Version:true
+INFO  2013-09-05 15:30:04,103 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-09-05 15:30:33,431 [/Web/Module/FM2E/DeviceManager/SpareEquipmentManager/Purchase/PurchaseInWarehouse/DoInWarehouse.aspx?type=ca&id=33&itemid=2&recordid=0&warehouse=XY] 数量为 2单位为 把 的消耗品 asdasdas[123] 入库成功<br/>仓库 新粤仓库 有该类产品库存为 2把
+INFO  2013-09-05 15:37:09,699 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouse.aspx?id=603] 易耗品入库成功
+INFO  2013-09-05 15:37:27,221 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/InWarehouse.aspx?id=603] 易耗品入库成功
+INFO  2013-09-05 15:38:20,321 [/Web/Module/FM2E/DeviceManager/DeviceInfo/ExpendableInfo/OutWarehouse.aspx?id=603] 易耗品出库成功
+INFO  2013-09-05 15:55:10,580 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 您的用户名(admin3)已经于(2013/9/5 15:30:04),从(127.0.0.1)IP登陆在本系统.在线时间:13.39分.
+INFO  2013-09-05 15:55:11,861 [/Web/Login.aspx?CMD=OutOnline&OPCode=1407&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=hdibhy55agbqy445bxy1li55] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+FATAL 2013-09-05 15:56:06,271 [/Web/Login.aspx] Version:true
+INFO  2013-09-05 15:56:06,271 [/Web/Login.aspx] 欢迎您chengang，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-09-05 15:56:27,895 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1461] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-09-05 15:56:35,906 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1461] 故障处理单审批成功,故障处理单号为：KC1306101501
+ERROR 2013-09-05 15:58:26,250 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1409] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-09-05 15:58:50,132 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1409] 故障处理单审批成功,故障处理单号为：SY1306041501
+FATAL 2013-09-05 15:59:22,318 [/Web/Login.aspx] Version:true
+INFO  2013-09-05 15:59:22,318 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2013-09-05 16:01:27,910 [/Web/Module/FM2E/WorkflowManager/EditWorkflowRole.aspx?cmd=edit&id=8&wfname=SGS_MalFunctionWorkflow] 修改工作流角色成功！
+FATAL 2013-09-05 16:02:16,812 [/Web/Login.aspx] Version:true
+INFO  2013-09-05 16:02:16,812 [/Web/Login.aspx] 欢迎您chengang，成功登入。您的IP为：127.0.0.1！
+ERROR 2013-09-05 16:02:31,189 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1123] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-09-05 16:02:38,745 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1123] 故障处理单审批成功,故障处理单号为：BH1304182001
+ERROR 2013-09-05 16:06:18,729 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1321] 获取故障处理历史失败，原因：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+INFO  2013-09-05 16:08:26,607 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionApproval/ViewApprovalMfSheet.aspx?cmd=view&id=1321] 故障处理单审批成功,故障处理单号为：SY1305211202
+INFO  2014-02-11 15:25:39,351 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/MalfunctionList.aspx] FM2E application started at 2014-02-11 15:25:39
+FATAL 2014-02-11 15:25:49,102 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionReport%2fMalfunctionList.aspx] Version:true
+INFO  2014-02-11 15:25:49,102 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fModule%2fFM2E%2fMaintainManager%2fMalFunctionManager%2fMalfunctionReport%2fMalfunctionList.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2014-02-11 15:35:18,632 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionReport/RecordMalfunction.aspx?cmd=add] 提交故障处理单成功,故障处理单号为：YT1402111501
+FATAL 2014-02-11 15:35:35,760 [/Web/Login.aspx] Version:true
+INFO  2014-02-11 15:35:35,760 [/Web/Login.aspx] 欢迎您luoshan，成功登入。您的IP为：127.0.0.1！
+ERROR 2014-02-11 15:45:42,145 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionHandle.aspx?cmd=edit&from=1&id=1725] 请至少填写设备或非设备故障中的一样:请至少填写设备或非设备故障中的一样 
+STACK
+FATAL 2014-02-11 15:47:58,956 [/Web/Login.aspx] Version:true
+INFO  2014-02-11 15:47:58,956 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2014-02-11 15:48:25,421 [/Web/Login.aspx] 您的用户名(admin3)已经于(2014/2/11 15:47:58),从(127.0.0.1)IP登陆在本系统.在线时间:0.02分.
+INFO  2014-02-11 15:48:26,817 [/Web/Login.aspx?CMD=OutOnline&OPCode=1700&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=5mylw4mm2z2p2w45yxkdazn2] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2014-02-11 15:51:14,536 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionCheck/CheckMalfunctionSheet.aspx?cmd=view&id=1742] 验收故障处理单成功,故障处理单号为：YT1402111501

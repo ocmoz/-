@@ -1,0 +1,49 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Streatlight.aspx.cs" Inherits="Module_FM2E_Report_Output_Default" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>报表管理</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<link href="../themes/StyleSheet.css" rel="stylesheet"
+			type="text/css" />
+	</head>
+
+	<body>
+		<div id="main">
+			<div id="table">
+				<div id="ptk">
+					<div id="tabtop-l"></div>
+					<div id="tabtop-z">
+						路灯隧道所信息月报
+					</div>
+				</div>
+			</div>
+			
+			<div id="main-tablist">
+				<div id="button-bar">
+					<ul>
+						<li>
+							<input type="button" class="tabny-l-1"
+								onclick="window.open('http://127.0.0.1:6002/quiee/reportJsp/showReport.jsp?raq=/RoadTunnelInfoMonthly.raq')" 
+								value="路灯隧道所信息月报" />
+						</li>
+						<li>
+							<input type="button" class="tabny-l-1"
+								onclick="window.open('http://127.0.0.1:6002/quiee/reportJsp/showReport.jsp?raq=/EMCDataMonthlyReport.raq')"   
+								value="EMC数据统计" />
+						</li>
+						<li>
+							<input type="button" class="tabny-l-1"
+								onclick="window.location='systemOperationMonthlyManage!getAll.action'"
+								value="设备维修情况统计表" />
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+			</div>
+		
+	</body>
+</html>

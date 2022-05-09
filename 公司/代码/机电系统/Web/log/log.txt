@@ -1,0 +1,68 @@
+FATAL 2016-03-03 09:51:06,828 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fDefault.aspx] Version:true
+INFO  2016-03-03 09:51:06,832 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fDefault.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2016-03-03 10:09:15,951 [/Web/Login.aspx?ReturnUrl=%2fWeb%2fdefault.aspx] 您的用户名(admin3)已经于(2016-3-3 9:51:06),从(127.0.0.1)IP登陆在本系统.在线时间:17.79分.
+INFO  2016-03-03 10:09:17,660 [/Web/Login.aspx?CMD=OutOnline&OPCode=7838&U_LoginName=admin3&U_Password=C4CA4238A0B923820DCC509A6F75849B&SessionID=rz1u212vlwxsnea3xnsw4d45] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2016-03-03 10:19:54,812 [/Web/Login.aspx] 用户名/密码(xieruntian/1)错误！
+FATAL 2016-03-03 10:20:01,217 [/Web/login.aspx] Version:true
+INFO  2016-03-03 10:20:01,217 [/Web/login.aspx] 欢迎您xiert，成功登入。您的IP为：127.0.0.1！
+ERROR 2016-03-03 10:22:34,075 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+ERROR 2016-03-03 10:26:48,088 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionHandle.aspx?cmd=edit&from=2&&id=7280] System.Web thrown System.Web.HttpCompileException
+e:\Station\演示\SGS_new\Web\Module\FM2E\MaintainManager\MalFunctionManager\MalfunctionMaintain\MalfunctionHandle.aspx(1477): error CS0103: 当前上下文中不存在名称“bthide1”   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ERROR 2016-03-03 10:55:37,666 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+INFO  2016-03-03 10:56:17,655 FM2E application ended at 2016-03-03 10:56:17
+INFO  2016-03-03 10:56:21,275 [/Web/Default.aspx] FM2E application started at 2016-03-03 10:56:21
+ERROR 2016-03-03 10:56:22,462 [/Web/Default.aspx] 您已经被系统强制退出！
+ERROR 2016-03-03 10:56:22,467 [/Web/Default.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+FATAL 2016-03-03 10:56:29,609 [/Web/Login.aspx] Version:true
+INFO  2016-03-03 10:56:29,609 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2016-03-03 10:56:29,851 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+ERROR 2016-03-03 10:57:14,689 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+ERROR 2016-03-03 10:58:40,837 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+ERROR 2016-03-03 11:01:23,346 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+ERROR 2016-03-03 11:01:35,526 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+ERROR 2016-03-03 11:08:19,373 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+ERROR 2016-03-03 11:08:26,772 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+ERROR 2016-03-03 11:08:50,877 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+ERROR 2016-03-03 11:09:02,289 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+ERROR 2016-03-03 11:09:18,879 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+ERROR 2016-03-03 11:12:26,889 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+ERROR 2016-03-03 11:14:23,396 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+ERROR 2016-03-03 11:14:47,619 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+ERROR 2016-03-03 11:23:03,119 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+ERROR 2016-03-03 11:23:10,986 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+ERROR 2016-03-03 11:23:15,685 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+ERROR 2016-03-03 11:23:48,434 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+ERROR 2016-03-03 11:24:31,437 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+ERROR 2016-03-03 11:24:44,921 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+INFO  2016-03-03 11:24:52,832 FM2E application ended at 2016-03-03 11:24:52
+INFO  2016-03-03 11:25:06,774 [/Web/Module/FM2E/MessageManager/WebService_NewMessage.asmx] FM2E application started at 2016-03-03 11:25:06
+ERROR 2016-03-03 11:25:07,881 [/Web/Default.aspx] 您已经被系统强制退出！
+ERROR 2016-03-03 11:25:07,885 [/Web/Default.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+FATAL 2016-03-03 11:26:14,138 [/Web/Login.aspx] Version:true
+INFO  2016-03-03 11:26:14,138 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+ERROR 2016-03-03 11:26:14,332 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+ERROR 2016-03-03 11:27:07,427 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+ERROR 2016-03-03 11:27:21,948 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+ERROR 2016-03-03 11:27:33,429 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+ERROR 2016-03-03 11:28:03,051 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+ERROR 2016-03-03 11:28:40,952 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+ERROR 2016-03-03 11:30:29,959 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+ERROR 2016-03-03 11:30:49,560 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+ERROR 2016-03-03 11:31:07,962 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+ERROR 2016-03-03 11:32:33,468 [/Web/images/Index/1.gif] 文件不存在:http://localhost:41765/Web/images/Index/1.gif
+INFO  2016-03-03 11:40:02,352 FM2E application ended at 2016-03-03 11:40:02
+ERROR 2016-03-03 13:51:09,899 [/Web/default.aspx] FM2E 应用程序启动失败：用户 'sa' 登录失败。
+INFO  2016-03-03 13:51:45,499 FM2E application ended at 2016-03-03 13:51:45
+ERROR 2016-03-03 14:19:09,736 [/Web/Login.aspx] FM2E 应用程序启动失败：用户 'sa' 登录失败。
+INFO  2016-03-03 14:20:13,973 FM2E application ended at 2016-03-03 14:20:13

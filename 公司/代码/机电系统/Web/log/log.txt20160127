@@ -1,0 +1,12 @@
+ERROR 2016-01-27 17:39:14,062 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionHandle.aspx] FM2E 应用程序启动失败：在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+ERROR 2016-01-27 17:39:20,656 [/Web/Login.aspx] 您已经被系统强制退出！
+ERROR 2016-01-27 17:39:20,658 [/Web/Login.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+ERROR 2016-01-27 17:39:25,409 [/Web/Login.aspx] 您已经被系统强制退出！
+ERROR 2016-01-27 17:39:25,498 [/Web/Login.aspx] 执行SystemPermission的事件时出错：正在中止线程。
+ERROR 2016-01-27 17:39:26,710 [/Web/Module/FM2E/MaintainManager/MalFunctionManager/MalfunctionMaintain/MalfunctionHandle.aspx] from字段值：低于系统允许长度1!
+ERROR 2016-01-27 17:40:34,665 [/Web/Login.aspx] 登录失败：用户登录失败在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+ERROR 2016-01-27 17:40:34,763 [/Web/Login.aspx] 登录失败：用户登录失败在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+ERROR 2016-01-27 17:40:40,609 [/Web/Login.aspx] 登录失败：用户登录失败在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+FATAL 2016-01-27 17:41:04,120 [/Web/Login.aspx] Version:true
+INFO  2016-01-27 17:41:04,120 [/Web/Login.aspx] 欢迎您admin3，成功登入。您的IP为：127.0.0.1！
+INFO  2016-01-27 17:43:49,911 FM2E application ended at 2016-01-27 17:43:49

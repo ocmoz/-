@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+<Permission>
+<ModuleID name="消息公告板">04656549effb425081daafb8227aa112</ModuleID>
+<Item value="2" name="列表/查看">,History.aspx,SendMessage.aspx,ViewMessage.aspx,ViewMessageContent.aspx,</Item>
+<Item value="4" name="新增">,History.aspx,SendMessage.aspx,ViewMessage.aspx,ViewMessageContent.aspx,</Item>
+<Item value="8" name="修改">,History.aspx,SendMessage.aspx,ViewMessage.aspx,ViewMessageContent.aspx,</Item>
+<Item value="16" name="删除">,History.aspx,SendMessage.aspx,ViewMessage.aspx,ViewMessageContent.aspx,</Item>
+<Item value="32" name="打印">,History.aspx,SendMessage.aspx,ViewMessage.aspx,ViewMessageContent.aspx,</Item>
+<Item value="64" name="审批">,History.aspx,SendMessage.aspx,ViewMessage.aspx,ViewMessageContent.aspx,</Item>
+<Item value="128" name="权限A">,History.aspx,SendMessage.aspx,ViewMessage.aspx,ViewMessageContent.aspx,</Item>
+<Item value="256" name="权限B">,History.aspx,SendMessage.aspx,ViewMessage.aspx,ViewMessageContent.aspx,</Item>
+</Permission>
+</configuration>
